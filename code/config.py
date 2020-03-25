@@ -12,4 +12,4 @@ io_service_app_name = 'I/O Service for IKT441 Project (testing)'
 bokmaal_file = 'data/bokmaal.txt'
 nynorsk_file = 'data/nynorsk.txt'
 data_file = 'data/data.txt'  # Dataset in csv format.
-data_file_formatting = 'id,norwegian_bokmaal,norwegian_nynorsk'
+data_file_formatting = 'id,<p>norwegian_bokmaal</p>,<p>norwegian_nynorsk</p>'

@@ -9,7 +9,26 @@ import re
 log = logging.getLogger()
 
 
+def load_cvs_data():
+    # Function to load data file and format the text so it`s ready to be tokenized.
+    file = open(config.data_file, 'r', encoding='utf-8')
+    for line in file:
+        # Get bokmål and nynorsk sentence pair.
+        extracted = re.findall(r'<p>.+?</p>', line)
+
+        # Error check. List length should always be 2.
+        if len(extracted) != 2:
+            log.error('Unexpected number of extracted elements.')  # Should not be possible
+            continue
+
+        # Trick to preserve punctuation during training.
+        bokmaal = extracted[0].replace('.', ' .').replace('!', ' !').replace('?', ' ?').replace('  ', ' ')
+        nynorsk = extracted[1].replace('.', ' .').replace('!', ' !').replace('?', ' ?').replace('  ', ' ')
+    return True
+
+
 def get_clean_sentences(text_in):
+    # Function to split inputted text into list of sentences (with some quick cleaning).
     sentences = text_in.lower()
     sentences = sentences.replace('\n', ' ').replace('  ', ' ')  # Remove empty lines
     sentences = sentences.replace('.', '.$').replace(':', ':$').replace('?', '?$').replace('!', '!$')
@@ -53,7 +72,6 @@ def create_csv_data_file():
                                              len(nynorsk_sentences[i].split(' '))))
             print('Warning: Sentence {} has mismatching number of words.'.format(i))
     data_file.close()
-
     log.info('.csv data file was created here: {}.'.format(config.data_file))
     print('Info: .csv data file was successfully created.')
     return True
@@ -63,8 +81,14 @@ def main():
     print(' --- {} --- '.format(config.io_service_app_name))
     log.info(' --- Running application: {} --- '.format(config.io_service_app_name))
 
+    # Create data file using raw text obtained from the internet.
     if not create_csv_data_file():
         print('Error: Unable to create .csv data file.')
+        return False
+
+    # Load the data stored in our data file.
+    if not load_cvs_data():
+        print('Error: Unable to load .csv data.')
         return False
 
 

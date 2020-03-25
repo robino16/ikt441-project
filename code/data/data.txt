@@ -1,4 +1,4 @@
-id,norwegian_bokmaal,norwegian_nynorsk
+id,<p>norwegian_bokmaal</p>,<p>norwegian_nynorsk</p>
 0,<p>koronavirus smitter gjennom det som kalles dråpesmitte.</p>,<p>koronavirus smittar gjennom det som kallast dråpesmitte.</p>
 1,<p>koronavirus finnes i små dråper som kommer ut gjennom munnen og nesen når en person som er smittet hoster eller nyser.</p>,<p>koronavirus finst i små dropar som kjem ut gjennom munnen og nasen når ein person som er smitta hostar eller nys.</p>
 2,<p>den vanligste smittemåten er at du puster inn dråper med smitte som svever i lufta eller at du får virus på hendene og får det i deg hvis du tar deg i ansiktet.</p>,<p>den vanlegaste smittemåten er at du pustar inn dropar med smitta som svevar i lufta eller at du får virus på hendene og får det i deg viss du tar deg i ansiktet.</p>
