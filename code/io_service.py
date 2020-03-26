@@ -1,12 +1,62 @@
 import config
 import logging
 import re
+import sentence
+from keras.preprocessing.text import Tokenizer
+import pickle
 
 # Original text from: https://helsenorge.no/koronavirus/smitte-og-inkubasjonstid
 # The text was translated using this online tool: https://www.apertium.org/index.nob.html?dir=nob-nno#translation
 # Remember to consider æøå
 
 log = logging.getLogger()
+
+# todo: Tokenizing all words and checking if existing tokenizer object can be reused.
+# todo: Function that splits training and testing data
+
+
+def save_tokenizer(tokenizer_in):
+    # This function is responsible for saving the tokenizer to a pickle-object so it can be reused.
+    with open(config.tokenizer_file_original, 'wb') as handle:
+        pickle.dump(tokenizer_in, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+
+def create_tokenizer():
+    # This function is responsible for creating the tokenizer object.
+    # It should consider all the words in our data.
+    pass
+
+
+def get_tokenizer():
+    # This function returns the tokenizer.
+    # Note: There are two tokenizer objects, one for the original language and one for the translation.
+    # It should check if the number of inputted words have been altered, to see if it can reuse an existing tokenizer.
+    # It should check if a tokenizer object already exists on disk or if it has to create a new one.
+
+    tokenizer = None
+    try:
+        with open(config.tokenizer_file_original, 'rb') as handle:
+            tokenizer = pickle.load(handle)
+        success = True
+        log.warning('Successfully loaded tokenizer object from file: {}.'.format(config.tokenizer_file_original))
+    except:
+        log.warning('Failed to load tokenizer object.'.format(config.tokenizer_file_original))
+    pass
+
+
+def get_sentence_objects(original_sentences_in, translated_sentences_in):
+    # Returns a list of Sentence objects (containing both original and translated version of a sentence).
+
+    # Error check
+    if len(original_sentences_in) != len(translated_sentences_in):
+        log.error('Number of sentences are not equal: {} (original) '
+                  'and {} (translated).'.format(len(original_sentences_in), len(translated_sentences_in)))
+        return None
+
+    sentences = []
+    for i in range(original_sentences_in):
+        sentences.append(sentence.Sentence(i, original_sentences_in, translated_sentences_in))
+    return sentences
 
 
 def load_cvs_data():
@@ -35,7 +85,7 @@ def load_cvs_data():
     return original_sentences, translated_sentences
 
 
-def get_clean_sentences(text_in):
+def split_text_to_sentences(text_in):
     # Function to split inputted text into list of sentences (with some quick cleaning).
     sentences = text_in.lower()
     sentences = sentences.replace('\n', ' ').replace('  ', ' ')  # Remove empty lines
@@ -53,8 +103,8 @@ def create_csv_data_file():
     translated_text = open(config.text_file_translated, 'r', encoding='utf-8').read()
 
     # Convert to list of sentences.
-    original_sentences = get_clean_sentences(original_text)
-    translated_sentences = get_clean_sentences(translated_text)
+    original_sentences = split_text_to_sentences(original_text)
+    translated_sentences = split_text_to_sentences(translated_text)
 
     # Error check.
     if len(original_sentences) != len(translated_sentences):
