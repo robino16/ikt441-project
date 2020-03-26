@@ -17,3 +17,5 @@ data_file_formatting = 'id,<p>norwegian_bokmaal</p>,<p>norwegian_nynorsk</p>'
 # Tokenizer.
 tokenizer_file_original = 'tokenizer_original.pickle'
 tokenizer_file_translated = 'tokenizer_translated.pickle'
+load_tokenizers = False
+tokenizer_filter ='"#$%&()*+-/:;<=>@[\\]^_`{|}~\t\n'

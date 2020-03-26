@@ -15,37 +15,52 @@ log = logging.getLogger()
 # todo: Function that splits training and testing data
 
 
-def save_tokenizer(tokenizer_in):
+def save_tokenizer(tokenizer_in, filename_in):
     # This function is responsible for saving the tokenizer to a pickle-object so it can be reused.
-    with open(config.tokenizer_file_original, 'wb') as handle:
+    with open(filename_in, 'wb') as handle:
         pickle.dump(tokenizer_in, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 
-def create_tokenizer():
-    # This function is responsible for creating the tokenizer object.
-    # It should consider all the words in our data.
-    pass
-
-
-def get_tokenizer():
-    # This function returns the tokenizer.
-    # Note: There are two tokenizer objects, one for the original language and one for the translation.
-    # It should check if the number of inputted words have been altered, to see if it can reuse an existing tokenizer.
-    # It should check if a tokenizer object already exists on disk or if it has to create a new one.
-
-    tokenizer = None
+def load_tokenizer(filename_in):
+    # Function responsible of loading existing tokenizer file.
     try:
-        with open(config.tokenizer_file_original, 'rb') as handle:
+        with open(filename_in, 'rb') as handle:
             tokenizer = pickle.load(handle)
-        success = True
-        log.warning('Successfully loaded tokenizer object from file: {}.'.format(config.tokenizer_file_original))
+            log.debug('Successfully loaded tokenizer object from file: {}.'.format(filename_in))
+            return tokenizer
     except:
-        log.warning('Failed to load tokenizer object.'.format(config.tokenizer_file_original))
-    pass
+        log.warning('Failed to load tokenizer object from file: {}.'.format(filename_in))
+        print('Warning: Failed to load tokenizer object from file {}.'.format(filename_in))
+        return None
+
+
+def get_tokenizer(filename_in, sentences_in):
+    # Returns a single tokenizer object.
+    tokenizer = None
+    if config.load_tokenizers:
+        # Load existing tokenizer from file.
+        tokenizer = load_tokenizer(filename_in)
+    if tokenizer is None:
+        # Create new tokenizer.
+        tokenizer = Tokenizer(filters=config.tokenizer_filter)
+        tokenizer.fit_on_texts(sentences_in)
+        save_tokenizer(tokenizer, filename_in)  # Save it on disk.
+    total_words = len(tokenizer.word_index) + 1
+    log.debug('Tokenizer ({}) has {} indexed words.'.format(filename_in, total_words))
+    return tokenizer
+
+
+def get_tokenizers(original_sentences_in, translated_sentences_in):
+    # This function returns the tokenizer objects.
+    # Note: There are two tokenizer objects, one for the original language and one for the translation.
+    tokenizer_original = get_tokenizer(config.tokenizer_file_original, original_sentences_in)
+    tokenizer_translated = get_tokenizer(config.tokenizer_file_translated, translated_sentences_in)
+    return tokenizer_original, tokenizer_translated
 
 
 def get_sentence_objects(original_sentences_in, translated_sentences_in):
     # Returns a list of Sentence objects (containing both original and translated version of a sentence).
+    # Note: This functionality is currently ignored. 
 
     # Error check
     if len(original_sentences_in) != len(translated_sentences_in):
@@ -89,12 +104,14 @@ def split_text_to_sentences(text_in):
     # Function to split inputted text into list of sentences (with some quick cleaning).
     sentences = text_in.lower()
     sentences = sentences.replace('\n', ' ').replace('  ', ' ')  # Remove empty lines
+
+    # I preserve punctuation.
     sentences = sentences.replace('.', '.$').replace(':', ':$').replace('?', '?$').replace('!', '!$')
     return sentences.split('$ ')  # We use $ to split the input into sentences.
 
 
 def create_csv_data_file():
-    # Function to join Bokmål text with Nynorsk translation into a single .csv file.
+    # Function to join original text with translation into a single .csv file.
     log.debug('io_service.py -> create_csv_data_file()')
     log.info('Joining the two files: {} (original) and {} (translated) '
              'to a single .csv file: {}.'.format(config.text_file_original, config.text_file_translated, config.data_file))
@@ -117,7 +134,6 @@ def create_csv_data_file():
     else:
         log.info('Found {} sentences.'.format(len(original_sentences)))
 
-    # Main loop of this function.
     data_file = open(config.data_file, 'w', encoding='utf-8')
     data_file.write('{}\n'.format(config.data_file_formatting))
     for i in range(len(original_sentences)):
@@ -130,7 +146,8 @@ def create_csv_data_file():
                                              len(translated_sentences[i].split(' '))))
             print('Warning: Sentence {} has mismatching number of words.'.format(i))
     data_file.close()
-    log.info('.csv data file was created here: {}.'.format(config.data_file))
+
+    log.info('.csv data file was successfully stored here: {}.'.format(config.data_file))
     print('Info: .csv data file was successfully created.')
     return True
 
@@ -145,7 +162,9 @@ def main():
         return False
 
     # Load the data stored in our data file.
-    _, _ = load_cvs_data()
+    original, translated = load_cvs_data()
+
+    _, _ = get_tokenizers(original, translated)
 
 
 if __name__ == '__main__':

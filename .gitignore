@@ -131,6 +131,9 @@ dmypy.json
 # Log files
 *.log
 
+# Pickle objects
+*.pickle
+
 # Virtual environments
 venv/
 tensorflow_venv/
