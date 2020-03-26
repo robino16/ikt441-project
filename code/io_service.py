@@ -1,18 +1,21 @@
-import config
 import logging
+from keras.preprocessing.text import Tokenizer
+from keras.preprocessing.sequence import pad_sequences
+import pickle
+import random
+import numpy as np
+
+import config
 import re
 import sentence
-from keras.preprocessing.text import Tokenizer
-import pickle
 
 # Original text from: https://helsenorge.no/koronavirus/smitte-og-inkubasjonstid
 # The text was translated using this online tool: https://www.apertium.org/index.nob.html?dir=nob-nno#translation
 # Remember to consider æøå
 
-log = logging.getLogger()
+# todo: move tokenizer functionality to unique file.
 
-# todo: Tokenizing all words and checking if existing tokenizer object can be reused.
-# todo: Function that splits training and testing data
+log = logging.getLogger()
 
 
 def save_tokenizer(tokenizer_in, filename_in):
@@ -60,7 +63,7 @@ def get_tokenizers(original_sentences_in, translated_sentences_in):
 
 def get_sentence_objects(original_sentences_in, translated_sentences_in):
     # Returns a list of Sentence objects (containing both original and translated version of a sentence).
-    # Note: This functionality is currently ignored. 
+    # Note: This functionality is only used to associate input with the correct output.
 
     # Error check
     if len(original_sentences_in) != len(translated_sentences_in):
@@ -69,9 +72,18 @@ def get_sentence_objects(original_sentences_in, translated_sentences_in):
         return None
 
     sentences = []
-    for i in range(original_sentences_in):
-        sentences.append(sentence.Sentence(i, original_sentences_in, translated_sentences_in))
+    for i in range(len(original_sentences_in)):
+        sentences.append(sentence.Sentence(i, original_sentences_in[i], translated_sentences_in[i]))
     return sentences
+
+
+def objects_to_lists(sentences_in):
+    original = []
+    translated = []
+    for sentence in sentences_in:
+        original.append(sentence.original)
+        translated.append(sentence.translated)
+    return original, translated
 
 
 def load_cvs_data():
@@ -91,7 +103,9 @@ def load_cvs_data():
 
         # Trick to preserve punctuation during training.
         original = extracted[0].replace('.', ' .').replace('!', ' !').replace('?', ' ?').replace('  ', ' ')
+        original = original.replace('<p>', '').replace('</p>', '').replace(',', ' ,')
         translated = extracted[1].replace('.', ' .').replace('!', ' !').replace('?', ' ?').replace('  ', ' ')
+        translated = translated.replace('<p>', '').replace('</p>', '').replace(',', ' ,')
 
         original_sentences.append(original)
         translated_sentences.append(translated)
@@ -135,7 +149,7 @@ def create_csv_data_file():
         log.info('Found {} sentences.'.format(len(original_sentences)))
 
     data_file = open(config.data_file, 'w', encoding='utf-8')
-    data_file.write('{}\n'.format(config.data_file_formatting))
+    # data_file.write('{}\n'.format(config.data_file_formatting))
     for i in range(len(original_sentences)):
         data_file.write('{},<p>{}</p>,<p>{}</p>\n'.format(i, original_sentences[i], translated_sentences[i]))
 
@@ -152,19 +166,70 @@ def create_csv_data_file():
     return True
 
 
+def get_max_length(sentences_in, tokenizer_in):
+    # Finds the maximum sentence length of the entire dataset.
+    all_sequences = []  # Holds any tokenized sequence.
+    for sentence in sentences_in:
+        all_sequences.append(tokenizer_in.texts_to_sequences([sentence.original])[0])
+        all_sequences.append(tokenizer_in.texts_to_sequences([sentence.translated])[0])
+    return max([len(x) for x in all_sequences])
+
+
+def encode_sequences(tokenizer_in, length_in, lines_in):
+    # Used to encode the sequences to integers.
+    sequences = tokenizer_in.texts_to_sequences(lines_in)
+
+    # Pad sequences with zeros.
+    sequences = pad_sequences(sequences, maxlen=length_in, padding='post')
+    return sequences
+
+
+def get_data():
+    # This function returns the training and testing data.
+    log.debug('io_service.py -> get_data()')
+
+    if not create_csv_data_file():
+        print('Error: Unable to create .csv data file.')
+
+    # Load the data and tokenizer objects.
+    original_sentences, translated_sentences = load_cvs_data()
+    tokenizer_original, tokenizer_translated = get_tokenizers(original_sentences, translated_sentences)
+
+    # Convert to sentence objects.
+    sentences = get_sentence_objects(original_sentences, translated_sentences)
+
+    # Get max sequence length
+    max_sequence_length = get_max_length(sentences, tokenizer_original)
+    print('Debug: Max sequence length: {}.'.format(max_sequence_length))
+    log.debug('max_sequence_length={}'.format(max_sequence_length))
+
+    # Split into training and testing data.
+    random.shuffle(sentences)
+    index = int(len(sentences) * config.training_factor)
+    training_sentences, testing_sentences = sentences[:index], sentences[index:]
+
+    # Prepare training data.
+    train_x, train_y = objects_to_lists(training_sentences)
+    train_x = encode_sequences(tokenizer_original, max_sequence_length, train_x)
+    train_y = encode_sequences(tokenizer_translated, max_sequence_length, train_y)
+
+    # Prepare validation data.
+    test_x, test_y = objects_to_lists(testing_sentences)
+    test_x = encode_sequences(tokenizer_original, max_sequence_length, test_x)
+    test_y = encode_sequences(tokenizer_translated, max_sequence_length, test_y)
+
+    # todo: note: this function may also return these values
+    total_words_original = len(tokenizer_original.word_index) + 1
+    total_words_translated = len(tokenizer_original.word_index) + 1
+
+    return train_x, train_y, test_x, test_y, tokenizer_original, tokenizer_translated
+
+
 def main():
     print(' --- {} --- '.format(config.io_service_app_name))
     log.info(' --- Running application: {} --- '.format(config.io_service_app_name))
 
-    # Create data file using raw text obtained from the internet.
-    if not create_csv_data_file():
-        print('Error: Unable to create .csv data file.')
-        return False
-
-    # Load the data stored in our data file.
-    original, translated = load_cvs_data()
-
-    _, _ = get_tokenizers(original, translated)
+    train_x, train_y, test_x, test_y, _, _ = get_data()
 
 
 if __name__ == '__main__':
