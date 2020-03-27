@@ -1,16 +1,61 @@
+import config
+import sentence
+
 from keras.preprocessing.sequence import pad_sequences
+from keras.preprocessing.text import Tokenizer
+import pickle
 import random
 import re
 
-import config
-import sentence
-import token
 
 # Original text from: https://helsenorge.no/koronavirus/smitte-og-inkubasjonstid
 # The text was translated using this online tool: https://www.apertium.org/index.nob.html?dir=nob-nno#translation
 # Remember to consider æøå
 
-# log = config.log
+log = config.log
+
+
+def save_tokenizer(tokenizer_in, filename_in):
+    # This function is responsible for saving the tokenizer to a pickle-object so it can be reused.
+    with open(filename_in, 'wb') as handle:
+        pickle.dump(tokenizer_in, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+
+def load_tokenizer(filename_in):
+    # Function responsible of loading existing tokenizer file.
+    try:
+        with open(filename_in, 'rb') as handle:
+            tokenizer = pickle.load(handle)
+            log.debug('Successfully loaded tokenizer object from file: {}.'.format(filename_in))
+            return tokenizer
+    except:
+        log.warning('Failed to load tokenizer object from file: {}.'.format(filename_in))
+        print('Warning: Failed to load tokenizer object from file {}.'.format(filename_in))
+        return None
+
+
+def get_tokenizer(filename_in, sentences_in):
+    # Returns a single tokenizer object.
+    tokenizer = None
+    if config.load_tokenizers:
+        # Load existing tokenizer from file.
+        tokenizer = load_tokenizer(filename_in)
+    if tokenizer is None:
+        # Create new tokenizer.
+        tokenizer = Tokenizer(filters=config.tokenizer_filter)
+        tokenizer.fit_on_texts(sentences_in)
+        save_tokenizer(tokenizer, filename_in)  # Save it on disk.
+    total_words = len(tokenizer.word_index) + 1
+    log.debug('Tokenizer ({}) has {} indexed words.'.format(filename_in, total_words))
+    return tokenizer
+
+
+def get_tokenizers(original_sentences_in, translated_sentences_in):
+    # This function returns the tokenizer objects.
+    # Note: There are two tokenizer objects, one for the original language and one for the translation.
+    tokenizer_original = get_tokenizer(config.tokenizer_file_original, original_sentences_in)
+    tokenizer_translated = get_tokenizer(config.tokenizer_file_translated, translated_sentences_in)
+    return tokenizer_original, tokenizer_translated
 
 
 def get_sentence_objects(original_sentences_in, translated_sentences_in):
@@ -79,9 +124,9 @@ def split_text_to_sentences(text_in):
 
 def create_csv_data_file():
     # Function to join original text with translation into a single .csv file.
-    # log.debug('io_service.py -> create_csv_data_file()')
-    # log.info('Joining the two files: {} (original) and {} (translated) '
-    #          'to a single .csv file: {}.'.format(config.text_file_original, config.text_file_translated, config.data_file))
+    log.debug('io_service.py -> create_csv_data_file()')
+    log.info('Joining the two files: {} (original) and {} (translated) '
+             'to a single .csv file: {}.'.format(config.text_file_original, config.text_file_translated, config.data_file))
 
     original_text = open(config.text_file_original, 'r', encoding='utf-8').read()  # Reads the entire file
     translated_text = open(config.text_file_translated, 'r', encoding='utf-8').read()
@@ -92,14 +137,14 @@ def create_csv_data_file():
 
     # Error check.
     if len(original_sentences) != len(translated_sentences):
-        # log.error('{} contains {} sentences while {} contains {} sentences.'.format(config.text_file_original,
-        #                                                                            len(original_sentences),
-        #                                                                            config.text_file_translated,
-        #                                                                            len(translated_sentences)))
-        # log.info('Sometimes the translator forgets to add the last period.')
+        log.error('{} contains {} sentences while {} contains {} sentences.'.format(config.text_file_original,
+                                                                                    len(original_sentences),
+                                                                                    config.text_file_translated,
+                                                                                    len(translated_sentences)))
+        log.info('Sometimes the translator forgets to add the last period.')
         return False
     else:
-        # log.info('Found {} sentences.'.format(len(original_sentences)))
+        log.info('Found {} sentences.'.format(len(original_sentences)))
         pass
 
     data_file = open(config.data_file, 'w', encoding='utf-8')
@@ -109,13 +154,13 @@ def create_csv_data_file():
 
         # Error check.
         if len(original_sentences[i].split(' ')) != len(translated_sentences[i].split(' ')):
-            # log.warning('Sentence #{} has mismatching number of words:'
-            #             ' {} and {}.'.format(i, len(original_sentences[i].split(' ')),
-            #                                  len(translated_sentences[i].split(' '))))
+            log.warning('Sentence #{} has mismatching number of words:'
+                        ' {} and {}.'.format(i, len(original_sentences[i].split(' ')),
+                                             len(translated_sentences[i].split(' '))))
             print('Warning: Sentence {} has mismatching number of words.'.format(i))
     data_file.close()
 
-    # log.info('.csv data file was successfully stored here: {}.'.format(config.data_file))
+    log.info('.csv data file was successfully stored here: {}.'.format(config.data_file))
     print('Info: .csv data file was successfully created.')
     return True
 
@@ -129,7 +174,7 @@ def get_max_length(sentences_in, tokenizer_in):
 
     max_length = max([len(x) for x in all_sequences])
     print('Debug: Max sequence length: {}.'.format(max_length))
-    # log.debug('max_sequence_length={}'.format(max_length))
+    log.debug('max_sequence_length={}'.format(max_length))
     return max_length
 
 
@@ -145,17 +190,17 @@ def encode_sequences(tokenizer_in, length_in, lines_in):
 def get_data():
     # This function returns the training and testing data.
     # todo: This function should be shortened or simplified.
-    # log.debug('io_service.py -> get_data()')
+    log.debug('io_service.py -> get_data()')
 
     # Load the data.
     # create_csv_data_file()  # Use this if we want to create a new dataset.
     original_sentences, translated_sentences = load_cvs_data()
 
-    # Load the tokenizer objects.
-    tokenizer_original, tokenizer_translated = token.get_tokenizers(original_sentences, translated_sentences)
-
     # Convert to sentence objects.
     sentences = get_sentence_objects(original_sentences, translated_sentences)
+
+    # Load the tokenizer objects.
+    tokenizer_original, tokenizer_translated = get_tokenizers(original_sentences, translated_sentences)
 
     # Get max sequence length
     max_sequence_length = get_max_length(sentences, tokenizer_original)
@@ -176,22 +221,30 @@ def get_data():
     test_y = encode_sequences(tokenizer_translated, max_sequence_length, test_y)
 
     # Get max number of words (for input + output).
-    # todo: note: this function may also return these values.
+    # Note: This function may also return these values.
     total_words_original = len(tokenizer_original.word_index) + 1
-    total_words_translated = len(tokenizer_original.word_index) + 1
+    total_words_translated = len(tokenizer_translated.word_index) + 1
 
     print('Info: Total words in original text: {}.'.format(total_words_original))
-    # log.info('Total words in original text: {}.'.format(total_words_original))
+    log.info('Total words in original text: {}.'.format(total_words_original))
     print('Info: Total words in translated text: {}.'.format(total_words_translated))
-    # log.info('Total words in translated text: {}.'.format(total_words_translated))
+    log.info('Total words in translated text: {}.'.format(total_words_translated))
 
     return train_x, train_y, test_x, test_y, tokenizer_original, tokenizer_translated
 
 
 def main():
     print(' --- {} --- '.format(config.io_service_app_name))
-    # log.info(' --- Running application: {} --- '.format(config.io_service_app_name))
+    log.info(' --- Running application: {} --- '.format(config.io_service_app_name))
 
+    # The main function displays how we can use the io_service from an external application.
+
+    # Create new dataset
+    if not create_csv_data_file():
+        print('Error: Failed to generate new dataset. See log output for more info.')
+        log.error('Failed to generate new dataset.s')
+
+    # Get training and testing data
     train_x, train_y, test_x, test_y, _, _ = get_data()
 
 

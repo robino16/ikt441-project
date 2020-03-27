@@ -1,9 +1,9 @@
-# import logging
+import logging
 
 # Logging module.
 log_format = "%(asctime)s - %(levelname)s: %(message)s"
-# logging.basicConfig(filename='output.log', level=logging.DEBUG, format=log_format, filemode='a')
-# log = logging.getLogger()
+logging.basicConfig(filename='output.log', level=logging.DEBUG, format=log_format, filemode='a')
+log = logging.getLogger()
 
 # Main application.
 main_app_name = 'IKT441 Project - Norwegian Bokmål to Norwegian Nynorsk Translator'
@@ -19,5 +19,5 @@ training_factor = 0.8
 # Tokenizer.
 tokenizer_file_original = 'tokenizer_original.pickle'
 tokenizer_file_translated = 'tokenizer_translated.pickle'
-load_tokenizers = False
+load_tokenizers = False  # Currently not supported as there is no word count check going on.
 tokenizer_filter ='"#$%&()*+-/:;<=>@[\\]^_`{|}~\t\n'
