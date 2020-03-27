@@ -1,10 +1,9 @@
 from keras.preprocessing.text import Tokenizer
 import pickle
-import logging
 
 import config
 
-log = logging.getLogger()
+# log = config.log
 
 
 def save_tokenizer(tokenizer_in, filename_in):
@@ -18,10 +17,10 @@ def load_tokenizer(filename_in):
     try:
         with open(filename_in, 'rb') as handle:
             tokenizer = pickle.load(handle)
-            log.debug('Successfully loaded tokenizer object from file: {}.'.format(filename_in))
+            # log.debug('Successfully loaded tokenizer object from file: {}.'.format(filename_in))
             return tokenizer
     except:
-        log.warning('Failed to load tokenizer object from file: {}.'.format(filename_in))
+        # log.warning('Failed to load tokenizer object from file: {}.'.format(filename_in))
         print('Warning: Failed to load tokenizer object from file {}.'.format(filename_in))
         return None
 
@@ -38,7 +37,7 @@ def get_tokenizer(filename_in, sentences_in):
         tokenizer.fit_on_texts(sentences_in)
         save_tokenizer(tokenizer, filename_in)  # Save it on disk.
     total_words = len(tokenizer.word_index) + 1
-    log.debug('Tokenizer ({}) has {} indexed words.'.format(filename_in, total_words))
+    # log.debug('Tokenizer ({}) has {} indexed words.'.format(filename_in, total_words))
     return tokenizer
 
 
