@@ -118,8 +118,29 @@ def split_text_to_sentences(text_in):
     sentences = sentences.replace('\n', '. ').replace('..', '.').replace('  ', ' ')
 
     # I preserve punctuation.
+    # We use $ to split the input into sentences.
     sentences = sentences.replace('.', '.$').replace(':', ':$').replace('?', '?$').replace('!', '!$').replace('$.', '$')
-    return sentences.replace('$$', '$').split('$ ')  # We use $ to split the input into sentences.
+    sentences = sentences.replace('$$', '$').split('$ ')
+
+    sentences_out = []
+    for s in sentences:
+        if len(s) > 6:
+            sentences_out.append(s.replace('$', ''))
+
+    return sentences_out
+
+
+def format_original_file():
+    # A quick tool to format the original text before utilizing external translator program.
+    # The online translator tends to miss punctuations randomly. To avoid this, we need some pre-processing here.
+    original_file = open(config.text_file_original, 'r', encoding='utf-8')
+    temp = original_file.read()
+    temp = temp.replace('.', '.\n').replace('\n\n', '\n').replace('\n ', '\n').replace('\n\n', '\n')
+    original_file.close()
+
+    file = open(config.text_file_original, 'w', encoding='utf-8')
+    file.write(temp)
+    file.close()
 
 
 def create_csv_data_file():
@@ -133,9 +154,7 @@ def create_csv_data_file():
 
     # Convert to list of sentences.
     original_sentences = split_text_to_sentences(original_text)
-    original_sentences.remove('.')
     translated_sentences = split_text_to_sentences(translated_text)
-    translated_sentences.remove('.')
 
     # Error check.
     if len(original_sentences) != len(translated_sentences):
@@ -144,25 +163,20 @@ def create_csv_data_file():
                                                                                     config.text_file_translated,
                                                                                     len(translated_sentences)))
         log.info('Sometimes the translator forgets to add the last period.')
-        # return False # todo: Should not ignore this.
+        # return False
     else:
         log.info('Found {} sentences.'.format(len(original_sentences)))
         pass
 
     data_file = open(config.data_file, 'w', encoding='utf-8')
     # data_file.write('{}\n'.format(config.data_file_formatting))
-    for i in range(len(original_sentences)):
-        if len(original_sentences[i]) < 6:
-            continue
-        data_file.write('{},<p>{}</p>,<p>{}</p>\n'.format(i, original_sentences[i].replace('$', ''),
-                                                          translated_sentences[i]).replace('$', ''))
+    for i in range(len(translated_sentences)):
+        data_file.write('{},<p>{}</p>,<p>{}</p>\n'.format(i, original_sentences[i],
+                                                          translated_sentences[i]))
 
         # Error check.
         if len(original_sentences[i].split(' ')) != len(translated_sentences[i].split(' ')):
-            log.warning('Sentence #{} has mismatching number of words:'
-                        ' {} and {}.'.format(i, len(original_sentences[i].split(' ')),
-                                             len(translated_sentences[i].split(' '))))
-            print('Warning: Sentence {} has mismatching number of words.'.format(i))
+            pass
     data_file.close()
 
     log.info('.csv data file was successfully stored here: {}.'.format(config.data_file))
