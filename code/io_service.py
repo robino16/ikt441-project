@@ -258,13 +258,16 @@ def main():
 
     # The main function displays how we can use the io_service from an external application.
 
+    # Use this before using online translator.
+    # format_original_file()
+
     # Create new dataset
     if not create_csv_data_file():
         print('Error: Failed to generate new dataset. See log output for more info.')
-        log.error('Failed to generate new dataset.s')
+        log.error('Failed to generate new dataset.')
 
     # Get training and testing data
-    # train_x, train_y, test_x, test_y, _, _ = get_data()
+    train_x, train_y, test_x, test_y, _, _ = get_data()
 
 
 if __name__ == '__main__':
