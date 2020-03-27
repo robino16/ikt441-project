@@ -115,11 +115,11 @@ def load_cvs_data():
 def split_text_to_sentences(text_in):
     # Function to split inputted text into list of sentences (with some quick cleaning).
     sentences = text_in.lower()
-    sentences = sentences.replace('\n', ' ').replace('  ', ' ')  # Remove empty lines
+    sentences = sentences.replace('\n', '. ').replace('..', '.').replace('  ', ' ')
 
     # I preserve punctuation.
-    sentences = sentences.replace('.', '.$').replace(':', ':$').replace('?', '?$').replace('!', '!$')
-    return sentences.split('$ ')  # We use $ to split the input into sentences.
+    sentences = sentences.replace('.', '.$').replace(':', ':$').replace('?', '?$').replace('!', '!$').replace('$.', '$')
+    return sentences.replace('$$', '$').split('$ ')  # We use $ to split the input into sentences.
 
 
 def create_csv_data_file():
@@ -133,7 +133,9 @@ def create_csv_data_file():
 
     # Convert to list of sentences.
     original_sentences = split_text_to_sentences(original_text)
+    original_sentences.remove('.')
     translated_sentences = split_text_to_sentences(translated_text)
+    translated_sentences.remove('.')
 
     # Error check.
     if len(original_sentences) != len(translated_sentences):
@@ -142,7 +144,7 @@ def create_csv_data_file():
                                                                                     config.text_file_translated,
                                                                                     len(translated_sentences)))
         log.info('Sometimes the translator forgets to add the last period.')
-        return False
+        # return False # todo: Should not ignore this.
     else:
         log.info('Found {} sentences.'.format(len(original_sentences)))
         pass
@@ -150,7 +152,10 @@ def create_csv_data_file():
     data_file = open(config.data_file, 'w', encoding='utf-8')
     # data_file.write('{}\n'.format(config.data_file_formatting))
     for i in range(len(original_sentences)):
-        data_file.write('{},<p>{}</p>,<p>{}</p>\n'.format(i, original_sentences[i], translated_sentences[i]))
+        if len(original_sentences[i]) < 6:
+            continue
+        data_file.write('{},<p>{}</p>,<p>{}</p>\n'.format(i, original_sentences[i].replace('$', ''),
+                                                          translated_sentences[i]).replace('$', ''))
 
         # Error check.
         if len(original_sentences[i].split(' ')) != len(translated_sentences[i].split(' ')):
@@ -245,7 +250,7 @@ def main():
         log.error('Failed to generate new dataset.s')
 
     # Get training and testing data
-    train_x, train_y, test_x, test_y, _, _ = get_data()
+    # train_x, train_y, test_x, test_y, _, _ = get_data()
 
 
 if __name__ == '__main__':

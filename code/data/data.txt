@@ -1,40 +1,536 @@
-0,<p>koronavirus smitter gjennom det som kalles dråpesmitte.</p>,<p>koronavirus smittar gjennom det som kallast dråpesmitte.</p>
-1,<p>koronavirus finnes i små dråper som kommer ut gjennom munnen og nesen når en person som er smittet hoster eller nyser.</p>,<p>koronavirus finst i små dropar som kjem ut gjennom munnen og nasen når ein person som er smitta hostar eller nys.</p>
-2,<p>den vanligste smittemåten er at du puster inn dråper med smitte som svever i lufta eller at du får virus på hendene og får det i deg hvis du tar deg i ansiktet.</p>,<p>den vanlegaste smittemåten er at du pustar inn dropar med smitta som svevar i lufta eller at du får virus på hendene og får det i deg viss du tar deg i ansiktet.</p>
-3,<p>dette kan du gjøre for å forebygge smitte:</p>,<p>dette kan du gjera for å førebygga smitta:</p>
-4,<p>unngå å hoste eller nyse direkte på andre.</p>,<p>unngå å hosta eller nysa direkte på andre.</p>
-5,<p>hold minst én meters avstand til personer som hoster.</p>,<p>hald minst éin meters avstand til personar som hostar.</p>
-6,<p>hoste inn i et papirlommetørkle som du kaster.</p>,<p>hoste inn i eit papirlommetørkle som du kastar.</p>
-7,<p>deretter må du vaske deg på hendene.</p>,<p>deretter må du vaska deg på hendene.</p>
-8,<p>hvis du ikke har et papirlommetørkle, bør du hoste i albukroken slik at du ikke sprer dråper ut i lufta.</p>,<p>viss du ikkje har eit papirlommetørkle, bør du hosta i albukroken slik at du ikkje spreier dropar ut i lufta.</p>
-9,<p>vask hendene ofte og grundig med såpe og lunkent vann, spesielt når du har vært ute blant folk.</p>,<p>vask hendene ofte og grundig med såpe og lunkent vatn, spesielt når du har vore ute blant folk.</p>
-10,<p>du kan også bruke et desinfeksjonsmiddel som inneholder alkohol, hvis du ikke har såpe og vann tilgjengelig.</p>,<p>du kan òg bruka eit desinfeksjonsmiddel som inneheld alkohol, viss du ikkje har såpe og vatn tilgjengeleg.</p>
-11,<p>finn alternativer til håndhilsing og klemming.</p>,<p>finn alternativ til håndhilsing og klemming.</p>
-12,<p>inkubasjonstid og symptomer inkubasjonstid vil si tiden fra man er smittet til sykdommen gir symptomer og er ifølge who anslått til å være 5-6 dager, men den kan variere fra 0-14 dager.</p>,<p>inkubasjonstid og symptom inkubasjonstid vil seia tida frå ein er smitta til sjukdommen gir symptom og er ifølgje who anslått til å vera 5-6 dagar, men den kan variera frå 0-14 dagar.</p>
-13,<p>symptomene ligner de man ser ved forkjølelse og influensa.</p>,<p>symptoma liknar dei ein ser ved forkjøling og influensa.</p>
-14,<p>feber, sår hals og hoste.</p>,<p>feber, sår hals og hoste.</p>
-15,<p>noen utvikler lungebetennelse med pustevansker kan koronavirus smitte fra personer uten symptomer?</p>,<p>nokon utviklar lungebetennelse med pustevansker kan koronavirus smitta frå personar utan symptom?</p>
-16,<p>den viktigste smitten skjer når personer har symptomer, men det er også mulig med smitte rett før man får symptomer.</p>,<p>den viktigaste smitten skjer når personar har symptom, men det er òg mogleg med smitta rett før ein får symptom.</p>
-17,<p>dersom du er syk, hold deg hjemme.</p>,<p>dersom du er sjuk, hald deg heime.</p>
-18,<p>hva gjør jeg hvis jeg tror jeg er smittet?</p>,<p>kva gjer eg viss eg trur eg er smitta?</p>
-19,<p>hvis du er syk, hold deg hjemme hvis du er syk og trenger legehjelp, eller har behov for individuell helserådgivning, kontakt fastlege på telefon eller elektronisk.</p>,<p>viss du er sjuk, hald deg heime viss du er sjuk og treng legehjelp, eller har behov for individuell helserådgiving, kontakt fastlege på telefon eller elektronisk.</p>
-20,<p>har du behov for akutt helsehjelp og ikke kommer i kontakt med fastlegen, ring 116 117.</p>,<p>har du behov for akutt helsehjelp og ikkje kjem i kontakt med fastlegen, ring 116 117.</p>
-21,<p>det er kun ved livstruende sykdom eller skade 113-nummeret skal ringes.</p>,<p>det er berre ved livstruande sjukdom eller skade 113-nummeret skal ringast.</p>
-22,<p>hva betyr det at who har erklært koronaviruset som en pandemi?</p>,<p>kva betyr det at who har erklært koronaviruset som ein pandemi?</p>
-23,<p>folkehelseinstituttet definerer en pandemi som "et sykdomsutbrudd som rammer svært mange mennesker og sprer seg over store deler av verden.$" personer som er syke bør vaske hendene godt når det er risiko for at de har fått smittestoff på hendene (for eksempel etter å ha pusset nesen), før de berører gjenstander i omgivelsene.</p>,<p>folkehelseinstituttet definerer ein pandemi som "eit sjukdomsutbrot som rammar svært mange menneske og spreier seg over store delar av verda.$" personar som er sjuke bør vaska hendene godt når det er risiko for at dei har fått smittestoff på hendene (til dømes etter å ha pussa nasen), før dei rører gjenstandar i omgivnadene.</p>
-24,<p>håndvask med såpe og lunkent vann anbefales, men hånddesinfeksjon er et godt alternativ som også kan gjennomføres ved sykesengen.</p>,<p>håndvask med såpe og lunkent vatn blir tilrådd, men handdesinfeksjon er eit godt alternativ som også kan gjennomførast ved sjukesenga.</p>
-25,<p>det er også viktig at familiemedlemmer og andre som er i kontakt med den syke er ekstra påpasselig med håndhygiene etter kontakt med den syke eller med gjenstander som kan inneholde smittestoffer, som for eksempel snytepapir.</p>,<p>det er òg viktig at familiemedlemmer og andre som er i kontakt med den sjuke er ekstra påpasseleg med handhygiene etter kontakt med den sjuke eller med gjenstandar som kan innehalda smittestoff, som til dømes snytepapir.</p>
-26,<p>bruk av munnbind utenfor helsetjenesten er ikke anbefalt det anbefales ikke munnbind for friske personer.</p>,<p>bruk av munnbind utanfor helsetenesta er ikkje anbefalt det blir ikkje tilrådd munnbind for friske personar.</p>
-27,<p>dette gjelder ikke dersom man jobber i helsetjenesten, eller har kontakt med en person med bekreftet eller mistenkt infeksjon med koronaviruset.</p>,<p>dette gjeld ikkje dersom ein jobbar i helsetenesta, eller har kontakt med ein person med stadfesta eller mistenkt infeksjon med koronaviruset.</p>
-28,<p>feilbruk forekommer ofte og personer som bruker munnbind tar seg oftere til ansiktet, noe som kan øke smittefaren.</p>,<p>feilbruk hender ofte og personar som bruker munnbind tar seg oftare til ansiktet, noko som kan auka smittefaren.</p>
-29,<p>personer som er syke kan bruke munnbind for å hindre smitte til andre.</p>,<p>personar som er sjuke kan bruka munnbind for å hindra smitta til andre.</p>
-30,<p>hvem bør testes for koronavirus?</p>,<p>kven bør testast for koronavirus?</p>
-31,<p>personer i hjemmekarantene skal ikke testes og skal heller ikke kontakte helsetjenesten med mindre de har behov for helsehjelp.</p>,<p>personar i hjemmekarantene skal ikkje testast og skal heller ikkje kontakta helsetenesta med mindre dei har behov for helsehjelp.</p>
-32,<p>visse pasientgrupper og helsepersonell med luftveissymptomer prioriteres for testing.</p>,<p>visse pasientgrupper og helsepersonell med luftvegssymptom blir prioriterte for testing.</p>
-33,<p>kriterier for testing vurderes fortløpende.</p>,<p>kriterium for testing blir fortløpande vurderte.</p>
-34,<p>rengjøring hjemme og offentlig det er usikkert hvor lenge viruset kan leve på overflater.</p>,<p>reingjering heime og offentleg det er usikkert kor lenge viruset kan leva på overflater.</p>
-35,<p>det vil variere med overflate, temperatur, sollys og luftfuktighet.</p>,<p>det vil variera med overflate, temperatur, sollys og luftfukt.</p>
-36,<p>fordi virus kan finnes på overflater er håndvask det viktigste tiltaket.</p>,<p>fordi virus kan finnast på overflater er håndvask det viktigaste tiltaket.</p>
-37,<p>helsedirektoratet har oppfordret kollektivselskaper til å sette i gang ekstra rengjøring av t-banevogner, busser, trikker osv.</p>,<p>helsedirektoratet har oppmoda kollektivselskap til å setja i gang ekstra reingjering av t-banevogner, bussar, trikkar osb.</p>
-38,<p>helsedirektoratet oppfordrer også til ekstra rengjøring på områder med stor publikumstrafikk.</p>,<p>helsedirektoratet oppmodar òg til ekstra reingjering på område med stor publikumstrafikk.</p>
-39,<p></p>,<p></p>
+0,<p>har du spørsmål om korona?</p>,<p>har du spørsmål om korona?</p>
+1,<p>ring informasjonstelefonen, eller bruk chatboten nederst på siden.</p>,<p>ring informasjonstelefonen, eller bruk chatboten nederst på sidan.</p>
+2,<p>nødnumre må kun brukes av personer som er akutt syke.</p>,<p>nødnumre må kun brukes av personer som er akutt syke.</p>
+4,<p>hold deg hjemme hvis du er syk.</p>,<p>hold deg heime dersom du er syk.</p>
+6,<p>ring fastlegen hvis du har behov for hjelp fra lege.</p>,<p>ring fastlegen dersom du har behov for hjelp frå lege.</p>
+8,<p>ring informasjonstelefon for publikum hvis du har spørsmål om korona.</p>,<p>ring informasjonstelefon for publikum dersom du har spørsmål om korona.</p>
+10,<p>når skal jeg være hjemme og når gjelder karantene eller isolasjon?</p>,<p>når skal eg vere heime og når gjeld karantene eller isolasjon?</p>
+12,<p>hvilke anbefalinger gjelder for meg?</p>,<p>hvilke anbefalinger gjeld for meg?</p>
+13,<p>nå skal alle holde større avstand til hverandre enn vanlig.</p>,<p>no skal alle halde større avstand til kvarandre enn vanlig.</p>
+15,<p>dette er for å unngå smitte.</p>,<p>dettet er for å unngå smittet.</p>
+17,<p>de som kan være smittet av koronavirus, men som ikke er syke, skal i karantene.</p>,<p>dei som kan vere smittet av koronavirus, men som ikkje er syke, skal i karantene.</p>
+19,<p>de som har fått påvist koronavirus skal i isolasjon.</p>,<p>dei som har fått påvist koronavirus skal i isolasjon.</p>
+22,<p>mars 2020 informerte regjeringen om skjerpede anbefalinger om å holde avstand.</p>,<p>mars 2020 informertet regjeringa om skjerpede anbefalinger om å halde avstand.</p>
+24,<p>disse anbefalingene trer i kraft 27.</p>,<p>desse anbefalingene trer i kraft 27.</p>
+25,<p>mars, men vi anbefaler å følge dem allerede nå.</p>,<p>mars, men vi anbefaler å følgje dei allereie no.</p>
+27,<p>befolkningen generelt.</p>,<p>befolkningen generelt.</p>
+28,<p>alle skal holde mer avstand enn vanlig.</p>,<p>alle skal halde meir avstand enn vanlig.</p>
+30,<p>i det offentlige rom bør vi holde minst én meters avstand til andre mennesker.</p>,<p>i det offentlige rom bør vi halde minst én meters avstand til andre mennesker.</p>
+32,<p>når vi er ute, bør vi ikke være mer enn fem personer i samme gruppe.</p>,<p>når vi er ute, bør vi ikkje vere meir enn fem personer i samme gruppe.</p>
+34,<p>det gjelder ikke dem som er i familie eller i samme husstand.</p>,<p>det gjeld ikkje dei som er i familie eller i samme husstand.</p>
+36,<p>når vi er innendørs på arbeidsplassen, bør vi ha minst to meters avstand til hverandre.</p>,<p>når vi er innendørs på arbeidsplassen, bør vi ha minst to meters avstand til kvarandre.</p>
+38,<p>det gjelder ikke når vi er innendørs med familie eller personer i samme husstand.</p>,<p>det gjeld ikkje når vi er innendørs med familie eller personer i samme husstand.</p>
+40,<p>det er viktig å fortsette å vaske hendene hyppig og grundig.</p>,<p>det er viktig å fortsettet å vaske hendene hyppig og grundig.</p>
+42,<p>det vil blant annet si å vaske hendene før du går ut, med en gang du kommer hjem og før du spiser.</p>,<p>det vil blant anna seie å vaske hendene før du går ut, med ein gong du kjem heim og før du spiser.</p>
+44,<p>prøv også å unngå å ta deg i ansiktet.</p>,<p>prøv også å unngå å ta deg i ansiktet.</p>
+46,<p>dere som er friske og som bor sammen kan omgås som vanlig.</p>,<p>dere som er friske og som bor saman kan omgås som vanlig.</p>
+48,<p>dette gjelder også barn i skilte familier, men du bør unngå håndhilsning, kyssing og klemming med andre utover dette.</p>,<p>dettet gjeld også born i skiltet familier, men du bør unngå håndhilsning, kyssing og klemming med andre utover dettet.</p>
+50,<p>dersom du har symptomer på luftveisinfeksjon skal du holde deg hjemme til én dag etter at du har blitt frisk.</p>,<p>dersom du har symptomer på luftveisinfeksjon skal du halde deg heime til én dag etter at du har blitt frisk.</p>
+52,<p>de du bor sammen med kan fortsatt gå ut, men må følge med på egne symptomer.</p>,<p>dei du bor saman med kan framleis gå ut, men må følgje med på eigne symptomer.</p>
+53,<p>dette gjelder også for helsepersonell.</p>,<p>dettet gjeld også for helsepersonell.</p>
+55,<p>hvorfor skal alle med symptomer på luftveisinfeksjon holde seg hjemme ett døgn etter at symptomene er borte?</p>,<p>korfor skal alle med symptomer på luftveisinfeksjon halde seg heime eitt døgn etter at symptomene er borte?</p>
+56,<p>det vil være en stor gruppe som har symptomer på luftveisinfeksjoner.</p>,<p>det vil vere ein stor gruppe som har symptomer på luftveisinfeksjoner.</p>
+58,<p>norge tester mange for covid-19, og frem til nå har kun om lag 5 prosent av alle de testede fått påvist koronavirus.</p>,<p>noreg tester mange for covid-19, og fram til no har kun om lag 5 prosent av alle dei testede fått påvist koronavirus.</p>
+60,<p>det er med andre ord svært mange med luftveisinfeksjoner hvor symptomene skyldes noe annet enn koronavirussykdom.</p>,<p>det er med andre ord svært mange med luftveisinfeksjoner kor symptomene skyldes noko anna enn koronavirussykdom.</p>
+62,<p>foreløpige funn tyder på at man er mest smittsom tidlig i sykdomsforløpet og raskt blir mindre smittsom når symptomene er borte.</p>,<p>foreløpige funn tyder på at ein er mest smittsom tidlig i sykdomsforløpet og raskt blir mindre smittsom når symptomene er bortet.</p>
+64,<p>derfor er det et generelt råd at hele denne store gruppa skal holde seg hjemme til ett døgn etter at symptomene er borte.</p>,<p>difor er det eit generelt råd at heile denne store gruppa skal halde seg heime til eitt døgn etter at symptomene er bortet.</p>
+66,<p>det er to grupper som skal i karantene:</p>,<p>det er to grupper som skal i karantene:</p>
+67,<p>dersom du har vært på utenlandsreise skal du være i karantene i 14 dager fra den dagen du kom hjem.</p>,<p>dersom du har vore på utenlandsreise skal du vere i karantene i 14 dager frå den dagen du kom heim.</p>
+68,<p>dersom du har hatt nærkontakt med noen som har fått påvist koronavirus skal du være i hjemmekarantene.</p>,<p>dersom du har hatt nærkontakt med nokon som har fått påvist koronavirus skal du vere i hjemmekarantene.</p>
+70,<p>hvem dette gjelder, blir definert av helsetjenesten i samarbeid med den smittede, og du får beskjed dersom dette gjelder deg.</p>,<p>kven dettet gjeld, blir definert av helsetjenesten i samarbeid med den smittede, og du får beskjed dersom dettet gjeld deg.</p>
+72,<p>med nærkontakt menes kontakt med en smittet person med mindre enn to meters avstand i mer enn 15 minutter, eller direkte fysisk kontakt.</p>,<p>med nærkontakt menes kontakt med ein smittet person med mindre enn to meters avstand i meir enn 15 minutter, eller direktet fysisk kontakt.</p>
+74,<p>du skal være i karantene i minst 14 dager fra den dagen kontakten skjedde.</p>,<p>du skal vere i karantene i minst 14 dager frå den dagen kontakten skjedde.</p>
+76,<p>dersom du bor sammen med en person som er isolert med påvist koronavirus, skal du være i karantene fram til den syke ikke lenger er isolert, minst 14 dager etter at karantenen startet.</p>,<p>dersom du bor saman med ein person som er isolert med påvist koronavirus, skal du vere i karantene fram til den syke ikkje lenger er isolert, minst 14 dager etter at karantenen startet.</p>
+78,<p>dersom du testes for koronavirus mens du er i karantene, og denne testen er negativ, skal du fremdeles fullføre karanteneperioden på 14 dager.</p>,<p>dersom du testes for koronavirus mens du er i karantene, og denne testen er negativ, skal du framleis fullføre karanteneperioden på 14 dager.</p>
+80,<p>folkehelseinstituttet oppdaterer informasjon om testing for koronavirus.</p>,<p>folkehelseinstituttet oppdaterer informasjon om testing for koronavirus.</p>
+82,<p>virksomhetsledelsen kan gjøre unntak fra karanteneplikten for personer som er strengt nødvendige for å kunne opprettholde forsvarlig drift av funksjoner knyttet til liv og helse.</p>,<p>virksomhetsledelsen kan gjere unntak frå karanteneplikten for personer som er strengt nødvendige for å kunne opprettholde forsvarlig drift av funksjoner knyttet til liv og helse.</p>
+85,<p>unntaket gjelder ikke i fritiden, kun når de er på jobb eller reiser til og fra jobb med annet enn offentlig transport.</p>,<p>unntaket gjeld ikkje i fritiden, kun når dei er på jobb eller reiser til og frå jobb med anna enn offentleg transport.</p>
+87,<p>de skal så langt som mulig unngå nærkontakt med andre personer.</p>,<p>dei skal så langt som mogeleg unngå nærkontakt med andre personer.</p>
+89,<p>du skal isoleres dersom du har fått påvist koronavirus.</p>,<p>du skal isoleres dersom du har fått påvist koronavirus.</p>
+91,<p>du isoleres i hjemmet, eller eventuelt i helseinstitusjon eller et annet sted ved behov.</p>,<p>du isoleres i hjemmet, eller eventuelt i helseinstitusjon eller eit anna stad ved behov.</p>
+93,<p>hva kan jeg gjøre og ikke gjøre?</p>,<p>kva kan eg gjere og ikkje gjere?</p>
+95,<p>som nevnt, skal alle nå holde mer avstand enn vanlig.</p>,<p>som nevnt, skal alle no halde meir avstand enn vanlig.</p>
+96,<p>det vil si minst én meters avstand på offentlige steder til mennesker du ikke er i familie eller samme husstand med.</p>,<p>det vil seie minst én meters avstand på offentlige steder til mennesker du ikkje er i familie eller samme husstand med.</p>
+97,<p>du kan ta kollektivtransport så lenge du passer på å holde avstand til andre passasjerer.</p>,<p>du kan ta kollektivtransport så lenge du passer på å halde avstand til andre passasjerer.</p>
+99,<p>dersom du har mulighet, benytt hjemmekontor.</p>,<p>dersom du har mulighet, benytt hjemmekontor.</p>
+100,<p>dersom du ikke har hjemmekontor, bør du ha minst to meters avstand til kollegene dine.</p>,<p>dersom du ikkje har hjemmekontor, bør du ha minst to meters avstand til kollegene dine.</p>
+102,<p>det er viktig at vi alle kun gjennomfører helt nødvendige reiser, også innenlands.</p>,<p>det er viktig at vi alle kun gjennomfører heilt nødvendige reiser, også innenlands.</p>
+104,<p>besøk og samvær bør begrenses.</p>,<p>besøk og samvær bør begrenses.</p>
+105,<p>dersom du får besøk bør antall du har nær kontakt med begrenses.</p>,<p>dersom du får besøk bør antall du har nær kontakt med begrenses.</p>
+106,<p>friske barn kan være sammen i små grupper, men det bør tilstrebes å ha faste lekevenner gjennom hele perioden.</p>,<p>friske born kan vere saman i små grupper, men det bør tilstrebes å ha fastet lekevenner gjennom heile perioden.</p>
+107,<p>å leke ute medfører mindre smitterisiko enn å leke inne.</p>,<p>å leke utet medfører mindre smitterisiko enn å leke inne.</p>
+108,<p>utsett større sammenkomster som ikke er nødvendige.</p>,<p>utsett større sammenkomster som ikkje er nødvendige.</p>
+110,<p>dersom du tilhører en risikogruppe, er rådene ekstra viktige for deg.</p>,<p>dersom du tilhører ein risikogruppe, er rådene ekstra viktige for deg.</p>
+112,<p>til slutt, ta vare på hverandre og unngå stigmatisering og utestenging.</p>,<p>til slutt, ta vare på kvarandre og unngå stigmatisering og utestenging.</p>
+114,<p>tenk over om det er noen som kunne trenge en ekstra telefonsamtale i denne perioden.</p>,<p>tenk over om det er nokon som kunne trenge ein ekstra telefonsamtale i denne perioden.</p>
+116,<p>dette er tiden for ekstra omtanke i hverdagen.</p>,<p>dettet er tida for ekstra omtanke i hverdagen.</p>
+118,<p>når du er i hjemmekarantene skal du holde deg mest mulig hjemme.</p>,<p>når du er i hjemmekarantene skal du halde deg mest mogeleg heime.</p>
+119,<p>du skal ikke gå på skole eller jobb, kun hjemmekontor.</p>,<p>du skal ikkje gå på skole eller jobb, kun hjemmekontor.</p>
+120,<p>du skal heller ikke ta lengre reiser innenlands eller utenlands eller ta offentlig transport.</p>,<p>du skal heller ikkje ta lengre reiser innenlands eller utenlands eller ta offentleg transport.</p>
+122,<p>du bør unngå steder hvor det er vanskelig å holde avstand, og du skal som hovedregel ikke oppsøke offentlige steder, slik som butikker, apotek og kafeer.</p>,<p>du bør unngå steder kor det er vanskeleg å halde avstand, og du skal som hovedregel ikkje oppsøke offentlige steder, slik som butikker, apotek og kafeer.</p>
+123,<p>ved mangel på alternativer, kan du gå ut for å gjennomføre nødvendig ærender i butikk eller apotek, men du må sørge for å holde nok avstand (det vil si 1-2 meter) til andre og unngå kø.</p>,<p>ved mangel på alternativer, kan du gå ut for å gjennomføre nødvendig ærender i butikk eller apotek, men du må sørge for å halde nok avstand (det vil seie 1-2 meter) til andre og unngå kø.</p>
+125,<p>du kan gå tur ute, men hold god avstand til andre.</p>,<p>du kan gå tur ute, men hold god avstand til andre.</p>
+127,<p>det er viktig at du følger med på om du utvikler symptomer.</p>,<p>det er viktig at du følger med på om du utvikler symptomer.</p>
+128,<p>dersom du utvikler feber eller luftveissymptomer, skal du holde deg hjemme.</p>,<p>dersom du utvikler feber eller luftveissymptomer, skal du halde deg heime.</p>
+130,<p>barn som er i karantene kan ikke ha lekekamerater utover de som befinner seg i hjemmet.</p>,<p>born som er i karantene kan ikkje ha lekekamerater utover dei som befinner seg i hjemmet.</p>
+132,<p>hovedpoenget er at du ikke skal smitte andre før du selv utvikler symptomer, men det må også være praktisk gjennomførbart.</p>,<p>hovedpoenget er at du ikkje skal smittet andre før du sjå utvikler symptomer, men det må også vere praktisk gjennomførbart.</p>
+134,<p>regjeringen innførte 20.</p>,<p>regjeringa innførtet 20.</p>
+135,<p>mars et forbud mot å overnatte på fritidseiendom utenfor egen kommune.</p>,<p>mars eit forbud mot å overnattet på fritidseiendom utanor eigen kommune.</p>
+136,<p>les mer om dette på regjeringens nettsider.</p>,<p>les meir om dettet på regjeringens nettsider.</p>
+138,<p>det gis unntak for personer i karantene som bor sammen med et hustandsmedlem som er i isolasjon med påvist koronavirus.</p>,<p>det gis unntak for personer i karantene som bor saman med eit hustandsmedlem som er i isolasjon med påvist koronavirus.</p>
+140,<p>personer som er i karantene fordi de bor sammen med en som er bekreftet smittet, kan dermed overnatte på hytta i den perioden den smittede er i isolasjon hjemme.</p>,<p>personer som er i karantene fordi dei bor saman med ein som er bekreftet smittet, kan dermed overnattet på hytta i den perioden den smittede er i isolasjon heime.</p>
+142,<p>den smittede skal bli hjemme, mens de andre personene i husstanden kan overnatte på hytta.</p>,<p>den smittede skal bli heime, mens dei andre personene i husstanden kan overnattet på hytta.</p>
+144,<p>folkehelseinstituttet (fhi) har egne råd til personer i hjemmekarantene.</p>,<p>folkehelseinstituttet (fhi) har eigne råd til personer i hjemmekarantene.</p>
+146,<p>folkehelseinstituttet har oversatt informasjon til personer som må holde seg hjemme til 26 ulike språk.</p>,<p>folkehelseinstituttet har oversatt informasjon til personer som må halde seg heime til 26 ulike språk.</p>
+147,<p>dokumentene finnes her.</p>,<p>dokumentene finst her.</p>
+149,<p>dersom du har fått påvist koronavirus må du isoleres.</p>,<p>dersom du har fått påvist koronavirus må du isoleres.</p>
+151,<p>det betyr at du må holde deg hjemme hele tiden og ikke gå ut.</p>,<p>det betyr at du må halde deg heime heile tida og ikkje gå ut.</p>
+152,<p>du skal helst holde to meters avstand til de du bor sammen med og ha eget rom og bad når dette er mulig.</p>,<p>du skal helst halde to meters avstand til dei du bor saman med og ha eige rom og bad når dettet er mogeleg.</p>
+153,<p>bruk egne baderomsartikler, inkludert eget håndkle.</p>,<p>bruk eigne baderomsartikler, inkludert eige håndkle.</p>
+155,<p>du må være nøye med hånd- og hostehygiene for å unngå å smitte andre i husstanden.</p>,<p>du må vere nøye med hånd- og hostehygiene for å unngå å smittet andre i husstanden.</p>
+156,<p>det er også viktig med hyppig rengjøring av hjemmet, spesielt de stedene som dere ofte tar på.</p>,<p>det er også viktig med hyppig rengjøring av hjemmet, spesielt dei stedene som dere oftet teke på.</p>
+158,<p>de du bor sammen med skal være i karantene.</p>,<p>dei du bor saman med skal vere i karantene.</p>
+160,<p>isolasjonen varer til legen sier at du er smittefri, normalt 7 dager etter at du er helt frisk.</p>,<p>isolasjonen varer til legen seier at du er smittefri, normalt 7 dager etter at du er heilt frisk.</p>
+161,<p>folkehelseinstituttet (fhi) har informasjon om kriteriene for opphevelse av isolasjon.</p>,<p>folkehelseinstituttet (fhi) har informasjon om kriteriene for opphevelse av isolasjon.</p>
+163,<p>folkehelseinstituttet (fhi) har egne råd til personer som isoleres i hjemmet ved koronavirus.</p>,<p>folkehelseinstituttet (fhi) har eigne råd til personer som isoleres i hjemmet ved koronavirus.</p>
+165,<p>å være i hjemmekarantene eller isolasjon kan være en stressende situasjon.</p>,<p>å vere i hjemmekarantene eller isolasjon kan vere ein stressende situasjon.</p>
+167,<p>det er vanlig å bli bekymret, anspent, irritert, rastløs og ha vansker med å konsentrere seg.</p>,<p>det er vanlig å bli bekymret, anspent, irritert, rastløs og ha vansker med å konsentrere seg.</p>
+169,<p>mange blir triste, føler seg ensomme eller sliter med å sove.</p>,<p>mange blir triste, føler seg ensomme eller sliter med å sove.</p>
+170,<p>for de fleste vil imidlertid karantene- og isolasjonsperioden gå fint, og eventuelle psykososiale reaksjoner være forbigående.</p>,<p>for dei flestet vil imidlertid karantene- og isolasjonsperioden gå fint, og eventuelle psykososiale reaksjoner vere forbigående.</p>
+172,<p>når man blir satt i hjemmekarantene eller isolasjon, endrer hverdagen seg for hele familien.</p>,<p>når ein blir satt i hjemmekarantene eller isolasjon, endrer hverdagen seg for heile familien.</p>
+173,<p>man kan ikke gå på jobb, skole, i barnehagen eller møte andre på samme måte som før.</p>,<p>ein kan ikkje gå på jobb, skole, i barnehagen eller møtet andre på samme måtet som før.</p>
+175,<p>det fører ofte til at man er mindre fysisk aktiv, spiser mindre regelmessig, og kanskje sover mye mer eller mindre enn normalt.</p>,<p>det fører oftet til at ein er mindre fysisk aktiv, spiser mindre regelmessig, og kan hende sover mykje meir eller mindre enn normalt.</p>
+176,<p>de fleste har mye skjermtid.</p>,<p>dei flestet har mykje skjermtid.</p>
+178,<p>det kommer mye viktig informasjon og nyttige råd, men overdrevent fokus på nyhetsoppdateringer kan ta for mye plass i hverdagen og bidra til bekymring.</p>,<p>det kome mykje viktig informasjon og nyttige råd, men overdrevent fokus på nyhetsoppdateringer kan ta for mykje plass i hverdagen og bidra til bekymring.</p>
+179,<p>ønsker du å holde deg oppdatert, bruk pålitelige kilder som folkehelseinstituttet og helsenorge sine nettsider.</p>,<p>ønskje du å halde deg oppdatert, bruk pålitelige kilder som folkehelseinstituttet og helsenorge sine nettsider.</p>
+180,<p>i en hjemmesituasjon blir det viktig å skape nye rutiner.</p>,<p>i ein hjemmesituasjon blir det viktig å skape nye rutiner.</p>
+181,<p>prøv å opprettholde en normal døgnrytme.</p>,<p>prøv å opprettholde ein normal døgnrytme.</p>
+182,<p>skole og jobb bidrar for mange til struktur, mening og trygghet i hverdagen.</p>,<p>skole og jobb bidrar for mange til struktur, mening og trygghet i hverdagen.</p>
+183,<p>finn gode måter å gjøre arbeidet ditt på om du jobber hjemmefra.</p>,<p>finn gode måter å gjere arbeidet ditt på om du jobber hjemmefra.</p>
+184,<p>det er også fint å aktivisere seg gjennom hobbyer.</p>,<p>det er også fint å aktivisere seg gjennom hobbyer.</p>
+185,<p>livet i karantene kan lett bli preget av en stillesittende tilværelse innendørs.</p>,<p>livet i karantene kan lett bli sufget av ein stillesittende tilværelse innendørs.</p>
+186,<p>fysisk aktivitet, turer i naturen og dagslys virker positivt inn på psyken og på søvn.</p>,<p>fysisk aktivitet, turer i naturen og dagslys virker positivt inn på psyken og på søvn.</p>
+187,<p>ved uteaktivitet, følg helsemyndighetens anbefalinger.</p>,<p>ved uteaktivitet, følg helsemyndighetens anbefalinger.</p>
+188,<p>selv om du er i hjemmekarantene eller isolasjon, er det muligheter for å snakke med andre gjennom sosiale medier og telefon.</p>,<p>sjå om du er i hjemmekarantene eller isolasjon, er det muligheter for å snakke med andre gjennom sosiale medier og telefon.</p>
+189,<p>lag gjerne faste avtaler om å holde kontakt med for eksempel familie, venner, medelever og kollegaer.</p>,<p>lag gjerne fastet avtaler om å halde kontakt med for døme familie, venner, medelever og kollegaer.</p>
+191,<p>yngre og eldre barn kan ha ulike reaksjoner på å være i hjemmekarantene eller isolasjon.</p>,<p>yngre og eldre born kan ha ulike reaksjoner på å vere i hjemmekarantene eller isolasjon.</p>
+192,<p>noen kan føle seg stresset, trist, redd, sint eller irritert, mens andre ikke har noen vonde følelser knyttet til å være i karantene.</p>,<p>nokon kan føle seg stresset, trist, redd, sint eller irritert, mens andre ikkje har nokon vonde følelser knyttet til å vere i karantene.</p>
+193,<p>noen får vondt i magen, hodet eller deler av kroppen, og man kan lure på om man er syk.</p>,<p>nokon får vondt i magen, hovudet eller deler av kroppen, og ein kan lure på om ein er syk.</p>
+195,<p>man kan også være redd for at foreldre eller søsken er syke.</p>,<p>ein kan også vere redd for at foreldre eller søsken er syke.</p>
+196,<p>alle disse følelsene er vanlige.</p>,<p>alle desse følelsene er vanlige.</p>
+197,<p>og for de aller fleste vil disse reaksjonene gå over.</p>,<p>og for dei aller flestet vil desse reaksjonene gå over.</p>
+198,<p>det kan likevel være utfordrende for hele familien når hverdagen endrer seg på denne måten.</p>,<p>det kan likevel vere utfordrende for heile familien når hverdagen endrer seg på denne måten.</p>
+200,<p>vi vet at det er flere ting som kan være fint å gjøre når man er i en situasjon der man må være i karantene som familie med barn.</p>,<p>vi veit at det er fleire ting som kan vere fint å gjere når ein er i ein situasjon der ein må vere i karantene som familie med born.</p>
+202,<p>barn trenger forståelig informasjon om hvorfor de er i karantene eller isolert, og hva de selv kan gjøre.</p>,<p>born treng forståelig informasjon om korfor dei er i karantene eller isolert, og kva dei sjå kan gjere.</p>
+203,<p>det er viktig at barn får vite at de gjør en innsats for å forhindre at andre blir smittet ved å være i karantene.</p>,<p>det er viktig at born får vete at dei gjør ein innsats for å forhindre at andre blir smittet ved å vere i karantene.</p>
+204,<p>spør hva barna lurer på, og gi tydelige svar.</p>,<p>spør kva barna lurer på, og gi tydelige svar.</p>
+205,<p>husk at barn får med seg mer enn du tror.</p>,<p>husk at born får med seg meir enn du trur.</p>
+206,<p>barn kan også føle skyld for situasjonen, eller bli veldig redde.</p>,<p>born kan også føle skyld for situasjonen, eller bli veldig redde.</p>
+207,<p>ikke vent på at de skal komme og spørre deg.</p>,<p>ikkje vent på at dei skal komme og spørre deg.</p>
+208,<p>spør hva de har fått med seg av informasjon og nyheter, og svar på det de lurer på.</p>,<p>spør kva dei har fått med seg av informasjon og nyheter, og svar på det dei lurer på.</p>
+210,<p>når du er trygg, blir barna trygge.</p>,<p>når du er trygg, blir barna trygge.</p>
+211,<p>når barn er redde, trenger de trøst og omsorg.</p>,<p>når born er redde, treng dei trøst og omsorg.</p>
+212,<p>ta noen dype pust og finn din egen trygghet.</p>,<p>ta nokon dype pust og finn din eigen trygghet.</p>
+213,<p>skap trygghet ved å anerkjenne barnets følelser, og hjelp barnet å håndtere alle følelser.</p>,<p>skap trygghet ved å anerkjenne barnets følelser, og hjelp barnet å håndtere alle følelser.</p>
+214,<p>de kan trenge at voksne er litt ekstra tålmodighet i denne fasen.</p>,<p>dei kan trenge at voksne er litt ekstra tålmodighet i denne fasen.</p>
+216,<p>selv om man ikke kan gå i barnehagen eller på skolen, er det lurt å ha faste aktiviteter hver dag – som å stå opp og legge seg til vanlig tid, være fysisk aktiv og gjøre skolearbeid.</p>,<p>sjå om ein ikkje kan gå i barnehagen eller på skulen, er det lurt å ha fastet aktiviteter hver dag – som å stå opp og leggje seg til vanlig tid, vere fysisk aktiv og gjere skolearbeid.</p>
+217,<p>sunne, regelmessige måltider, søvn og fysisk aktivitet senker stress i kroppen både hos barn og voksne.</p>,<p>sunne, regelmessige måltider, søvn og fysisk aktivitet senker stress i kroppen både hos born og voksne.</p>
+218,<p>leggerutiner kan forstyrres når barn er redde og/eller syke.</p>,<p>leggerutiner kan forstyrres når born er redde og/eller syke.</p>
+219,<p>ha faste trygge leggerutiner.</p>,<p>ha fastet trygge leggerutiner.</p>
+220,<p>unngå at barna sitter for mye alene med telefon og nettbrett.</p>,<p>unngå at barna sit for mykje aleine med telefon og nettbrett.</p>
+221,<p>det er lurt å legge unna skjerm og telefon en time før leggetid.</p>,<p>det er lurt å leggje unna skjerm og telefon ein time før leggetid.</p>
+222,<p>det er vanlig at barn våkner i løpet av natten og kommer inn til foreldre.</p>,<p>det er vanlig at born våkner i laupet av natten og kome inn til foreldre.</p>
+223,<p>det går over.</p>,<p>det går over.</p>
+225,<p>ha kontakt med venner og familie på sosiale medier og telefon.</p>,<p>ha kontakt med venner og familie på sosiale medier og telefon.</p>
+226,<p>det er både støttende, oppmuntrende og senker stress.</p>,<p>det er både støttende, oppmuntrende og senker stress.</p>
+228,<p>gjør ting du og familien din liker å gjøre som å se film, lese bøker, høre på musikk eller lydbok.</p>,<p>gjør ting du og familien din liker å gjere som å se film, lese bøker, høyre på musikk eller lydbok.</p>
+229,<p>familietid kan være positivt, men respekter også at barn kan trenge tid alene.</p>,<p>familietid kan vere positivt, men respekter også at born kan trenge tid aleine.</p>
+231,<p>koronavirus smitter gjennom det som kalles dråpesmitte.</p>,<p>koronavirus smitter gjennom det som kalles dråpesmittet.</p>
+232,<p>koronavirus finnes i små dråper som kommer ut gjennom munnen og nesen når en person som er smittet hoster eller nyser.</p>,<p>koronavirus finst i små dråper som kjem ut gjennom munnen og nesen når ein person som er smittet hoster eller nyser.</p>
+233,<p>den vanligste smittemåten er at du puster inn dråper med smitte som svever i lufta eller at du får virus på hendene og får det i deg hvis du tar deg i ansiktet.</p>,<p>den vanligstet smittemåten er at du puster inn dråper med smittet som svever i lufta eller at du får virus på hendene og får det i deg dersom du teke deg i ansiktet.</p>
+235,<p>inkubasjonstid vil si tiden fra man er smittet til sykdommen gir symptomer.</p>,<p>inkubasjonstid vil seie tida frå ein er smittet til sykdommen gjev symptomer.</p>
+236,<p>verdens helseorganisasjon har anslått inkubasjonstiden for koronavirus til å være 5–6 dager, men den kan variere fra null til 14 dager.</p>,<p>verdens helseorganisasjon har anslått inkubasjonstiden for koronavirus til å vere 5–6 dager, men den kan variere frå null til 14 dager.</p>
+238,<p>symptomene ligner de man ser ved forkjølelse og influensa.</p>,<p>symptomene ligner dei ein ser ved forkjølelse og influensa.</p>
+240,<p>de som blir syke, får vanligvis først vondt i halsen, forkjølelse og lett hoste i tillegg til sykdomsfølelse og muskelsmerter.</p>,<p>dei som blir syke, får vanligvis først vondt i halsen, forkjølelse og lett hostet i tillegg til sykdomsfølelse og muskelsmerter.</p>
+241,<p>noen får diare, men det er ikke vanlig.</p>,<p>nokon får diare, men det er ikkje vanlig.</p>
+243,<p>sykdomsforløp kan variere mye mellom personer.</p>,<p>sykdomsforløp kan variere mykje mellom personer.</p>
+246,<p>informasjon om risikofaktorer for alvorlig sykdom er foreløpig begrenset.</p>,<p>informasjon om risikofaktorer for alvorlig sykdom er foreløpig begrenset.</p>
+247,<p>innleggelse, intensivbehandling og dødsfall er vanligere hos eldre og personer med underliggende sykdommer.</p>,<p>innleggelse, intensivbehandling og dødsfall er vanligere hos eldre og personer med underliggende sykdommer.</p>
+248,<p>særlig eldre med underliggende sykdom er utsatt, men alvorlig sykdom kan også forekomme hos personer uten kjente risikofaktorer.</p>,<p>særlig eldre med underliggende sykdom er utsatt, men alvorlig sykdom kan også forekomme hos personer utan kjentet risikofaktorer.</p>
+250,<p>det finnes ingen spesifikk behandling eller vaksine mot sykdommen.</p>,<p>det finst ingen spesifikk behandling eller vaksine mot sykdommen.</p>
+252,<p>mange nordmenn er plaget med pollenallergi i vårmånedene, og symptomene kan være ganske like symptomer på koronavirus, slik som tett eller rennende nese, nysing, rennende eller kløende øyne og hos noen astmatisk besvær.</p>,<p>mange nordmenn er plaget med pollenallergi i vårmånedene, og symptomene kan vere ganske like symptomer på koronavirus, slik som tett eller rennende nese, nysing, rennende eller kløende øyne og hos nokon astmatisk besvær.</p>
+253,<p>pollenallergi gir derimot ikke vondt i halsen, kroppsverk eller feber slik som koronavirus kan.</p>,<p>pollenallergi gjev derimot ikkje vondt i halsen, kroppsverk eller feber slik som koronavirus kan.</p>
+256,<p>har du symptomer som kan skyldes koronavirus?</p>,<p>har du symptomer som kan skyldes koronavirus?</p>
+257,<p>her kan du melde fra til folkehelseinstituttet (fhi).</p>,<p>her kan du melde frå til folkehelseinstituttet (fhi).</p>
+259,<p>du kan melde fra på vegne av deg selv, ditt barn under 16 år, eller for en som har gitt deg fullmakt på helsenorge.</p>,<p>du kan melde frå på vegne av deg sjå, ditt born under 16 år, eller for ein som har gjeve deg fullmakt på helsenorge.</p>
+261,<p>du får ikke kontakt med lege eller helsevesen, og du får ikke varslet personer du har vært nær gjennom denne løsningen.</p>,<p>du får ikkje kontakt med lege eller helsevesen, og du får ikkje varslet personer du har vore nær gjennom denne løsningen.</p>
+262,<p>men du hjelper folkehelseinstituttet med å kartlegge hvor mange som kan være syke med koronavirus i norge.</p>,<p>men du hjelper folkehelseinstituttet med å kartlegge kor mange som kan vere syke med koronavirus i noreg.</p>
+264,<p>folkehelseinstituttet publiserer oppdaterte tall, blant annet fra denne løsningen, på fhi.no fremover.</p>,<p>folkehelseinstituttet publiserer oppdatertet tall, blant anna frå denne løsningen, på fhi.no fremover.</p>
+265,<p>opplysningene kan også være aktuelle for fremtidig forskning.</p>,<p>opplysningene kan også vere aktuelle for fremtidig forskning.</p>
+267,<p>ved å melde fra, hjelper du folkehelseinstituttet med å kartlegge hvor mange som kan være syke med koronavirus i norge.</p>,<p>ved å melde frå, hjelper du folkehelseinstituttet med å kartlegge kor mange som kan vere syke med koronavirus i noreg.</p>
+268,<p>takk for hjelpen!</p>,<p>takk for hjelpen!</p>
+270,<p>det er vedtatt omfattende tiltak for å hindre spredning av koronaviruset og for å bidra til å opprettholde nødvendige helse- og omsorgstjenester.</p>,<p>det er vedtatt omfattende tiltak for å hindre spredning av koronaviruset og for å bidra til å opprettholde nødvendige helse- og omsorgstjenester.</p>
+272,<p>mars informerte regjeringen om innskjerpinger i anbefalingene og at de omfattende tiltakene i første omgang vil vare fram til 13.</p>,<p>mars informertet regjeringa om innskjerpinger i anbefalingene og at dei omfattende tiltakene i fyrste omgang vil vare fram til 13.</p>
+273,<p>april 2020.</p>,<p>april 2020.</p>
+274,<p>tiltakene kan bli forlenget etter dette.</p>,<p>tiltakene kan bli forlenget etter dettet.</p>
+276,<p>når vi er ute, bør vi ikke være mer enn fem personer i samme gruppe.</p>,<p>når vi er ute, bør vi ikkje vere meir enn fem personer i samme gruppe.</p>
+277,<p>det gjelder ikke dem som er i familie eller i samme husstand.</p>,<p>det gjeld ikkje dei som er i familie eller i samme husstand.</p>
+279,<p>når vi er innendørs på arbeidsplassen, bør vi ha minst to meters avstand til hverandre.</p>,<p>når vi er innendørs på arbeidsplassen, bør vi ha minst to meters avstand til kvarandre.</p>
+280,<p>det gjelder ikke når vi er innendørs med familie eller personer i samme husstand.</p>,<p>det gjeld ikkje når vi er innendørs med familie eller personer i samme husstand.</p>
+282,<p>i det offentlige rom bør vi holde minst en meters avstand til andre mennesker.</p>,<p>i det offentlige rom bør vi halde minst ein meters avstand til andre mennesker.</p>
+284,<p>disse tiltakene som regjeringen har innført gjelder fra 27.</p>,<p>desse tiltakene som regjeringa har innført gjeld frå 27.</p>
+285,<p>mars, men vi anbefaler å følge dem allerede fra 24.</p>,<p>mars, men vi anbefaler å følgje dei allereie frå 24.</p>
+286,<p>mars 2020.</p>,<p>mars 2020.</p>
+288,<p>helsedirektoratet har vedtatt at helsepersonell som jobber med pasientbehandling forbys å reise til utlandet.</p>,<p>helsedirektoratet har vedtatt at helsepersonell som jobber med pasientbehandling forbys å reise til utlandet.</p>
+289,<p>forbudet gjelder både tjenestereiser og privatreiser.</p>,<p>forbudet gjeld både tjenestereiser og privatreiser.</p>
+290,<p>kostnader vil bli kompensert.</p>,<p>kostnader vil bli kompensert.</p>
+292,<p>unngå reiser som ikke er strengt nødvendig, unngå offentlig transport hvis du kan, og andre steder hvor du lett kommer nær andre.</p>,<p>unngå reiser som ikkje er strengt nødvendig, unngå offentleg transport dersom du kan, og andre steder kor du lett kjem nær andre.</p>
+294,<p>regjeringen innførte 20.</p>,<p>regjeringa innførtet 20.</p>
+295,<p>mars et forbud mot å overnatte på fritidseiendom utenfor egen kommune.</p>,<p>mars eit forbud mot å overnattet på fritidseiendom utanor eigen kommune.</p>
+296,<p>les mer om hytteforbudet på regjeringens nettsider.</p>,<p>les meir om hytteforbudet på regjeringens nettsider.</p>
+298,<p>det gis unntak for personer som bor sammen med et hustandsmedlem som er i isolasjon med påvist koronavirus.</p>,<p>det gis unntak for personer som bor saman med eit hustandsmedlem som er i isolasjon med påvist koronavirus.</p>
+300,<p>personer som er i karantene fordi de bor sammen med en som er bekreftet smittet, kan dermed overnatte på hytta i den perioden den smittede er i isolasjon hjemme.</p>,<p>personer som er i karantene fordi dei bor saman med ein som er bekreftet smittet, kan dermed overnattet på hytta i den perioden den smittede er i isolasjon heime.</p>
+301,<p>den smittede skal bli hjemme, mens de andre personene i husstanden kan overnatte på hytta.</p>,<p>den smittede skal bli heime, mens dei andre personene i husstanden kan overnattet på hytta.</p>
+303,<p>alle utenlandsreiser som ikke er strengt nødvendig frarådes.</p>,<p>alle utenlandsreiser som ikkje er strengt nødvendig frarådes.</p>
+304,<p>det er regler for karantene for alle som kommer fra reiser i utlandet.</p>,<p>det er regler for karantene for alle som kjem frå reiser i utlandet.</p>
+306,<p>​helsemyndighetene anbefaler hjemmekontor hvis det er mulig, og dette avklares med arbeidsgiveren.</p>,<p>​helsemyndighetene anbefaler hjemmekontor dersom det er mogeleg, og dettet avklares med arbeidsgiveren.</p>
+308,<p>kollektivtransporttilbudet opprettholdes.</p>,<p>kollektivtransporttilbudet opprettholdes.</p>
+309,<p>grunnen til dette er at folk med kritiske samfunnsfunksjoner skal komme seg til og fra jobb og kunne holde avstand til hverandre.</p>,<p>grunnen til dettet er at folk med kritiske samfunnsfunksjoner skal komme seg til og frå jobb og kunne halde avstand til kvarandre.</p>
+311,<p>helsedirektoratet anmoder om å ikke besøke personer i institusjoner med sårbare grupper (eldre, psykiatri, fengsel osv).</p>,<p>helsedirektoratet anmoder om å ikkje besøke personer i institusjoner med sårbare grupper (eldre, psykiatri, fengsel osv).</p>
+313,<p>det innføres restriksjoner for besøkende til alle landets helseinstitusjoner og innføring av adgangskontroll for å ivareta smittevern for pasienter i landets helseinstitusjoner.</p>,<p>det innføres restriksjoner for besøkende til alle landets helseinstitusjoner og innføring av adgangskontroll for å ivareta smittevern for pasienter i landets helseinstitusjoner.</p>
+314,<p>personer som har risiko for å være smittet skal avvises fra alle landets helseinstitusjoner.</p>,<p>personer som har risiko for å vere smittet skal avvises frå alle landets helseinstitusjoner.</p>
+315,<p>helsedirektoratet vil gi råd til helsetjenesten om dette.</p>,<p>helsedirektoratet vil gi råd til helsetjenesten om dettet.</p>
+317,<p>alle landets barnehager og skoler stenges.</p>,<p>alle landets barnehager og skoler stenges.</p>
+318,<p>dette for å hindre smittespredning og bidra til å opprettholde nødvendige helse- og omsorgstjenester.</p>,<p>dettet for å hindre smittespredning og bidra til å opprettholde nødvendige helse- og omsorgstjenester.</p>
+320,<p>stengingen gjelder fra torsdag 12.</p>,<p>stengingen gjeld frå torsdag 12.</p>
+321,<p>mars klokken 18:00.</p>,<p>mars klokken 18:00.</p>
+322,<p>regjeringen har bestemt at alle landets barnehager og skoler fortsatt skal være stengt til og med 13.</p>,<p>regjeringa har bestemt at alle landets barnehager og skoler framleis skal vere stengt til og med 13.</p>
+323,<p>april.</p>,<p>april.</p>
+324,<p>perioden kan bli forlenget.</p>,<p>perioden kan bli forlenget.</p>
+326,<p>det er viktig å opprettholde virksomheten i helse- og omsorgstjenester og andre kritiske samfunnsfunksjoner, og å unngå at personer i risikogrupper brukes til barnevakt.</p>,<p>det er viktig å opprettholde virksomheten i helse- og omsorgstjenester og andre kritiske samfunnsfunksjoner, og å unngå at personer i risikogrupper brukes til barnevakt.</p>
+328,<p>derfor må det lokalt sørges for et tilbud til barn av personell i helse- og omsorgstjenesten, transportsektoren eller innen andre kritiske samfunnsfunksjoner.</p>,<p>difor må det lokalt sørges for eit tilbud til born av personell i helse- og omsorgstjenesten, transportsektoren eller innen andre kritiske samfunnsfunksjoner.</p>
+329,<p>det samme gjelder for barn med særlige omsorgsbehov som ikke kan ivaretas når barnehage, skole eller andre dagtilbud er stengt.</p>,<p>det samme gjeld for born med særlige omsorgsbehov som ikkje kan ivaretas når barnehage, skole eller andre dagtilbud er stengt.</p>
+331,<p>den enkelte skole og barnehage må gjøre konkrete og individuelle vurderinger om hvem som bør få dette tilbudet.</p>,<p>den enkeltet skole og barnehage må gjere konkretet og individuelle vurderinger om kven som bør få dettet tilbudet.</p>
+332,<p>les mer om dette på utdanningsdirektoratets sider.</p>,<p>les meir om dettet på utdanningsdirektoratets sider.</p>
+334,<p>råd til foreldre om lek og hvordan mestre hverdagen, hvordan snakke med barna om korona og hvordan ta vare på barn og unges psykiske helse.</p>,<p>råd til foreldre om lek og korleis mestre hverdagen, korleis snakke med barna om korona og korleis ta vare på born og unges psykiske helse.</p>
+336,<p>barn ser ut til å tåle sykdom med koronavirus bedre enn eldre.</p>,<p>born ser ut til å tåle sykdom med koronavirus betre enn eldre.</p>
+337,<p>men barn kan smitte andre.</p>,<p>men born kan smittet andre.</p>
+339,<p>alle skal holde mer avstand enn vanlig.</p>,<p>alle skal halde meir avstand enn vanlig.</p>
+340,<p>man kan omgås søsken som normalt, dette gjelder også barn fra skilte familier som har flere hjem.</p>,<p>ein kan omgås søsken som normalt, dettet gjeld også born frå skiltet familier som har fleire heim.</p>
+341,<p>hovedmålsettingen er likevel å redusere antall kontakter til et så lavt nivå som mulig.</p>,<p>hovedmålsettingen er likevel å redusere antall kontakter til eit så lavt nivå som mogeleg.</p>
+342,<p>for å ivareta barns behov for lek med andre barn kan man ha 1-2 faste lekevenner og holde seg til de samme lekevennene gjennom denne perioden.</p>,<p>for å ivareta barns behov for lek med andre born kan ein ha 1-2 fastet lekevenner og halde seg til dei samme lekevennene gjennom denne perioden.</p>
+343,<p>det gjelder også for ungdom.</p>,<p>det gjeld også for ungdom.</p>
+346,<p>barn og ungdommer med symptomer på luftveisinfeksjon holdes hjemme og bør ikke være sammen med andre barn og ungdommer utenfor familien.</p>,<p>born og ungdommer med symptomer på luftveisinfeksjon holdes heime og bør ikkje vere saman med andre born og ungdommer utanor familien.</p>
+347,<p>dette gjelder også ved milde symptomer.</p>,<p>dettet gjeld også ved milde symptomer.</p>
+349,<p>barn og ungdom som er i hjemmeisolasjon eller hjemmekarantene skal ikke omgås barn og ungdom utenfor husstanden.</p>,<p>born og ungdom som er i hjemmeisolasjon eller hjemmekarantene skal ikkje omgås born og ungdom utanor husstanden.</p>
+351,<p>det er fare for at noen barn kan bli stående uten lekekamerater i denne perioden.</p>,<p>det er fare for at nokon born kan bli stående utan lekekamerater i denne perioden.</p>
+352,<p>foreldre kan hjelpe til med å passe på at barna holder kontakt med hverandre på andre måter, gjennom telefon, videosamtaler og lignende.</p>,<p>foreldre kan hjelpe til med å passe på at barna holder kontakt med kvarandre på andre måter, gjennom telefon, videosamtaler og lignende.</p>
+354,<p>noen barn og unge har det vanskelig hjemme.</p>,<p>nokon born og unge har det vanskeleg heime.</p>
+355,<p>barnehagen og skolen kan være et spesielt viktig sted for disse barna hvor de til vanlig har kontakt med andre barn, ungdom og voksne.</p>,<p>barnehagen og skulen kan vere eit spesielt viktig stad for desse barna kor dei til vanlig har kontakt med andre born, ungdom og voksne.</p>
+358,<p>det er unntak for stenging av barnehage og skole for barn med særskilte omsorgsbehov.</p>,<p>det er unntak for stenging av barnehage og skole for born med særskiltet omsorgsbehov.</p>
+359,<p>derfor må den enkelte skole og barnehage gjøre konkrete og individuelle vurderinger om hvem som bør få dette tilbudet.</p>,<p>difor må den enkeltet skole og barnehage gjere konkretet og individuelle vurderinger om kven som bør få dettet tilbudet.</p>
+360,<p>les mer om dette på utdanningsdirektoratets sider.</p>,<p>les meir om dettet på utdanningsdirektoratets sider.</p>
+362,<p>helsedirektoratet arbeider med å nedsette en ekspertgruppe fra ulike fagmiljøer som skal jobbe med tiltak knyttet til psykisk og sosial oppfølging av barn og unge under og etter koronapandemien.</p>,<p>helsedirektoratet arbeider med å nedsettet ein ekspertgruppe frå ulike fagmiljøer som skal jobbe med tiltak knyttet til psykisk og sosial oppfølging av born og unge under og etter koronapandemien.</p>
+364,<p>nå som skoler og barnehager holdes stengt vet vi at noen barn og unge må tilbringe mer tid sammen med voksne som ikke er trygge for dem.</p>,<p>no som skoler og barnehager holdes stengt veit vi at nokon born og unge må tilbringe meir tid saman med voksne som ikkje er trygge for dei.</p>
+365,<p>mistenker du at et barn ikke har det bra?</p>,<p>mistenker du at eit born ikkje har det bra?</p>
+366,<p>alarmtelefonen til barnevernet er for deg som er utsatt for vold, overgrep eller omsorgssvikt, eller om du er bekymret for en du kjenner.</p>,<p>alarmtelefonen til barnevernet er for deg som er utsatt for vold, overgrep eller omsorgssvikt, eller om du er bekymret for ein du kjennar.</p>
+367,<p>denne er nå åpen hele døgnet alle dager i uken.</p>,<p>denne er no åpen heile døgnet alle dager i uken.</p>
+368,<p>ring 116 111 så vil de hjelpe deg.</p>,<p>ring 116 111 så vil dei hjelpe deg.</p>
+370,<p>se flere tjenester for barn og unge som trenger noen å snakke med.</p>,<p>se fleire tjenester for born og unge som treng nokon å snakke med.</p>
+372,<p>det er viktig å snakke med barn og unge for å unngå frykt og for å skape trygghet nå som dagene er så annerledes.</p>,<p>det er viktig å snakke med born og unge for å unngå frykt og for å skape trygghet no som dagene er så annerledes.</p>
+374,<p>barn og unge søker ofte informasjon på internett.</p>,<p>born og unge søker oftet informasjon på internett.</p>
+375,<p>sjekk barnas internettbruk.</p>,<p>sjekk barnas internettbruk.</p>
+376,<p>spør gjerne om de har lest noe om koronaviruset på nettet i dag.</p>,<p>spør gjerne om dei har lest noko om koronaviruset på nettet i dag.</p>
+378,<p>ungdom og tenåringer snakker ofte mest med jevnaldrende og kan få mye informasjon som ikke er riktig.</p>,<p>ungdom og tenåringer snakker oftet mest med jevnaldrende og kan få mykje informasjon som ikkje er riktig.</p>
+379,<p>legg til rette for at de kan snakke med deg.</p>,<p>legg til rettet for at dei kan snakke med deg.</p>
+380,<p>ikke glem at også ungdommer kan være engstelig og ha behov for å snakke med en voksen.</p>,<p>ikkje glem at også ungdommer kan vere engstelig og ha behov for å snakke med ein voksen.</p>
+382,<p>denne filmen er laget for barn og unge.</p>,<p>denne filmen er laget for born og unge.</p>
+383,<p>man kan velge undertekster på en rekke språk ved å klikke på det lille hjulet i bunnlinjen.</p>,<p>ein kan velge undertekster på ein rekkje språk ved å klikke på det vesle hjulet i bunnlinjen.</p>
+385,<p>skoler og barnehager er stengt fordi alle må bidra til å begrense spredning av korona-epidemien.</p>,<p>skoler og barnehager er stengt fordi alle må bidra til å begrense spredning av korona-epidemien.</p>
+386,<p>det skaper bekymring og er stressende for mange familier.</p>,<p>det skaper bekymring og er stressende for mange familier.</p>
+387,<p>her er noen råd som kan være til hjelp for å mestre den nye hverdagen.</p>,<p>her er nokon råd som kan vere til hjelp for å mestre den nye hverdagen.</p>
+389,<p>det er lurt å opprettholde normale rutiner for måltider og leggetider.</p>,<p>det er lurt å opprettholde normale rutiner for måltider og leggetider.</p>
+391,<p>i løpet av det som er vanlig skoletid, anbefales det at barna gjør skolearbeid, tegner, leser eller lytter til bøker, og sørger for å være ute i frisk luft uten å være tett på andre.</p>,<p>i laupet av det som er vanlig skoletid, anbefales det at barna gjør skolearbeid, tegner, leser eller lytter til bøker, og sørger for å vere utet i frisk luft utan å vere tett på andre.</p>
+392,<p>fokuser på positive ting familien kan gjøre sammen – slik som å se film, høre på musikk, lese sammen, gå en tur eller spille spill.</p>,<p>fokuser på positive ting familien kan gjere saman – slik som å se film, høyre på musikk, lese saman, gå ein tur eller spille spill.</p>
+393,<p>pass på at dere samles rundt felles måltider.</p>,<p>pass på at dere samles rundt felles måltider.</p>
+394,<p>husk at du er en rollemodell for barna.</p>,<p>husk at du er ein rollemodell for barna.</p>
+395,<p>hvordan du håndterer stress, hvordan dere voksne snakker om sitasjonen, og hvordan dere reagerer, påvirker barna.</p>,<p>korleis du håndterer stress, korleis dere voksne snakker om sitasjonen, og korleis dere reagerer, påvirker barna.</p>
+396,<p>følelser som redsel, panikk, tristhet og ensomhet er normale reaksjoner i slike spesielle situasjoner.</p>,<p>følelser som redsel, panikk, tristhet og ensomhet er normale reaksjoner i slike spesielle situasjoner.</p>
+397,<p>barn er sensitive for voksnes følelser, og det er bedre å være åpen om følelsene sine enn å skjule dem.</p>,<p>born er sensitive for voksnes følelser, og det er betre å vere åpen om følelsene sine enn å skjule dei.</p>
+398,<p>barn reagerer på forskjellige måter.</p>,<p>born reagerer på forskjellige måter.</p>
+399,<p>noen kan virke uberørt når du snakker med dem, men vise bekymring senere.</p>,<p>nokon kan virke uberørt når du snakker med dei, men vise bekymring seinare.</p>
+400,<p>vær særlig oppmerksom på kvelden og natten.</p>,<p>vær særlig oppmerksom på kvelden og natten.</p>
+401,<p>mange barn blir ekstra engstelige da.</p>,<p>mange born blir ekstra engstelige då.</p>
+402,<p>det er viktig å holde seg orientert, men det kan være lurt å begrense bruken av sosiale media og lignende hvis det fører til økt stress og unødig redsel.</p>,<p>det er viktig å halde seg orientert, men det kan vere lurt å begrense bruken av sosiale media og lignende dersom det fører til økt stress og unødig redsel.</p>
+403,<p>søk støtte hos andre.</p>,<p>søk støttet hos andre.</p>
+404,<p>ikke vær redd for å be om hjelp.</p>,<p>ikkje vær redd for å be om hjelp.</p>
+406,<p>her finner du svar på de vanligste spørsmålene gravide og ammende har om koronaviruset.</p>,<p>her finn (v) du svar på dei vanligstet spørsmålene gravide og ammende har om koronaviruset.</p>
+408,<p>gravide kan ha økt risiko for alvorligere forløp av enkelte virusinfeksjoner hvis de blir smittet, som for eksempel influensa.</p>,<p>gravide kan ha økt risiko for alvorligere forløp av enkeltet virusinfeksjoner dersom dei blir smittet, som for døme influensa.</p>
+409,<p>vi vet ikke om dette også gjelder for koronavirussykdom.</p>,<p>vi veit ikkje om dettet også gjeld for koronavirussykdom.</p>
+410,<p>for å beskytte deg og andre, tar helsevesenet mange forhåndsregler med å redusere smitterisiko og sykdom.</p>,<p>for å beskyttet deg og andre, teke helsevesenet mange forhåndsregler med å redusere smitterisiko og sykdom.</p>
+411,<p>basert på erfaringen vi har så langt om korona på verdensbasis, ser ut til at gravide tåler koronaviruset godt.</p>,<p>basert på erfaringen vi har så langt om korona på verdensbasis, ser ut til at gravide tåler koronaviruset godt.</p>
+412,<p>gravide er ikke særlig utsatt for alvorlig koronavirussykdom.</p>,<p>gravide er ikkje særlig utsatt for alvorlig koronavirussykdom.</p>
+414,<p>for å forebygge smitte bør du følge samme råd som befolkningen for øvrig, slik som god håndhygiene og begrense kontakt med andre utenom familien.</p>,<p>for å forebygge smittet bør du følgje samme råd som befolkningen for øvrig, slik som god håndhygiene og begrense kontakt med andre utenom familien.</p>
+415,<p>er du i 2.</p>,<p>er du i 2.</p>
+417,<p>trimester, eller i 1.</p>,<p>trimester, eller i 1.</p>
+418,<p>trimester og har risikofaktorer, anbefales sesonginfluensavaksine.</p>,<p>trimester og har risikofaktorer, anbefales sesonginfluensavaksine.</p>
+419,<p>dette gjelder uavhengig av koronavirusinfeksjon.</p>,<p>dettet gjeld uavhengig av koronavirusinfeksjon.</p>
+421,<p>dersom du har kronisk sykdom eller svangerskapskomplikasjoner bør du diskutere med din lege om det er grunn til å utvise ekstra forsiktighet og behov for tilrettelegging på arbeidsplassen.</p>,<p>dersom du har kronisk sykdom eller svangerskapskomplikasjoner bør du diskutere med din lege om det er grunn til å utvise ekstra forsiktighet og behov for tilrettelegging på arbeidsplassen.</p>
+422,<p>du trenger ikke sykemelding med mindre det ikke er mulig å tilrettelegge din arbeidssituasjon.</p>,<p>du treng ikkje sykemelding med mindre det ikkje er mogeleg å tilrettelegge din arbeidssituasjon.</p>
+423,<p>jobber du som helsepersonell og er gravid, bør du ut fra et føre-var-prinsipp, avklare med din arbeidsgiver at det tilrettelegges for at annet helsepersonell tar prøver av og behandler personer med mulig koronavirussykdom (covid-19-sykdom), så langt det er mulig.</p>,<p>jobber du som helsepersonell og er gravid, bør du ut frå eit føre-var-prinsipp, avklare med din arbeidsgiver at det tilrettelegges for at anna helsepersonell teke prøver av og behandler personer med mogeleg koronavirussykdom (covid-19-sykdom), så langt det er mogeleg.</p>
+425,<p>vi vet ikke sikkert om koronaviruset kan smitte fra mor til barn før eller under fødsel.</p>,<p>vi veit ikkje sikkert om koronaviruset kan smittet frå mor til born før eller under fødsel.</p>
+426,<p>foreløpig ser det ut som du ikke trenger å bekymre deg.</p>,<p>foreløpig ser det ut som du ikkje treng å bekymre deg.</p>
+427,<p>ut ifra kunnskapen vi har så langt, er det ikke påvist smitte via morkaken og det er heller ikke bekreftet at barnet smittes under fødselen.</p>,<p>ut ifra kunnskapen vi har så langt, er det ikkje påvist smittet via morkaken og det er heller ikkje bekreftet at barnet smittes under fødselen.</p>
+428,<p>det betyr at du kan føde på vanlig måte.</p>,<p>det betyr at du kan føde på vanlig måtet.</p>
+430,<p>vi anbefaler deg å følge vanlige svangerskapskonsultasjoner hos jordmor/lege.</p>,<p>vi anbefaler deg å følgje vanlige svangerskapskonsultasjoner hos jordmor/lege.</p>
+431,<p>helsetjenesten er nå i en krevende situasjon, som kan medføre midlertidige endringer på din ordinære avtaler.</p>,<p>helsetjenesten er no i ein krevende situasjon, som kan medføre midlertidige endringer på din ordinære avtaler.</p>
+432,<p>du anbefales å kontakte jordmor/lege som vanligvis gjennomfører svangerskapskontrollene dine, for å få informasjon og råd om hvordan du skal forholde deg.</p>,<p>du anbefales å kontaktet jordmor/lege som vanligvis gjennomfører svangerskapskontrollene dine, for å få informasjon og råd om korleis du skal forholde deg.</p>
+434,<p>har du symptomer på luftveisinfeksjon, eller en mistanke om at du er smittet av koronavirus, er det viktig at du kontakter helsetjenesten i forkant av avtalte kontroller for å avklare hvordan disse kan gjennomføres.</p>,<p>har du symptomer på luftveisinfeksjon, eller ein mistanke om at du er smittet av koronavirus, er det viktig at du kontakter helsetjenesten i forkant av avtaltet kontroller for å avklare korleis desse kan gjennomføres.</p>
+435,<p>vanlige symptomer på koronavirus er hoste, feber og kortpustethet.</p>,<p>vanlige symptomer på koronavirus er hoste, feber og kortpustethet.</p>
+436,<p>er du bekymret for din egen helse eller barnet i magen, skal du ta kontakt med din lege/jordmor med en gang.</p>,<p>er du bekymret for din eigen helse eller barnet i magen, skal du ta kontakt med din lege/jordmor med ein gong.</p>
+438,<p>er du ikke syk eller smittet går fødsler som normalt.</p>,<p>er du ikkje syk eller smittet går fødsler som normalt.</p>
+440,<p>dersom du får påvist koronavirus like før eller under fødsel, vil du få eget rom, personalet vil bruke smittebekledning og det kan være aktuelt også for deg å bruke munnbind.</p>,<p>dersom du får påvist koronavirus like før eller under fødsel, vil du få eige rom, personalet vil bruke smittebekledning og det kan vere aktuelt også for deg å bruke munnbind.</p>
+441,<p>du kan være sammen med barnet ditt etter fødselen med mindre du er alvorlig syk, eller barnet ditt er svært prematurt eller sykt.</p>,<p>du kan vere saman med barnet ditt etter fødselen med mindre du er alvorlig syk, eller barnet ditt er svært sufmaturt eller sykt.</p>
+442,<p>føde- og nyfødtavdelingene i norge er beredt til å håndtere både deg og barnet ditt og har utarbeidet gode rutiner hvordan de best skal hjelpe.</p>,<p>føde- og nyfødtavdelingene i noreg er beredt til å håndtere både deg og barnet ditt og har utarbeidet gode rutiner korleis dei best skal hjelpe.</p>
+444,<p>for å redusere risiko for deg, barnet ditt, og for andre fødende, nyfødte og for personell som trenger å være på jobb, har føde- og barselavdelingene på sykehusene innført restriksjoner på besøk.</p>,<p>for å redusere risiko for deg, barnet ditt, og for andre fødende, nyfødtet og for personell som treng å vere på jobb, har føde- og barselavdelingene på sykehusene innført restriksjoner på besøk.</p>
+445,<p>det kan også være restriksjoner for ledsager.</p>,<p>det kan også vere restriksjoner for ledsager.</p>
+446,<p>dere bør gå inn på ditt sykehus sine hjemmesider og lese mer informasjon.</p>,<p>dere bør gå inn på ditt sykehus sine hjemmesider og lese meir informasjon.</p>
+448,<p>smitterisiko både hos deg og din ledsager vurderes individuelt.</p>,<p>smitterisiko både hos deg og din ledsager vurderes individuelt.</p>
+449,<p>dersom ledsager har luftveisinfeksjon/smitte/sitter i karantene kan ledsager dessverre ikke være med i fødselen.</p>,<p>dersom ledsager har luftveisinfeksjon/smitte/sitter i karantene kan ledsager dessverre ikkje vere med i fødselen.</p>
+450,<p>dersom du planlegger å være ledsager i nærliggende fødsel, oppfordres du til hjemmekontor som resten av befolkningen.</p>,<p>dersom du planlegger å vere ledsager i nærliggende fødsel, oppfordres du til hjemmekontor som resten av befolkningen.</p>
+451,<p>det kan være lurt å opplyse arbeidsgiver om at fødsel er nærliggende og at det er restriksjoner dersom du blir smittet av koronaviruset.</p>,<p>det kan vere lurt å opplyse arbeidsgiver om at fødsel er nærliggende og at det er restriksjoner dersom du blir smittet av koronaviruset.</p>
+453,<p>selv om du er syk av koronavirus eller smittet, anbefales det at barnet ditt ammes/får morsmelk.</p>,<p>sjå om du er syk av koronavirus eller smittet, anbefales det at barnet ditt ammes/får morsmelk.</p>
+454,<p>det er ikke påvist koronavirus i morsmelk fra kvinner med koronainfeksjon der dette har blitt undersøkt.</p>,<p>det er ikkje påvist koronavirus i morsmelk frå kvinner med koronainfeksjon der dettet har blitt undersøkt.</p>
+455,<p>det er rapportert om relativt få spedbarn med bekreftet koronasmitte.</p>,<p>det er rapportert om relativt få spedbarn med bekreftet koronasmittet.</p>
+456,<p>de som har vært smittet, har hatt mild sykdom.</p>,<p>dei som har vore smittet, har hatt mild sykdom.</p>
+458,<p>vi vet ennå ikke så mye om koronaviruset kan smitte fra mor til barn.</p>,<p>vi veit enno ikkje så mykje om koronaviruset kan smittet frå mor til born.</p>
+459,<p>det vi vet, er at amming beskytter barnet mot sykdom i tiden etter fødsel og også senere i spedbarnsalder og barneårene.</p>,<p>det vi veit, er at amming beskytter barnet mot sykdom i tida etter fødsel og også seinare i spedbarnsalder og barneårene.</p>
+460,<p>morsmelk gir infeksjonsbeskyttelse ved at den overfører antistoffer fra mor til barn, og ved at den inneholder komponenter som er gunstige for utviklingen av barnets immunsystem.</p>,<p>morsmelk gjev infeksjonsbeskyttelse ved at den overfører antistoffer frå mor til born, og ved at den inneholder komponenter som er gunstige for utviklingen av barnets immunsystem.</p>
+461,<p>morsmelk og amming har en rekke positive helsefordeler både for barnet og for deg som ammer.</p>,<p>morsmelk og amming har ein rekkje positive helsefordeler både for barnet og for deg som ammer.</p>
+463,<p>hvis du har luftveisinfeksjon og/eller påvist smitte, bør du følge de samme generelle rådene som gitt over om amming og smitteforebygging, men også noen råd som gjelder spesielt ved amming.</p>,<p>dersom du har luftveisinfeksjon og/eller påvist smitte, bør du følgje dei samme generelle rådene som gjeve over om amming og smitteforebygging, men også nokon råd som gjeld spesielt ved amming.</p>
+465,<p>ha god håndhygiene ved all nærkontakt med barnet.</p>,<p>ha god håndhygiene ved all nærkontakt med barnet.</p>
+466,<p>du bør alltid vaske hender grundig før amming og før du tar på brystene dine.</p>,<p>du bør alltid vaske hender grundig før amming og før du teke på brystene dine.</p>
+467,<p>ta minst mulig på brystene, på samme måte som du ikke skal ta deg til ansiktet, for å unngå å overføre smitte fra hender til brystet (og deretter til barnet).</p>,<p>ta minst mogeleg på brystene, på samme måtet som du ikkje skal ta deg til ansiktet, for å unngå å overføre smittet frå hender til brystet (og deretter til barnet).</p>
+468,<p>ved behov kan brystene vaskes med såpe og vann; sprit bør ikke brukes.</p>,<p>ved behov kan brystene vaskes med såpe og vann; sprit bør ikkje brukes.</p>
+469,<p>dersom helsepersonell gir deg ammeveiledning, spør om de kan vise eller forklare uten å ta på brystene dine.</p>,<p>dersom helsepersonell gjev deg ammeveiledning, spør om dei kan vise eller forklare utan å ta på brystene dine.</p>
+470,<p>unngå å hoste eller nyse rett på barnet, for eksempel ved å holde litt avstand (utenom amming).</p>,<p>unngå å hostet eller nyse rett på barnet, for døme ved å halde litt avstand (utenom amming).</p>
+471,<p>dersom du hoster eller nyser mens du ammer, bør du hoste eller nyse bort fra barnet og i papirlommetørklær som kastes.</p>,<p>dersom du hoster eller nyser mens du ammer, bør du hostet eller nyse bort frå barnet og i papirlommetørklær som kastes.</p>
+472,<p>rengjør/vask huset regelmessig, inkludert vask/desinfisering av overflater som du har vært i kontakt med, for eksempel dørhåndtak, mobiltelefoner med mer.</p>,<p>rengjør/vask huset regelmessig, inkludert vask/desinfisering av overflater som du har vore i kontakt med, for døme dørhåndtak, mobiltelefoner med meir.</p>
+474,<p>hvis du/mor er alvorlig syk og ikke kan amme barnet direkte, er det veldig bra om du/mor kan få hjelp til å pumpe ut morsmelk til barnet, mens rådene for å forebygge smitte fortsatt følges.</p>,<p>dersom du/mor er alvorlig syk og ikkje kan amme barnet direkte, er det veldig bra om du/mor kan få hjelp til å pumpe ut morsmelk til barnet, mens rådene for å forebygge smittet framleis følges.</p>
+476,<p>dersom du har reist hjem fra sykehuset før ammingen er kommet ordentlig i gang, er det viktig at du tar kontakt med helsestasjonen, slik at du raskt kan få veiledning hvis du trenger det.</p>,<p>dersom du har reist heim frå sykehuset før ammingen er komme ordentlig i gong, er det viktig at du teke kontakt med helsestasjonen, slik at du raskt kan få veiledning dersom du treng det.</p>
+477,<p>i den vanskelige situasjonen vi er i nå, er det anbefalt at hjemmebesøk erstattes med konsultasjon på helsestasjon, med tolk ved behov (helsedirektoratet.no).</p>,<p>i den vanskelige situasjonen vi er i no, er det anbefalt at hjemmebesøk erstattes med konsultasjon på helsestasjon, med tolk ved behov (helsedirektoratet.no).</p>
+479,<p>du kan få svar på mange spørsmål og god hjelp til å løse praktiske utfordringer av ammehjelpere via ammehjelpens nettside eller deres facebook-gruppe.</p>,<p>du kan få svar på mange spørsmål og god hjelp til å løse praktiske utfordringer av ammehjelpere via ammehjelpens nettside eller deira facebook-gruppe.</p>
+481,<p>det er viktig og bra om du får til å amme så mye som mulig den første tiden etter fødselen.</p>,<p>det er viktig og bra om du får til å amme så mykje som mogeleg den fyrste tida etter fødselen.</p>
+482,<p>gi barnet så mye morsmelk som mulig og ikke noe annet med mindre det er behov for det.</p>,<p>gi barnet så mykje morsmelk som mogeleg og ikkje noko anna med mindre det er behov for det.</p>
+483,<p>for de aller fleste er råmelken (den første gule melken) nok til å mette barnet de første dagene.</p>,<p>for dei aller flestet er råmelken (den fyrste gule melken) nok til å mettet barnet dei fyrste dagene.</p>
+484,<p>råmelken kommer i små mengder av gangen, og det lages ny hele tiden.</p>,<p>råmelken kjem i små mengder av gongen, og det lages ny heile tida.</p>
+485,<p>derfor er det viktig at barnet ditt får suge så ofte det vil.</p>,<p>difor er det viktig at barnet ditt får suge så oftet det vil.</p>
+486,<p>jo oftere barnet ditt suger, desto mer melk får det i seg, og jo mer melk vil kroppen din produsere.</p>,<p>jau oftere barnet ditt suger, desto meir melk får det i seg, og jau meir melk vil kroppen din produsere.</p>
+487,<p>det er helt normalt at nyfødte spiser 8–12 ganger i døgnet og noen ganger mer.</p>,<p>det er heilt normalt at nyfødtet spiser 8–12 gongar i døgnet og nokon gongar meir.</p>
+489,<p>når melkeproduksjonen har kommet i gang (etter 2–4 dager), er det noen tegn du kan følge med på for å sikre at barnet får nok mat.</p>,<p>når melkeproduksjonen har komme i gong (etter 2–4 dager), er det nokon tegn du kan følgje med på for å sikre at barnet får nok mat.</p>
+491,<p>det viktigste tegnet er at barnet ditt går opp i vekt og følger vektkurven sin.</p>,<p>det viktigstet tegnet er at barnet ditt går opp i vekt og følger vektkurven sin.</p>
+492,<p>dette får du hjelp med av helsestasjonen.</p>,<p>dettet får du hjelp med av helsestasjonen.</p>
+493,<p>hjemme kan du følge med på antall tissebleier (minst 5–6 våte bleier i døgnet).</p>,<p>heime kan du følgje med på antall tissebleier (minst 5–6 våtet bleier i døgnet).</p>
+494,<p>den første måneden bør barnet vanligvis ha avføring to eller flere ganger om dagen, om det kun får morsmelk.</p>,<p>den fyrste måneden bør barnet vanligvis ha avføring to eller fleire gongar om dagen, om det kun får morsmelk.</p>
+495,<p>sjelden avføring de første ukene kan være et tegn på at barnet ikke tar til seg nok mat, men det kan også være en normal variasjon.</p>,<p>sjelden avføring dei fyrste ukene kan vere eit tegn på at barnet ikkje teke til seg nok mat, men det kan også vere ein normal variasjon.</p>
+496,<p>når du ammer, kan du være oppmerksom på at barnet ditt faktisk spiser, ved og se og høre at barnet svelger.</p>,<p>når du ammer, kan du vere oppmerksom på at barnet ditt faktisk spiser, ved og se og høyre at barnet svelger.</p>
+498,<p>dersom du ved amming opplever at barnet ikke spiser godt, at det ikke svelger melk ved amming, hvis bleiene er tørre og/eller barnet virker trøtt og apatisk, kan det hende at barnet får for lite mat/væske.</p>,<p>dersom du ved amming opplever at barnet ikkje spiser godt, at det ikkje svelger melk ved amming, dersom bleiene er tørre og/eller barnet virker trøtt og apatisk, kan det hende at barnet får for litet mat/væske.</p>
+501,<p>da må du kontakte helsestasjonen (eventuelt lege/sykehus) umiddelbart, samtidig som du forsøker å få i barnet morsmelk, alternativt morsmelkerstatning.</p>,<p>då må du kontaktet helsestasjonen (eventuelt lege/sykehus) umiddelbart, samtidig som du forsøker å få i barnet morsmelk, alternativt morsmelkerstatning.</p>
+503,<p>hvis du har forsøkt å amme og har fått god veiledning uten å få det til, eller hvis du ikke er frisk nok til å amme eller til å pumpe ut morsmelk, gis barnet morsmelkerstatning.</p>,<p>dersom du har forsøkt å amme og har fått god veiledning utan å få det til, eller dersom du ikkje er frisk nok til å amme eller til å pumpe ut morsmelk, gis barnet morsmelkerstatning.</p>
+504,<p>vær ekstra nøye med hygienen.</p>,<p>vær ekstra nøye med hygienen.</p>
+506,<p>er koronaviruset farligere for noen grupper?</p>,<p>er koronaviruset farligere for nokon grupper?</p>
+507,<p>de fleste som blir smittet vil trolig få milde luftveissymptomer som vil gå over av seg selv, mens noen vil få alvorligere sykdom med blant annet lungebetennelse og pustebesvær.</p>,<p>dei flestet som blir smittet vil trolig få milde luftveissymptomer som vil gå over av seg sjå, mens nokon vil få alvorligere sykdom med blant anna lungebetennelse og pustebesvær.</p>
+509,<p>basert på opplysninger fra utbruddet i kina, ser det ut til at følgende grupper har høyere risiko for alvorlig sykdom av covid-19 (koronaviruset):</p>,<p>basert på opplysninger frå utbruddet i kina, ser det ut til at følgende grupper har høyere risiko for alvorlig sykdom av covid-19 (koronaviruset):</p>
+511,<p>eldre personer (>65 år).</p>,<p>eldre personer (>65 år).</p>
+512,<p>voksne personer med underliggende kronisk sykdom som hjerte- og karsykdom (kardiovaskulær sykdom), diabetes, kronisk lungesykdom, kreft og høyt blodtrykk (hypertensjon).</p>,<p>voksne personer med underliggende kronisk sykdom som hjerte- og karsykdom (kardiovaskulær sykdom), diabetes, kronisk lungesykdom, kreft og høyt blodtrykk (hypertensjon).</p>
+513,<p>personer som røyker har muligens også en høyere risiko for alvorlig forløp av koronavirus-sykdommen.</p>,<p>personer som røyker har muligens også ein høyere risiko for alvorlig forløp av koronavirus-sykdommen.</p>
+514,<p>det er særlig eldre personer med risikofaktorer som kan få alvorlig forløp av covid-19.</p>,<p>det er særlig eldre personer med risikofaktorer som kan få alvorlig forløp av covid-19.</p>
+516,<p>basert på kunnskapen vi har nå, antar vi at risikoen ikke er lik for alle i gruppene nevnt over.</p>,<p>basert på kunnskapen vi har no, antar vi at risikoen ikkje er lik for alle i gruppene nevnt over.</p>
+517,<p>dette gjelder særlig for diabetes, hvor en velregulert diabetes uten senkomplikasjoner, trolig ikke gir økt risiko for alvorlig forløp av sykdom.</p>,<p>dettet gjeld særlig for diabetes, kor ein velregulert diabetes utan senkomplikasjoner, trolig ikkje gjev økt risiko for alvorlig forløp av sykdom.</p>
+518,<p>det samme kan gjelde for andre kroniske sykdommer som er godt behandlet.</p>,<p>det samme kan gjelde for andre kroniske sykdommer som er godt behandlet.</p>
+520,<p>vi har per i dag lite kjennskap til andre risikogrupper.</p>,<p>vi har per i dag litet kjennskap til andre risikogrupper.</p>
+521,<p>det er mulig at personer med alvorlig nyresykdom, leversykdom og personer som har nedsatt immunforsvar (også der det skyldes behandling med medisiner) har økt risiko for alvorlig sykdomsforløp.</p>,<p>det er mogeleg at personer med alvorlig nyresykdom, leversykdom og personer som har nedsatt immunforsvar (også der det skyldes behandling med medisiner) har økt risiko for alvorlig sykdomsforløp.</p>
+523,<p>barn ser ut til å få mild sykdom, og det er så langt heller ikke vist at barn med kronisk sykdom får alvorlig forløp av covid-19.</p>,<p>born ser ut til å få mild sykdom, og det er så langt heller ikkje vist at born med kronisk sykdom får alvorlig forløp av covid-19.</p>
+525,<p>informasjonen på denne siden kan endres etter hvert som folkehelseinstituttet (fhi) får oppdatert kunnskap om covid-19.</p>,<p>informasjonen på denne sidan kan endres etter kvart som folkehelseinstituttet (fhi) får oppdatert kunnskap om covid-19.</p>
+527,<p>bør pasienter som går på behandling som demper immunforsvaret stoppe denne?</p>,<p>bør pasienter som går på behandling som demper immunforsvaret stoppe denne?</p>
+528,<p>det er ikke grunnlag for å fraråde oppstart eller stoppe pågående immunsupprimerende behandling.</p>,<p>det er ikkje grunnlag for å fraråde oppstart eller stoppe pågående immunsupprimerende behandling.</p>
+529,<p>dersom personer som bruker immunsupprimerende behandling blir syke, kan de ta kontakt med egen lege for råd i forhold til medisinering, prøvetagning og undersøkelse.</p>,<p>dersom personer som bruker immunsupprimerende behandling blir syke, kan dei ta kontakt med eigen lege for råd i forhold til medisinering, prøvetagning og undersøkelse.</p>
+531,<p>​folkehelseinstituttet har egne råd til personer som går på immunsupprimerende behandling, eller som skal starte med slike medikamenter.</p>,<p>​folkehelseinstituttet har eigne råd til personer som går på immunsupprimerende behandling, eller som skal startet med slike medikamenter.</p>
+533,<p>hvordan kan du som er i risikogruppene og dine nærmeste redusere risiko for smitte?</p>,<p>korleis kan du som er i risikogruppene og dine nærmestet redusere risiko for smitte?</p>
+534,<p>hold deg hjemme så mye som mulig.</p>,<p>hold deg heime så mykje som mogeleg.</p>
+535,<p>hold avstand til andre og unngå folkemengder.</p>,<p>hold avstand til andre og unngå folkemengder.</p>
+536,<p>unngå offentlig transport hvis mulig.</p>,<p>unngå offentleg transport dersom mogeleg.</p>
+537,<p>pass på å vaske hendene ofte og grundig med såpe og lunkent vann.</p>,<p>pass på å vaske hendene oftet og grundig med såpe og lunkent vann.</p>
+538,<p>hånddesinfeksjon er et godt alternativ dersom håndvask ikke er mulig.</p>,<p>hånddesinfeksjon er eit godt alternativ dersom håndvask ikkje er mogeleg.</p>
+539,<p>unngå håndhilsning og klemming.</p>,<p>unngå håndhilsning og klemming.</p>
+540,<p>vask hjemmet hyppig, og gå spesielt over flater som ofte berøres.</p>,<p>vask hjemmet hyppig, og gå spesielt over flater som oftet berøres.</p>
+541,<p>hvis personer i husholdningen ikke føler seg friske (spesielt hvis du mistenker koronavirussykdom), begrens samværet og kontakt lege dersom du har medisinsk behov.</p>,<p>dersom personer i husholdningen ikkje føler seg friske (spesielt dersom du mistenker koronavirussykdom), begrens samværet og kontakt lege dersom du har medisinsk behov.</p>
+542,<p>unngå å passe yngre barn, da disse ofte har ingen eller milde symptomer på covid-19 og kan smitte deg som er i risikogruppe.</p>,<p>unngå å passe yngre born, då desse oftet har ingen eller milde symptomer på covid-19 og kan smittet deg som er i risikogruppe.</p>
+543,<p>nasjonal kompetansetjeneste for aldring og helse (aldringoghelse.no) har laget informasjon til både helsetjenesten, de eldre selv og deres pårørende om eldre og personer med demens i forbindelse med koronaviruset.</p>,<p>nasjonal kompetansetjenestet for aldring og helse (aldringoghelse.no) har laget informasjon til både helsetjenesten, dei eldre sjå og deira pårørende om eldre og personer med demens i forbindelse med koronaviruset.</p>
+545,<p>hvilke tiltak kan du som er i risikogruppen gjøre?</p>,<p>hvilke tiltak kan du som er i risikogruppen gjere?</p>
+546,<p>sørg for at du har nødvendige medisiner tilgjengelig.</p>,<p>sørg for at du har nødvendige medisiner tilgjengelig.</p>
+547,<p>fortsett med fast medisinering, og gjør kun endringer i samråd med egen lege.</p>,<p>fortsett med fast medisinering, og gjør kun endringer i samråd med eigen lege.</p>
+548,<p>lag avtaler om hvem som kan hjelpe deg med nødvendige innkjøp.</p>,<p>lag avtaler om kven som kan hjelpe deg med nødvendige innkjøp.</p>
+549,<p>et godt råd kan være at du får varene kun levert til døren.</p>,<p>eit godt råd kan vere at du får varene kun levert til døra.</p>
+550,<p>undersøk om din kommune har avtale med frivillige organisasjoner som kan hjelpe deg ved behov.</p>,<p>undersøk om din kommune har avtale med frivillige organisasjoner som kan hjelpe deg ved behov.</p>
+551,<p>har du spørsmål om korona og trenger noen å snakke med?</p>,<p>har du spørsmål om korona og treng nokon å snakke med?</p>
+552,<p>flere brukerorganisasjoner utvider nå bemanningen til å besvare spørsmål fra befolkningen og personer i risikogrupper:</p>,<p>fleire brukerorganisasjoner utvider no bemanningen til å besvare spørsmål frå befolkningen og personer i risikogrupper:</p>
+554,<p>på frivillighetens koronalinje kan du stille generelle spørsmål om korona og myndighetenes tiltak for å begrense smitte.</p>,<p>på frivillighetens koronalinje kan du stille generelle spørsmål om korona og myndighetenes tiltak for å begrense smittet.</p>
+555,<p>telefonene er betjent av trente frivillige fra nasjonalforeningen for folkehelsen, norske kvinners sanitetsforening og landsforeningen for hjerte- og lungesyke.</p>,<p>telefonene er betjent av trentet frivillige frå nasjonalforeningen for folkehelsen, norske kvinners sanitetsforening og landsforeningen for hjerte- og lungesyke.</p>
+556,<p>lurer du på noe om diabetes og korona?</p>,<p>lurer du på noko om diabetes og korona?</p>
+557,<p>ring diabeteslinjen på telefon 815 21 948.</p>,<p>ring diabeteslinjen på telefon 815 21 948.</p>
+558,<p>snakk med kreftforeningen om kreft og korona på telefon 21 49 49 21 eller chat .</p>,<p>snakk med kreftforeningen om kreft og korona på telefon 21 49 49 21 eller chat .</p>
+559,<p>har du lungesykdom og spørsmål om korona?</p>,<p>har du lungesykdom og spørsmål om korona?</p>
+560,<p>få råd hos lhl (landsforeningen for hjerte- og lungesyke).</p>,<p>få råd hos lhl (landsforeningen for hjerte- og lungesyke).</p>
+561,<p>fhi anbefaler at pasienter med kroniske sykdommer som skal til undersøkelse og avtalte kontroller, opprettholder avtalene med mindre de får annen beskjed.</p>,<p>fhi anbefaler at pasienter med kroniske sykdommer som skal til undersøkelse og avtaltet kontroller, opprettholder avtalene med mindre dei får annan beskjed.</p>
+562,<p>ved tvil, ta kontakt med behandlende institusjon.</p>,<p>ved tvil, ta kontakt med behandlende institusjon.</p>
+564,<p>kan jeg fritt besøke familie og venner på helse- og omsorgsinstitusjoner?</p>,<p>kan eg fritt besøke familie og venner på helse- og omsorgsinstitusjoner?</p>
+565,<p>nei, nå er det ikke lov å besøke sykehus, sykehjem eller andre helseinstitusjoner.</p>,<p>nei, no er det ikkje lov å besøke sykehus, sykehjem eller andre helseinstitusjoner.</p>
+566,<p>det er innført adgangskontroll og alminnelig besøksstans.</p>,<p>det er innført adgangskontroll og alminnelig besøksstans.</p>
+567,<p>dette er for å ivareta smittevern for pasienter.</p>,<p>dettet er for å ivareta smittevern for pasienter.</p>
+569,<p>personer som har risiko for å være smittet skal avvises fra alle landets helseinstitusjoner.</p>,<p>personer som har risiko for å vere smittet skal avvises frå alle landets helseinstitusjoner.</p>
+571,<p>fordi pågangen til nødtelefonene er så stor, må nødnumrene kun brukes av personer som er akutt syke.</p>,<p>fordi pågangen til nødtelefonene er så stor, må nødnumrene kun brukes av personer som er akutt syke.</p>
+572,<p>folk som har spørsmål om korona må finne informasjon på helsenorge.no eller ringe informasjonstelefonen på 815 55 015.</p>,<p>folk som har spørsmål om korona må finne informasjon på helsenorge.no eller ringe informasjonstelefonen på 815 55 015.</p>
+574,<p>hva gjør jeg hvis jeg tror jeg er smittet?</p>,<p>kva gjør eg dersom eg trur eg er smittet?</p>
+575,<p>hvis du er syk, hold deg hjemme.</p>,<p>dersom du er syk, hold deg heime.</p>
+576,<p>hvis du er syk og trenger legehjelp, eller har behov for individuell helserådgivning, kontakt fastlege på telefon eller elektronisk.</p>,<p>dersom du er syk og treng legehjelp, eller har behov for individuell helserådgivning, kontakt fastlege på telefon eller elektronisk.</p>
+577,<p>mange kommuner har opprettet egne koronatelefoner som gir generell informasjon, sjekk nettsiden til din kommune for hvor du kan henvende deg.</p>,<p>mange kommuner har opprettet eigne koronatelefoner som gjev generell informasjon, sjekk nettsiden til din kommune for kor du kan henvende deg.</p>
+578,<p>har du behov for akutt helsehjelp og ikke kommer i kontakt med fastlegen, ring 116 117.</p>,<p>har du behov for akutt helsehjelp og ikkje kjem i kontakt med fastlegen, ring 116 117.</p>
+579,<p>ved livstruende sykdom eller skade - ring 113.</p>,<p>ved livstruende sykdom eller skade - ring 113.</p>
+581,<p>kontakt legen via e-konsultasjon.</p>,<p>kontakt legen via e-konsultasjon.</p>
+582,<p>for å avlaste telefonlinjene, kan du kontakte fastlegen via e-konsultasjon.</p>,<p>for å avlastet telefonlinjene, kan du kontaktet fastlegen via e-konsultasjon.</p>
+583,<p>det er ikke alle fastleger som tilbyr dette, men stadig flere fastlegekontor er med i ordningen.</p>,<p>det er ikkje alle fastleger som tilbyr dette, men stadig fleire fastlegekontor er med i ordningen.</p>
+585,<p>konsultasjon via telefon eller video.</p>,<p>konsultasjon via telefon eller video.</p>
+586,<p>noen behandlere kan også tilby konsultasjoner via telefon eller video, men det finnes ingen liste over hvem som tilbyr dette.</p>,<p>nokon behandlere kan også tilby konsultasjoner via telefon eller video, men det finst ingen listet over kven som tilbyr dettet.</p>
+588,<p>for å finne ut om din behandler tilbyr dette kan du.</p>,<p>for å finne ut om din behandler tilbyr dettet kan du.</p>
+590,<p>sjekke behandlerens nettside.</p>,<p>sjekke behandlerens nettside.</p>
+591,<p>sende en e-post til behandleren eller klinikken.</p>,<p>sende ein e-post til behandleren eller klinikken.</p>
+592,<p>ringe behandleren eller klinikken.</p>,<p>ringe behandleren eller klinikken.</p>
+593,<p>spørsmål om korona.</p>,<p>spørsmål om korona.</p>
+594,<p>har du andre spørsmål finnes informasjon her på helsenorges sider om koronavirus eller i chat nederst på siden.</p>,<p>har du andre spørsmål finst informasjon her på helsenorges sider om koronavirus eller i chat nederst på sidan.</p>
+595,<p>du kan også kontakte:</p>,<p>du kan også kontakte:</p>
+597,<p>har du lungesykdom og spørsmål om korona?</p>,<p>har du lungesykdom og spørsmål om korona?</p>
+598,<p>få råd hos lhl (landsforeningen for hjerte- og lungesyke).</p>,<p>få råd hos lhl (landsforeningen for hjerte- og lungesyke).</p>
+599,<p>er du barn, ungdom eller forelder og har behov for å snakke med en helsesykepleier fra skolehelsetjenesten?</p>,<p>er du born, ungdom eller forelder og har behov for å snakke med ein helsesykepleier frå skolehelsetjenesten?</p>
+600,<p>se mer om telefontilbudet på din kommunes hjemmeside.</p>,<p>se meir om telefontilbudet på din kommunes hjemmeside.</p>
+601,<p>er du gravid og har spørsmål og behov for å snakke med jordmor?</p>,<p>er du gravid og har spørsmål og behov for å snakke med jordmor?</p>
+602,<p>se info om telefontilbud på din kommunes hjemmeside.</p>,<p>se info om telefontilbud på din kommunes hjemmeside.</p>
+604,<p>for å unngå smitte og spredning av koronaviruset er det viktig at du ikke oppsøker helsetjenestene fysisk dersom det ikke er nødvendig.</p>,<p>for å unngå smittet og spredning av koronaviruset er det viktig at du ikkje oppsøker helsetjenestene fysisk dersom det ikkje er nødvendig.</p>
+605,<p>videokonsultasjon og andre digitale verktøy kan være gode alternativer til fysisk oppmøte.</p>,<p>videokonsultasjon og andre digitale verktøy kan vere gode alternativer til fysisk oppmøtet.</p>
+606,<p>legetime på nett via helsenorge (e-konsultasjon).</p>,<p>legetime på nett via helsenorge (e-konsultasjon).</p>
+607,<p>du kan logge deg inn på helsenorge.no for å få vite hvem fastlegen din er, og hvordan du kommer i kontakt med legekontoret.</p>,<p>du kan logge deg inn på helsenorge.no for å få vete kven fastlegen din er, og korleis du kjem i kontakt med legekontoret.</p>
+609,<p>hvis din fastlege tilbyr legetime over nett vil du se det når du logger inn.</p>,<p>dersom din fastlege tilbyr legetime over nett vil du se det når du logger inn.</p>
+610,<p>dette kalles på «e-konsultasjon» og foregår med lyd, video eller tekst-samtale, for eksempel ved hjelp av en pc, et nettbrett eller en telefon.</p>,<p>dettet kalles på «e-konsultasjon» og foregår med lyd, video eller tekst-samtale, for døme ved hjelp av ein pc, eit nettbrett eller ein telefon.</p>
+612,<p>klikk på «start e-konsultasjon» for å begynne.</p>,<p>klikk på «start e-konsultasjon» for å begynne.</p>
+614,<p>hvis din fastlege ikke tilbyr digitale tjenester på helsenorge, vil du se denne beskjeden når du logger inn:</p>,<p>dersom din fastlege ikkje tilbyr digitale tjenester på helsenorge, vil du se denne beskjeden når du logger inn:</p>
+616,<p>din fastlege tilbyr ikke digitale tjenester på helsenorge.</p>,<p>din fastlege tilbyr ikkje digitale tjenester på helsenorge.</p>
+617,<p>når du logger deg inn på helsenorge.no vil det stå øverst hvem som er din fastlege.</p>,<p>når du logger deg inn på helsenorge.no vil det stå øverst kven som er din fastlege.</p>
+618,<p>klikk på på «vis detaljer» for å se kontaktinformasjon som adresse og telefonnummer.</p>,<p>klikk på på «vis detaljer» for å se kontaktinformasjon som adresse og telefonnummer.</p>
+620,<p>klikk på «mer om din fastlege» for å få informasjon om fastlegen og legekontoret, som for eksempel lenke til legekontorets webside, hvilke andre leger som hører til kontoret, og så videre.</p>,<p>klikk på «mer om din fastlege» for å få informasjon om fastlegen og legekontoret, som for døme lenke til legekontorets webside, hvilke andre leger som hører til kontoret, og så vidare.</p>
+622,<p>konsultasjon på video eller telefon utenom helsenorge.</p>,<p>konsultasjon på video eller telefon utenom helsenorge.</p>
+623,<p>mange fastleger og andre behandlere som for eksempel psykologer og fysioterapeuter kan tilby konsultasjon på telefon eller video utenom helsenorge.</p>,<p>mange fastleger og andre behandlere som for døme psykologer og fysioterapeuter kan tilby konsultasjon på telefon eller video utenom helsenorge.</p>
+626,<p>jeg har andre kontakter i helsevesenet som jeg vil snakke med.</p>,<p>eg har andre kontakter i helsevesenet som eg vil snakke med.</p>
+627,<p>helsekontakter.</p>,<p>helsekontakter.</p>
+628,<p>hvis du har fått en forløpskoordinator eller annen kontaktperson vil du kunne finne dem i tjenesten helsekontakter på helsenorge.no.</p>,<p>dersom du har fått ein forløpskoordinator eller annan kontaktperson vil du kunne finne dei i tjenesten helsekontakter på helsenorge.no.</p>
+630,<p>meldinger.</p>,<p>meldinger.</p>
+631,<p>i meldingstjenesten kan du se meldinger du har mottatt fra helsetjenesten, og svare på dem.</p>,<p>i meldingstjenesten kan du se meldinger du har mottatt frå helsetjenesten, og svare på dei.</p>
+632,<p>hvilke meldinger du kan se og svare på kommer an på hvilke helsekontakter du har og har hatt, hvem du har kommunisert med tidligere, og hvilket samtykke du har gitt til å bruke tjenestene på helsenorge.</p>,<p>hvilke meldinger du kan se og svare på kjem an på hvilke helsekontakter du har og har hatt, kven du har kommunisert med tidligere, og hvilket samtykke du har gjeve til å bruke tjenestene på helsenorge.</p>
+634,<p>meldingstjensten kan du lese mer om her.</p>,<p>meldingstjensten kan du lese meir om her.</p>
+636,<p>hvis din behandler ikke er i noen av disse tjenestene.</p>,<p>dersom din behandler ikkje er i nokon av desse tjenestene.</p>
+637,<p>finner du ikke behandleren du ønsker å kontakte i noen av disse tjenestene, må du selv slå opp og finne deres kontaktinformasjon.</p>,<p>finn (v) du ikkje behandleren du ønskje å kontaktet i nokon av desse tjenestene, må du sjå slå opp og finne deira kontaktinformasjon.</p>
+638,<p>ikke møt opp uten avtale.</p>,<p>ikkje møt opp utan avtale.</p>
+639,<p>se på nettsiden deres og ring dem eller kontakt dem digitalt hvis det er mulig.</p>,<p>se på nettsiden deira og ring dei eller kontakt dei digitalt dersom det er mogeleg.</p>
+641,<p>spørsmål om korona.</p>,<p>spørsmål om korona.</p>
+642,<p>har du spørsmål om korona finnes informasjon her på helsenorges sider om koronavirus eller i chat nederst på siden.</p>,<p>har du spørsmål om korona finst informasjon her på helsenorges sider om koronavirus eller i chat nederst på sidan.</p>
+643,<p>du kan også kontakte:</p>,<p>du kan også kontakte:</p>
+645,<p>har du lungesykdom og spørsmål om korona?</p>,<p>har du lungesykdom og spørsmål om korona?</p>
+646,<p>få råd hos lhl (landsforeningen for hjerte- og lungesyke).</p>,<p>få råd hos lhl (landsforeningen for hjerte- og lungesyke).</p>
+647,<p>hva gjør jeg hvis jeg tror jeg er smittet?</p>,<p>kva gjør eg dersom eg trur eg er smittet?</p>
+648,<p>hvis du er syk, hold deg hjemme.</p>,<p>dersom du er syk, hold deg heime.</p>
+649,<p>hvis du er syk og trenger legehjelp, eller har behov for individuell helserådgivning, kontakt fastlege på telefon eller elektronisk.</p>,<p>dersom du er syk og treng legehjelp, eller har behov for individuell helserådgivning, kontakt fastlege på telefon eller elektronisk.</p>
+650,<p>har du behov for akutt helsehjelp og ikke kommer i kontakt med fastlegen, ring 116 117.</p>,<p>har du behov for akutt helsehjelp og ikkje kjem i kontakt med fastlegen, ring 116 117.</p>
+651,<p>ved livstruende sykdom eller skade, ring 113.</p>,<p>ved livstruende sykdom eller skade, ring 113.</p>
+654,<p>utenriksdepartementet fraråder fra 14.</p>,<p>utenriksdepartementet fraråder frå 14.</p>
+655,<p>mars 2020 alle utenlandsreiser som ikke er strengt nødvendig.</p>,<p>mars 2020 alle utenlandsreiser som ikkje er strengt nødvendig.</p>
+656,<p>dette er den strengeste form for reiseråd som kan gis.</p>,<p>dettet er den strengestet form for reiseråd som kan gis.</p>
+658,<p>reiserådene skal redusere faren for at nordmenn blir smittet i utlandet og at smittede personer kommer til norge.</p>,<p>reiserådene skal redusere faren for at nordmenn blir smittet i utlandet og at smittede personer kjem til noreg.</p>
+660,<p>folkehelseinstituttet og utenriksdepartementet gir reiseråd om koronaviruset.</p>,<p>folkehelseinstituttet og utenriksdepartementet gjev reiseråd om koronaviruset.</p>
+662,<p>se utenriksdepartementets (ud) reiseråd om koronavirus.</p>,<p>se utenriksdepartementets (ud) reiseråd om koronavirus.</p>
+663,<p>ud gir reiseråd når det er grunn til å råde nordmenn fra å reise til et bestemt land, område eller region, eller til å forlate stedet.</p>,<p>ud gjev reiseråd når det er grunn til å råde nordmenn frå å reise til eit bestemt land, område eller region, eller til å forlatet staden.</p>
+664,<p>se folkehelseinstituttets smittevernråd ved reise.</p>,<p>se folkehelseinstituttets smittevernråd ved reise.</p>
+666,<p>oppdaterte regler for karantene fra 14.03.20 og 16.03.20.</p>,<p>oppdatertet regler for karantene frå 14.03.20 og 16.03.20.</p>
+667,<p>alle som kommer fra reiser i utlandet skal i hjemmekarantene i 14 dager.</p>,<p>alle som kjem frå reiser i utlandet skal i hjemmekarantene i 14 dager.</p>
+668,<p>dette har tilbakevirkende kraft.</p>,<p>dettet har tilbakevirkende kraft.</p>
+669,<p>det vil si at karantenen gjelder 14 dager fra den dagen du kom hjem.</p>,<p>det vil seie at karantenen gjeld 14 dager frå den dagen du kom heim.</p>
+671,<p>fra 17.03.20 gjelder dette også reiser fra sverige og finland, men uten tilbakevirkende kraft.</p>,<p>frå 17.03.20 gjeld dettet også reiser frå sverige og finland, men utan tilbakevirkende kraft.</p>
+672,<p>arbeidstakere som reiser mellom bolig og arbeidssted, og i den forbindelse krysser grensene mellom norge, sverige og finland, er unntatt fra karantene når de reiser til og fra arbeid.</p>,<p>arbeidstakere som reiser mellom bolig og arbeidssted, og i den forbindelse krysser grensene mellom noreg, sverige og finland, er unntatt frå karantene når dei reiser til og frå arbeid.</p>
+674,<p>personer i karantene som utvikler forkjølelsessymptomer som hoste, feber eller tungpustethet, skal oppholde seg i isolering fra symptomer inntrer til 7 dager etter symptomfrihet.</p>,<p>personer i karantene som utvikler forkjølelsessymptomer som hoste, feber eller tungpustethet, skal oppholde seg i isolering frå symptomer inntrer til 7 dager etter symptomfrihet.</p>
+675,<p>med isolering menes at personen oppholder seg i eget hjem eller annet egnet oppholdssted.</p>,<p>med isolering menes at personen oppholder seg i eige heim eller anna egnet oppholdssted.</p>
+677,<p>i forskriften er det definert et unntak fra karantenereglene.</p>,<p>i forskriften er det definert eit unntak frå karantenereglene.</p>
+678,<p>personer som er strengt nødvendige for å kunne opprettholde forsvarlig drift av kritiske samfunnsfunksjoner og ivareta befolkningens grunnleggende behov, herunder personer som gjennomfører vare- og passasjertransport, er unntatt.</p>,<p>personer som er strengt nødvendige for å kunne opprettholde forsvarlig drift av kritiske samfunnsfunksjoner og ivareta befolkningens grunnleggende behov, herunder personer som gjennomfører vare- og passasjertransport, er unntatt.</p>
+679,<p>bruk av unntaket skal avklares med virksomhetsledelsen.</p>,<p>bruk av unntaket skal avklares med virksomhetsledelsen.</p>
+680,<p>personer som er omfattet av unntaket, skal så langt som mulig unngå nærkontakt med andre personer.</p>,<p>personer som er omfattet av unntaket, skal så langt som mogeleg unngå nærkontakt med andre personer.</p>
+682,<p>dette er vedtatt i forskrift i statsråd 13.03.20 og presisert 15.03.20.</p>,<p>dettet er vedtatt i forskrift i statsråd 13.03.20 og sufsisert 15.03.20.</p>
+684,<p>hva med nordmenn som skal hjem fra utlandet?</p>,<p>kva med nordmenn som skal heim frå utlandet?</p>
+685,<p>utenriksdepartementet oppfordrer alle norske borgere som er på reise i utlandet om å vurdere å reise hjem så snart som mulig, på en trygg og rolig måte, i samråd med sitt reise- eller flyselskap.</p>,<p>utenriksdepartementet oppfordrer alle norske borgere som er på reise i utlandet om å vurdere å reise heim så snart som mogeleg, på ein trygg og rolig måte, i samråd med sitt reise- eller flyselskap.</p>
+687,<p>jeg har vært i utlandet, må jeg holde meg hjemme?</p>,<p>eg har vore i utlandet, må eg halde meg heime?</p>
+688,<p>alle som kommer fra reiser i utlandet skal i hjemmekarantene i 14 dager.</p>,<p>alle som kjem frå reiser i utlandet skal i hjemmekarantene i 14 dager.</p>
+689,<p>dette har tilbakevirkende kraft.</p>,<p>dettet har tilbakevirkende kraft.</p>
+690,<p>det vil si at karantenen gjelder 14 dager fra den dagen du kom hjem.</p>,<p>det vil seie at karantenen gjeld 14 dager frå den dagen du kom heim.</p>
+692,<p>fra 17.03.20 gjelder dette også reiser fra sverige og finland, men uten tilbakevirkende kraft.</p>,<p>frå 17.03.20 gjeld dettet også reiser frå sverige og finland, men utan tilbakevirkende kraft.</p>
+693,<p>arbeidstakere som reiser mellom bolig og arbeidssted, og i den forbindelse krysser grensene mellom norge, sverige og finland, er unntatt fra karantene når de reiser til og fra arbeid.</p>,<p>arbeidstakere som reiser mellom bolig og arbeidssted, og i den forbindelse krysser grensene mellom noreg, sverige og finland, er unntatt frå karantene når dei reiser til og frå arbeid.</p>
+695,<p>personer i karantene som utvikler forkjølelsessymptomer som hoste, feber eller tungpustethet, skal oppholde seg i isolering fra symptomer inntrer til 7 dager etter symptomfrihet.</p>,<p>personer i karantene som utvikler forkjølelsessymptomer som hoste, feber eller tungpustethet, skal oppholde seg i isolering frå symptomer inntrer til 7 dager etter symptomfrihet.</p>
+696,<p>med isolering menes at personen oppholder seg i eget hjem eller annet egnet oppholdssted.</p>,<p>med isolering menes at personen oppholder seg i eige heim eller anna egnet oppholdssted.</p>
+698,<p>i forskriften er det definert et unntak fra karantenereglene.</p>,<p>i forskriften er det definert eit unntak frå karantenereglene.</p>
+699,<p>personer som er strengt nødvendige for å kunne opprettholde forsvarlig drift av kritiske samfunnsfunksjoner og ivareta befolkningens grunnleggende behov, herunder personer som gjennomfører vare- og passasjertransport, er unntatt.</p>,<p>personer som er strengt nødvendige for å kunne opprettholde forsvarlig drift av kritiske samfunnsfunksjoner og ivareta befolkningens grunnleggende behov, herunder personer som gjennomfører vare- og passasjertransport, er unntatt.</p>
+700,<p>bruk av unntaket skal avklares med virksomhetsledelsen.</p>,<p>bruk av unntaket skal avklares med virksomhetsledelsen.</p>
+701,<p>personer som er omfattet av unntaket, skal så langt som mulig unngå nærkontakt med andre personer.</p>,<p>personer som er omfattet av unntaket, skal så langt som mogeleg unngå nærkontakt med andre personer.</p>
+703,<p>dette er vedtatt i forskrift i statsråd 13.03.20 og presisert 15.03.20.</p>,<p>dettet er vedtatt i forskrift i statsråd 13.03.20 og sufsisert 15.03.20.</p>
+705,<p>kan jeg reise innenlands?</p>,<p>kan eg reise innenlands?</p>
+706,<p>unngå reiser som ikke er strengt nødvendig, unngå offentlig transport hvis du kan, og andre steder hvor du lett kommer nær andre.</p>,<p>unngå reiser som ikkje er strengt nødvendig, unngå offentleg transport dersom du kan, og andre steder kor du lett kjem nær andre.</p>
+707,<p>regjeringen innførte 20.</p>,<p>regjeringa innførtet 20.</p>
+708,<p>mars et forbud mot å overnatte på fritidseiendom utenfor egen kommune.</p>,<p>mars eit forbud mot å overnattet på fritidseiendom utanor eigen kommune.</p>
+709,<p>les mer om hytteforbudet på regjeringens nettsider.</p>,<p>les meir om hytteforbudet på regjeringens nettsider.</p>
+711,<p>det gis unntak for personer som bor sammen med et hustandsmedlem som er i isolasjon med påvist koronavirus.</p>,<p>det gis unntak for personer som bor saman med eit hustandsmedlem som er i isolasjon med påvist koronavirus.</p>
+713,<p>personer som er i karantene fordi de bor sammen med en som er bekreftet smittet, kan dermed overnatte på hytta i den perioden den smittede er i isolasjon hjemme.</p>,<p>personer som er i karantene fordi dei bor saman med ein som er bekreftet smittet, kan dermed overnattet på hytta i den perioden den smittede er i isolasjon heime.</p>
+714,<p>den smittede skal bli hjemme, mens de andre personene i husstanden kan overnatte på hytta.</p>,<p>den smittede skal bli heime, mens dei andre personene i husstanden kan overnattet på hytta.</p>
+716,<p>de små lokalsamfunnene har færre ansatte i helsetjenesten og mindre kapasitet.</p>,<p>dei små lokalsamfunnene har færre ansattet i helsetjenesten og mindre kapasitet.</p>
+717,<p>husk at du også kan bli syk, derfor er det lurt å være hjemme.</p>,<p>husk at du også kan bli syk, difor er det lurt å vere heime.</p>
+719,<p>hva gjør jeg hvis jeg lander på en flyplass i norge og skal fly videre til annet sted i landet?</p>,<p>kva gjør eg dersom eg lander på ein flyplass i noreg og skal fly vidare til anna stad i landa?</p>
+720,<p>friske personer uten symptomer kan ta fly til sin endelige destinasjon for å kunne være i karantene i eget hjem.</p>,<p>friske personer utan symptomer kan ta fly til sin endelige destinasjon for å kunne vere i karantene i eige heim.</p>
+722,<p>personer med symptomer kan transporteres til hjemstedet etter anvisning fra kommunelegen, for eksempel i privatbil.</p>,<p>personer med symptomer kan transporteres til hjemstedet etter anvisning frå kommunelegen, for døme i privatbil.</p>
+723,<p>en nødløsning er at personen blir holdt i karantene i kommunen hvor flyplassen ligger.</p>,<p>ein nødløsning er at personen blir heldt i karantene i kommunen kor flyplassen ligg.</p>
+725,<p>blir jeg sykmeldt hvis jeg må være hjemme?</p>,<p>blir eg sykmeldt dersom eg må vere heime?</p>
+726,<p>du har rett til sykmelding hvis en lege vurderer at du må holdes hjemme fordi du kan være smittet av koronaviruset.</p>,<p>du har rett til sykmelding dersom ein lege vurderer at du må holdes heime fordi du kan vere smittet av koronaviruset.</p>
+727,<p>dette gjelder også hvis legen ikke vet sikkert om du er smittebærer.</p>,<p>dettet gjeld også dersom legen ikkje veit sikkert om du er smittebærer.</p>
+729,<p>nav kan godta sykmelding uten personlig undersøkelse når det gjelder smittsom sykdom av betydning for folkehelsen.</p>,<p>nav kan godta sykmelding utan personlig undersøkelse når det gjeld smittsom sykdom av betydning for folkehelsen.</p>
+730,<p>les mer på nav sine nettsider.</p>,<p>les meir på nav sine nettsider.</p>
+732,<p>hvordan skal turister forholde seg til anbefalingen om å holde seg hjemme i 14 dager når de kommer til norge?</p>,<p>korleis skal turister forholde seg til anbefalingen om å halde seg heime i 14 dager når dei kome til noreg?</p>
+733,<p>alle som kommer til norge, må sette seg inn i situasjonen her.</p>,<p>alle som kome til noreg, må settet seg inn i situasjonen her.</p>
+735,<p>dersom det kommer turister til norge, kan de bli returnert til hjemlandet.</p>,<p>dersom det kjem turister til noreg, kan dei bli returnert til hjemlandet.</p>
+737,<p>hvorfor innføres det begrensninger for fly og skipsfart?</p>,<p>korfor innføres det begrensninger for fly og skipsfart?</p>
+738,<p>helsedirektoratet ønsker nå ikke innreise fra områder med høy smitterisiko, det vil si de landene hvor folkehelseinstituttet har utstedt reiseråd.</p>,<p>helsedirektoratet ønskje no ikkje innreise frå områder med høy smitterisiko, det vil seie dei landene kor folkehelseinstituttet har utstedt reiseråd.</p>
+739,<p>unntatt fra dette er de som skal tilbake og har opphold i norge.</p>,<p>unntatt frå dettet er dei som skal tilbake og har opphold i noreg.</p>
+740,<p>det vil iverksettes tiltak for å hindre dette.</p>,<p>det vil iverksettes tiltak for å hindre dettet.</p>
+741,<p>folk blir enten returnert eller satt i karantene.</p>,<p>folk blir enten returnert eller satt i karantene.</p>
+742,<p>helsedirektoratet vil ta kontakt med de berørte landene og kommuner med flyplass og fergeanløp for operasjonalisere dette.</p>,<p>helsedirektoratet vil ta kontakt med dei berørtet landene og kommuner med flyplass og fergeanløp for operasjonalisere dettet.</p>
+743,<p>dette gjelder fly, cruiseskip og annen båttrafikk.</p>,<p>dettet gjeld fly, cruiseskip og annan båttrafikk.</p>
+745,<p>hva med personer i norge som har vært i utlandet, og som har vært på jobb eller skole etter hjemkomst.</p>,<p>kva med personer i noreg som har vore i utlandet, og som har vore på jobb eller skole etter hjemkomst.</p>
+746,<p>skal de tilbake i karantene?</p>,<p>skal dei tilbake i karantene?</p>
+747,<p>ja, det er tilbakevirkende kraft med 14 dager, som betyr at personen må tilbake i karantene, regnet fra hjemkomstdato.</p>,<p>ja, det er tilbakevirkende kraft med 14 dager, som betyr at personen må tilbake i karantene, regnet frå hjemkomstdato.</p>
+749,<p>kan helsepersonell reise?</p>,<p>kan helsepersonell reise?</p>
+750,<p>vedtak etter lov om helsemessig og sosial beredskap § 4-1 første ledd om forbud mot utenlandsreiser for helsepersonell som jobber med pasientbehandling:</p>,<p>vedtak etter lov om helsemessig og sosial beredskap § 4-1 fyrste ledd om forbud mot utenlandsreiser for helsepersonell som jobber med pasientbehandling:</p>
+751,<p>helsepersonell som jobber med pasientbehandling forbys å reise til utlandet.</p>,<p>helsepersonell som jobber med pasientbehandling forbys å reise til utlandet.</p>
+752,<p>forbudet gjelder både tjenestereiser og privatreiser.</p>,<p>forbudet gjeld både tjenestereiser og privatreiser.</p>
+754,<p>hvorfor forbyr man helsepersonell å reise?</p>,<p>korfor forbyr ein helsepersonell å reise?</p>
+755,<p>dette gjøres for å opprettholde nødvendige helse- og omsorgstjenester i den situasjonen vi er i nå.</p>,<p>dettet gjøres for å opprettholde nødvendige helse- og omsorgstjenester i den situasjonen vi er i no.</p>
+757,<p>hvor lenge varer forbudet?</p>,<p>kor lenge varer forbudet?</p>
+758,<p>vedtaket gjelder fra 12.</p>,<p>vedtaket gjeld frå 12.</p>
+759,<p>mars og foreløpig ut april 2020.</p>,<p>mars og foreløpig ut april 2020.</p>
+761,<p>kan jeg reise kollektivt?</p>,<p>kan eg reise kollektivt?</p>
+762,<p>kollektivtransporttilbudet opprettholdes.</p>,<p>kollektivtransporttilbudet opprettholdes.</p>
+763,<p>grunnen til dette er at folk med kritiske samfunnsfunksjoner skal komme seg til og fra jobb.</p>,<p>grunnen til dettet er at folk med kritiske samfunnsfunksjoner skal komme seg til og frå jobb.</p>
+764,<p>det er viktig at de som reiser holder avstand til andre passasjerer.</p>,<p>det er viktig at dei som reiser holder avstand til andre passasjerer.</p>
+765,<p>vask deg på hendene etter kollektivreiser.</p>,<p>vask deg på hendene etter kollektivreiser.</p>
+766,<p>unngå offentlig transport hvis du kan.</p>,<p>unngå offentleg transport dersom du kan.</p>
+767,<p>vi anmoder om å ikke besøke personer i institusjoner med sårbare grupper.</p>,<p>vi anmoder om å ikkje besøke personer i institusjoner med sårbare grupper.</p>

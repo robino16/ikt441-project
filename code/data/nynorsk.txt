@@ -1,269 +1,509 @@
-Koronavirus smittar gjennom det som kallast dråpesmitte. Koronavirus finst i små dropar som kjem ut gjennom munnen og nasen når ein person som er smitta hostar eller nys. Den vanlegaste smittemåten er at du pustar inn dropar med smitta som svevar i lufta eller at du får virus på hendene og får det i deg viss du tar deg i ansiktet.
-
-Dette kan du gjera for å førebygga smitta:
-Unngå å hosta eller nysa direkte på andre.
-Hald minst éin meters avstand til personar som hostar.
-Hoste inn i eit papirlommetørkle som du kastar. Deretter må du vaska deg på hendene.
-Viss du ikkje har eit papirlommetørkle, bør du hosta i albukroken slik at du ikkje spreier dropar ut i lufta.
-Vask hendene ofte og grundig med såpe og lunkent vatn, spesielt når du har vore ute blant folk.
-Du kan òg bruka eit desinfeksjonsmiddel som inneheld alkohol, viss du ikkje har såpe og vatn tilgjengeleg.
-Finn alternativ til håndhilsing og klemming.
-Inkubasjonstid og symptom
-Inkubasjonstid vil seia tida frå ein er smitta til sjukdommen gir symptom og er ifølgje WHO anslått til å vera 5-6 dagar, men den kan variera frå 0-14 dagar.
-
-Symptoma liknar dei ein ser ved forkjøling og influensa.
-
-Feber, sår hals og hoste.
-Nokon utviklar lungebetennelse med pustevansker
-Kan koronavirus smitta frå personar utan symptom?
-Den viktigaste smitten skjer når personar har symptom, men det er òg mogleg med smitta rett før ein får symptom.
-Dersom du er sjuk, hald deg heime.
-Kva gjer eg viss eg trur eg er smitta?
-Viss du er sjuk, hald deg heime
-Viss du er sjuk og treng legehjelp, eller har behov for individuell helserådgiving, kontakt fastlege på telefon eller elektronisk.
-Har du behov for akutt helsehjelp og ikkje kjem i kontakt med fastlegen, ring 116 117.
-Det er berre ved livstruande sjukdom eller skade 113-nummeret skal ringast.
-Kva betyr det at WHO har erklært koronaviruset som ein pandemi?
-Folkehelseinstituttet definerer ein pandemi som "eit sjukdomsutbrot som rammar svært mange menneske og spreier seg over store delar av verda."
-
-Personar som er sjuke bør vaska hendene godt når det er risiko for at dei har fått smittestoff på hendene (til dømes etter å ha pussa nasen), før dei rører gjenstandar i omgivnadene.
-Håndvask med såpe og lunkent vatn blir tilrådd, men handdesinfeksjon er eit godt alternativ som også kan gjennomførast ved sjukesenga.
-Det er òg viktig at familiemedlemmer og andre som er i kontakt med den sjuke er ekstra påpasseleg med handhygiene etter kontakt med den sjuke eller med gjenstandar som kan innehalda smittestoff, som til dømes snytepapir.
-Bruk av munnbind utanfor helsetenesta er ikkje anbefalt
-Det blir ikkje tilrådd munnbind for friske personar. Dette gjeld ikkje dersom ein jobbar i helsetenesta, eller har kontakt med ein person med stadfesta eller mistenkt infeksjon med koronaviruset. Feilbruk hender ofte og personar som bruker munnbind tar seg oftare til ansiktet, noko som kan auka smittefaren. Personar som er sjuke kan bruka munnbind for å hindra smitta til andre.
-
-Kven bør testast for koronavirus?
-Personar i hjemmekarantene skal ikkje testast og skal heller ikkje kontakta helsetenesta med mindre dei har behov for helsehjelp.
-
-Visse pasientgrupper og helsepersonell med luftvegssymptom blir prioriterte for testing.
-
-Kriterium for testing blir fortløpande vurderte.
-
-Reingjering heime og offentleg
-Det er usikkert kor lenge viruset kan leva på overflater. Det vil variera med overflate, temperatur, sollys og luftfukt. Fordi virus kan finnast på overflater er håndvask det viktigaste tiltaket.
-
-Helsedirektoratet har oppmoda kollektivselskap til å setja i gang ekstra reingjering av T-banevogner, bussar, trikkar osb. Helsedirektoratet oppmodar òg til ekstra reingjering på område med stor publikumstrafikk.
-
-Kva tilrådingar gjeld for meg?
-No skal alle halda større avstand til kvarandre enn vanleg. Dette er for å unngå smitta. Dei som kan vera smitta av koronavirus, men som ikkje er sjuke, skal i karantene. Dei som har fått påvist koronavirus skal i isolasjon.
-
-24. mars 2020 informerte regjeringa om skjerpte tilrådingar om å halda avstand. Desse tilrådingane trer i kraft 27. mars, men vi tilrår å følgja dei allereie no.
-
-Befolkningen generelt
-Alle skal halda meir avstand enn vanleg. I det offentlege rommet bør vi halda minst éin meters avstand til andre menneske. Når vi er ute, bør vi ikkje vera meir enn fem personar i same gruppe. Det gjeld ikkje dei som er i familie eller i same husstand.
-
-Når vi er innandørs på arbeidsplassen, bør vi ha minst to meters avstand til kvarandre. Det gjeld ikkje når vi er innandørs med familie eller personar i same husstand.
-
-Det er viktig å halda fram med å vaska hendene hyppig og grundig. Det vil mellom anna seia å vaska hendene før du går ut, med ein gong du kjem heim og før du et. Prøv òg å unngå å ta deg i ansiktet.
-
-De som er friske og som bur saman kan omgåast som vanleg. Dette gjeld òg barn i skilde familiar, men du bør unngå handhelsing, kyssing og klemming med andre utover dette.
-
-Dersom du har symptom på luftvegsinfeksjon skal du halda deg heime til éin dag etter at du har vorte frisk. Dei du bur saman med kan framleis gå ut, men må følgja med på eigne symptom. Dette gjeld òg for helsepersonell.
-
-​Kvifor skal alle med symptom på luftvegsinfeksjon halda seg heime eitt døgn etter at symptoma er borte?
-Det vil vera ei stor gruppe som har symptom på luftvegsinfeksjonar. Noreg testar mange for COVID-19, og fram til no har berre om lag 5 prosent av alle dei testa fått påvist koronavirus. Det er med andre ord svært mange med luftvegsinfeksjonar der symptoma kjem av noko anna enn koronavirussjukdom. Førebelse funn tyder på at ein er mest smittsam tidleg i sjukdomsforløpet og raskt blir mindre smittsam når symptoma er borte. Derfor er det eit generelt råd at heile denne store gruppa skal halda seg heime til eitt døgn etter at symptoma er borte.
-
-Hjemmekarantene
-Det er to grupper som skal i karantene:
-
-Dersom du har vore på utenlandsreise skal du vera i karantene i 14 dagar frå den dagen du kom heim.
-Dersom du har vore i nær kontakt med nokon som har fått påvist koronavirus skal du vera i hjemmekarantene. Nærkontaktar blir definerte av helsetenesta i samarbeid med den smitta. Nær kontakt vil seia kontakt med ein smitta person der de har hatt mindre enn to meters avstand i meir enn 15 minutt, eller direkte fysisk kontakt. Karantenen skal vara i minst 14 dagar frå den dagen kontakten skjedde.
-Dersom du bur saman med ein person som er isolert med påvist koronavirus, skal du vera i karantene fram til den sjuke ikkje lenger er isolert, minst 14 dagar etter at karantenen starta.
-
-Dersom du blir testa for koronavirus medan du er i karantene, og denne testen er negativ, skal du framleis fullføra karanteneperioden på 14 dagar.
-
-Folkehelseinstituttet oppdaterer informasjon om testing for koronavirus.
-
-Verksemdsleiinga kan gjera unntak frå karanteneplikta for personar som er strengt nødvendige for å kunna halda oppe forsvarleg drift av funksjonar knytt til liv og helse. Med funksjonar knytt til liv og helse blir mellom anna meinte
-
-vaktteneste innan helse- og omsorgstenesta
-tryggingsarbeid (politi-, brann- og redningsberedskap)
-øvste leiing av kritiske samfunnsfunksjonar
-Unntaket gjeld ikkje i fritida, berre når dei er på jobb eller reiser til og frå jobb med anna enn offentleg transport. Dei skal så langt som mogleg unngå nærkontakt med andre personar.
-
-Hjemmeisolering
-Du skal isolerast dersom du har fått påvist koronavirus
-
-Du isolerast i heimen, eller eventuelt i helseinstitusjon eller ein annan stad ved behov.
-
-
-Kva kan eg gjera og ikkje gjera?
-Befolkningen generelt
-Som nemnt, skal alle no halda meir avstand enn vanleg Det vil seia minst éin meters avstand på offentlege stader til menneske du ikkje er i familie eller same husstand med. Du kan ta kollektivtransport så lenge du passar på å halda avstand til andre passasjerar.
-
-Dersom du har moglegheit, nytt hjemmekontor. Dersom du ikkje har hjemmekontor, bør du ha minst to meters avstand til kollegaene dine.
-
-Det er viktig at vi alle berre gjennomfører heilt nødvendige reiser, også innanlands.
-
-Besøk og samvær bør avgrensast. Dersom du får besøk bør mengde du har nær kontakt med blir avgrensa. Friske barn kan vera saman i små grupper, men det bør ønskast å ha faste leikevenner gjennom heile perioden. Å leika ute medfører mindre smitterisiko enn å leika inne. Utsett større sammenkomster som ikkje er nødvendige.
-
-Dersom du tilhøyrer ei risikogruppe, er råda ekstra viktige for deg.
-
-Til slutt, ta vare på kvarandre og unngå stigmatisering og utestenging. Tenk over om det er nokon som kunne trenga ein ekstra telefonsamtale i denne perioden. Dette er tida for ekstra omtanke i kvardagen.
-
-Hjemmekarantene
-Når du er i hjemmekarantene skal du halda deg mest mogleg heime. Du skal ikkje gå på skule eller jobb, berre hjemmekontor. Du skal heller ikkje ta lengre reiser innanlands eller utanlands eller ta offentleg transport.
-
-Du bør unngå stader der det er vanskeleg å halda avstand og du skal som hovudregel ikkje oppsøka offentlege stader, slik som butikkar, apotek og kafear. Ved mangel på alternativ, kan du gå ut for å gjennomføra nødvendig ærend i butikk.
-
-Men hald 1-2 meters avstand til andre og unngå kø.
-
-Du kan gå tur ute, men hald god avstand til andre.
-
-Det er viktig at du følgjer med på om du utviklar symptom. Dersom du utviklar feber eller luftvegssymptom, skal du halda deg heime.
-
-Barn som er i karantene kan ikkje ha leikekameratar utover dei som er i heimen.
-
-Hovudpoenget er at du ikkje skal smitta andre før du sjølv utviklar symptom, men det må òg vera praktisk gjennomførbart.
-
-Regjeringa innførte 20. mars eit forbod mot å overnatta på fritidseigedom utanfor eigen kommune. Les meir om dette på nettsidene til regjeringa
-
-Det blir gitt unntak for personar i karantene som bur saman med eit hustandsmedlem som er i isolasjon med påvist koronavirus.
-
-Personar som er i karantene fordi dei bur saman med ein som er stadfesta smitta, kan dermed overnatta på hytta i den perioden den smitta er i isolasjon heime. Den smitta skal bli heime, medan dei andre personane i husstanden kan overnatta på hytta.
-
-Folkehelseinstituttet (FHI) har eigne råd til personar i hjemmekarantene.
-
-Folkehelseinstituttet har omsett informasjon til personar som må halda seg heime til 26 ulike språk. Dokumenta finst her.
-
-Hjemmeisolasjon
-Dersom du har fått påvist koronavirus må du isolerast.
-
-Det betyr at du må halda deg heime heile tida og ikkje gå ut. Du skal helst halda to meters avstand til dei du bur saman med og ha eige rom og bad når dette er mogleg. Bruk eigne baderomsartiklar, inkludert eige håndkle.
-
-Du må vera nøye med hand- og hostehygiene for å unngå å smitta andre i husstanden. Det er òg viktig med hyppig reingjering av heimen, spesielt dei stadene som de ofte tar på.
-
-Dei du bur saman med skal vera i karantene.
-
-Isolasjonen varer til legen seier at du er smittefri, normalt 7 dagar etter at du er heilt frisk. Folkehelseinstituttet (FHI) har informasjon om kriteria for opphevelse av isolasjon.
-
-Folkehelseinstituttet (FHI) har eigne råd til personar som blir isolert i heimen ved koronavirus.
-
-Stressreduserende tiltak ved karantene og isolasjon
-Å vera i hjemmekarantene eller isolasjon kan vera ein stressande situasjon. Det er vanleg å bli bekymra,  anstrengt, irritert, rastlaus og ha vanskar med å konsentrera seg. Mange blir triste, føler seg einsame eller slit med å sova. For dei fleste vil likevel karantene- og isolasjonsperioden gå fint, og eventuelle psykososiale reaksjonar vera forbigåande.
-
-Når ein blir sett i hjemmekarantene eller isolasjon, endrar kvardagen seg for heile familien Ein kan ikkje gå på jobb, skule, i barnehagen eller møta andre på same måte som før. Det fører ofte til at ein er mindre fysisk aktiv, et mindre regelmessig, og kanskje søv mykje meir eller mindre enn normalt. Dei fleste har mykje skjermtid.
-
-Gode tiltak for rørte
-Hold deg oppdatert på nyheitsbildet – men ikkje la det ta overhånd
-Det kjem mykje viktig informasjon og nyttige råd, men overdrivent fokus på nyheitsoppdateringar kan ta for mykje plass i kvardagen og bidra til bekymring. Ønsker du å halda deg oppdatert, bruk pålitelege kjelder som Folkehelseinstituttet og Helsenorge sine nettsider.
-
-Lag struktur på dagen
-I ein hjemmesituasjon blir det viktig å skapa nye rutinar. Prøv å halda oppe ein normal døgnrytme. Skule og jobb bidrar for mange til struktur, meining og tryggleik i kvardagen. Finn gode måtar å gjera arbeidet ditt på om du jobbar heimefrå. Det er òg fint å aktivisera seg gjennom hobbyar.
-
-Sørg for daglege dosar fysisk aktivitet og dagslys
-Livet i karantene kan lett bli prega av ein stillesittende tilvere innandørs. Fysisk aktivitet, turar i naturen og dagslys verkar positivt inn på psyken og på søvn. Ved uteaktivitet, følg tilrådingane til helsestyresmakta.
-
-Hald oppe sosial kontakt
-Sjølv om du er i hjemmekarantene eller isolasjon, er det moglegheiter for å snakka med andre gjennom sosiale medium og telefon. Lag gjerne faste avtalar om å halda kontakt med til dømes familie, venner, medelever og kollegaer.
-
-Gode tiltak for barn, unge og familiar i karantene eller isolasjon
-Yngre og eldre barn kan ha ulike reaksjonar på å vera i hjemmekarantene eller isolasjon. Nokon kan føla seg stressa, trist, redd, sint eller irritert, medan andre ikkje har nokon vonde kjensler knytt til å vera i karantene. Nokon får vondt i magen, hovudet eller delar av kroppen, og ein kan lura på om ein er sjuk.
-
-Ein kan òg vera redd for at foreldre eller søsken er sjuke. Alle desse kjenslene er vanlege. Og for dei aller fleste vil dissa reaksjonane gå over. Det kan likevel vera utfordrande for heile familien når kvardagen endrar seg på denne måten.
-
-Vi veit at det er fleire ting som kan vera fint å gjera når ein er i ein situasjon der ein må vera i karantene som familie med barn:
-
-Snakk med barna
-Barn treng forståeleg informasjon om kvifor dei er i karantene eller isolert, og kva dei sjølv kan gjera. Det er viktig at barn får vita at dei gjer ein innsats for å forhindra at andre blir smitta ved å vera i karantene. Spør kva barna lurer på, og gi tydelege svar. Hugs at barn får med seg meir enn du trur. Barn kan òg føla skuld for situasjonen, eller bli veldig redde. Ikkje vent på at dei skal komma og spørja deg. Spør kva dei har fått med seg av informasjon og nyheiter, og svar på det dei lurer på.
-
-Tryggleik smittar
-Når du er trygg, blir barna trygge. Når barn er redde, treng dei trøst og omsorg. Ta nokre djupe pust og finn din eigen tryggleik. Skap tryggleik ved å anerkjenna kjenslene til barnet, og hjelp barnet å handtera alle kjensler. Dei kan trenga at vaksne er litt ekstra tolmod i denne fasen.
-
-Hald på rutinane
-Sjølv om ein ikkje kan gå i barnehagen eller på skulen, er det lurt å ha faste aktivitetar kvar dag – som å stå opp og legga seg til vanleg tid, vera fysisk aktiv og gjera skulearbeid. Sunne, regelmessige måltid, søvn og fysisk aktivitet senkar stress i kroppen både hos barn og vaksne. Leggerutiner kan forstyrrast når barn er redde og/eller sjuke. Ha faste trygge leggerutiner. Unngå at barna sit for mykje åleine med telefon og nettbrett. Det er lurt å legga unna skjerm og telefon ein time før leggetid. Det er vanleg at barn vaknar i løpet av natta og kjem inn til foreldre. Det går over.
-
-Sosial kontakt
-Ha kontakt med venner og familie på sosiale medium og telefon. Det er både støttande, oppmuntrande og senkar stress.
-
-Gjer det som fungerer for de
-Gjør ting du og familien din liker å gjera som å sjå film, lesa bøker, høyra på musikk eller lydbok. Familietid kan vera positivt, men respektar òg at barn kan trenga tid åleine.
-
-Meld frå ved mistanke om koronavirus
-Har du symptom som kan komma av koronavirus? Her kan du melda frå til Folkehelseinstituttet (FHI).
-
-Gå til skjema for å melda frå om symptom dersom du i løpet av dei siste sju dagane har hatt symptom som kan komma av koronavirus.
-
-Logg inn og meld frå til Folkehelseinstituttet
-Skjema for å melda frå om symptom
-Du kan melda frå på vegner av deg sjølv, barnet ditt under 16 år, eller for ein som har gitt deg fullmakt på Helsenorge.
-
-Du får ikkje kontakt med lege eller helsevesen, og du får ikkje varsla personar du har vore nær gjennom denne løysinga. Men du hjelper Folkehelseinstituttet med å kartlegga kor mange som kan vera sjuke med koronavirus i Noreg.
-
-Folkehelseinstituttet publiserer oppdaterte tal, mellom anna frå denne løysinga, på fhi.no framover. Opplysningane kan òg vera aktuelle for framtidig forsking.
-
-Ved å melda frå, hjelper du Folkehelseinstituttet med å kartlegga kor mange som kan vera sjuke med koronavirus i Noreg. Takk for hjelpa!
-
-Barn og korona
-Barn ser ut til å tola sjukdom med koronavirus betre enn eldre. Men barn kan smitta andre.
-
-Kan barn leika med kvarandre eller vera saman?
-Alle skal halda meir avstand enn vanleg. Ein kan omgåast søsken som normalt, dette gjeld òg barn frå skilde familiar som har fleire heim. Hovudmålsetjinga er likevel å redusera mengde kontaktar til eit så lågt nivå som mogleg.
-
-Det blir tilrådd å ikkje samla fleire til leiketreff eller felles aktivitetar. Målet er å halda avstand for å hindra smitta.
-Når vi er ute, bør vi ikkje vera meir enn fem personar i same gruppe. Det gjeld ikkje dei som er i familie eller i same husstand.
-Tilrådinga er å halda meir avstand enn vanleg.
-Samvær bør avgrensast (få timar).
-For å ta vare på behovet til barn for leik med andre barn kan ein ha 1-2 faste leikevenner og halda seg til dei same leikevennene gjennom denne perioden. Det gjeld òg for ungdom.
-
-Det er betre å møtast for leik utandørs enn innandørs.
-Leikeplassar med mange barn samtidig bør unngåast. Tilrådinga om meir avstand enn vanleg gjeld òg her.
-Bursdagsselskap bør utsetjast.
-Overnattingsbesøk bør avgrensast i denne perioden.
-Vask hende ofte, både før, under og etter leik, og ha god hostehygiene.
-Barn og ungdommar med symptom på luftvegsinfeksjon blir heime halde og bør ikkje vera saman med andre barn og ungdommar utanfor familien. Dette gjeld òg ved milde symptom.
-
-Barn og ungdom som er i hjemmeisolasjon eller hjemmekarantene skal ikkje omgåast barn og ungdom utanfor husstanden.
-
-Det er fare for at nokre barn kan bli ståande utan leikekameratar i denne perioden. Foreldre kan hjelpa til med å passa på at barna held kontakt med kvarandre på andre måtar, gjennom telefon, videosamtalar og liknande.
-
-Barn og unge som får ekstra belastning med stengde skular og barnehagar
-Noen barn og unge har det vanskeleg heime. Barnehagen og skulen kan vera ein spesiell viktig stad for desse barna der dei til vanleg har kontakt med andre barn, ungdom og vaksne. 
-
-Det er unntak for stenging av barnehage og skule for barn med særskilde omsorgsbehov. Derfor må den enkelte skulen og barnehage gjera konkrete og individuelle vurderingar om kven som bør få dette tilbodet. Les meir om dette på Utdanningsdirektoratets sider.
-
-Helsedirektoratet arbeider med å nedsetja ei ekspertgruppe frå ulike fagmiljøer som skal jobba med tiltak knytt til psykisk og sosial oppfølging av barn og unge under og etter koronapandemien.
-
-No som skular og barnehagar blir haldne stengt veit vi at nokre barn og unge må halda til meir tid saman med vaksne som ikkje er trygge for dei. Mistenker du at eit barn ikkje har det bra? Alarmtelefonen til barnevernet er for deg som er utsett for vald, overgrep eller omsorgssvikt, eller om du er bekymra for ein du kjenner. Denne er no open heile døgnet alle dagar i veka. Ring 116 111 så vil dei hjelpa deg.
-
-Sjå fleire tenester for barn og unge som treng nokon å snakka med.
-
-Slik snakkar du med barn og unge om korona
-Det er viktig å snakka med barn og unge for å unngå frykt og for å skapa tryggleik no som dagane er så annleis.
-
-Snakk med barna om kvifor skular, barnehagar og fritidsaktivitetar er stengde. Forklar at det for å passa på at koronaviruset ikkje skal spreia seg vidare.
-Spør kva dei har høyrt eller lese om korona og om det er noko dei bekymrar seg spesielt for.
-Gi sakleg og korrekt informasjon. Pass på at du verken overdriv eller bagatelliserer. Sjukdommen er alvorleg, men vi er godt førebudde i Noreg.
-Ikkje stress barna unødig – hosting eller nysing er normalt, og dei aller fleste som blir smitta av koronavirus får milde symptom.
-Snakk om at ein ikkje treng å sjekka nyheitene heile tida, og bli gjerne samde med barnet om kor ofte. Sitt gjerne saman med barnet og snakk om det de ser, høyrer og les.
-Det er viktig å lytta til barnet. Vêr tilstades i samtalen, og la barnet snakka ferdig.
-Hugs at særleg mindre barn «fyller ut» med fantasien når det er ting dei ikkje forstår.
-Vêr konkret, klar og tydeleg. Gjenta gjerne på ulike måtar
-Forklar korleis ein blir smitta (dråpesmitte på nært hald) – og korleis ein unngår å bli smitta (god handhygiene, nysa i olbogekroken osb.)
-Vêr tydeleg på at det er lov til å vera redd, lei seg eller sint når dagane blir så forskjellige og ein ikkje kan gjera som ein pleier.
-Fortel at det er mange tusen legar og sjukepleiarar og andre som passar på at dei som blir sjuke får god behandling.
-Førebu barna på kva andre endringar som vil komma i vekene framover, t.d. at foreldre vil jobba heimefrå, at det blir mindre besøk av venner og familie, og at reiser, bursdagsfeiringar og liknande blir utsett.
-Forklar at denne situasjonen er for ein periode, at ting vil bli som normalt igjen, men at vi ikkje heilt veit når.
-Hugs òg:
-Barn og unge søker ofte informasjon på internett. Sjekk internettbruket til barna. Spør gjerne om dei har lese noko om koronaviruset på nettet i dag.
-
-Ungdom og tenåringar snakkar ofte mest med jamaldra og kan få mykje informasjon som ikkje er riktig. Legg til rette for at dei kan snakka med deg. Ikkje gløym at også ungdommar kan vera engsteleg og ha behov for å snakka med ein vaksen.
-
-På ung.no finn du oppdatert og nyttig informasjon for ungdom mellom 13 og 20 år. Du finn svar på det du lurer på og du kan stilla spørsmål på ung.no/oss.
-
-Treng du nokon å snakka eller chatta med? Her finn du informasjon om hjelpetelefonar og chattetjenester.
-
-Denne filmen er laga for barn og unge. Ein kan velja undertekstar på ei rekke språk ved å klikka på det vesle hjulet i botnlinja.
-
-Råd til å meistra kvardagen i familien
-Skoler og barnehagar er stengde fordi alle må bidra til å avgrensa spreiing av korona-epidemien. Det skaper bekymring og er stressande for mange familiar. Her er nokre råd som kan vera til hjelp for å meistra den nye kvardagen:
-
-Det er lurt å halda oppe normale rutinar for måltid og leggetider.
-I løpet av det som er vanleg skuletid, blir det tilrådd at barna gjer skulearbeid, teiknar, les eller lyttar til bøker, og sørger for å vera ute i frisk luft utan å vera tett på andre.
-Fokus på positive ting familien kan gjera saman – slik som å sjå film, høyra på musikk, lesa saman, gå ein tur eller spela spel. Pass på at de samlast rundt felles måltid.
-Hugs at du er ein rollemodell for barna. Korleis du handterer stress, korleis de vaksne snakkar om sitasjonen, og korleis de reagerer, påverkar barna.
-Kjensler som redsel, panikk, tristhet og einsemd er normale reaksjonar i slike spesielle situasjonar. Barn er sensitive for voksnes kjensler, og det er betre å vera open om kjenslene sine enn å skjula dei.
-Barn reagerer på ulike måtar. Nokon kan verka uberørt når du snakkar med dei, men vise bekymring seinare. Vêr særleg oppmerksam på kvelden og natta. Mange barn blir ekstra engstelege då.
-Det er viktig å halda seg orientert, men det kan vera lurt å avgrensa bruken av sosiale media og liknande viss det fører til auka stress og unødig redsel.
-Søk støtte hos andre – Ikkje vêr redd for å be om hjelp.
-Snakk om kva de skal gjera i familien dersom nokon føler seg dårleg og blir sjuk. Dersom det blir aktuelt med karantene: forklar kva det betyr og snakk om kva de kan gjera for at det skal bli så hyggeleg som mogleg.
+Har du spørsmål om korona?
+ring informasjonstelefonen, eller bruk chatboten nederst på sidan.
+ 
+nødnumre må kun brukes av personer som er akutt syke. 
+ hold deg heime dersom du er syk. 
+ ring fastlegen dersom du har behov for hjelp frå lege. 
+ ring informasjonstelefon for publikum dersom du har spørsmål om korona.
+ 
+når skal eg vere heime og når gjeld karantene eller isolasjon?
+
+hvilke anbefalinger gjeld for meg?
+no skal alle halde større avstand til kvarandre enn vanlig. 
+ dettet er for å unngå smittet. 
+ dei som kan vere smittet av koronavirus, men som ikkje er syke, skal i karantene. 
+ dei som har fått påvist koronavirus skal i isolasjon.
+ 
+24. mars 2020 informertet regjeringa om skjerpede anbefalinger om å halde avstand. 
+ desse anbefalingene trer i kraft 27. mars, men vi anbefaler å følgje dei allereie no.
+ 
+befolkningen generelt
+alle skal halde meir avstand enn vanlig. 
+ i det offentlige rom bør vi halde minst én meters avstand til andre mennesker. 
+ når vi er ute, bør vi ikkje vere meir enn fem personer i samme gruppe. 
+ det gjeld ikkje dei som er i familie eller i samme husstand.
+ 
+når vi er innendørs på arbeidsplassen, bør vi ha minst to meters avstand til kvarandre. 
+ det gjeld ikkje når vi er innendørs med familie eller personer i samme husstand.
+ 
+det er viktig å fortsettet å vaske hendene hyppig og grundig. 
+ det vil blant anna seie  å vaske hendene før du går ut, med ein gong du kjem heim og før du spiser. 
+ prøv også å unngå å ta deg i ansiktet.
+ 
+dere som er friske og som bor saman kan omgås som vanlig. 
+ dettet gjeld også born i skiltet familier, men du bør unngå håndhilsning, kyssing og klemming med andre utover dettet.
+ 
+dersom du har symptomer på luftveisinfeksjon skal du halde deg heime til én dag etter at du har blitt frisk. 
+ dei du bor saman med kan framleis gå ut, men må følgje med på eigne symptomer. Dettet gjeld også for helsepersonell.
+ 
+korfor skal alle med symptomer på luftveisinfeksjon halde seg heime eitt døgn etter at symptomene er borte?
+det vil vere ein stor gruppe som har symptomer på luftveisinfeksjoner. 
+ Noreg tester mange for covid-19, og fram til no har kun om lag 5 prosent av alle dei testede fått påvist koronavirus. 
+ det er med andre ord svært mange med luftveisinfeksjoner kor symptomene skyldes noko anna enn koronavirussykdom. 
+ foreløpige funn tyder på at ein er mest smittsom tidlig i sykdomsforløpet og raskt blir mindre smittsom når symptomene er bortet. 
+ difor er det eit generelt råd at heile denne store gruppa skal halde seg heime til eitt døgn etter at symptomene er bortet.
+ 
+det er to grupper som skal i karantene:
+dersom du har vore på utenlandsreise skal du vere i karantene i 14 dager frå den dagen du kom heim.
+ dersom du har hatt nærkontakt med nokon som har fått påvist koronavirus skal du vere i hjemmekarantene. 
+ kven dettet gjeld, blir definert av helsetjenesten i samarbeid med den smittede, og du får beskjed dersom dettet gjeld deg. 
+ med nærkontakt menes kontakt med ein smittet person med mindre enn to meters avstand i meir enn 15 minutter, eller direktet fysisk kontakt. 
+ du skal vere i karantene i minst 14 dager frå den dagen kontakten skjedde.
+ 
+dersom du bor saman med ein person som er isolert med påvist koronavirus, skal du vere i karantene fram til den syke ikkje lenger er isolert, minst 14 dager etter at karantenen startet.
+ 
+dersom du testes for koronavirus mens du er i karantene, og denne testen er negativ, skal du framleis fullføre karanteneperioden på 14 dager.
+ 
+folkehelseinstituttet oppdaterer informasjon om testing for koronavirus.
+ 
+virksomhetsledelsen kan gjere unntak frå karanteneplikten for personer som er strengt nødvendige for å kunne opprettholde forsvarlig drift av funksjoner knyttet til liv og helse. 
+ 
+unntaket gjeld ikkje i fritiden, kun når dei er på jobb eller reiser til og frå jobb med anna enn offentleg transport. 
+ dei skal så langt som mogeleg unngå nærkontakt med andre personer.
+ 
+du skal isoleres dersom du har fått påvist koronavirus
+
+du isoleres i hjemmet, eller eventuelt i helseinstitusjon eller eit anna stad ved behov.
+ 
+kva kan eg gjere og ikkje gjere?
+
+som nevnt, skal alle no halde meir avstand enn vanlig. Det vil seie  minst én meters avstand på offentlige steder til mennesker du ikkje er i familie eller samme husstand med. Du kan ta kollektivtransport så lenge du passer på å halde avstand til andre passasjerer.
+ 
+dersom du har mulighet, benytt hjemmekontor. Dersom du ikkje har hjemmekontor, bør du ha minst to meters avstand til kollegene dine.
+ 
+det er viktig at vi alle kun gjennomfører heilt nødvendige reiser, også innenlands.
+ 
+besøk og samvær bør begrenses. Dersom du får besøk bør antall du har nær kontakt med begrenses. Friske born kan vere saman i små grupper, men det bør tilstrebes å ha fastet lekevenner gjennom heile perioden. Å leke utet medfører mindre smitterisiko enn å leke inne. Utsett større sammenkomster som ikkje er nødvendige.
+ 
+dersom du tilhører ein risikogruppe, er rådene ekstra viktige for deg.
+ 
+til slutt, ta vare på kvarandre og unngå stigmatisering og utestenging. 
+ tenk over om det er nokon som kunne trenge ein ekstra telefonsamtale i denne perioden. 
+ dettet er tida for ekstra omtanke i hverdagen.
+ 
+når du er i hjemmekarantene skal du halde deg mest mogeleg heime. Du skal ikkje gå på skole eller jobb, kun hjemmekontor. Du skal heller ikkje ta lengre reiser innenlands eller utenlands eller ta offentleg transport.
+ 
+du bør unngå steder kor det er vanskeleg å halde avstand, og du skal som hovedregel ikkje oppsøke offentlige steder, slik som butikker, apotek og kafeer. Ved mangel på alternativer, kan du gå ut for å gjennomføre nødvendig ærender i butikk eller apotek, men du må sørge for å halde nok avstand (det vil seie  1-2 meter) til andre og unngå kø.
+ 
+du kan gå tur ute, men hold god avstand til andre.
+ 
+det er viktig at du følger med på om du utvikler symptomer. Dersom du utvikler feber eller luftveissymptomer, skal du halde deg heime.
+ 
+born som er i karantene kan ikkje ha lekekamerater utover dei som befinner seg i hjemmet.
+ 
+hovedpoenget er at du ikkje skal smittet andre før du sjå utvikler symptomer, men det må også vere praktisk gjennomførbart.
+ 
+regjeringa innførtet 20. mars eit forbud mot å overnattet på fritidseiendom utanor eigen kommune. Les meir om dettet på regjeringens nettsider
+
+det gis unntak for personer i karantene som bor saman med eit hustandsmedlem som er i isolasjon med påvist koronavirus.
+ 
+personer som er i karantene fordi dei bor saman med ein som er bekreftet smittet, kan dermed overnattet på hytta i den perioden den smittede er i isolasjon heime. 
+ den smittede skal bli heime, mens dei andre personene i husstanden kan overnattet på hytta.
+ 
+folkehelseinstituttet (fhi) har eigne råd til personer i hjemmekarantene.
+ 
+folkehelseinstituttet har oversatt informasjon til personer som må halde seg heime til 26 ulike språk. Dokumentene finst her.
+ 
+dersom du har fått påvist koronavirus må du isoleres.
+ 
+det betyr at du må halde deg heime heile tida og ikkje gå ut. Du skal helst halde to meters avstand til dei du bor saman med og ha eige rom og bad når dettet er mogeleg. Bruk eigne baderomsartikler, inkludert eige håndkle.
+ 
+du må vere nøye med hånd- og hostehygiene for å unngå å smittet andre i husstanden. Det er også viktig med hyppig rengjøring av hjemmet, spesielt dei stedene som dere oftet teke på.
+ 
+dei du bor saman med skal vere i karantene.
+ 
+isolasjonen varer til legen seier at du er smittefri, normalt 7 dager etter at du er heilt frisk. Folkehelseinstituttet (fhi) har informasjon om kriteriene for opphevelse av isolasjon.
+ 
+folkehelseinstituttet (fhi) har eigne råd til personer som isoleres i hjemmet ved koronavirus.
+ 
+å vere i hjemmekarantene eller isolasjon kan vere ein stressende situasjon. 
+ det er vanlig å bli bekymret,  anspent, irritert, rastløs og ha vansker med å konsentrere seg. 
+ mange blir triste, føler seg ensomme eller sliter med å sove. For dei flestet vil imidlertid karantene- og isolasjonsperioden gå fint, og eventuelle psykososiale reaksjoner vere forbigående.
+ 
+når ein blir satt i hjemmekarantene eller isolasjon, endrer hverdagen seg for heile familien. Ein kan ikkje gå på jobb, skole, i barnehagen eller møtet andre på samme måtet som før. 
+ det fører oftet til at ein er mindre fysisk aktiv, spiser mindre regelmessig, og kan hende sover mykje meir eller mindre enn normalt. Dei flestet har mykje skjermtid.
+ 
+det kome mykje viktig informasjon og nyttige råd, men overdrevent fokus på nyhetsoppdateringer kan ta for mykje plass i hverdagen og bidra til bekymring. Ønskje du å halde deg oppdatert, bruk pålitelige kilder som folkehelseinstituttet og helsenorge sine nettsider.
+ i ein hjemmesituasjon blir det viktig å skape nye rutiner. Prøv å opprettholde ein normal døgnrytme. Skole og jobb bidrar for mange til struktur, mening og trygghet i hverdagen. Finn gode måter å gjere arbeidet ditt på om du jobber hjemmefra. Det er også fint å aktivisere seg gjennom hobbyer.
+ livet i karantene kan lett bli sufget av ein stillesittende tilværelse innendørs. Fysisk aktivitet, turer i naturen og dagslys virker positivt inn på psyken og på søvn. Ved uteaktivitet, følg helsemyndighetens anbefalinger.
+ sjå om du er i hjemmekarantene eller isolasjon, er det muligheter for å snakke med andre gjennom sosiale medier og telefon. Lag gjerne fastet avtaler om å halde kontakt med for døme familie, venner, medelever og kollegaer.
+ 
+yngre og eldre born kan ha ulike reaksjoner på å vere i hjemmekarantene eller isolasjon. Nokon kan føle seg stresset, trist, redd, sint eller irritert, mens andre ikkje har nokon vonde følelser knyttet til å vere i karantene. Nokon får vondt i magen, hovudet eller deler av kroppen, og ein kan lure på om ein er syk.
+ 
+ein kan også vere redd for at foreldre eller søsken er syke. Alle desse følelsene er vanlige. Og for dei aller flestet vil desse reaksjonene gå over. Det kan likevel vere utfordrende for heile familien når hverdagen endrer seg på denne måten.
+ 
+vi veit at det er fleire ting som kan vere fint å gjere når ein er i ein situasjon der ein må vere i karantene som familie med born.
+ 
+born treng forståelig informasjon om korfor dei er i karantene eller isolert, og kva dei sjå kan gjere. Det er viktig at born får vete at dei gjør ein innsats for å forhindre at andre blir smittet ved å vere i karantene. Spør kva barna lurer på, og gi tydelige svar. Husk at born får med seg meir enn du trur. Born kan også føle skyld for situasjonen, eller bli veldig redde. Ikkje vent på at dei skal komme og spørre deg. Spør kva dei har fått med seg av informasjon og nyheter, og svar på det dei lurer på.
+ 
+når du er trygg, blir barna trygge. Når born er redde, treng dei trøst og omsorg. Ta nokon dype pust og finn din eigen trygghet. Skap trygghet ved å anerkjenne barnets følelser, og hjelp barnet å håndtere alle følelser. Dei kan trenge at voksne er litt ekstra tålmodighet i denne fasen.
+ 
+sjå om ein ikkje kan gå i barnehagen eller på skulen, er det lurt å ha fastet aktiviteter hver dag – som å stå opp og leggje seg til vanlig tid, vere fysisk aktiv og gjere skolearbeid. Sunne, regelmessige måltider, søvn og fysisk aktivitet senker stress i kroppen både hos born og voksne. Leggerutiner kan forstyrres når born er redde og/eller syke. Ha fastet trygge leggerutiner. Unngå at barna sit for mykje aleine med telefon og nettbrett. Det er lurt å leggje unna skjerm og telefon ein time før leggetid. Det er vanlig at born våkner i laupet av natten og kome inn til foreldre. Det går over.
+ 
+ha kontakt med venner og familie på sosiale medier og telefon. Det er både støttende, oppmuntrende og senker stress.
+ 
+gjør ting du og familien din liker å gjere som å se film, lese bøker, høyre på musikk eller lydbok. Familietid kan vere positivt, men respekter også at born kan trenge tid aleine.
+ 
+koronavirus smitter gjennom det som kalles dråpesmittet. Koronavirus finst i små dråper som kjem ut gjennom munnen og nesen når ein person som er smittet hoster eller nyser. Den vanligstet smittemåten er at du puster inn dråper med smittet som svever i lufta eller at du får virus på hendene og får det i deg dersom du teke deg i ansiktet.
+ 
+inkubasjonstid vil seie  tida frå ein er smittet til sykdommen gjev symptomer. Verdens helseorganisasjon har anslått inkubasjonstiden for koronavirus til å vere 5–6 dager, men den kan variere frå null til 14 dager.
+ 
+symptomene ligner dei ein ser ved forkjølelse og influensa.
+ 
+dei som blir syke, får vanligvis først vondt i halsen, forkjølelse og lett hostet i tillegg til sykdomsfølelse og muskelsmerter. Nokon får diare, men det er ikkje vanlig.
+ 
+sykdomsforløp kan variere mykje mellom personer. 
+ 
+informasjon om risikofaktorer for alvorlig sykdom er foreløpig begrenset. Innleggelse, intensivbehandling og dødsfall er vanligere hos eldre og personer med underliggende sykdommer. Særlig eldre med underliggende sykdom er utsatt, men alvorlig sykdom kan også forekomme hos personer utan kjentet risikofaktorer.
+ 
+det finst ingen spesifikk behandling eller vaksine mot sykdommen.
+ 
+mange nordmenn er plaget med pollenallergi i vårmånedene, og symptomene kan vere ganske like symptomer på koronavirus, slik som tett eller rennende nese, nysing, rennende eller kløende øyne og hos nokon astmatisk besvær. Pollenallergi gjev derimot ikkje vondt i halsen, kroppsverk eller feber slik som koronavirus kan. 
+ 
+har du symptomer som kan skyldes koronavirus? her kan du melde frå til folkehelseinstituttet (fhi).
+ 
+du kan melde frå på vegne av deg sjå, ditt born under 16 år, eller for ein som har gjeve deg fullmakt på helsenorge.
+ 
+du får ikkje kontakt med lege eller helsevesen, og du får ikkje varslet personer du har vore nær gjennom denne løsningen. Men du hjelper folkehelseinstituttet med å kartlegge kor mange som kan vere syke med koronavirus i Noreg.
+ 
+folkehelseinstituttet publiserer oppdatertet tall, blant anna frå denne løsningen, på fhi.no fremover. Opplysningene kan også vere aktuelle for fremtidig forskning.
+ 
+ved å melde frå, hjelper du folkehelseinstituttet med å kartlegge kor mange som kan vere syke med koronavirus i Noreg. Takk for hjelpen!
+
+det er vedtatt omfattende tiltak for å hindre spredning av koronaviruset og for å bidra til å opprettholde nødvendige helse- og omsorgstjenester. ​24. mars informertet regjeringa om innskjerpinger i anbefalingene og at dei omfattende tiltakene i fyrste omgang vil vare fram til 13. april 2020. Tiltakene kan bli forlenget etter dettet.
+ 
+når vi er ute, bør vi ikkje vere meir enn fem personer i samme gruppe. Det gjeld ikkje dei som er i familie eller i samme husstand.
+ 
+når vi er innendørs på arbeidsplassen, bør vi ha minst to meters avstand til kvarandre. Det gjeld ikkje når vi er innendørs med familie eller personer i samme husstand.
+ 
+i det offentlige rom bør vi halde minst ein meters avstand til andre mennesker.
+ 
+desse tiltakene som regjeringa har innført gjeld frå 27. mars, men vi anbefaler å følgje dei allereie frå 24. mars 2020.
+ 
+helsedirektoratet har vedtatt at helsepersonell som jobber med pasientbehandling forbys å reise til utlandet. Forbudet gjeld både tjenestereiser og privatreiser. Kostnader vil bli kompensert.
+ 
+unngå reiser som ikkje er strengt nødvendig, unngå offentleg transport dersom du kan, og andre steder kor du lett kjem nær andre.
+ 
+regjeringa innførtet 20. mars eit forbud mot å overnattet på fritidseiendom utanor eigen kommune. Les meir om hytteforbudet på regjeringens nettsider.
+ 
+det gis unntak for personer som bor saman med eit hustandsmedlem som er i isolasjon med påvist koronavirus.
+ 
+personer som er i karantene fordi dei bor saman med ein som er bekreftet smittet, kan dermed overnattet på hytta i den perioden den smittede er i isolasjon heime. Den smittede skal bli heime, mens dei andre personene i husstanden kan overnattet på hytta.
+ 
+alle utenlandsreiser som ikkje er strengt nødvendig frarådes. Det er regler for karantene for alle som kjem frå reiser i utlandet.
+ 
+​helsemyndighetene anbefaler hjemmekontor dersom det er mogeleg, og dettet avklares med arbeidsgiveren.
+ 
+kollektivtransporttilbudet opprettholdes. Grunnen til dettet er at folk med kritiske samfunnsfunksjoner skal komme seg til og frå jobb og kunne halde avstand til kvarandre.
+ 
+helsedirektoratet anmoder om å ikkje besøke personer i institusjoner med sårbare grupper (eldre, psykiatri, fengsel osv).
+ 
+det innføres restriksjoner for besøkende til alle landets helseinstitusjoner og innføring av adgangskontroll for å ivareta smittevern for pasienter i landets helseinstitusjoner. Personer som har risiko for å vere smittet skal avvises frå alle landets helseinstitusjoner. Helsedirektoratet vil gi råd til helsetjenesten om dettet.
+ 
+alle landets barnehager og skoler stenges. Dettet for å hindre smittespredning og bidra til å opprettholde nødvendige helse- og omsorgstjenester.
+ 
+stengingen gjeld frå torsdag 12. mars klokken 18:00. Regjeringa har bestemt at alle landets barnehager og skoler framleis skal vere stengt til og med 13. april. Perioden kan bli forlenget.
+ 
+det er viktig å opprettholde virksomheten i helse- og omsorgstjenester og andre kritiske samfunnsfunksjoner, og å unngå at personer i risikogrupper brukes til barnevakt.
+ 
+difor må det lokalt sørges for eit tilbud til born av personell i helse- og omsorgstjenesten, transportsektoren eller innen andre kritiske samfunnsfunksjoner. Det samme gjeld for born med særlige omsorgsbehov som ikkje kan ivaretas når barnehage, skole eller andre dagtilbud er stengt.
+ 
+den enkeltet skole og barnehage må gjere konkretet og individuelle vurderinger om kven som bør få dettet tilbudet. Les meir om dettet på utdanningsdirektoratets sider.
+ 
+råd til foreldre om lek og korleis mestre hverdagen, korleis snakke med barna om korona og korleis ta vare på born og unges psykiske helse.
+ 
+born ser ut til å tåle sykdom med koronavirus betre enn eldre. Men born kan smittet andre.
+ 
+alle skal halde meir avstand enn vanlig. Ein kan omgås søsken som normalt, dettet gjeld også born frå skiltet familier som har fleire heim. Hovedmålsettingen er likevel å redusere antall kontakter til eit så lavt nivå som mogeleg.
+ for å ivareta barns behov for lek med andre born kan ein ha 1-2 fastet lekevenner og halde seg til dei samme lekevennene gjennom denne perioden. Det gjeld også for ungdom.
+ 
+
+born og ungdommer med symptomer på luftveisinfeksjon holdes heime og bør ikkje vere saman med andre born og ungdommer utanor familien. Dettet gjeld også ved milde symptomer.
+ 
+born og ungdom som er i hjemmeisolasjon eller hjemmekarantene skal ikkje omgås born og ungdom utanor husstanden.
+ 
+det er fare for at nokon born kan bli stående utan lekekamerater i denne perioden. Foreldre kan hjelpe til med å passe på at barna holder kontakt med kvarandre på andre måter, gjennom telefon, videosamtaler og lignende.
+ 
+nokon born og unge har det vanskeleg heime. Barnehagen og skulen kan vere eit spesielt viktig stad for desse barna kor dei til vanlig har kontakt med andre born, ungdom og voksne. 
+ 
+det er unntak for stenging av barnehage og skole for born med særskiltet omsorgsbehov. Difor må den enkeltet skole og barnehage gjere konkretet og individuelle vurderinger om kven som bør få dettet tilbudet. Les meir om dettet på utdanningsdirektoratets sider.
+ 
+helsedirektoratet arbeider med å nedsettet ein ekspertgruppe frå ulike fagmiljøer som skal jobbe med tiltak knyttet til psykisk og sosial oppfølging av born og unge under og etter koronapandemien.
+ 
+no som skoler og barnehager holdes stengt veit vi at nokon born og unge må tilbringe meir tid saman med voksne som ikkje er trygge for dei. Mistenker du at eit born ikkje har det bra? alarmtelefonen til barnevernet er for deg som er utsatt for vold, overgrep eller omsorgssvikt, eller om du er bekymret for ein du kjennar. Denne er no åpen heile døgnet alle dager i uken. Ring 116 111 så vil dei hjelpe deg.
+ 
+se fleire tjenester for born og unge som treng nokon å snakke med.
+ 
+det er viktig å snakke med born og unge for å unngå frykt og for å skape trygghet no som dagene er så annerledes.
+ 
+born og unge søker oftet informasjon på internett. Sjekk barnas internettbruk. Spør gjerne om dei har lest noko om koronaviruset på nettet i dag.
+ 
+ungdom og tenåringer snakker oftet mest med jevnaldrende og kan få mykje informasjon som ikkje er riktig. Legg til rettet for at dei kan snakke med deg. Ikkje glem at også ungdommer kan vere engstelig og ha behov for å snakke med ein voksen.
+ 
+denne filmen er laget for born og unge. Ein kan velge undertekster på ein rekkje språk ved å klikke på det vesle hjulet i bunnlinjen.
+ 
+skoler og barnehager er stengt fordi alle må bidra til å begrense spredning av korona-epidemien. Det skaper bekymring og er stressende for mange familier. Her er nokon råd som kan vere til hjelp for å mestre den nye hverdagen.
+ 
+det er lurt å opprettholde normale rutiner for måltider og leggetider.
+ 
+i laupet av det som er vanlig skoletid, anbefales det at barna gjør skolearbeid, tegner, leser eller lytter til bøker, og sørger for å vere utet i frisk luft utan å vere tett på andre.
+ fokuser på positive ting familien kan gjere saman – slik som å se film, høyre på musikk, lese saman, gå ein tur eller spille spill. Pass på at dere samles rundt felles måltider.
+ husk at du er ein rollemodell for barna. Korleis du håndterer stress, korleis dere voksne snakker om sitasjonen, og korleis dere reagerer, påvirker barna.
+ følelser som redsel, panikk, tristhet og ensomhet er normale reaksjoner i slike spesielle situasjoner. Born er sensitive for voksnes følelser, og det er betre å vere åpen om følelsene sine enn å skjule dei.
+ born reagerer på forskjellige måter. Nokon kan virke uberørt når du snakker med dei, men vise bekymring seinare. Vær særlig oppmerksom på kvelden og natten. Mange born blir ekstra engstelige då.
+ det er viktig å halde seg orientert, men det kan vere lurt å begrense bruken av sosiale media og lignende dersom det fører til økt stress og unødig redsel.
+ søk støttet hos andre. Ikkje vær redd for å be om hjelp.
+ 
+her finn (v) du svar på dei vanligstet spørsmålene gravide og ammende har om koronaviruset.
+ 
+gravide kan ha økt risiko for alvorligere forløp av enkeltet virusinfeksjoner dersom dei blir smittet, som for døme influensa. Vi veit ikkje om dettet også gjeld for koronavirussykdom. For å beskyttet deg og andre, teke helsevesenet mange forhåndsregler med å redusere smitterisiko og sykdom. Basert på erfaringen vi har så langt om korona på verdensbasis, ser ut til at gravide tåler koronaviruset godt. Gravide er ikkje særlig utsatt for alvorlig koronavirussykdom.
+ 
+for å forebygge smittet bør du følgje samme råd som befolkningen for øvrig, slik som god håndhygiene og begrense kontakt med andre utenom familien. Er du i 2. og 3. trimester, eller i 1. trimester og har risikofaktorer, anbefales sesonginfluensavaksine. Dettet gjeld uavhengig av koronavirusinfeksjon.
+ 
+dersom du har kronisk sykdom eller svangerskapskomplikasjoner bør du diskutere med din lege om det er grunn til å utvise ekstra forsiktighet og behov for tilrettelegging på arbeidsplassen. Du treng ikkje sykemelding med mindre det ikkje er mogeleg å tilrettelegge din arbeidssituasjon. Jobber du som helsepersonell og er gravid, bør du ut frå eit føre-var-prinsipp, avklare med din arbeidsgiver at det tilrettelegges for at anna helsepersonell teke prøver av og behandler personer med mogeleg koronavirussykdom (covid-19-sykdom), så langt det er mogeleg.
+ 
+vi veit ikkje sikkert om koronaviruset kan smittet frå mor til born før eller under fødsel. Foreløpig ser det ut som du ikkje treng å bekymre deg. Ut ifra kunnskapen vi har så langt, er det ikkje påvist smittet via morkaken og det er heller ikkje bekreftet at barnet smittes under fødselen. Det betyr at du kan føde på vanlig måtet.
+ 
+vi anbefaler deg å følgje vanlige svangerskapskonsultasjoner hos jordmor/lege. Helsetjenesten er no i ein krevende situasjon, som kan medføre midlertidige endringer på din ordinære avtaler. Du anbefales å kontaktet jordmor/lege som vanligvis gjennomfører svangerskapskontrollene dine, for å få informasjon og råd om korleis du skal forholde deg.
+ 
+har du symptomer på luftveisinfeksjon, eller ein mistanke om at du er smittet av koronavirus, er det viktig at du kontakter helsetjenesten i forkant av avtaltet kontroller for å avklare korleis desse kan gjennomføres. Vanlige symptomer på koronavirus er hoste, feber og kortpustethet. Er du bekymret for din eigen helse eller barnet i magen, skal du ta kontakt med din lege/jordmor med ein gong.
+ 
+er du ikkje syk eller smittet går fødsler som normalt.
+ 
+dersom du får påvist koronavirus like før eller under fødsel, vil du få eige rom, personalet vil bruke smittebekledning og det kan vere aktuelt også for deg å bruke munnbind. Du kan vere saman med barnet ditt etter fødselen med mindre du er alvorlig syk, eller barnet ditt er svært sufmaturt eller sykt. Føde- og nyfødtavdelingene i Noreg er beredt til å håndtere både deg og barnet ditt og har utarbeidet gode rutiner korleis dei best skal hjelpe.
+ 
+for å redusere risiko for deg, barnet ditt, og for andre fødende, nyfødtet og for personell som treng å vere på jobb, har føde- og barselavdelingene på sykehusene innført restriksjoner på besøk. Det kan også vere restriksjoner for ledsager. Dere bør gå inn på ditt sykehus sine hjemmesider og lese meir informasjon.
+ 
+smitterisiko både hos deg og din ledsager vurderes individuelt. Dersom ledsager har luftveisinfeksjon/smitte/sitter i karantene kan ledsager dessverre ikkje vere med i fødselen. Dersom du planlegger å vere ledsager i nærliggende fødsel, oppfordres du til hjemmekontor som resten av befolkningen. Det kan vere lurt å opplyse arbeidsgiver om at fødsel er nærliggende og at det er restriksjoner dersom du blir smittet av koronaviruset.
+ 
+sjå om du er syk av koronavirus eller smittet, anbefales det at barnet ditt ammes/får morsmelk. Det er ikkje påvist koronavirus i morsmelk frå kvinner med koronainfeksjon der dettet har blitt undersøkt. Det er rapportert om relativt få spedbarn med bekreftet koronasmittet. Dei som har vore smittet, har hatt mild sykdom.
+ 
+vi veit enno ikkje så mykje om koronaviruset kan smittet frå mor til born. Det vi veit, er at amming beskytter barnet mot sykdom i tida etter fødsel og også seinare i spedbarnsalder og barneårene. Morsmelk gjev infeksjonsbeskyttelse ved at den overfører antistoffer frå mor til born, og ved at den inneholder komponenter som er gunstige for utviklingen av barnets immunsystem. Morsmelk og amming har ein rekkje positive helsefordeler både for barnet og for deg som ammer.
+ 
+dersom du har luftveisinfeksjon og/eller påvist smitte, bør du følgje dei samme generelle rådene som gjeve over om amming og smitteforebygging, men også nokon råd som gjeld spesielt ved amming.
+ 
+ha god håndhygiene ved all nærkontakt med barnet. Du bør alltid vaske hender grundig før amming og før du teke på brystene dine.
+ ta minst mogeleg på brystene, på samme måtet som du ikkje skal ta deg til ansiktet, for å unngå å overføre smittet frå hender til brystet (og deretter til barnet). Ved behov kan brystene vaskes med såpe og vann; sprit bør ikkje brukes.
+ dersom helsepersonell gjev deg ammeveiledning, spør om dei kan vise eller forklare utan å ta på brystene dine.
+ unngå å hostet eller nyse rett på barnet, for døme ved å halde litt avstand (utenom amming). Dersom du hoster eller nyser mens du ammer, bør du hostet eller nyse bort frå barnet og i papirlommetørklær som kastes.
+ rengjør/vask huset regelmessig, inkludert vask/desinfisering av overflater som du har vore i kontakt med, for døme dørhåndtak, mobiltelefoner med meir.
+ 
+dersom du/mor er alvorlig syk og ikkje kan amme barnet direkte, er det veldig bra om du/mor kan få hjelp til å pumpe ut morsmelk til barnet, mens rådene for å forebygge smittet framleis følges.
+ 
+dersom du har reist heim frå sykehuset før ammingen er komme ordentlig i gong, er det viktig at du teke kontakt med helsestasjonen, slik at du raskt kan få veiledning dersom du treng det. I den vanskelige situasjonen vi er i no, er det anbefalt at hjemmebesøk erstattes med konsultasjon på helsestasjon, med tolk ved behov (helsedirektoratet.no).
+ 
+du kan få svar på mange spørsmål og god hjelp til å løse praktiske utfordringer av ammehjelpere via ammehjelpens nettside eller deira facebook-gruppe.
+ 
+det er viktig og bra om du får til å amme så mykje som mogeleg den fyrste tida etter fødselen. Gi barnet så mykje morsmelk som mogeleg og ikkje noko anna med mindre det er behov for det. For dei aller flestet er råmelken (den fyrste gule melken) nok til å mettet barnet dei fyrste dagene. Råmelken kjem i små mengder av gongen, og det lages ny heile tida. Difor er det viktig at barnet ditt får suge så oftet det vil. Jau oftere barnet ditt suger, desto meir melk får det i seg, og jau meir melk vil kroppen din produsere. Det er heilt normalt at nyfødtet spiser 8–12 gongar i døgnet og nokon gongar meir.
+ 
+når melkeproduksjonen har komme i gong (etter 2–4 dager), er det nokon tegn du kan følgje med på for å sikre at barnet får nok mat.
+ 
+det viktigstet tegnet er at barnet ditt går opp i vekt og følger vektkurven sin. Dettet får du hjelp med av helsestasjonen.
+ heime kan du følgje med på antall tissebleier (minst 5–6 våtet bleier i døgnet). Den fyrste måneden bør barnet vanligvis ha avføring to eller fleire gongar om dagen, om det kun får morsmelk. Sjelden avføring dei fyrste ukene kan vere eit tegn på at barnet ikkje teke til seg nok mat, men det kan også vere ein normal variasjon.
+ når du ammer, kan du vere oppmerksom på at barnet ditt faktisk spiser, ved og se og høyre at barnet svelger.
+ 
+dersom du ved amming opplever at barnet ikkje spiser godt, at det ikkje svelger melk ved amming, dersom bleiene er tørre og/eller barnet virker trøtt og apatisk, kan det hende at barnet får for litet mat/væske. 
+ 
+då må du kontaktet helsestasjonen (eventuelt lege/sykehus) umiddelbart, samtidig som du forsøker å få i barnet morsmelk, alternativt morsmelkerstatning.
+ 
+dersom du har forsøkt å amme og har fått god veiledning utan å få det til, eller dersom du ikkje er frisk nok til å amme eller til å pumpe ut morsmelk, gis barnet morsmelkerstatning. Vær ekstra nøye med hygienen.
+ 
+er koronaviruset farligere for nokon grupper?
+dei flestet som blir smittet vil trolig få milde luftveissymptomer som vil gå over av seg sjå, mens nokon vil få alvorligere sykdom med blant anna lungebetennelse og pustebesvær.
+ 
+basert på opplysninger frå utbruddet i kina, ser det ut til at følgende grupper har høyere risiko for alvorlig sykdom av covid-19 (koronaviruset):
+
+eldre personer (>65 år)
+voksne personer med underliggende kronisk sykdom som hjerte- og karsykdom (kardiovaskulær sykdom), diabetes, kronisk lungesykdom, kreft og høyt blodtrykk (hypertensjon)
+personer som røyker har muligens også ein høyere risiko for alvorlig forløp av koronavirus-sykdommen
+det er særlig eldre personer med risikofaktorer som kan få alvorlig forløp av covid-19.
+ 
+basert på kunnskapen vi har no, antar vi at risikoen ikkje er lik for alle i gruppene nevnt over. Dettet gjeld særlig for diabetes, kor ein velregulert diabetes utan senkomplikasjoner, trolig ikkje gjev økt risiko for alvorlig forløp av sykdom. Det samme kan gjelde for andre kroniske sykdommer som er godt behandlet.
+ 
+vi har per i dag litet kjennskap til andre risikogrupper. Det er mogeleg at personer med alvorlig nyresykdom, leversykdom og personer som har nedsatt immunforsvar (også der det skyldes behandling med medisiner) har økt risiko for alvorlig sykdomsforløp.
+ 
+born ser ut til å få mild sykdom, og det er så langt heller ikkje vist at born med kronisk sykdom får alvorlig forløp av covid-19.
+ 
+informasjonen på denne sidan kan endres etter kvart som folkehelseinstituttet (fhi) får oppdatert kunnskap om covid-19.
+ 
+bør pasienter som går på behandling som demper immunforsvaret stoppe denne?
+det er ikkje grunnlag for å fraråde oppstart eller stoppe pågående immunsupprimerende behandling. Dersom personer som bruker immunsupprimerende behandling blir syke, kan dei ta kontakt med eigen lege for råd i forhold til medisinering, prøvetagning og undersøkelse.
+ 
+​folkehelseinstituttet har eigne råd til personer som går på immunsupprimerende behandling, eller som skal startet med slike medikamenter.
+ 
+korleis kan du som er i risikogruppene og dine nærmestet redusere risiko for smitte?
+hold deg heime så mykje som mogeleg
+hold avstand til andre og unngå folkemengder
+unngå offentleg transport dersom mogeleg
+pass på å vaske hendene oftet og grundig med såpe og lunkent vann
+hånddesinfeksjon er eit godt alternativ dersom håndvask ikkje er mogeleg
+unngå håndhilsning og klemming
+vask hjemmet hyppig, og gå spesielt over flater som oftet berøres
+dersom personer i husholdningen ikkje føler seg friske (spesielt dersom du mistenker koronavirussykdom), begrens samværet og kontakt lege dersom du har medisinsk behov
+unngå å passe yngre born, då desse oftet har ingen eller milde symptomer på covid-19 og kan smittet deg som er i risikogruppe.
+ nasjonal kompetansetjenestet for aldring og helse (aldringoghelse.no) har laget informasjon til både helsetjenesten, dei eldre sjå og deira pårørende om eldre og personer med demens i forbindelse med koronaviruset.
+ 
+hvilke tiltak kan du som er i risikogruppen gjere?
+sørg for at du har nødvendige medisiner tilgjengelig. Fortsett med fast medisinering, og gjør kun endringer i samråd med eigen lege.
+ lag avtaler om kven som kan hjelpe deg med nødvendige innkjøp. Eit godt råd kan vere at du får varene kun levert til døra.
+ undersøk om din kommune har avtale med frivillige organisasjoner som kan hjelpe deg ved behov.
+ har du spørsmål om korona og treng nokon å snakke med?
+fleire brukerorganisasjoner utvider no bemanningen til å besvare spørsmål frå befolkningen og personer i risikogrupper:
+
+på frivillighetens koronalinje kan du stille generelle spørsmål om korona og myndighetenes tiltak for å begrense smittet. Telefonene er betjent av trentet frivillige frå nasjonalforeningen for folkehelsen, norske kvinners sanitetsforening og landsforeningen for hjerte- og lungesyke
+lurer du på noko om diabetes og korona? ring diabeteslinjen på telefon 815 21 948
+snakk med kreftforeningen om kreft og korona på telefon 21 49 49 21 eller chat  
+har du lungesykdom og spørsmål om korona? få råd hos lhl (landsforeningen for hjerte- og lungesyke)
+fhi anbefaler at pasienter med kroniske sykdommer som skal til undersøkelse og avtaltet kontroller, opprettholder avtalene med mindre dei får annan beskjed. Ved tvil, ta kontakt med behandlende institusjon.
+ 
+kan eg fritt besøke familie og venner på helse- og omsorgsinstitusjoner?
+nei, no er det ikkje lov å besøke sykehus, sykehjem eller andre helseinstitusjoner. Det er innført adgangskontroll og alminnelig besøksstans. Dettet er for å ivareta smittevern for pasienter.
+ 
+personer som har risiko for å vere smittet skal avvises frå alle landets helseinstitusjoner.
+ 
+fordi pågangen til nødtelefonene er så stor, må nødnumrene kun brukes av personer som er akutt syke. Folk som har spørsmål om korona må finne informasjon på helsenorge.no eller ringe informasjonstelefonen på 815 55 015.
+ 
+kva gjør eg dersom eg trur eg er smittet?
+dersom du er syk, hold deg heime.
+ dersom du er syk og treng legehjelp, eller har behov for individuell helserådgivning, kontakt fastlege på telefon eller elektronisk.
+ mange kommuner har opprettet eigne koronatelefoner som gjev generell informasjon, sjekk nettsiden til din kommune for kor du kan henvende deg.
+ har du behov for akutt helsehjelp og ikkje kjem i kontakt med fastlegen, ring 116 117.
+ ved livstruende sykdom eller skade - ring 113.
+ 
+kontakt legen via e-konsultasjon
+for å avlastet telefonlinjene, kan du kontaktet fastlegen via e-konsultasjon. Det er ikkje alle fastleger som tilbyr dette, men stadig fleire fastlegekontor er med i ordningen.
+ 
+konsultasjon via telefon eller video
+nokon behandlere kan også tilby konsultasjoner via telefon eller video, men det finst ingen listet over kven som tilbyr dettet.
+ 
+for å finne ut om din behandler tilbyr dettet kan du
+
+sjekke behandlerens nettside
+sende ein e-post til behandleren eller klinikken
+ringe behandleren eller klinikken
+spørsmål om korona
+har du andre spørsmål finst informasjon her på helsenorges sider om koronavirus eller i chat nederst på sidan. Du kan også kontakte:
+
+har du lungesykdom og spørsmål om korona? få råd hos lhl (landsforeningen for hjerte- og lungesyke).
+ er du born, ungdom eller forelder og har behov for å snakke med ein helsesykepleier frå skolehelsetjenesten? se meir om telefontilbudet på din kommunes hjemmeside.
+ er du gravid og har spørsmål og behov for å snakke med jordmor? se info om telefontilbud på din kommunes hjemmeside.
+ 
+for å unngå smittet og spredning av koronaviruset er det viktig at du ikkje oppsøker helsetjenestene fysisk dersom det ikkje er nødvendig. Videokonsultasjon og andre digitale verktøy kan vere gode alternativer til fysisk oppmøtet.
+ legetime på nett via helsenorge (e-konsultasjon)
+du kan logge deg inn på helsenorge.no for å få vete kven fastlegen din er, og korleis du kjem i kontakt med legekontoret.
+ 
+dersom din fastlege tilbyr legetime over nett vil du se det når du logger inn. Dettet kalles på «e-konsultasjon» og foregår med lyd, video eller tekst-samtale, for døme ved hjelp av ein pc, eit nettbrett eller ein telefon.
+ 
+klikk på «start e-konsultasjon» for å begynne.
+ 
+dersom din fastlege ikkje tilbyr digitale tjenester på helsenorge, vil du se denne beskjeden når du logger inn:
+
+din fastlege tilbyr ikkje digitale tjenester på helsenorge
+når du logger deg inn på helsenorge.no vil det stå øverst kven som er din fastlege. Klikk på på «vis detaljer» for å se kontaktinformasjon som adresse og telefonnummer.
+ 
+klikk på «mer om din fastlege» for å få informasjon om fastlegen og legekontoret, som for døme lenke til legekontorets webside, hvilke andre leger som hører til kontoret, og så vidare.
+ 
+konsultasjon på video eller telefon utenom helsenorge
+mange fastleger og andre behandlere som for døme psykologer og fysioterapeuter kan tilby konsultasjon på telefon eller video utenom helsenorge. 
+ 
+eg har andre kontakter i helsevesenet som eg vil snakke med
+helsekontakter
+dersom du har fått ein forløpskoordinator eller annan kontaktperson vil du kunne finne dei i tjenesten helsekontakter på helsenorge.no.
+ 
+meldinger
+i meldingstjenesten kan du se meldinger du har mottatt frå helsetjenesten, og svare på dei. Hvilke meldinger du kan se og svare på kjem an på hvilke helsekontakter du har og har hatt, kven du har kommunisert med tidligere, og hvilket samtykke du har gjeve til å bruke tjenestene på helsenorge.
+ 
+meldingstjensten kan du lese meir om her.
+ 
+dersom din behandler ikkje er i nokon av desse tjenestene
+finn (v) du ikkje behandleren du ønskje å kontaktet i nokon av desse tjenestene, må du sjå slå opp og finne deira kontaktinformasjon. Ikkje møt opp utan avtale. Se på nettsiden deira og ring dei eller kontakt dei digitalt dersom det er mogeleg.
+ 
+spørsmål om korona
+har du spørsmål om korona finst informasjon her på helsenorges sider om koronavirus eller i chat nederst på sidan. Du kan også kontakte:
+
+har du lungesykdom og spørsmål om korona? få råd hos lhl (landsforeningen for hjerte- og lungesyke).
+ kva gjør eg dersom eg trur eg er smittet?
+dersom du er syk, hold deg heime.
+ dersom du er syk og treng legehjelp, eller har behov for individuell helserådgivning, kontakt fastlege på telefon eller elektronisk.
+ har du behov for akutt helsehjelp og ikkje kjem i kontakt med fastlegen, ring 116 117.
+ ved livstruende sykdom eller skade, ring 113. 
+ 
+utenriksdepartementet fraråder frå 14. mars 2020 alle utenlandsreiser som ikkje er strengt nødvendig. Dettet er den strengestet form for reiseråd som kan gis.
+ 
+reiserådene skal redusere faren for at nordmenn blir smittet i utlandet og at smittede personer kjem til Noreg.
+ 
+folkehelseinstituttet og utenriksdepartementet gjev reiseråd om koronaviruset.
+ 
+se utenriksdepartementets (ud) reiseråd om koronavirus. Ud gjev reiseråd når det er grunn til å råde nordmenn frå å reise til eit bestemt land, område eller region, eller til å forlatet staden.
+ se folkehelseinstituttets smittevernråd ved reise.
+ 
+oppdatertet regler for karantene frå 14.03.20 og 16.03.20.
+ alle som kjem frå reiser i utlandet skal i hjemmekarantene i 14 dager. Dettet har tilbakevirkende kraft. Det vil seie  at karantenen gjeld 14 dager frå den dagen du kom heim.
+ 
+frå 17.03.20 gjeld dettet også reiser frå sverige og finland, men utan tilbakevirkende kraft. Arbeidstakere som reiser mellom bolig og arbeidssted, og i den forbindelse krysser grensene mellom Noreg, sverige og finland, er unntatt frå karantene når dei reiser til og frå arbeid.
+ 
+personer i karantene som utvikler forkjølelsessymptomer som hoste, feber eller tungpustethet, skal oppholde seg i isolering frå symptomer inntrer til 7 dager etter symptomfrihet. Med isolering menes at personen oppholder seg i eige heim eller anna egnet oppholdssted.
+ 
+i forskriften er det definert eit unntak frå karantenereglene. Personer som er strengt nødvendige for å kunne opprettholde forsvarlig drift av kritiske samfunnsfunksjoner og ivareta befolkningens grunnleggende behov, herunder personer som gjennomfører vare- og passasjertransport, er unntatt. Bruk av unntaket skal avklares med virksomhetsledelsen. Personer som er omfattet av unntaket, skal så langt som mogeleg unngå nærkontakt med andre personer.
+ 
+dettet er vedtatt i forskrift i statsråd 13.03.20 og sufsisert 15.03.20.
+ 
+kva med nordmenn som skal heim frå utlandet?
+utenriksdepartementet oppfordrer alle norske borgere som er på reise i utlandet om å vurdere å reise heim så snart som mogeleg, på ein trygg og rolig måte, i samråd med sitt reise- eller flyselskap.
+ 
+eg har vore i utlandet, må eg halde meg heime?
+alle som kjem frå reiser i utlandet skal i hjemmekarantene i 14 dager. Dettet har tilbakevirkende kraft. Det vil seie  at karantenen gjeld 14 dager frå den dagen du kom heim.
+ 
+frå 17.03.20 gjeld dettet også reiser frå sverige og finland, men utan tilbakevirkende kraft. Arbeidstakere som reiser mellom bolig og arbeidssted, og i den forbindelse krysser grensene mellom Noreg, sverige og finland, er unntatt frå karantene når dei reiser til og frå arbeid.
+ 
+personer i karantene som utvikler forkjølelsessymptomer som hoste, feber eller tungpustethet, skal oppholde seg i isolering frå symptomer inntrer til 7 dager etter symptomfrihet. Med isolering menes at personen oppholder seg i eige heim eller anna egnet oppholdssted.
+ 
+i forskriften er det definert eit unntak frå karantenereglene. Personer som er strengt nødvendige for å kunne opprettholde forsvarlig drift av kritiske samfunnsfunksjoner og ivareta befolkningens grunnleggende behov, herunder personer som gjennomfører vare- og passasjertransport, er unntatt. Bruk av unntaket skal avklares med virksomhetsledelsen. Personer som er omfattet av unntaket, skal så langt som mogeleg unngå nærkontakt med andre personer.
+ 
+dettet er vedtatt i forskrift i statsråd 13.03.20 og sufsisert 15.03.20.
+ 
+kan eg reise innenlands?
+unngå reiser som ikkje er strengt nødvendig, unngå offentleg transport dersom du kan, og andre steder kor du lett kjem nær andre. Regjeringa innførtet 20. mars eit forbud mot å overnattet på fritidseiendom utanor eigen kommune. Les meir om hytteforbudet på regjeringens nettsider.
+ 
+det gis unntak for personer som bor saman med eit hustandsmedlem som er i isolasjon med påvist koronavirus.
+ 
+personer som er i karantene fordi dei bor saman med ein som er bekreftet smittet, kan dermed overnattet på hytta i den perioden den smittede er i isolasjon heime. Den smittede skal bli heime, mens dei andre personene i husstanden kan overnattet på hytta.
+ 
+dei små lokalsamfunnene har færre ansattet i helsetjenesten og mindre kapasitet. Husk at du også kan bli syk, difor er det lurt å vere heime.
+ 
+kva gjør eg dersom eg lander på ein flyplass i Noreg og skal fly vidare til anna stad i landa?
+friske personer utan symptomer kan ta fly til sin endelige destinasjon for å kunne vere i karantene i eige heim.
+ 
+personer med symptomer kan transporteres til hjemstedet etter anvisning frå kommunelegen, for døme i privatbil. Ein nødløsning er at personen blir heldt i karantene i kommunen kor flyplassen ligg.
+ 
+blir eg sykmeldt dersom eg må vere heime?
+du har rett til sykmelding dersom ein lege vurderer at du må holdes heime fordi du kan vere smittet av koronaviruset. Dettet gjeld også dersom legen ikkje veit sikkert om du er smittebærer.
+ 
+nav kan godta sykmelding utan personlig undersøkelse når det gjeld smittsom sykdom av betydning for folkehelsen. Les meir på nav sine nettsider.
+ 
+korleis skal turister forholde seg til anbefalingen om å halde seg heime i 14 dager når dei kome til Noreg?
+alle som kome til Noreg, må settet seg inn i situasjonen her.
+ 
+dersom det kjem turister til Noreg, kan dei bli returnert til hjemlandet.
+ 
+korfor innføres det begrensninger for fly og skipsfart?
+helsedirektoratet ønskje no ikkje innreise frå områder med høy smitterisiko, det vil seie  dei landene kor folkehelseinstituttet har utstedt reiseråd. Unntatt frå dettet er dei som skal tilbake og har opphold i Noreg. Det vil iverksettes tiltak for å hindre dettet. Folk blir enten returnert eller satt i karantene. Helsedirektoratet vil ta kontakt med dei berørtet landene og kommuner med flyplass og fergeanløp for operasjonalisere dettet. Dettet gjeld fly, cruiseskip og annan båttrafikk.
+ 
+kva med personer i Noreg som har vore i utlandet, og som har vore på jobb eller skole etter hjemkomst. Skal dei tilbake i karantene?
+ja, det er tilbakevirkende kraft med 14 dager, som betyr at personen må tilbake i karantene, regnet frå hjemkomstdato.
+ 
+kan helsepersonell reise?
+vedtak etter lov om helsemessig og sosial beredskap § 4-1 fyrste ledd om forbud mot utenlandsreiser for helsepersonell som jobber med pasientbehandling: helsepersonell som jobber med pasientbehandling forbys å reise til utlandet. Forbudet gjeld både tjenestereiser og privatreiser.
+ 
+korfor forbyr ein helsepersonell å reise?
+dettet gjøres for å opprettholde nødvendige helse- og omsorgstjenester i den situasjonen vi er i no.
+ 
+kor lenge varer forbudet?
+vedtaket gjeld frå 12. mars og foreløpig ut april 2020.
+ 
+kan eg reise kollektivt?
+kollektivtransporttilbudet opprettholdes. Grunnen til dettet er at folk med kritiske samfunnsfunksjoner skal komme seg til og frå jobb.
+det er viktig at dei som reiser holder avstand til andre passasjerer
+vask deg på hendene etter kollektivreiser
+unngå offentleg transport dersom du kan
+vi anmoder om å ikkje besøke personer i institusjoner med sårbare grupper.
