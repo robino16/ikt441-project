@@ -13,8 +13,9 @@ io_service_app_name = 'I/O Service for IKT441 Project (testing)'
 text_file_original = 'data/bokmaal.txt'
 text_file_translated = 'data/nynorsk.txt'
 data_file = 'data/data.txt'  # Dataset in csv format.
+data_temp_file = 'data/temp.txt'  # Used when producing/validating new dataset.
 data_file_formatting = 'id,<p>norwegian_bokmaal</p>,<p>norwegian_nynorsk</p>'
-training_factor = 0.8
+training_factor = 0.9
 
 # Tokenizer.
 tokenizer_file_original = 'tokenizer_original.pickle'

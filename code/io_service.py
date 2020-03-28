@@ -165,14 +165,14 @@ def create_csv_data_file():
         log.info('Successfully found {} sentences.'.format(len(original_sentences)))
         pass
 
-    data_file = open(config.data_file, 'w', encoding='utf-8')
+    data_file = open(config.data_temp_file, 'w', encoding='utf-8')
     # data_file.write('{}\n'.format(config.data_file_formatting))
     for i in range(min(len(translated_sentences), len(original_sentences))):
         data_file.write('{},<p>{}</p>,<p>{}</p>\n'.format(i, original_sentences[i],
                                                           translated_sentences[i]))
     data_file.close()
 
-    log.info('.csv data file was successfully stored here: {}.'.format(config.data_file))
+    log.info('.csv data file was successfully stored here: {}.'.format(config.data_temp_file))
     print('Info: .csv data file was successfully created.')
     return True
 
@@ -255,10 +255,14 @@ def main():
 
     # The main function displays how we can use the io_service from an external application.
 
+    # format_original_file()
+
     # Create new dataset
-    if not create_csv_data_file():
-        print('Error: Failed to generate new dataset. See log output for more info.')
-        log.error('Failed to generate new dataset.')
+    create_new_dataset = False
+    if create_new_dataset:
+        if not create_csv_data_file():
+            print('Error: Failed to generate new dataset. See log output for more info.')
+            log.error('Failed to generate new dataset.')
 
     # Get training and testing data
     train_x, train_y, test_x, test_y, total_words_input, total_words_output = get_data()
