@@ -19,5 +19,5 @@ training_factor = 0.8
 # Tokenizer.
 tokenizer_file_original = 'tokenizer_original.pickle'
 tokenizer_file_translated = 'tokenizer_translated.pickle'
-load_tokenizers = False  # Currently not supported as there is no word count check going on.
+load_tokenizers = True  # Currently not supported as there is no word count check going on.
 tokenizer_filter ='"#$%&()*+-/:;<=>@[\\]^_`{|}~\t\n'

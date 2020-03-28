@@ -7,10 +7,8 @@ import pickle
 import random
 import re
 
-
-# Original text from: https://helsenorge.no/koronavirus/smitte-og-inkubasjonstid
+# Original texts from: https://helsenorge.no/koronavirus/smitte-og-inkubasjonstid
 # The text was translated using this online tool: https://www.apertium.org/index.nob.html?dir=nob-nno#translation
-# Remember to consider æøå
 
 log = config.log
 
@@ -19,6 +17,8 @@ def save_tokenizer(tokenizer_in, filename_in):
     # This function is responsible for saving the tokenizer to a pickle-object so it can be reused.
     with open(filename_in, 'wb') as handle:
         pickle.dump(tokenizer_in, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    log.debug('Stored file {} on disk.'.format(filename_in))
+    return True
 
 
 def load_tokenizer(filename_in):
@@ -27,49 +27,42 @@ def load_tokenizer(filename_in):
         with open(filename_in, 'rb') as handle:
             tokenizer = pickle.load(handle)
             log.debug('Successfully loaded tokenizer object from file: {}.'.format(filename_in))
-            return tokenizer
+            total_words = len(tokenizer.word_index) + 1
+            return tokenizer, total_words
     except:
         log.warning('Failed to load tokenizer object from file: {}.'.format(filename_in))
         print('Warning: Failed to load tokenizer object from file {}.'.format(filename_in))
-        return None
+        return None, 0
 
 
 def get_tokenizer(filename_in, sentences_in):
     # Returns a single tokenizer object.
-    tokenizer = None
-    if config.load_tokenizers:
-        # Load existing tokenizer from file.
-        tokenizer = load_tokenizer(filename_in)
-    if tokenizer is None:
-        # Create new tokenizer.
-        tokenizer = Tokenizer(filters=config.tokenizer_filter)
-        tokenizer.fit_on_texts(sentences_in)
-        save_tokenizer(tokenizer, filename_in)  # Save it on disk.
+    tokenizer = Tokenizer(filters=config.tokenizer_filter)
+    tokenizer.fit_on_texts(sentences_in)
+    save_tokenizer(tokenizer, filename_in)
     total_words = len(tokenizer.word_index) + 1
-    log.debug('Tokenizer ({}) has {} indexed words.'.format(filename_in, total_words))
-    return tokenizer
+    return tokenizer, total_words
 
 
 def get_tokenizers(original_sentences_in, translated_sentences_in):
     # This function returns the tokenizer objects.
-    # Note: There are two tokenizer objects, one for the original language and one for the translation.
-    tokenizer_original = get_tokenizer(config.tokenizer_file_original, original_sentences_in)
-    tokenizer_translated = get_tokenizer(config.tokenizer_file_translated, translated_sentences_in)
+    log.debug('io_service.py -> get_tokenizers()')
+    tokenizer_original, _ = get_tokenizer(config.tokenizer_file_original, original_sentences_in)
+    tokenizer_translated, _ = get_tokenizer(config.tokenizer_file_translated, translated_sentences_in)
     return tokenizer_original, tokenizer_translated
 
 
 def get_sentence_objects(original_sentences_in, translated_sentences_in):
     # Returns a list of Sentence objects (containing both original and translated version of a sentence).
-    # Note: This functionality is only used to associate input with the correct output during training/testing split.
 
     # Error checking.
     if len(original_sentences_in) != len(translated_sentences_in):
-        # log.error('Number of sentences are not equal: {} (original) '
-        #           'and {} (translated).'.format(len(original_sentences_in), len(translated_sentences_in)))
+        log.error('Number of sentences are not equal: {} (original) '
+                  'and {} (translated).'.format(len(original_sentences_in), len(translated_sentences_in)))
         return None
 
     sentences = []
-    for i in range(len(original_sentences_in)):
+    for i in range(min(len(original_sentences_in), len(translated_sentences_in))):
         sentences.append(sentence.Sentence(i, original_sentences_in[i], translated_sentences_in[i]))
     return sentences
 
@@ -78,13 +71,14 @@ def objects_to_lists(sentences_in):
     # Function to revert sentence objects to list.
     original = []
     translated = []
-    for sentence in sentences_in:
-        original.append(sentence.original)
-        translated.append(sentence.translated)
+    for s in sentences_in:
+        original.append(s.original)
+        translated.append(s.translated)
     return original, translated
 
 
 def load_cvs_data():
+    log.debug('io_service.py -> load_csv_data()')
     # Function to load data file and format the text so it`s ready to be tokenized.
     original_sentences = []
     translated_sentences = []
@@ -102,13 +96,13 @@ def load_cvs_data():
         # Trick to preserve punctuation during training.
         original = extracted[0].replace('.', ' .').replace('!', ' !').replace('?', ' ?').replace('  ', ' ')
         original = original.replace('<p>', '').replace('</p>', '').replace(',', ' ,')
+
         translated = extracted[1].replace('.', ' .').replace('!', ' !').replace('?', ' ?').replace('  ', ' ')
         translated = translated.replace('<p>', '').replace('</p>', '').replace(',', ' ,')
 
         original_sentences.append(original)
         translated_sentences.append(translated)
     file.close()
-
     return original_sentences, translated_sentences
 
 
@@ -117,27 +111,29 @@ def split_text_to_sentences(text_in):
     sentences = text_in.lower()
     sentences = sentences.replace('\n', '. ').replace('..', '.').replace('  ', ' ')
 
-    # I preserve punctuation.
+    # We preserve punctuation.
     # We use $ to split the input into sentences.
     sentences = sentences.replace('.', '.$').replace(':', ':$').replace('?', '?$').replace('!', '!$').replace('$.', '$')
     sentences = sentences.replace('$$', '$').split('$ ')
 
     sentences_out = []
     for s in sentences:
-        if len(s) > 6:
-            sentences_out.append(s.replace('$', ''))
+        if len(s) > 6:  # Skip short sentences.
+            sentences_out.append(s.replace('$', ''))  # Remove leftover $ from splitting.
 
     return sentences_out
 
 
 def format_original_file():
+    log.debug('io_service.py -> format_original_file()')
     # A quick tool to format the original text before utilizing external translator program.
     # The online translator tends to miss punctuations randomly. To avoid this, we need some pre-processing here.
     original_file = open(config.text_file_original, 'r', encoding='utf-8')
     temp = original_file.read()
-    temp = temp.replace('.', '.\n').replace('\n\n', '\n').replace('\n ', '\n').replace('\n\n', '\n')
     original_file.close()
 
+    # We add newline after each sentence. Then we remove double newlines and spaces.
+    temp = temp.replace('.', '.\n').replace('\n\n', '\n').replace('\n ', '\n').replace('\n\n', '\n')
     file = open(config.text_file_original, 'w', encoding='utf-8')
     file.write(temp)
     file.close()
@@ -162,21 +158,18 @@ def create_csv_data_file():
                                                                                     len(original_sentences),
                                                                                     config.text_file_translated,
                                                                                     len(translated_sentences)))
-        log.info('Sometimes the translator forgets to add the last period.')
-        # return False
+        log.info('The translator randomly ignores punctuation.')
+        print('Info: Mismatch in number of sentences in the data files.')
+        return False  # Use pass instead if you want to debug this in data.txt.
     else:
-        log.info('Found {} sentences.'.format(len(original_sentences)))
+        log.info('Successfully found {} sentences.'.format(len(original_sentences)))
         pass
 
     data_file = open(config.data_file, 'w', encoding='utf-8')
     # data_file.write('{}\n'.format(config.data_file_formatting))
-    for i in range(len(translated_sentences)):
+    for i in range(min(len(translated_sentences), len(original_sentences))):
         data_file.write('{},<p>{}</p>,<p>{}</p>\n'.format(i, original_sentences[i],
                                                           translated_sentences[i]))
-
-        # Error check.
-        if len(original_sentences[i].split(' ')) != len(translated_sentences[i].split(' ')):
-            pass
     data_file.close()
 
     log.info('.csv data file was successfully stored here: {}.'.format(config.data_file))
@@ -208,7 +201,6 @@ def encode_sequences(tokenizer_in, length_in, lines_in):
 
 def get_data():
     # This function returns the training and testing data.
-    # todo: This function should be shortened or simplified.
     log.debug('io_service.py -> get_data()')
 
     # Load the data.
@@ -233,11 +225,15 @@ def get_data():
     train_x, train_y = objects_to_lists(training_sentences)
     train_x = encode_sequences(tokenizer_original, max_sequence_length, train_x)
     train_y = encode_sequences(tokenizer_translated, max_sequence_length, train_y)
+    log.debug('{} sequences will be used for training.'.format(len(train_y)))
+    print('Info: {} training sequences.'.format(len(train_y)))
 
     # Prepare testing data.
     test_x, test_y = objects_to_lists(testing_sentences)
     test_x = encode_sequences(tokenizer_original, max_sequence_length, test_x)
     test_y = encode_sequences(tokenizer_translated, max_sequence_length, test_y)
+    log.debug('{} sequences will be used for testing.'.format(len(test_y)))
+    print('Info: {} testing sequences.'.format(len(test_y)))
 
     # Get max number of words (for input + output).
     # Note: This function may also return these values.
@@ -246,6 +242,7 @@ def get_data():
 
     print('Info: Total words in original text: {}.'.format(total_words_original))
     log.info('Total words in original text: {}.'.format(total_words_original))
+
     print('Info: Total words in translated text: {}.'.format(total_words_translated))
     log.info('Total words in translated text: {}.'.format(total_words_translated))
 
@@ -258,16 +255,13 @@ def main():
 
     # The main function displays how we can use the io_service from an external application.
 
-    # Use this before using online translator.
-    # format_original_file()
-
     # Create new dataset
     if not create_csv_data_file():
         print('Error: Failed to generate new dataset. See log output for more info.')
         log.error('Failed to generate new dataset.')
 
     # Get training and testing data
-    train_x, train_y, test_x, test_y, _, _ = get_data()
+    train_x, train_y, test_x, test_y, total_words_input, total_words_output = get_data()
 
 
 if __name__ == '__main__':
