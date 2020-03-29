@@ -1,7 +1,6 @@
 import config
-import logging
 
-log = logging.getLogger()
+log = config.log()
 
 
 def main():
