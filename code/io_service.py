@@ -177,12 +177,12 @@ def create_csv_data_file():
     return True
 
 
-def get_max_length(sentences_in, tokenizer_in):
+def get_max_length(sentences_in, tokenizer_in_original, tokenizer_in_translated):
     # Finds the maximum sentence length of the entire dataset.
     all_sequences = []  # Holds any tokenized sequence.
     for sentence in sentences_in:
-        all_sequences.append(tokenizer_in.texts_to_sequences([sentence.original])[0])
-        all_sequences.append(tokenizer_in.texts_to_sequences([sentence.translated])[0])
+        all_sequences.append(tokenizer_in_original.texts_to_sequences([sentence.original])[0])
+        all_sequences.append(tokenizer_in_translated.texts_to_sequences([sentence.translated])[0])
 
     max_length = max([len(x) for x in all_sequences])
     print('Debug: Max sequence length: {}.'.format(max_length))
@@ -206,6 +206,7 @@ def get_data():
     # Load the data.
     # create_csv_data_file()  # Use this if we want to create a new dataset.
     original_sentences, translated_sentences = load_cvs_data()
+    # original_sentences, translated_sentences = original_sentences[:5000], translated_sentences[:5000]  # todo: remove limits?
 
     # Convert to sentence objects.
     sentences = get_sentence_objects(original_sentences, translated_sentences)
@@ -214,7 +215,7 @@ def get_data():
     tokenizer_original, tokenizer_translated = get_tokenizers(original_sentences, translated_sentences)
 
     # Get max sequence length
-    max_sequence_length = get_max_length(sentences, tokenizer_original)
+    max_sequence_length = get_max_length(sentences, tokenizer_original, tokenizer_translated)
 
     # Split into training and testing data.
     random.shuffle(sentences)
@@ -246,7 +247,7 @@ def get_data():
     print('Info: Total words in translated text: {}.'.format(total_words_translated))
     log.info('Total words in translated text: {}.'.format(total_words_translated))
 
-    return train_x, train_y, test_x, test_y, tokenizer_original, tokenizer_translated
+    return train_x, train_y, test_x, test_y, total_words_original, total_words_translated, max_sequence_length, tokenizer_original, tokenizer_translated
 
 
 def main():
@@ -265,7 +266,7 @@ def main():
             log.error('Failed to generate new dataset.')
 
     # Get training and testing data
-    train_x, train_y, test_x, test_y, total_words_input, total_words_output = get_data()
+    train_x, train_y, test_x, test_y, total_words_original, total_words_translated = get_data()
 
 
 if __name__ == '__main__':

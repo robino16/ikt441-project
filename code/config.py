@@ -22,3 +22,18 @@ tokenizer_file_original = 'tokenizer_original.pickle'
 tokenizer_file_translated = 'tokenizer_translated.pickle'
 load_tokenizers = True  # Currently not supported as there is no word count check going on.
 tokenizer_filter ='"#$%&()*+-/:;<=>@[\\]^_`{|}~\t\n'
+
+# Model.
+# todo: Add config file to check if the same weights can be used.
+config_file = 'config.txt'  # Unused.
+load_existing_weights = True  # Remember: This require us to use the same tokenizer...
+save_weights = False
+weights_file = 'model_weights.h5'  # Note: Currently unused.
+
+output_file = 'output/output.txt'  # Stores original sentences and generated translated sentences.
+
+epochs = 100
+batch_size = 32
+validation_split = 0.1
+
+training_plot_path = 'output/training.png'
