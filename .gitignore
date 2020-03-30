@@ -134,6 +134,12 @@ dmypy.json
 # Pickle objects
 *.pickle
 
+# Models
+*.h5
+
+# Output
+output/
+
 # Virtual environments
 venv/
 tensorflow_venv/
