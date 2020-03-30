@@ -12,6 +12,9 @@ import re
 
 log = config.log
 
+if config.initialize_random_number_generator:
+    random.seed(0)
+
 
 def save_tokenizer(tokenizer_in, filename_in):
     # This function is responsible for saving the tokenizer to a pickle-object so it can be reused.
@@ -206,7 +209,6 @@ def get_data():
     # Load the data.
     # create_csv_data_file()  # Use this if we want to create a new dataset.
     original_sentences, translated_sentences = load_cvs_data()
-    # original_sentences, translated_sentences = original_sentences[:5000], translated_sentences[:5000]  # todo: remove limits?
 
     # Convert to sentence objects.
     sentences = get_sentence_objects(original_sentences, translated_sentences)

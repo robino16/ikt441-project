@@ -1,892 +1,892 @@
 Configuration:
-Training epochs: 100 epochs.
+Training epochs: 30 epochs.
 Training factor: 0.9.
 
 Bokmål:
-kan jeg fritt besøke familie og venner på helse og omsorgsinstitusjoner ?                                           
+i sverige hadde imidlertid kongen og toneangivende kretser i lang tid vært forberedt og innstilte på at unionen kunne komme til et opphør , og at dette ikke var noen politisk katastrofe , gitt hvor lite som knyttet de to rikene sammen .            
 Nynorsk:
-kan eg fritt besøka familie og ven på helse og omsorgsinstitusjonar ?                                           
+i sverige hadde likevel kongen og tonegivande kretsar i lang tid vore førebudd og innstilte på at unionen kunne komma til eit opphøyr , og at dette ikkje var nokon politisk katastrofe , gitt kor lite som knytte dei to rika saman .            
 Generated nynorsk:
-ha barn på og  treng   og desse ?                                            
+i løpet av  i ,                      og                           
 
 Bokmål:
-bronse var et luksusprodukt , og det er ikke funnet mange gjenstander i norge .                                        
+høsten 1942 ble 772 jøder arrestert og sendt til tyskland bare noen få kom tilbake .                                       
 Nynorsk:
-bronse var eit luksusprodukt , og det er ikkje funne mange gjenstandar i noreg .                                        
+hausten 1942 vart 772 jødar arresterte og send til tyskland berre nokre få kom tilbake .                                       
 Generated nynorsk:
-bronse var eit luksusprodukt ,  det som  funne gjenstandar  noreg .                                         
+i  vart    og      i  og      .                                  
 
 Bokmål:
-du kan også kontakte                                                   
+dersom du får påvist koronavirus like før eller under fødsel , vil du få eget rom , personalet vil bruke smittebekledning og det kan være aktuelt også for deg å bruke munnbind .                      
 Nynorsk:
-du kan òg kontakta                                                   
+dersom du får påvist koronavirus like før eller under fødsel , vil du få eige rom , personalet vil bruka smittebekledning og det kan vera aktuelt òg for deg å bruka munnbind .                      
 Generated nynorsk:
-du kan òg kontakta                                                   
+det du har for  ,              og                                   
 
 Bokmål:
-kan jeg reise innenlands ?                                                  
+markedet skulle være modellen for offentlig styring , og konkurranseutsetting og individuell valgfrihet ble viktige virkemidler .                                      
 Nynorsk:
-kan eg reisa innanlands ?                                                  
+marknaden skulle vera modellen for offentleg styring , og konkurranseutsetjing og individuell valfridom vart viktige verkemiddel .                                      
 Generated nynorsk:
-kan eg reisa innanlands ?                                                  
+i    ,       og      .                                     
 
 Bokmål:
-de mange krigene på 1600 og begynnelsen av 1700 tallet økte kongemaktens behov for ressurser .                                       
+en siste forutsetning var at det fantes høvdinger som hadde ressurser og vilje til å utruste vikingskip , noe vi har sett eksisterte langs vestlandskysten .                             
 Nynorsk:
-dei mange krigane på 1600 og byrjinga av 1700 talet auka behovet av kongemakta for ressursar .                                      
+ein siste føresetnad var at det fanst høvdingar som hadde ressursar og vilje til å utrusta vikingskip , noko vi har sett eksisterte langs vestlandskysten .                             
 Generated nynorsk:
-mange  krigane hadde 1600 og byrjinga 1700  auka behovet  kongemakta  ressursar                                        
+i var av vart  ,     i ,       i     .                               
 
 Bokmål:
-som leser kan du foreslå endringer til artiklene og stille spørsmål i kommentarfeltet .                                         
+i midten av 1990 årene inntraff en konjunkturnedgang blant annet på grunn av stagnasjon i eksporten .                                      
 Nynorsk:
-som les kan du foreslå endringar til artiklane og stilla spørsmål i kommentarfeltet .                                         
+i midten av 1990 åra hende ein konjunkturnedgang mellom anna på grunn av stagnasjon i eksporten .                                      
 Generated nynorsk:
-som les kan du foreslå endringar til artiklane og spørsmål i kommentarfeltet .                                          
+i  vart    og     i   og       .                                 
 
 Bokmål:
-i 1905 ble unionen mellom norge og sverige fra 1814 opphevet .                                           
+den tilhører derfor egentlig ponnirasene , selv om man i norge ser på rasen som hest og ikke ponni .                                   
 Nynorsk:
-i 1905 vart unionen mellom noreg og sverige frå 1814 oppheva .                                           
+han tilhøyrer derfor eigentleg ponnirasane , sjølv om ein i noreg ser på rasen som hest og ikkje ponni .                                   
 Generated nynorsk:
-i 1905 vart unionen mellom noreg og sverige frå 1814 oppheva .                                           
+det er av det ,           og   i                                    
 
 Bokmål:
-arbeidstakere som reiser mellom bolig og arbeidssted , og i den forbindelse krysser grensene mellom norge , sverige og finland , er unntatt fra karantene når de reiser til og fra arbeid .                      
+vedtaket gjelder fra 12 .                                                  
 Nynorsk:
-arbeidstakarar som reiser mellom bustad og arbeidsstad , og i samband med dette kryssar grensene mellom noreg , sverige og finland , er unntatt frå karantene når dei reiser til og frå arbeid .                     
+vedtaket gjeld frå 12 .                                                  
 Generated nynorsk:
-arbeidstakarar som reiser mellom bustad og arbeidsstad og  samband  dette  kryssar grensene noreg  sverige  finland ,  frå   når  dei  til  frå arbeid                      
+regjeringa innførte nøye .                                                   
 
 Bokmål:
-på 1890 tallet tilspisset konflikten seg , og sverige truet med å bruke våpenmakt mot norge .                                      
+i etterkrigstiden gikk primærnæringene kraftig tilbake , fra 42 til 15 prosent av landets samlede årsverk .                                      
 Nynorsk:
-på 1890 talet tilspissa konflikten seg , og sverige trua med å bruka våpenmakt mot noreg .                                      
+i etterkrigstiden gjekk primærnæringene kraftig tilbake , frå 42 til 15 prosent av det samla årsverket i landet .                                    
 Generated nynorsk:
-på 1890 talet tilspissa konflikten og    trua med bruka våpenmakt  noreg .                                       
+det er av det ,          og    .                                    
 
 Bokmål:
-kystfisket har økt , og det drives oppdrett av laks , ørret og tang .                                        
+for det andre tok det tyske militæret , wehrmacht , seg av militære oppgaver og bygde festningsanlegg og utvidet jernbanenettet i norge .                                
 Nynorsk:
-kystfisket har auka , og det blir drive oppdrett av laks , ørret og tong .                                       
+for det andre tok det tyske militæret , wehrmacht , seg av militære oppgåver og bygde festningsanlegg og utvida jernbanenettet i noreg .                                
 Generated nynorsk:
-kystfisket har auka , og det blir drive oppdrett av laks , ørret og tong .                                       
+det er av det ,            og  i                                    
 
 Bokmål:
-januar samme år .                                                   
+hold avstand til andre og unngå folkemengder .                                               
 Nynorsk:
-januar same år .                                                   
+hold avstand til andre og unngå folkemengder .                                               
 Generated nynorsk:
-sjekk internettbruket til .                                                   
+prøv livstruande sammenkomster for   .                                                
 
 Bokmål:
-etter 1350 sank jordleie og andre avgifter til rundt en fjerdedel av det tidligere nivået .                                       
+dette er den strengeste form for reiseråd som kan gis .                                            
 Nynorsk:
-etter 1350 sokk jordleige og andre avgifter til rundt ein firedel av det tidlegare nivået .                                       
+dette er den strengaste forma for reiseråd som kan givast .                                            
 Generated nynorsk:
-etter 1350 sokk jordleige og  avgifter til rundt firedel  som av tidlegare nivået                                        
+det er forbod for å  og   .                                             
 
 Bokmål:
-etter at vikingferdene tok slutt , vendte landets høvdinger seg mer mot landets egne ressurser .                                       
+i jiepmaluokta ved alta ble reinmotivet vanligere i bronsealderen .                                             
 Nynorsk:
-etter at vikingferdene tok slutt , vende høvdingane i landet seg meir mot landets eigne ressursar .                                      
+i jiepmaluokta ved alta vart reinmotivet vanlegare i bronsealderen .                                             
 Generated nynorsk:
-dette er vikingferdene tok slutt  vende høvdingane i meir   landets eigne  .                                       
+i vart     i   .                                             
 
 Bokmål:
-dette er vedtatt i forskrift i statsråd 13 .                                              
+dette har tilbakevirkende kraft .                                                  
 Nynorsk:
-dette er vedtatt i forskrift i statsråd 13 .                                              
+dette har tilbakeverkande kraft .                                                  
 Generated nynorsk:
-dette har er  i    .                                              
+dette innførte 20 .                                                   
 
 Bokmål:
-83 ,9 prosent av japanerne er shintoister og 71 ,4 prosent er buddhister 2005 tallene overstiger 100 prosent fordi mange bekjenner seg til begge religioner .                             
+spørsmålet ble nå hvordan den økende befolkningen skulle brødføs .                                             
 Nynorsk:
-83 ,9 prosent av japanarane er shintoistar og 71 ,4 prosent er buddhistar 2005 tala overstig 100 prosent fordi mange vedkjenner seg  til begge religionar .                            
+spørsmålet vart no korleis den aukande befolkninga skulle brødfødast .                                             
 Generated nynorsk:
-83 ,9 prosent av japanarane er shintoistar og 71 ,4 prosent  2005 tala overstig   fordi  vedkjenner seg av seg begge .                              
+i vart  og det og  i og .                                             
 
 Bokmål:
-personer som er i karantene fordi de bor sammen med en som er bekreftet smittet , kan dermed overnatte på hytta i den perioden den smittede er i isolasjon hjemme .                        
+utenriksdepartementet oppfordrer alle norske borgere som er på reise i utlandet om å vurdere å reise hjem så snart som mulig , på en trygg og rolig måte , i samråd med sitt reise eller flyselskap .                  
 Nynorsk:
-personar som er i karantene fordi dei bur saman med ein som er stadfesta smitta , kan dermed overnatta på hytta i den perioden den smitta er i isolasjon heime .                        
+utanriksdepartementet oppmodar alle norske borgarar som er på reise i utlandet om å vurdera å reisa heim så snart som mogleg , på ein trygg og roleg måte , i samråd med reise eller flyselskapet sitt .                  
 Generated nynorsk:
-personar som er i karantene fordi dei bur saman med  er  stadfesta smitta , kan dermed overnatta på hytta den     er  heime                          
+det du er til for ,                  og                               
 
 Bokmål:
-perioden fra 1945 til 1970 regnes som den formative fasen i utviklingen av velferdsstaten .                                        
+noen kan virke uberørt når du snakker med dem , men vise bekymring senere .                                        
 Nynorsk:
-perioden frå 1945 til 1970 blir rekna som den formative fasen i utviklinga av velferdsstaten .                                       
+nokon kan verka uberørt når du snakkar med dei , men vise bekymring seinare .                                        
 Generated nynorsk:
-perioden frå 1945 til 1970 blir rekna som den formative fasen utviklinga  av velferdsstaten                                        
+det er  at for ,  og   til  .                                          
 
 Bokmål:
-konsultasjon på video eller telefon utenom helsenorge .                                               
+det norske riksrådet markerte stor egenvilje overfor kongemakten og styrte i perioder uten mye innblanding .                                       
 Nynorsk:
-konsultasjon på video eller telefon utanom helsenorge .                                               
+det norske riksrådet markerte stor egenvilje overfor kongemakta og styrte i periodar utan mykje innblanding .                                       
 Generated nynorsk:
-hald deg , ta med som .                                                
+i vart     og i           .                                    
 
 Bokmål:
-i løpet av det som er vanlig skoletid , anbefales det at barna gjør skolearbeid , tegner , leser eller lytter til bøker , og sørger for å være ute i frisk luft uten å være tett på andre .               
+vær ekstra nøye med hygienen .                                                 
 Nynorsk:
-i løpet av det som er vanleg skuletid , blir det tilrådd at barna gjer skulearbeid , teiknar , les eller lyttar til bøker , og sørger for å vera ute i frisk luft utan å vera tett på andre .              
+vêr ekstra nøye med hygienen .                                                 
 Generated nynorsk:
-i løpet av det er vanleg  skuletid  tilrådd   barna gjer skulearbeid  teiknar ,        og   , ute  frisk  vera   tett på                 
-
-Bokmål:
-fordelingen av voksende og hvilende hår har et mosaikkmønster .                                             
-Nynorsk:
-fordelinga av veksande og kvilande hår har eit mosaikkmønster .                                             
-Generated nynorsk:
-fordelinga av veksande og kvilande hår har eit mosaikkmønster .                                             
-
-Bokmål:
-klikk på «start e konsultasjon» for å begynne .                                              
-Nynorsk:
-klikk på «start e konsultasjon» for å byrja .                                              
-Generated nynorsk:
-klikk på «start e konsultasjon» for å byrja .                                              
-
-Bokmål:
-på steder der det var mindre dyrkbar jord , ble eksisterende gårder delt opp i mange bruk .                                     
-Nynorsk:
-på stader der det var mindre dyrkbar jord , vart eksisterande gardar delt opp i mange bruk .                                     
-Generated nynorsk:
-befolkningen var dette inspirert og det til ,  av stor og    noreg .                                      
-
-Bokmål:
-unntaket gjelder ikke i fritiden , kun når de er på jobb eller reiser til og fra jobb med annet enn offentlig transport .                               
-Nynorsk:
-unntaket gjeld ikkje i fritida , berre når dei er på jobb eller reiser til og frå jobb med anna enn offentleg transport .                               
-Generated nynorsk:
-unntaket gjeld ikkje for fritida med berre med er  på  og  med     enn offentleg transport .                                
-
-Bokmål:
-du skal helst holde to meters avstand til de du bor sammen med og ha eget rom og bad når dette er mulig .                               
-Nynorsk:
-du skal helst halda to meters avstand til dei du bur saman med og ha eige rom og bad når dette er mogleg .                               
-Generated nynorsk:
-du som helst halda to meters avstand å med bur   med og ha eige rom bad  er   .                                
-
-Bokmål:
-hvorfor forbyr man helsepersonell å reise ?                                                
-Nynorsk:
-kvifor forbyr ein helsepersonell å reisa ?                                                
-Generated nynorsk:
-kvifor forbyr ein helsepersonell å reisa ?                                                
-
-Bokmål:
-din fastlege tilbyr ikke digitale tjenester på helsenorge .                                              
-Nynorsk:
-fastlegen din tilbyr ikkje digitale tenester på helsenorge .                                              
-Generated nynorsk:
-fastlegen din tilbyr ikkje digitale tenester helsenorge                                                
-
-Bokmål:
-under ledelse av statsminister kåre willoch fra høyre ble en allmenn deregulering iverksatt , blant annet av bankvesenet , kringkasting og oljevirksomhet .                                
-Nynorsk:
-under leiing av statsminister kåre willoch frå høgre vart ein allmenn deregulering sett i verk , mellom anna av bankvesenet , kringkasting og oljeverksemd .                              
-Generated nynorsk:
-etter leiing av statsminister kåre willoch og høgre  i allmenn deregulering  sett ,     av bankvesenet kringkasting  oljeverksemd .                              
-
-Bokmål:
-store norske leksikon er eid av den ideelle organisasjonen foreningen store norske leksikon .                                         
-Nynorsk:
-store norske leksikon er eigd av den ideelle organisasjonen foreningen store norske leksikon .                                         
-Generated nynorsk:
-store norske leksikon av eigd av den ideelle organisasjonen foreningen store leksikon .                                          
-
-Bokmål:
-den norske adelen var kraftig svekket i tidlig nytid .                                             
-Nynorsk:
-den norske adelen var kraftig svekt i tidleg nytid .                                             
-Generated nynorsk:
-den norske adelen var kraftig svekt i tidleg nytid .                                             
-
-Bokmål:
-den andre verdenskrig brøt ut i september 1939 .                                              
-Nynorsk:
-den andre verdskrigen braut ut i september 1939 .                                              
-Generated nynorsk:
-den andre verdskrigen braut ut i september 1939 .                                              
-
-Bokmål:
-det tok likevel rundt 1500 år før jordbruket slo gjennom .                                            
-Nynorsk:
-det tok likevel rundt 1500 år før jordbruket slo gjennom .                                            
-Generated nynorsk:
-det tok likevel rundt 1500 år før jordbruket slo gjennom .                                            
-
-Bokmål:
-religion gikk fra å være et huslig anliggende til å bli regulert av felleseuropeiske kristenrett og at kongemakten fikk økt makt og innflytelse .                               
-Nynorsk:
-religion gjekk frå å vera eit huslig anliggande til å bli regulert av felleseuropeiske kristenrett og at kongemakta fekk auka makt og innverknad .                               
-Generated nynorsk:
-religion gjekk frå å ,  huslig anliggande å bli  regulert felleseuropeiske  kristenrett  som kongemakta auka  makt  innverknad .                               
-
-Bokmål:
-vikingenes fjernhandel gjorde at det oppstod byer i skandinavia , som fungerte som transittområder for handel mellom øst og vest .                                  
-Nynorsk:
-vikinganes fjernhandel gjorde at det oppstod byar i skandinavia , som fungerte som transittområde for handel mellom aust og vest .                                  
-Generated nynorsk:
-vikinganes fjernhandel gjorde at det oppstod byar i skandinavia , fungerte  transittområde  handel  og  vest .                                   
-
-Bokmål:
-etter en intens tautrekking med sverige resulterte dette i at norge ble et uavhengig rike i 1905 .                                     
-Nynorsk:
-etter ein intens tautrekking med sverige resulterte dette i at noreg vart eit uavhengig rike i 1905 .                                     
-Generated nynorsk:
-i 1319 intens tautrekking inngått sverige resulterte dette i sverige noreg eit uavhengig  i  .                                      
-
-Bokmål:
-hvis din fastlege tilbyr legetime over nett vil du se det når du logger inn .                                       
-Nynorsk:
-viss fastlegen din tilbyr legetime over nett vil du sjå det når du loggar inn .                                       
-Generated nynorsk:
-sjå kan du deira du kan dei  kontakt   fastlegen smitta for 116 .                                       
-
-Bokmål:
-ved inngangen til jernalderen ble det slutt på de store gravhaugene fra bronsealderen , og klimaet ble kaldere .                                    
-Nynorsk:
-ved inngangen til jernalderen vart det slutt på dei store gravhaugane frå bronsealderen , og klimaet vart kaldare .                                    
-Generated nynorsk:
-på inngangen til jernalderen og det slutt meir dei gravhaugane  bronsealderen  og   kaldare .                                     
-
-Bokmål:
-befolkningen fortsatte å vokse i høymiddelalderen .                                                
-Nynorsk:
-befolkningen heldt fram med å veksa i høgmellomalderen .                                              
-Generated nynorsk:
-befolkningen heldt fram med å veksa i høgmellomalderen .                                              
+april gjeld via til .                                                  
 
 Bokmål:
 cirka 80 prosent av befolkningen lever i byer med mer enn 10 000 innbyggere .                                        
 Nynorsk:
 cirka 80 prosent av befolkninga lever i byar med meir enn 10 000 innbyggarar .                                        
 Generated nynorsk:
-cirka 80 prosent av befolkninga lever i byar med  10 000 innbyggarar                                          
+i vart     og i     og i .                                        
 
 Bokmål:
-har du spørsmål om korona ?                                                 
+disse boplassene er antagelig levinger fra bosettere fra doggerland , et område som i dag ligger under nordsjøen , men som en tid var en landbro som knyttet dagens de britiske øyer med danske jylland .                   
 Nynorsk:
-har du spørsmål om korona ?                                                 
+desse boplassene er antakeleg levinger frå bosettere frå doggerland , eit område som i dag ligg under nordsjøen , men som ei tid var ei landsbru som knytte dagens dei britiske øyane med danske jylland .                   
 Generated nynorsk:
-har du spørsmål om korona ?                                                 
+i var av  i ,             i      og .                             
 
 Bokmål:
-det er vedtatt omfattende tiltak for å hindre spredning av koronaviruset og for å bidra til å opprettholde nødvendige helse og omsorgstjenester .                                
+dersom du har symptomer på luftveisinfeksjon skal du holde deg hjemme til én dag etter at du har blitt frisk .                                  
 Nynorsk:
-det er vedtatt omfattande tiltak for å hindra spreiing av koronaviruset og for å bidra til å halda oppe nødvendige helse og omsorgstenester .                               
+dersom du har symptom på luftvegsinfeksjon skal du halda deg heime til éin dag etter at du har vorte frisk .                                  
 Generated nynorsk:
-det er vedtatt for tiltak for hindra  spreiing  og   bidra   halda oppe  og   .                                
+dersom du ikkje for   ,   i du  i  er  med .                                     
 
 Bokmål:
-det finnes ingen spesifikk behandling eller vaksine mot sykdommen .                                             
+de eldste spor av mennesker i det som i dag er norge , er funnet på pauler , en gård i brunlanes i larvik kommune i vestfold .                           
 Nynorsk:
-det finst inga spesifikk behandling eller vaksine mot sjukdommen .                                             
+dei eldste spora av menneske i det som i dag er noreg , er funne på pauler , ein gard i brunlanes i larvik kommune i vestfold .                           
 Generated nynorsk:
-det finst inga spesifikk behandling eller vaksine mot sjukdommen .                                             
+i var av det  ,              i                                   
 
 Bokmål:
-i jernalderen kommer vi menneskenes forestillingsverden nærmere inn på livet gjennom gårdsnavn og runealfabetet .                                        
+1970 årene var preget av økonomisk stagnasjon , særlig etter oljekrisen i 1973–1974 .                                         
 Nynorsk:
-i jernalderen kjem vi menneskas framsyningsverda nærare inn på livet gjennom gardsnamn og runealfabetet .                                        
+1970 åra var prega av økonomisk stagnasjon , særleg etter oljekrisa i 1973–1974 .                                         
 Generated nynorsk:
-i jernalderen kjem i menneskas og nærare og  livet og  runealfabetet .                                         
+i vart     og i       .                                        
 
 Bokmål:
-jeg har andre kontakter i helsevesenet som jeg vil snakke med .                                           
+steinalderen regnes fra de første menneskene kom til norge .                                             
 Nynorsk:
-eg har andre kontaktar i helsevesenet som eg vil snakka med .                                           
+steinalderen blir rekna frå dei første menneska kom til noreg .                                            
 Generated nynorsk:
-eg har andre kontaktar i helsevesenet som eg vil med .                                            
+det er vart det ,  som i  .                                             
 
 Bokmål:
-ud gir reiseråd når det er grunn til å råde nordmenn fra å reise til et bestemt land , område eller region , eller til å forlate stedet .                          
+de som har vært smittet , har hatt mild sykdom .                                            
 Nynorsk:
-ud gir reiseråd når det er grunn til å rå nordmenn frå å reisa til eit bestemt land , område eller region , eller til å forlata staden .                          
+dei som har vore smitta , har hatt mild sjukdom .                                            
 Generated nynorsk:
-helsedirektoratet kan skular til er  førebudd til er både   og langt  med   kronisk  med  sjukdom  .                              
+det du ikkje for som   deg .                                              
 
 Bokmål:
-du kan være sammen med barnet ditt etter fødselen med mindre du er alvorlig syk , eller barnet ditt er svært prematurt eller sykt .                              
+er du bekymret for din egen helse eller barnet i magen , skal du ta kontakt med din lege jordmor med en gang .                               
 Nynorsk:
-du kan vera saman med barnet ditt etter fødselen med mindre du er alvorleg sjuk , eller barnet ditt er svært prematurt eller sjukt .                              
+er du bekymra for di eiga helse eller barnet i magen , skal du ta kontakt med legen din jordmor med ein gong .                               
 Generated nynorsk:
-du kan vera saman med skal ditt fødselen  med mindre  alvorleg  sjuk  barnet  ditt svært  prematurt sjukt                                
+det du ikkje for   ,         og du   .                                   
 
 Bokmål:
-løsrivelsen fra sverige i 1905 hadde langt mindre betydning for norge som stat enn begivenhetene i 1814 .                                     
+liberaliseringen av politikken var likevel en tendens som var kommet for å bli .                                         
 Nynorsk:
-løsrivelsen frå sverige i 1905 hadde langt mindre tyding for noreg som stat enn hendingane i 1814 .                                     
+liberaliseringa av politikken var likevel ein tendens som var kommen for å bli .                                         
 Generated nynorsk:
-løsrivelsen frå sverige i 1905 hadde langt mindre tyding  noreg  stat enn hendingane i 1814 .                                     
+i er vart er ,     i     .                                        
 
 Bokmål:
-første halvdel av 1500 tallet representerer på mange måter et bunnpunkt i norsk historie .                                        
+det norske arbeiderparti meldte seg i 1919 inn i komintern , som var ledet av det revolusjonære sovjetunionen .                                    
 Nynorsk:
-første halvdel av 1500 talet representerer på mange måtar eit botnpunkt i norsk historie .                                        
+det norske arbeidarpartiet melde seg i 1919 inn i komintern , som var leidd av det revolusjonære sovjetunionen .                                    
 Generated nynorsk:
-eit halvdel av 1500 talet representerer på mange måtar eit botnpunkt i norsk historie                                         
+i var av vart   ,  og  ,  og        .                                  
 
 Bokmål:
-barn som er i karantene kan ikke ha lekekamerater utover de som befinner seg i hjemmet .                                      
+vedtak etter lov om helsemessig og sosial beredskap § 4 1 første ledd om forbud mot utenlandsreiser for helsepersonell som jobber med pasientbehandling                                
 Nynorsk:
-barn som er i karantene kan ikkje ha leikekameratar utover dei som er i heimen .                                       
+vedtak etter lov om helsemessig og sosial beredskap § 4 1 første ledd om forbod mot utenlandsreiser for helsepersonell som jobbar med pasientbehandling                                
 Generated nynorsk:
-barn som er som karantene kan ha  leikekameratar utover dei som er i heimen .                                       
+det er har  ,             og  .                                   
 
 Bokmål:
-mars et forbud mot å overnatte på fritidseiendom utenfor egen kommune .                                           
+etter innføringen av eneveldet i 1660 ble den sentrale kontrollen sterkere .                                           
 Nynorsk:
-mars eit forbod mot å overnatta på fritidseigedom utanfor eigen kommune .                                           
+etter innføringa av eneveldet i 1660 vart den sentrale kontrollen sterkare .                                           
 Generated nynorsk:
-mars eit forbod mot å overnatta på fritidseigedom utanfor eigen kommune                                            
+i vart     og i  og  .                                           
 
 Bokmål:
-februar 1942 ble quisling statsminister i en ren ns regjering som ble sittende krigen ut .                                       
+​helsemyndighetene anbefaler hjemmekontor hvis det er mulig , og dette avklares med arbeidsgiveren .                                         
 Nynorsk:
-februar 1942 vart quisling statsminister i ei rein ns regjering som vart sitjande krigen ut .                                       
+​helsestyresmaktene tilrår hjemmekontor viss det er mogleg , og dette blir avklart med arbeidsgivaren .                                        
 Generated nynorsk:
-februar 1942 vart quisling statsminister i  rein ns regjering som sitjande  krigen .                                        
-
-Bokmål:
-også etterretningsorganisasjoner og norges kommunistiske parti var del av motstandsbevegelsen .                                            
-Nynorsk:
-også etterretningsorganisasjonar og noregs kommunistiske parti var del av motstandsrørsla .                                            
-Generated nynorsk:
-også etterretningsorganisasjonar og noregs kommunistiske parti var del av motstandsrørsla .                                            
-
-Bokmål:
-april ble administrasjonsrådet opprettet etter initiativ blant annet av det gamle høyesterett .                                          
-Nynorsk:
-april vart administrasjonsrådet oppretta etter initiativ mellom anna av det gamle høgsterett .                                          
-Generated nynorsk:
-april vart administrasjonsrådet oppretta etter initiativ mellom anna av  gamle høgsterett .                                          
-
-Bokmål:
-dette var likevel en vanskelig balansegang .                                                
-Nynorsk:
-dette var likevel ein vanskeleg balansegang .                                                
-Generated nynorsk:
-det var talet braut det store borgarkrig .                                               
-
-Bokmål:
-i 2011 inntraff japans kraftigste jordskjelv i historisk tid .                                             
-Nynorsk:
-i 2011 hende japans kraftigaste jordskjelv i historisk tid .                                             
-Generated nynorsk:
-i 2011 hende japans kraftigaste jordskjelv i historisk tid .                                             
-
-Bokmål:
-bronsegjenstandene viser at det er oppstått et sjikt av rike mennesker som hadde ressurser og vilje til å skaffe seg slike statusobjekter .                                
-Nynorsk:
-bronsegjenstandane viser at det er oppstått eit sjikt av rike menneske som hadde ressursar og vilje til å skaffa seg slike statusobjekt .                                
-Generated nynorsk:
-bronsegjenstandane viser det  dei oppstått eit sjikt rike   og    vilje  skaffa   slike .                                 
-
-Bokmål:
-å leke ute medfører mindre smitterisiko enn å leke inne .                                            
-Nynorsk:
-å leika ute medfører mindre smitterisiko enn å leika inne .                                            
-Generated nynorsk:
-å leika ute medfører mindre smitterisiko å  leika inne .                                            
-
-Bokmål:
-umiddelbart etter krigen ble barnetrygd , syketrygd og arbeidsledighetstrygd innført .                                            
-Nynorsk:
-umiddelbart etter krigen vart barnetrygd , sjuketrygd og arbeidsløysetrygd innført .                                            
-Generated nynorsk:
-umiddelbart etter krigen vart barnetrygd , sjuketrygd og arbeidsløysetrygd innført .                                            
-
-Bokmål:
-det gjelder ikke dem som er i familie eller i samme husstand .                                          
-Nynorsk:
-det gjeld ikkje dei som er i familie eller i same husstand .                                          
-Generated nynorsk:
-det vil seia at karantene gjeld  som  den i  .                                          
-
-Bokmål:
-virksomhetsledelsen kan gjøre unntak fra karanteneplikten for personer som er strengt nødvendige for å kunne opprettholde forsvarlig drift av funksjoner knyttet til liv og helse .                             
-Nynorsk:
-verksemdsleiinga kan gjera unntak frå karanteneplikta for personar som er strengt nødvendige for å kunna halda oppe forsvarleg drift av funksjonar knytt til liv og helse .                            
-Generated nynorsk:
-verksemdsleiinga som  unntak er karanteneplikta personar  som strengt  nødvendige å  kunna  forsvarleg  drift funksjonar  til  liv  .                             
-
-Bokmål:
-familietid kan være positivt , men respekter også at barn kan trenge tid alene .                                        
-Nynorsk:
-familietid kan vera positivt , men respektar òg at barn kan trenga tid åleine .                                        
-Generated nynorsk:
-barn at    kan vera som kan  ikkje til .                                          
-
-Bokmål:
-hvis et menneske oppfatter høyere toner enn det som er vanlig , snakker man om overhørsel .                                      
-Nynorsk:
-viss eit menneske oppfattar høgare tonar enn det som er vanleg , snakkar ein om overhørsel .                                      
-Generated nynorsk:
-viss er menneske oppfattar høgare tonar enn det som er vanleg snakkar om  overhørsel .                                       
-
-Bokmål:
-foreldre kan hjelpe til med å passe på at barna holder kontakt med hverandre på andre måter , gjennom telefon , videosamtaler og lignende .                              
-Nynorsk:
-foreldre kan hjelpa til med å passa på at barna held kontakt med kvarandre på andre måtar , gjennom telefon , videosamtalar og liknande .                              
-Generated nynorsk:
-foreldre til hjelpa til med å passa på barna held  på kvarandre  på andre måtar , telefon  videosamtalar  liknande .                               
-
-Bokmål:
-dersom du har kronisk sykdom eller svangerskapskomplikasjoner bør du diskutere med din lege om det er grunn til å utvise ekstra forsiktighet og behov for tilrettelegging på arbeidsplassen .                          
-Nynorsk:
-dersom du har kronisk sjukdom eller svangerskapskomplikasjonar bør du diskutera med din leke om det er grunn til å utvisa ekstra varsemd og behov for tilrettelegging på arbeidsplassen .                          
-Generated nynorsk:
-dersom du har kronisk  svangerskapskomplikasjonar   diskutera  leke    og  grunn  utvisa  varsemd  tilrettelegging                                
-
-Bokmål:
-japan har et av verdens største forsvarsbudsjetter .                                               
-Nynorsk:
-japan har eit av dei største forsvarsbudsjetta i verda .                                             
-Generated nynorsk:
-japan har eit av dei største forsvarsbudsjetta i verda .                                             
-
-Bokmål:
-i januar 1814 møttes danskekongen og den svenske kronprinsen karl johan i kiel , og der ble norge avstått til kongen av sverige som ledd i fredsforhandlingene .                           
-Nynorsk:
-i januar 1814 møttest danskekongen og den svenske kronprinsen karl johan i kiel , og der vart noreg avstått til kongen av sverige som ledd i fredsforhandlingane .                           
-Generated nynorsk:
-etter valsigeren i 2013 danna  og framstegspartiet ein mindretalsregjering av erna ,        av     kristeleg .                            
-
-Bokmål:
-rådet besto av en gruppe fremtredende ikke nazistiske nordmenn og skulle fungere som et slags forretningsministerium .                                      
-Nynorsk:
-rådet bestod av ei gruppe framtredande ikke nazistiske nordmenn og skulle fungera som eit slags forretningsministerium .                                      
-Generated nynorsk:
-rådet bestod av , gruppe framtredande ikke nazistiske og skulle fungera  slags   .                                       
-
-Bokmål:
-japans befolkning er svært ensartet .                                                 
-Nynorsk:
-japans befolkning er svært einsarta .                                                 
-Generated nynorsk:
-japans befolkning er svært einsarta .                                                 
-
-Bokmål:
-informasjon om risikofaktorer for alvorlig sykdom er foreløpig begrenset .                                             
-Nynorsk:
-informasjon om risikofaktorar for alvorleg sjukdom er førebels avgrensa .                                             
-Generated nynorsk:
-informasjon om risikofaktorar for alvorleg sjukdom er førebels avgrensa .                                             
-
-Bokmål:
-de japanske øyene er fjellrike med lavland hovedsakelig i form av små kystsletter mange av disse er smale elvesletter .                                   
-Nynorsk:
-dei japanske øyane er fjellrike med lavland hovudsakleg i form av små kystsletter mange av desse er smale elvesletter .                                   
-Generated nynorsk:
-dei japanske øyane er fjellrike av lavland hovudsakleg i form av kystsletter  og  er smale elvesletter .                                    
-
-Bokmål:
-grunnloven forbyr forsvaret retten til å erklære krig og bruk av militær makt i internasjonale konflikter .                                      
-Nynorsk:
-grunnlova forbyr forsvaret retten til å erklæra krig og bruk av militær makt i internasjonale konfliktar .                                      
-Generated nynorsk:
-grunnlova forbyr forsvaret retten og vart erklæra krig og bruk av makt  internasjonale konfliktar .                                       
-
-Bokmål:
-basert på opplysninger fra utbruddet i kina , ser det ut til at følgende grupper har høyere risiko for alvorlig sykdom av covid 19 koronaviruset                              
-Nynorsk:
-basert på opplysningar frå utbrotet i kina , ser det ut til at følgjande grupper har høgare risiko for alvorleg sjukdom av covid 19 koronaviruset                              
-Generated nynorsk:
-leilendinger brettspel og  ,  som , og betalte oslofjorden av –   og ,   og   .                                
-
-Bokmål:
-aksjemarkedet var nærmest dødt .                                                  
-Nynorsk:
-aksjemarknaden var nærast dødt .                                                  
-Generated nynorsk:
-i til vart frå svakt utbygd                                                 
-
-Bokmål:
-dette gjelder fly , cruiseskip og annen båttrafikk .                                              
-Nynorsk:
-dette gjeld fly , cruiseskip og annan båttrafikk .                                              
-Generated nynorsk:
-dette gjeld fly , cruiseskip og annan båttrafikk .                                              
-
-Bokmål:
-tiltakene kan bli forlenget etter dette .                                                
-Nynorsk:
-tiltaka kan bli forlengte etter dette .                                                
-Generated nynorsk:
-tiltaka kan bli forlengte etter dette .                                                
-
-Bokmål:
-når du ammer , kan du være oppmerksom på at barnet ditt faktisk spiser , ved og se og høre at barnet svelger .                               
-Nynorsk:
-når du ammar , kan du vera oppmerksam på at barnet ditt faktisk et , ved og sjå og høyra at barnet svelgjer .                               
-Generated nynorsk:
-du  ammar til du  barnet oppmerksam barnet   ditt et   og   høyra  svelgjer                                  
-
-Bokmål:
-i forskriften er det definert et unntak fra karantenereglene .                                             
-Nynorsk:
-i forskrifta er det definert eit unntak frå karantenereglane .                                             
-Generated nynorsk:
-i forskrifta er det definert eit unntak frå karantenereglane .                                             
-
-Bokmål:
-etter krigen ble det dannet en samlingsregjering med einar gerhardsen som statsminister .                                          
-Nynorsk:
-etter krigen vart det danna ei samlingsregjering med einar gerhardsen som statsminister .                                          
-Generated nynorsk:
-etter krigen vart det danna ei samlingsregjering med einar gerhardsen som statsminister .                                          
-
-Bokmål:
-nei , nå er det ikke lov å besøke sykehus , sykehjem eller andre helseinstitusjoner .                                       
-Nynorsk:
-nei , no er det ikkje lov å besøka sjukehus , sjukeheim eller andre helseinstitusjonar .                                       
-Generated nynorsk:
-nei , no er  som lov å besøka sjukehus sjukeheim  andre helseinstitusjonar .                                        
-
-Bokmål:
-på 1920 tallet økte de sosiale spenningene , og tiåret etter ble norge utsatt for virkningene av krisen i verdensøkonomien .                                  
-Nynorsk:
-på 1920 talet auka dei sosiale spenningane , og tiåret etter vart noreg utsett for verknadene av krisa i verdsøkonomien .                                  
-Generated nynorsk:
-på 1920 talet var dei og spenningane og , tiåret , noreg   verknadene  krisa  verdsøkonomien                                    
+det er kjem at for ,  og    til .                                          
 
 Bokmål:
 krigshistorien er den mest kontroversielle delen av norsk historie .                                             
 Nynorsk:
 krigshistoria er den mest kontroversielle delen av norsk historie .                                             
 Generated nynorsk:
-krigshistoria er den mest kontroversielle delen av norsk historie .                                             
+i vart  det ,   i  .                                             
 
 Bokmål:
-overgangen fra omreisende til bofast tilværelse gikk derfor over lang tid .                                           
+hvis du er syk og trenger legehjelp , eller har behov for individuell helserådgivning , kontakt fastlege på telefon eller elektronisk .                                 
 Nynorsk:
-overgangen frå omreisende til bofast tilvere gjekk derfor over lang tid .                                           
+viss du er sjuk og treng legehjelp , eller har behov for individuell helserådgiving , kontakt fastlege på telefon eller elektronisk .                                 
 Generated nynorsk:
-overgangen frå omreisende til bofast tilvere gjekk derfor over lang tid .                                           
+det du ikkje for   ,        og    .                                    
 
 Bokmål:
-eldre personer 65 år .                                                  
+sykdomsforløp kan variere mye mellom personer .                                                
 Nynorsk:
-eldre personar 65 år .                                                  
+sjukdomsforløp kan variera mykje mellom personar .                                                
 Generated nynorsk:
-eldre personar 65 år .                                                  
+ring livstruande òg for  kallast .                                                
 
 Bokmål:
-urbaniseringen av norge er en historisk prosess som sakte men sikkert har endret norge fra tidlig vikingtid til i dag , fra et land basert på jordbruk og sjølberging , til stadig mer handel og industri .                  
+de største fiskefangstene gjøres fra fartøyer på alle verdenshav .                                             
 Nynorsk:
-urbaniseringen av noreg er ein historisk prosess som sakte men sikkert har endra noreg frå tidleg vikingtid til i dag , frå eit land basert på jordbruk og sjølberging , til stadig meir handel og industri .                  
+dei største fiskefangstane blir gjorde frå fartøy på alle verdshav .                                            
 Generated nynorsk:
-urbaniseringen som er  ein historisk prosess sakte   sikkert  endra  noreg  vikingtid  , dag     basert  jordbruk  og  ,  til   .                   
+i vart    , og i og i .                                            
 
 Bokmål:
-noen kan føle seg stresset , trist , redd , sint eller irritert , mens andre ikke har noen vonde følelser knyttet til å være i karantene .                           
+folkehelseinstituttet fhi har informasjon om kriteriene for opphevelse av isolasjon .                                            
 Nynorsk:
-nokon kan føla seg stressa , trist , redd , sint eller irritert , medan andre ikkje har nokon vonde kjensler knytt til å vera i karantene .                           
+folkehelseinstituttet fhi har informasjon om kriteria for opphevelse av isolasjon .                                            
 Generated nynorsk:
-nokon kan føla seg stressa , trist , redd  sint  irritert , medan   vonde   kjensler  som  i  .                            
+mars er ikkje for     i .                                             
 
 Bokmål:
-de du bor sammen med skal være i karantene .                                             
+hvis du har fått en forløpskoordinator eller annen kontaktperson vil du kunne finne dem i tjenesten helsekontakter på helsenorge .no .                                  
 Nynorsk:
-dei du bur saman med skal vera i karantene .                                             
+viss du har fått ein forløpkoordinator eller annan kontaktperson vil du kunna finna dei i tenesta helsekontakter på helsenorge .no .                                  
 Generated nynorsk:
-dei du bur saman med skal vera i karantene .                                             
+det du ikkje for   ,    i du i  er  i                                      
 
 Bokmål:
-vi vet ennå ikke så mye om koronaviruset kan smitte fra mor til barn .                                        
+gjør ting du og familien din liker å gjøre som å se film , lese bøker , høre på musikk eller lydbok .                                
 Nynorsk:
-vi veit enno ikkje så mykje om koronaviruset kan smitta frå mor til barn .                                        
+gjer ting du og familien din liker å gjera som å sjå film , lesa bøker , høyra på musikk eller lydbok .                                
 Generated nynorsk:
-vi veit enno ikkje så mykje om koronaviruset kan  frå  til  .                                        
+det er ikkje for  ,           og   .                                   
 
 Bokmål:
-befolkningen sank til rundt en tredjedel på begynnelsen av 1500 tallet .                                           
+unngå offentlig transport hvis du kan .                                                
 Nynorsk:
-befolkningen sokk til rundt ein tredel på byrjinga av 1500 talet .                                           
+unngå offentleg transport viss du kan .                                                
 Generated nynorsk:
-befolkningen sokk til rundt ein tredel på byrjinga av 1500 talet .                                           
+hald du òg for  .                                                 
 
 Bokmål:
-japan er et parlamentarisk demokratisk konstitusjonelt keiserdømme .                                               
+i lokalsamfunnene var 1800 tallet den store organiseringsfasen .                                              
 Nynorsk:
-japan er eit parlamentarisk demokratisk konstitusjonelt keiserdømme .                                               
+i lokalsamfunna var 1800 talet den store organiseringsfasen .                                              
 Generated nynorsk:
-japan er eit parlamentarisk demokratisk konstitusjonelt keiserdømme .                                               
-
-Bokmål:
-perioden kan bli forlenget .                                                  
-Nynorsk:
-perioden kan bli forlengt .                                                  
-Generated nynorsk:
-perioden kan bli forlengt .                                                  
-
-Bokmål:
-hvis personer i husholdningen ikke føler seg friske spesielt hvis du mistenker koronavirussykdom , begrens samværet og kontakt lege dersom du har medisinsk behov .                              
-Nynorsk:
-viss personar i hushaldet ikkje føler seg friske spesielt viss du mistenker koronavirussjukdom , avgrens samværet og kontakt lege dersom du har medisinsk behov .                              
-Generated nynorsk:
-viss ting i hushaldet familien føler friske  spesielt viss du mistenker koronavirussjukdom avgrens  samværet og  dersom  du medisinsk                                 
-
-Bokmål:
-jobber du som helsepersonell og er gravid , bør du ut fra et føre var prinsipp , avklare med din arbeidsgiver at det tilrettelegges for at annet helsepersonell tar prøver av og behandler personer med mulig koronavirussykdom covid 19 sykdom , så langt det er mulig .        
-Nynorsk:
-jobbar du som helsepersonell og er gravid , bør du ut frå eit føre var prinsipp , avklara med arbeidsgivaren din at det blir lagt til rette for at andre helsepersonell tar prøvar av og behandlar personar med mogleg koronavirussjukdom covid 19 sykdom , så langt det er mogleg .     
-Generated nynorsk:
-for du redusera risiko ,     og    fødande   oppsøka personell ,    og jobb og      på  .                      
-
-Bokmål:
-hanseatiske kjøpmenn hadde slått seg ned i norske byer , særlig bergen , i høymiddelalderen .                                       
-Nynorsk:
-hanseatiske kjøpmenn hadde slått seg ned i norske byar , særleg bergen , i høgmellomalderen .                                       
-Generated nynorsk:
-hanseatiske kjøpmenn hadde slått , ned i norske byar som bergen  i høgmellomalderen .                                        
-
-Bokmål:
-når du er i hjemmekarantene skal du holde deg mest mulig hjemme .                                          
-Nynorsk:
-når du er i hjemmekarantene skal du halda deg mest mogleg heime .                                          
-Generated nynorsk:
-du skal har vera som     du til  .                                          
-
-Bokmål:
-befolkningen var på sitt laveste , landet hadde mistet sin selvstendige status , og gjennom reformasjonen hadde kongen fått råderett over alt jordegods kirken tidligere hadde eid .                           
-Nynorsk:
-befolkningen var på sitt lågaste , landet hadde mista den sjølvstendige statusen sin , og gjennom reformasjonen hadde kongen fått råderett over alt jordegods kyrkja tidlegare hadde eigd .                          
-Generated nynorsk:
-på var av var vart , første  av  oslofjorden  ,  form gravplassar ,    og internasjonale  reiskap .                              
-
-Bokmål:
-for de aller fleste er råmelken den første gule melken nok til å mette barnet de første dagene .                                    
-Nynorsk:
-for dei aller fleste er råmelken den første gule mjølka nok til å metta barnet dei første dagane .                                    
-Generated nynorsk:
-dei er aller er  råmelken  første gule mjølka nok dei til metta dei dagane  .                                     
-
-Bokmål:
-hvilke anbefalinger gjelder for meg ?                                                 
-Nynorsk:
-kva tilrådingar gjeld for meg ?                                                 
-Generated nynorsk:
-kva tilrådingar gjeld for meg ?                                                 
-
-Bokmål:
-løvskogen har arter som eik , bøk og lønn .                                             
-Nynorsk:
-lauvskogen har artar som eik , bøk og lønn .                                             
-Generated nynorsk:
-no må , aller mindre smitterisiko som frå akutt .                                             
-
-Bokmål:
-under en tredjedel av skogene utnyttes kommersielt .                                               
-Nynorsk:
-under ein tredel av skogane blir utnytta kommersielt .                                              
-Generated nynorsk:
-i denne landa med militær splittelse i stillehavet .                                              
-
-Bokmål:
-det innføres restriksjoner for besøkende til alle landets helseinstitusjoner og innføring av adgangskontroll for å ivareta smittevern for pasienter i landets helseinstitusjoner .                                
-Nynorsk:
-det blir innført restriksjonar for besøkande til helseinstitusjonane og innføringa i alle landet av tilgangskontroll for å ta vare på smittevern for pasientar i helseinstitusjonane i landet .                           
-Generated nynorsk:
-det blir innført restriksjonar for besøkande helseinstitusjonane  , innføringa  alle  tilgangskontroll   ta vare   smittevern pasientar  i   .                            
-
-Bokmål:
-ta minst mulig på brystene , på samme måte som du ikke skal ta deg til ansiktet , for å unngå å overføre smitte fra hender til brystet og deretter til barnet .                      
-Nynorsk:
-ta minst mogleg på brysta , på same måte som du ikkje skal ta deg til ansiktet , for å unngå å overføra smitta frå hender til brystet og deretter til barnet .                      
-Generated nynorsk:
-dersom minst mogleg på brysta på  måte  som   skal ta  ansiktet  til     overføra  til  brystet   til deretter til .                      
-
-Bokmål:
-les mer om dette på utdanningsdirektoratets sider .                                               
-Nynorsk:
-les meir om dette på utdanningsdirektoratets sider .                                               
-Generated nynorsk:
-dette livstruande blir eller skade for ring .                                               
-
-Bokmål:
-koronavirus finnes i små dråper som kommer ut gjennom munnen og nesen når en person som er smittet hoster eller nyser .                                 
-Nynorsk:
-koronavirus finst i små dropar som kjem ut gjennom munnen og nasen når ein person som er smitta hostar eller nys .                                 
-Generated nynorsk:
-koronavirus finst i små dropar i kjem  gjennom munnen  nasen og ein som   er  nys .                                  
-
-Bokmål:
-norge tester mange for covid 19 , og frem til nå har kun om lag 5 prosent av alle de testede fått påvist koronavirus .                              
-Nynorsk:
-noreg testar mange for covid 19 , og fram til no har berre om lag 5 prosent av alle dei testa fått påvist koronavirus .                              
-Generated nynorsk:
-noreg testar mange  covid 19 og   av i om  lag 5   alle  dei testa  koronavirus .                               
-
-Bokmål:
-du kan gå tur ute , men hold god avstand til andre .                                          
-Nynorsk:
-du kan gå tur ute , men hald god avstand til andre .                                          
-Generated nynorsk:
-du kan gå tur ute , men hald god avstand til andre .                                          
-
-Bokmål:
-nødnumre må kun brukes av personer som er akutt syke .                                            
-Nynorsk:
-nødnummer må berre brukast av personar som er akutt sjuke .                                            
-Generated nynorsk:
-nødnummer må berre brukast av personar som er akutt sjuke .                                            
-
-Bokmål:
-friske personer uten symptomer kan ta fly til sin endelige destinasjon for å kunne være i karantene i eget hjem .                                  
-Nynorsk:
-friske personar utan symptom kan ta fly til den endelege destinasjonen sin for å kunna vera i karantene i eigen heim .                                 
-Generated nynorsk:
-friske personar utan kan  ta fly  til endelege destinasjonen sin å  vera i     .                                  
-
-Bokmål:
-fra 1860 tallet kom norge på offensiven i forhold til sverige , da de krevde et eget norsk konsulatvesen for å kunne å føre en egen norsk utenrikspolitikk .                          
-Nynorsk:
-frå 1860 talet kom noreg på offensiven i forhold til sverige , då dei kravde eit eige norsk konsulatvesen for å kunna å føra ein eigen norsk utanrikspolitikk .                          
-Generated nynorsk:
-på 1860 talet kom noreg  offensiven  forhold  sverige ,  kravde   eige konsulatvesen  kunna   føra  eigen  .                            
-
-Bokmål:
-mars 2020 .                                                    
-Nynorsk:
-mars 2020 .                                                    
-Generated nynorsk:
-april 2020 .                                                    
-
-Bokmål:
-med nærkontakt menes kontakt med en smittet person med mindre enn to meters avstand i mer enn 15 minutter , eller direkte fysisk kontakt .                              
-Nynorsk:
-med nærkontakt blir meint kontakt med ein smitta person med mindre enn to meters avstand i meir enn 15 minutt , eller direkte fysisk kontakt .                             
-Generated nynorsk:
-sjølv nærkontakt til meint til   person   enn  to meters og meir   15 minutt  eller direkte fysisk .                              
-
-Bokmål:
-kielfreden skapte opprør i norge .                                                 
-Nynorsk:
-kielfreden skapte opprør i noreg .                                                 
-Generated nynorsk:
-kielfreden skapte opprør i noreg .                                                 
-
-Bokmål:
-når vi er ute , bør vi ikke være mer enn fem personer i samme gruppe .                                      
-Nynorsk:
-når vi er ute , bør vi ikkje vera meir enn fem personar i same gruppe .                                      
-Generated nynorsk:
-når vi er ute , bør vi ikkje vera meir fem  i same gruppe .                                       
-
-Bokmål:
-etter 1814 oppstod norge som egen stat , i 1905 var det kun det løse båndet til sverige som ble kuttet .                                 
-Nynorsk:
-etter 1814 oppstod noreg som eigen stat , i 1905 var det berre det lause bandet til sverige som vart kutta .                                 
-Generated nynorsk:
-etter 1814 oppstod  noreg eigen stat  i   det berre det lause bandet sverige  som kutta   .                                
+i vart  og vart  i  nytid .                                             
 
 Bokmål:
 andre viktige produkter er hvete , bygg , soyabønner , rotfrukter , sitrusfrukter , sukker , tobakk og te .                                   
 Nynorsk:
 andre viktige produkt er kveite , bygg , soyabønner , rotfrukter , sitrusfrukter , sukker , tobakk og te .                                   
 Generated nynorsk:
-hovudet viktige produkt er kveite , bygg , soyabønner , rotfrukter ,  sukker  tobakk  te .                                    
+det er likevel har ,          og    .                                    
 
 Bokmål:
-se utenriksdepartementets ud reiseråd om koronavirus .                                                
+med fallende inntekter ble det vanskelig å opprettholde en adelig livsstil .                                           
 Nynorsk:
-sjå utanriksdepartementets ud reiseråd om koronavirus .                                                
+med fallande inntekter vart det vanskeleg å halda oppe ein adeleg livsstil .                                          
 Generated nynorsk:
-sjå utanriksdepartementets ud reiseråd om koronavirus .                                                
+det er vart er ,   og   .                                            
 
 Bokmål:
-her finner du svar på de vanligste spørsmålene gravide og ammende har om koronaviruset .                                        
+det finnes ingen spesifikk behandling eller vaksine mot sykdommen .                                             
 Nynorsk:
-her finn du svar på dei vanlegaste spørsmåla gravide og ammande har om koronaviruset .                                        
+det finst inga spesifikk behandling eller vaksine mot sjukdommen .                                             
 Generated nynorsk:
-her finn du svar på dei vanlegaste spørsmåla gravide og ammande har om koronaviruset .                                        
+mars er forbod er å  fritidseigedom i .                                              
 
 Bokmål:
-vår visjon er at nordmenn skal finne kunnskap av høy kvalitet fritt tilgjengelig på nett .                                       
+kursendringen var likevel ikke drastisk .                                                 
 Nynorsk:
-visjonen vår er at nordmenn skal finna kunnskap av høg kvalitet fritt tilgjengeleg på nett .                                       
+kursendringa var likevel ikkje drastisk .                                                 
 Generated nynorsk:
-visjonen vår er at nordmenn skal finna kunnskap høg  fritt  på  .                                        
+april var av frå .                                                  
 
 Bokmål:
-det vil være en stor gruppe som har symptomer på luftveisinfeksjoner .                                           
+fysisk aktivitet , turer i naturen og dagslys virker positivt inn på psyken og på søvn .                                      
 Nynorsk:
-det vil vera ei stor gruppe som har symptom på luftvegsinfeksjonar .                                           
+fysisk aktivitet , turar i naturen og dagslys verkar positivt inn på psyken og på søvn .                                      
 Generated nynorsk:
-det vil vera ei stor gruppe som har symptom på luftvegsinfeksjonar .                                           
+i  vart    og     i   og       .                                 
 
 Bokmål:
-rasen er gammel , selv om den første stambok over fjordhesten ikke utkom før i 1910 .                                      
+i 1636 ble japan isolert fra omverdenen .                                               
 Nynorsk:
-rasen er gammal , sjølv om den første stamboka over fjordhesten ikkje utkom før i 1910 .                                      
+i 1636 vart japan isolert frå omverdenen .                                               
 Generated nynorsk:
-rasen er gammal er sjølv  den første stamboka fjordhesten  ikkje utkom i  1910 .                                      
+i vart  og vart i   .                                              
 
 Bokmål:
-se mer om telefontilbudet på din kommunes hjemmeside .                                              
+jordbruket skapte grunnlag for en langt større befolkning enn tidligere .                                            
 Nynorsk:
-sjå meir om telefontilbodet på heimesida til kommunen din .                                             
+jordbruket skapte grunnlag for ei langt større befolkning enn tidlegare .                                            
 Generated nynorsk:
-sjå meir om telefontilbodet på heimesida til kommunen din .                                             
+i vart     og i og  .                                            
 
 Bokmål:
-det er flere store innsjøer .                                                 
+vel så sannsynlig er det at endrede gravskikker viser til endrede sosiale mønstre .                                         
 Nynorsk:
-det er fleire store innsjøar .                                                 
+vel så sannsynleg er det at endra gravskikkar viser til endra sosiale mønster .                                         
 Generated nynorsk:
-det er   svakt helse .                                                
+i vart  er det ,  og     .                                          
 
 Bokmål:
-dette gjelder også for helsepersonell .                                                 
+desember samme år kom japans svar på dette i form av angrepet på pearl harbor og kom slik i krig med usa og de allierte .                             
 Nynorsk:
-dette gjeld òg for helsepersonell .                                                 
+desember same år kom japans svar på dette i form av angrepet på pearl harbor og kom slik i krig med usa og dei allierte .                             
 Generated nynorsk:
-dette gjeld òg for helsepersonell .                                                 
+i var av vart  ,            i      .                               
 
 Bokmål:
-du kan melde fra på vegne av deg selv , ditt barn under 16 år , eller for en som har gitt deg fullmakt på helsenorge .                            
+de politiske konfliktene dreide seg snarere om hvorvidt skattene skulle ilegges på arbeid eller forbruk .                                       
 Nynorsk:
-du kan melda frå på vegner av deg sjølv , barnet ditt under 16 år , eller for ein som har gitt deg fullmakt på helsenorge .                            
+dei politiske konfliktane dreidde seg snarare om i kva grad skattane skulle ileggast på arbeid eller forbruk .                                     
 Generated nynorsk:
-du kan melda saman på vegner av  ,  ditt  16   ,   det ein deg  fullmakt   .                             
+det er likevel er ,        og    .                                      
 
 Bokmål:
-norge har vært en nær alliert med usa i etterkrigstiden .                                            
+etter hvert oppsto stridende fraksjoner som førte landet inn i den såkalte de krigende staters periode eller sengoku perioden .                                   
 Nynorsk:
-noreg har vore ein nær alliert med usa i etterkrigstiden .                                            
+etter kvart oppstod stridande fraksjonar som førte landet inn i den såkalla perioden til dei krigande statar eller sengoku perioden .                                  
 Generated nynorsk:
-noreg av perioden budde fleste hoste som 2005 i sverige .                                            
+i var av vart   og     i og         .                                 
 
 Bokmål:
-framfor alt er det søppelet de har etterlatt som vi finner spor etter .                                         
+med isolering menes at personen oppholder seg i eget hjem eller annet egnet oppholdssted .                                        
 Nynorsk:
-framfor alt er det søppelet dei har etterlate som vi finn spor etter .                                         
+med isolering blir meint at personen oppheld seg i eigen heim eller anna eigna tilhaldsstad .                                       
 Generated nynorsk:
-framfor alt er  søppelet dei har etterlate som vi finn spor etter .                                         
+i isolering vart meint vart personen og i    og   .                                        
 
 Bokmål:
-ring informasjonstelefon for publikum hvis du har spørsmål om korona .                                            
+dere som er friske og som bor sammen kan omgås som vanlig .                                          
 Nynorsk:
-ring informasjonstelefon for publikum viss du har spørsmål om korona .                                            
+de som er friske og som bur saman kan omgåast som vanleg .                                          
 Generated nynorsk:
-ring informasjonstelefon for publikum viss du har spørsmål om korona .                                            
+du skal ikkje for som skal  du deg  .                                            
 
 Bokmål:
-dette gjelder særlig for diabetes , hvor en velregulert diabetes uten senkomplikasjoner , trolig ikke gir økt risiko for alvorlig forløp av sykdom .                               
+den ensidige satsingen på åkerbruk ble avløst av mer husdyrhold , som gav mer kjøtt og smør .                                     
 Nynorsk:
-dette gjeld særleg for diabetes , der ein velregulert diabetes utan senkomplikasjoner , truleg ikkje gir auka risiko for alvorleg forløp av sjukdom .                               
+den einsidige satsinga på åkerbruk vart avløyste av meir husdyrhald , som gav meir kjøtt og smør .                                     
 Generated nynorsk:
-dette gjeld særleg i diabetes , der , velregulert  senkomplikasjoner  , truleg  gir risiko   alvorleg  forløp  .                               
+i var vart    og               .                                 
 
 Bokmål:
-gjennom oljeutvinningen har landet en ekstra ressurs , som har gjort at norge har vært i stand til å styre unna kriser som har rammet andre land i eu .                         
+partiet bygde på førerprinsippet og ville styre landet gjennom korporasjoner i arbeids og kulturlivet .                                        
 Nynorsk:
-gjennom oljeutvinninga har landa ein ekstra ressurs , som har gjort at noreg har vore i stand til å styra unna kriser som har ramma andre land i eu .                         
+partiet bygde på førarprinsippet og ville styra landet gjennom korporasjonar i arbeids og kulturlivet .                                        
 Generated nynorsk:
-han oljeutvinninga har   ekstra ressurs som  har   vore   i    unna    har  som land eu                           
+i vart  meint vart personen og i     og  i .                                       
+
+Bokmål:
+da borten regjeringen måtte gå på grunn av indre splid om ef i 1971 , åpnet det imidlertid for en folkeavstemning året etter .                               
+Nynorsk:
+då borten regjeringa måtte gå på grunn av indre splid om ef i 1971 , opna det likevel for ei folkeavstemming året etter .                               
+Generated nynorsk:
+i var av  ,              i    .                                
+
+Bokmål:
+dette innebærer at norge har godkjent «de fire friheter» – fri flyt av varer , tjenester , kapital og personer innenfor eøs området .                               
+Nynorsk:
+dette inneber at noreg har godkjent «dei fire fridommar» – fri flyt av varer , tenester , kapital og personar innanfor eøs området .                               
+Generated nynorsk:
+det var av det ,              i                                    
+
+Bokmål:
+bruk av unntaket skal avklares med virksomhetsledelsen .                                               
+Nynorsk:
+bruk av unntaket skal avklarast med verksemdsleiinga .                                               
+Generated nynorsk:
+det er òg for  kallast .                                                
+
+Bokmål:
+hos mennesket er det bølger i luften som påvirker høresansen , og vi oppfatter lyd med frekvens fra cirka 20 hz til cirka 20 000 hz og med et lydtrykk som er omtrent en milliondel av atmosfæretrykket .                 
+Nynorsk:
+hos mennesket er det bølgjer i lufta som påverkar høyresansen , og vi oppfattar lyd med frekvens frå cirka 20 hz til cirka 20 000 hz og med eit lydtrykk som er omtrent ein milliondel av atmosfæretrykket .                 
+Generated nynorsk:
+i løpet til  i ,                     og                            
+
+Bokmål:
+hørsel er evnen til å oppfatte lyd .                                               
+Nynorsk:
+høyrsle er evna til å oppfatta lyd .                                               
+Generated nynorsk:
+det eldste gardsnamna braut til kallast sosialdemokratane .                                               
+
+Bokmål:
+en tradisjonell volds og æreskultur , der straff for ugjerninger gjerne ble gjort opp mellom slektene , ble utfordret av sorenskrivere og deres rettsapparat .                              
+Nynorsk:
+ein tradisjonell valds og æreskultur , der straff for ugjerninger gjerne vart gjort opp mellom slektene , vart utfordra av sorenskrivarar og rettsapparata deira .                              
+Generated nynorsk:
+i var av vart  ,             i     .                               
+
+Bokmål:
+de som kan være smittet av koronavirus , men som ikke er syke , skal i karantene .                                     
+Nynorsk:
+dei som kan vera smitta av koronavirus , men som ikkje er sjuke , skal i karantene .                                     
+Generated nynorsk:
+det du ikkje for  , skal   i      .                                       
+
+Bokmål:
+klikk på «start e konsultasjon» for å begynne .                                              
+Nynorsk:
+klikk på «start e konsultasjon» for å byrja .                                              
+Generated nynorsk:
+det er òg for å  i  .                                              
+
+Bokmål:
+impulser fra kontinental ridderkultur gjorde norge til en mer integrert del av europeisk kultur .                                        
+Nynorsk:
+impulsar frå kontinental riddarkultur gjorde noreg til ein meir integrert del av europeisk kultur .                                        
+Generated nynorsk:
+i vart    ,  og   i     .                                       
+
+Bokmål:
+mange blir triste , føler seg ensomme eller sliter med å sove .                                          
+Nynorsk:
+mange blir triste , føler seg einsame eller slit med å sova .                                          
+Generated nynorsk:
+det er lurt er å   og    .                                           
+
+Bokmål:
+i løpet av det som er vanlig skoletid , anbefales det at barna gjør skolearbeid , tegner , leser eller lytter til bøker , og sørger for å være ute i frisk luft uten å være tett på andre .               
+Nynorsk:
+i løpet av det som er vanleg skuletid , blir det tilrådd at barna gjer skulearbeid , teiknar , les eller lyttar til bøker , og sørger for å vera ute i frisk luft utan å vera tett på andre .              
+Generated nynorsk:
+det du er til for ,                      og                           
+
+Bokmål:
+spor etter mer sesongbasert flytting , og av en egen type keramikk blant omreisende grupper , kan tyde på en samisk etnisitet ble utkrystallisert i denne perioden .                           
+Nynorsk:
+spor etter meir sesongbasert flytting , og av ein eigen type keramikk blant omreisende grupper , kan tyda på ein samisk etnisitet vart utkrystallisert i denne perioden .                           
+Generated nynorsk:
+i var av vart  ,             i     .                               
+
+Bokmål:
+er koronaviruset farligere for noen grupper ?                                                
+Nynorsk:
+er koronaviruset farlegare for nokon grupper ?                                                
+Generated nynorsk:
+kva eg  for og  ?                                                
+
+Bokmål:
+hvalfangst vokste fram som en viktig ny industrigren i mange norske kystbyer , med sandefjord som den viktigste .                                    
+Nynorsk:
+kvalfangst voks fram som ei viktig ny industrigrein i mange norske kystbyar , med sandefjord som den viktigaste .                                    
+Generated nynorsk:
+i var av i ,          og     .                                   
+
+Bokmål:
+jo oftere barnet ditt suger , desto mer melk får det i seg , og jo mer melk vil kroppen din produsere .                                
+Nynorsk:
+jo oftare barnet ditt syg , desto meir mjølk får det i seg , og jo meir mjølk vil kroppen din produsera .                                
+Generated nynorsk:
+det er av det ,            og   .                                   
+
+Bokmål:
+omkring 230 fuglearter hekker det er mange vade og svømmefugler .                                            
+Nynorsk:
+omkring 230 fuglearter hekkar det er mange vade og svømmefugler .                                            
+Generated nynorsk:
+innanfor vart     og    .                                            
+
+Bokmål:
+måten løsrivelsen skjedde på er likevel blitt regnet som et diplomatisk mesterstykke , selv om utgangen neppe ville blitt den samme uten betydelig svensk velvilje .                             
+Nynorsk:
+måten løsrivelsen skjedde på har likevel vorte rekna som eit diplomatisk meisterstykke , sjølv om utgangen neppe ville vorte den same utan betydeleg svensk velvilje .                             
+Generated nynorsk:
+det er av det ,               i                                   
+
+Bokmål:
+det er to grupper som skal i karantene                                               
+Nynorsk:
+det er to grupper som skal i karantene                                               
+Generated nynorsk:
+det du for    .                                                
+
+Bokmål:
+innenfor arbeidslivet var full sysselsetting fremdeles et mål , som langt på vei ble oppfylt .                                       
+Nynorsk:
+innanfor arbeidslivet var full sysselsetjing framleis eit mål , som langt på veg vart oppfylt .                                       
+Generated nynorsk:
+i  vart    og     i  og    .                                     
+
+Bokmål:
+det er unntak for stenging av barnehage og skole for barn med særskilte omsorgsbehov .                                        
+Nynorsk:
+det er unntak for stenging av barnehage og skule for barn med særskilde omsorgsbehov .                                        
+Generated nynorsk:
+det er  at for  , og     i .                                         
+
+Bokmål:
+enkelte dyr , som for eksempel delfiner , kan høre svingninger helt opp til 200 000 hz .                                     
+Nynorsk:
+enkelte dyr , som til dømes delfinar , kan høyra svingingar heilt opp til 200 000 hz .                                     
+Generated nynorsk:
+det er likevel ,           og   .                                     
+
+Bokmål:
+for å ivareta barns behov for lek med andre barn kan man ha 1 2 faste lekevenner og holde seg til de samme lekevennene gjennom denne perioden .                           
+Nynorsk:
+for å ta vare på behovet til barn for leik med andre barn kan ein ha 1 2 faste leikevenner og halda seg til dei same leikevennene gjennom denne perioden .                        
+Generated nynorsk:
+dersom du har for  ,               og                                  
+
+Bokmål:
+barn og ungdom som er i hjemmeisolasjon eller hjemmekarantene skal ikke omgås barn og ungdom utenfor husstanden .                                     
+Nynorsk:
+barn og ungdom som er i hjemmeisolasjon eller hjemmekarantene skal ikkje omgåast barn og ungdom utanfor husstanden .                                     
+Generated nynorsk:
+det du ikkje for   skal   i     .                                        
+
+Bokmål:
+de du bor sammen med skal være i karantene .                                             
+Nynorsk:
+dei du bur saman med skal vera i karantene .                                             
+Generated nynorsk:
+du   viss skal   .                                               
+
+Bokmål:
+det arbeides videre med signalaktiviteter , markedsføring og mer forskning på rasen .                                          
+Nynorsk:
+det blir vidare arbeidd med signalaktivitetar , marknadsføring og meir forsking på rasen .                                         
+Generated nynorsk:
+det er   ,   og   i  .                                          
+
+Bokmål:
+dersom du bor sammen med en person som er isolert med påvist koronavirus , skal du være i karantene fram til den syke ikke lenger er isolert , minst 14 dager etter at karantenen startet .                   
+Nynorsk:
+dersom du bur saman med ein person som er isolert med påvist koronavirus , skal du vera i karantene fram til den sjuke ikkje lenger er isolert , minst 14 dagar etter at karantenen starta .                   
+Generated nynorsk:
+dersom du er for  ,      du  ,      smitta                                   
+
+Bokmål:
+for de bøndene som overlevde pesten , var senmiddelalderen en tid med nye vilkår .                                        
+Nynorsk:
+for dei bøndene som overlevde pesta , var senmiddelalderen ei tid med nye vilkår .                                        
+Generated nynorsk:
+i er vart i det ,  og  i      .                                       
+
+Bokmål:
+pesten snudde opp ned på forholdene i jordbruket .                                              
+Nynorsk:
+pesta snudde opp ned på forholda i jordbruket .                                              
+Generated nynorsk:
+august vart  og vart og   .                                              
+
+Bokmål:
+i det offentlige rom bør vi holde minst en meters avstand til andre mennesker .                                        
+Nynorsk:
+i det offentlege rommet bør vi halda minst ein meters avstand til andre menneske .                                        
+Generated nynorsk:
+det kan ikkje at for som , eller   til  .                                          
+
+Bokmål:
+ved stillehavskysten er det flere store landområder under havnivået og som er beskyttet av diker .                                       
+Nynorsk:
+ved stillehavskysten er det fleire store landområde under havnivået og som er verna av dike .                                       
+Generated nynorsk:
+det er   ,    og      i  .                                      
+
+Bokmål:
+spørsmål om korona .                                                   
+Nynorsk:
+spørsmål om korona .                                                   
+Generated nynorsk:
+regjeringa kan .                                                    
+
+Bokmål:
+se folkehelseinstituttets smittevernråd ved reise .                                                 
+Nynorsk:
+sjå folkehelseinstituttets smittevernråd ved reise .                                                 
+Generated nynorsk:
+april folkehelseinstituttets 18 00 .                                                  
+
+Bokmål:
+mer enn 50 prosent av arealet er skogdekt .                                              
+Nynorsk:
+meir enn 50 prosent av arealet er skogdekt .                                              
+Generated nynorsk:
+den vart  og vart i   .                                              
+
+Bokmål:
+sentrale japanske instrumenter er lutt typene biwa og shamizen , munnorgel , siteren kozo , bambusfløyter , klokkespill og gonger .                                  
+Nynorsk:
+sentrale japanske instrument er lutt typane biwa og shamizen , munnorgel , siteren kozo , bambusfløyter , klokkespel og gonger .                                  
+Generated nynorsk:
+det var av det ,            og  i .                                   
+
+Bokmål:
+når vi er innendørs på arbeidsplassen , bør vi ha minst to meters avstand til hverandre .                                      
+Nynorsk:
+når vi er innandørs på arbeidsplassen , bør vi ha minst to meters avstand til kvarandre .                                      
+Generated nynorsk:
+det du ikkje for  ,   eller kan  til   .                                        
+
+Bokmål:
+koronavirus finnes i små dråper som kommer ut gjennom munnen og nesen når en person som er smittet hoster eller nyser .                                 
+Nynorsk:
+koronavirus finst i små dropar som kjem ut gjennom munnen og nasen når ein person som er smitta hostar eller nys .                                 
+Generated nynorsk:
+det er ikkje for  ,          og   .                                    
+
+Bokmål:
+den japanske hoffmusikken gagaku med opprinnelse i kinesisk hoffmusikk fra 600 tallet regnes som verdens eldste orkestertradisjon .                                     
+Nynorsk:
+den japanske hoffmusikken gagaku med opphav i kinesisk hoffmusikk frå 600 talet blir rekna som den eldste orkestertradisjonen i verda .                                  
+Generated nynorsk:
+i var av  ,           og   i  .                                  
+
+Bokmål:
+har du spørsmål om korona og trenger noen å snakke med ?                                           
+Nynorsk:
+har du spørsmål om korona og treng nokon å snakka med ?                                           
+Generated nynorsk:
+du  eg for     ?                                              
+
+Bokmål:
+stengingen gjelder fra torsdag 12 .                                                 
+Nynorsk:
+stengingen gjeld frå torsdag 12 .                                                 
+Generated nynorsk:
+april gjeld nøye torsdag .                                                  
+
+Bokmål:
+i jernalderen ble folk mer knyttet til gården .                                              
+Nynorsk:
+i jernalderen vart folk meir knytt til garden .                                              
+Generated nynorsk:
+i vart  og vart i   .                                              
+
+Bokmål:
+ikke vent på at de skal komme og spørre deg .                                            
+Nynorsk:
+ikkje vent på at dei skal komma og spørja deg .                                            
+Generated nynorsk:
+det kan ikkje for  som  og deg .                                             
+
+Bokmål:
+et norsk universitet var blitt grunnlagt i kristiania i 1811 .                                            
+Nynorsk:
+eit norsk universitet hadde vorte grunnlagt i kristiania i 1811 .                                            
+Generated nynorsk:
+i vart     i    .                                            
+
+Bokmål:
+du skal isoleres dersom du har fått påvist koronavirus .                                             
+Nynorsk:
+du skal isolerast dersom du har fått påvist koronavirus .                                             
+Generated nynorsk:
+du   viss du skal deg  .                                              
+
+Bokmål:
+sunne , regelmessige måltider , søvn og fysisk aktivitet senker stress i kroppen både hos barn og voksne .                                    
+Nynorsk:
+sunne , regelmessige måltid , søvn og fysisk aktivitet senkar stress i kroppen både hos barn og vaksne .                                    
+Generated nynorsk:
+det er likevel det ,         og     .                                    
+
+Bokmål:
+i 1914 startet den første verdenskrig .                                                
+Nynorsk:
+i 1914 starta den første verdskrigen .                                                
+Generated nynorsk:
+i vart    i  .                                               
+
+Bokmål:
+mye viktigere er imidlertid rytmen i en hårsyklus .                                              
+Nynorsk:
+mykje viktigare er likevel rytmen i ein hårsyklus .                                              
+Generated nynorsk:
+det er òg for å  lausriva i .                                              
+
+Bokmål:
+klimaet i eldre steinalder ble gradvis varmere , blant annet fordi den engelsk kanal åpnet seg og gjorde at golfstrømmen fikk større virkning langs kysten enn tidligere .                           
+Nynorsk:
+klimaet i eldre steinalder vart gradvis varmare , mellom anna fordi den engelsk kanal opna seg og gjorde at golfstrømmen fekk større verknad langs kysten enn tidlegare .                           
+Generated nynorsk:
+i var av vart  ,             i      .                              
+
+Bokmål:
+dersom du har hatt nærkontakt med noen som har fått påvist koronavirus skal du være i hjemmekarantene .                                     
+Nynorsk:
+dersom du har hatt nærkontakt med nokon som har fått påvist koronavirus skal du vera i hjemmekarantene .                                     
+Generated nynorsk:
+du  ikkje for  , skal    i                                            
+
+Bokmål:
+når vi er ute , bør vi ikke være mer enn fem personer i samme gruppe .                                      
+Nynorsk:
+når vi er ute , bør vi ikkje vera meir enn fem personar i same gruppe .                                      
+Generated nynorsk:
+det kan ikkje for   dei eller    i   .                                        
+
+Bokmål:
+personer som er omfattet av unntaket , skal så langt som mulig unngå nærkontakt med andre personer .                                     
+Nynorsk:
+personar som er omfatta av unntaket , skal så langt som mogleg unngå nærkontakt med andre personar .                                     
+Generated nynorsk:
+du  ikkje for  , skal    i                                            
+
+Bokmål:
+høymiddelalder deles inn i en fredsperiode noen ganger kalt tidlig middelalder , 1050–1130 , «borgerkrigene» 1130–1240 og «storhetstid» 1240–1350 .                                   
+Nynorsk:
+høgmellomalder blir delt inn i ein fredsperiode nokon gonger kalla tidleg mellomalder , 1050–1130 , «borgarkrigane» 1130–1240 og «storhetstid» 1240–1350 .                                  
+Generated nynorsk:
+det var av  ,          og    i .                                   
+
+Bokmål:
+de skal så langt som mulig unngå nærkontakt med andre personer .                                           
+Nynorsk:
+dei skal så langt som mogleg unngå nærkontakt med andre personar .                                           
+Generated nynorsk:
+du skal ikkje for som  skal du deg  .                                            
+
+Bokmål:
+er du gravid og har spørsmål og behov for å snakke med jordmor ?                                         
+Nynorsk:
+er du gravid og har spørsmål og behov for å snakka med jordmor ?                                         
+Generated nynorsk:
+du  ikkje for     snakka  ?                                            
+
+Bokmål:
+det er fare for at noen barn kan bli stående uten lekekamerater i denne perioden .                                       
+Nynorsk:
+det er fare for at nokre barn kan bli ståande utan leikekameratar i denne perioden .                                       
+Generated nynorsk:
+det er  å for  og     i  .                                         
+
+Bokmål:
+den høyeste toppen er den kjegleformede og vakre vulkanen fujiyama på honshu , 3376 meter over havet .                                     
+Nynorsk:
+den høgaste toppen er den kjegleforma og vakre vulkanen fujiyama på honshu , 3376 meter over havet .                                     
+Generated nynorsk:
+i  vart    og     i        og  .                                 
+
+Bokmål:
+grunnlaget for et moderne salgsjordbruk , som kunne brødfø en stor befolkning utenfor primærnæringene , var lagt .                                     
+Nynorsk:
+grunnlaget for eit moderne salsjordbruk , som kunne brødfø ei stor befolkning utanfor primærnæringene , var lagt .                                     
+Generated nynorsk:
+i var av i ,          og    .                                    
+
+Bokmål:
+vassdragene er korte og til dels meget vannrike .                                              
+Nynorsk:
+vassdraga er korte og til dels særs vassrike .                                              
+Generated nynorsk:
+det er forbod er til heimesida vekslar kommunen .                                              
+
+Bokmål:
+japan har 778 universiteter 2010 .                                                 
+Nynorsk:
+japan har 778 universitet 2010 .                                                 
+Generated nynorsk:
+april var smittevernråd urfolket .                                                  
+
+Bokmål:
+barn og unge søker ofte informasjon på internett .                                              
+Nynorsk:
+barn og unge søker ofte informasjon på internett .                                              
+Generated nynorsk:
+det er òg for å  lausriva i .                                              
+
+Bokmål:
+hjemmefrontens ledelse overtok styringen av norge , og da kong haakon kom tilbake til landet i juni , ble det utnevnt en samlingsregjering .                               
+Nynorsk:
+hjemmefrontens leiing overtok styringa av noreg , og då kong haakon kom tilbake til landet i juni , vart det utnemnt ei samlingsregjering .                               
+Generated nynorsk:
+i var av vart  ,             i     .                               
+
+Bokmål:
+hvis et menneske oppfatter høyere toner enn det som er vanlig , snakker man om overhørsel .                                      
+Nynorsk:
+viss eit menneske oppfattar høgare tonar enn det som er vanleg , snakkar ein om overhørsel .                                      
+Generated nynorsk:
+det er likevel å for ,       og   .                                       
+
+Bokmål:
+denne filmen er laget for barn og unge .                                              
+Nynorsk:
+denne filmen er laga for barn og unge .                                              
+Generated nynorsk:
+det er òg for å heimesida lausriva .                                               
+
+Bokmål:
+det samme kan gjelde for andre kroniske sykdommer som er godt behandlet .                                          
+Nynorsk:
+det same kan gjelda for andre kroniske sjukdommar som er godt behandla .                                          
+Generated nynorsk:
+det er ikkje for   å og   .                                            
+
+Bokmål:
+dette gjelder fly , cruiseskip og annen båttrafikk .                                              
+Nynorsk:
+dette gjeld fly , cruiseskip og annan båttrafikk .                                              
+Generated nynorsk:
+det er om for  heimesida åleine .                                               
+
+Bokmål:
+i det offentlige rom bør vi holde minst én meters avstand til andre mennesker .                                        
+Nynorsk:
+i det offentlege rommet bør vi halda minst éin meters avstand til andre menneske .                                        
+Generated nynorsk:
+det kan ikkje at for som du eller   til  .                                          
+
+Bokmål:
+da må du kontakte helsestasjonen eventuelt lege sykehus umiddelbart , samtidig som du forsøker å få i barnet morsmelk , alternativt morsmelkerstatning .                                
+Nynorsk:
+då må du kontakta helsestasjonen eventuelt lege sjukehus umiddelbart , samtidig som du prøver å få i barnet morsmelk , alternativt morsmelkerstatning .                                
+Generated nynorsk:
+det du ikkje for   ,        og     .                                   
+
+Bokmål:
+familietid kan være positivt , men respekter også at barn kan trenge tid alene .                                        
+Nynorsk:
+familietid kan vera positivt , men respektar òg at barn kan trenga tid åleine .                                        
+Generated nynorsk:
+det er ikkje at for ,  og   til   .                                         
+
+Bokmål:
+i norge ble ikke opprøret så tilspisset , men på mange måter kan den radikale akp m l bevegelsen sees som dens arvtaker .                               
+Nynorsk:
+i noreg vart ikkje opprøret så tilspissa , men på mange måtar kan den radikale akp m l rørsla sest som arvtakaren dens .                               
+Generated nynorsk:
+det er har  ,              i                                    
+
+Bokmål:
+nasjonal kompetansetjeneste for aldring og helse aldringoghelse .                                               
+Nynorsk:
+nasjonal kompetanseteneste for aldring og helse aldringoghelse .                                               
+Generated nynorsk:
+mars eldste gardsnamna og  i .                                                
+
+Bokmål:
+under napoleonskrigene hadde danmark norge stått på den tapende franske siden , mens sverige stod igjen som en av seierherrene .                                  
+Nynorsk:
+under napoleonskrigene hadde danmark noreg stått på den tapande franske sida , medan sverige stod igjen som ein av sigersherrane .                                  
+Generated nynorsk:
+i var av vart  ,          og   i    .                                
+
+Bokmål:
+andre sentrale velferdsprosjekter var sosial husbygging , utbygging av sykehus og distriktshelsetjeneste , samt innføring av obligatorisk niårig folkeskole i 1969 .                                 
+Nynorsk:
+andre sentrale velferdsprosjekt var sosial husbygging , utbygging av sjukehus og distriktshelseteneste , og dessutan innføring av obligatorisk niårig folkeskule i 1969 .                                
+Generated nynorsk:
+i var av vart  ,          og    i   .                                
