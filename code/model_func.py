@@ -111,16 +111,17 @@ def convert_sequences_into_texts(sequences, tokenizer):
 
             if i > 0:
                 if (t == get_word(s[i - 1], tokenizer)) or (t is None):
-                    temp.append('')
+                    pass
                 else:
-                    temp.append(t)
+                    temp.append(t + ' ')
             else:
-                if t is None:
-                    temp.append('')
-                else:
-                    temp.append(t)
+                if t is not None and t != ' ':
+                    temp.append(t + ' ')
 
-        texts.append(' '.join(temp))
+        # Fix punctuation issues.
+        temp = ''.join(temp)
+        temp = temp.replace(' ,', ',').replace(' .', '.').replace(' !', '!').replace(' ?', '?')
+        texts.append(temp)
 
     return texts
 

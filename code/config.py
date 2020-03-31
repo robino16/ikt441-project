@@ -31,8 +31,8 @@ weights_file = 'model_weights.h5'  # File for storing model weights.
 
 # Model training.
 save_weights = True
-train_weights = True
-epochs = 30
+train_weights = False
+epochs = 1
 batch_size = 32
 validation_split = 0.1
 
