@@ -88,6 +88,7 @@ def test_model(model, test_x, test_y, tokenizer_original, tokenizer_translated):
 
     file.close()
     log.info('Generated nynorsk sentences was successfully saved to file: \"{}\".'.format(config.output_file))
+    print('Generated nynorsk sentences was successfully saved to file: \"{}\".'.format(config.output_file))
 
 
 def get_conf():
@@ -111,16 +112,18 @@ def convert_sequences_into_texts(sequences, tokenizer):
 
             if i > 0:
                 if (t == get_word(s[i - 1], tokenizer)) or (t is None):
-                    temp.append('')
+                    pass
                 else:
-                    temp.append(t)
+                    temp.append(t + ' ')
             else:
-                if t is None:
-                    temp.append('')
-                else:
-                    temp.append(t)
+                if t is not None and t != ' ':
+                    temp.append(t + ' ')
 
-        texts.append(' '.join(temp))
+        # Fix punctuation issues.
+        temp = ''.join(temp)
+        temp = temp.replace(' ,', ',').replace(' .', '.').replace(' !', '!').replace(' ?', '?')
+        temp = temp[:1].upper() + temp[1:]  # Capitalize first letter.
+        texts.append(temp)
 
     return texts
 
