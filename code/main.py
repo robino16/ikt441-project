@@ -20,7 +20,7 @@ def main():
     # Create model.
     model = model_func.create_model(total_words_original, total_words_translated, max_sequence_length, 512)
 
-    if not config.load_existing_weights:
+    if config.train_weights:
         # Train the model.
         model, history = model_func.train_model(model, train_x, train_y, config.epochs)
 

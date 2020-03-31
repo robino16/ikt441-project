@@ -25,13 +25,13 @@ load_tokenizers = False  # Currently not supported as there is no word count che
 tokenizer_filter ='"#$%&()*+-/:;<=>@[\\]^_`{|}~\t\n'
 
 # Model creation.
-# todo: Add config file to check if the same weights can be used?
 config_file = 'config.txt'  # Unused.
 load_existing_weights = True  # Remember: This requires us to use the same tokenizer...
 weights_file = 'model_weights.h5'  # File for storing model weights.
 
 # Model training.
 save_weights = True
+train_weights = True
 epochs = 30
 batch_size = 32
 validation_split = 0.1
