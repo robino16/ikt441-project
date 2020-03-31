@@ -30,8 +30,8 @@ load_existing_weights = True  # Remember: This requires us to use the same token
 weights_file = 'model_weights.h5'  # File for storing model weights.
 
 # Model training.
-save_weights = True
-train_weights = False
+train_weights = True
+save_weights = train_weights
 epochs = 1
 batch_size = 32
 validation_split = 0.1

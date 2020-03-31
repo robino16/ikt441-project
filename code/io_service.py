@@ -42,7 +42,7 @@ def get_tokenizer(filename_in, sentences_in):
     # Returns a single tokenizer object.
     tokenizer = Tokenizer(filters=config.tokenizer_filter)
     tokenizer.fit_on_texts(sentences_in)
-    save_tokenizer(tokenizer, filename_in)
+    # save_tokenizer(tokenizer, filename_in)
     total_words = len(tokenizer.word_index) + 1
     return tokenizer, total_words
 
