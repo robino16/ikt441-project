@@ -217,6 +217,8 @@ def split_seq_into_segments(seq_in):
     for i in range(length - 1):
         seq_e = left_shift_fill_zeros(seq_e)
         segments.append(seq_b)
+
+    segments = pad_sequences(segments, maxlen=length, padding='pre')
     return segments
 
 
