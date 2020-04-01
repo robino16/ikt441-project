@@ -15,8 +15,11 @@ text_file_translated = 'data/nynorsk.txt'
 data_file = 'data/data.txt'  # Dataset in csv format.
 data_temp_file = 'data/temp.txt'  # Used when producing/validating new dataset.
 data_file_formatting = 'id,<p>norwegian_bokmaal</p>,<p>norwegian_nynorsk</p>'
-training_factor = 0.9
+training_factor = 0.99
 initialize_random_number_generator = False  # For testing purposes.
+max_sequence_length = 3
+prediction_index = 2
+max_nr_of_training_seqs = 30000
 
 # Tokenizer.
 tokenizer_file_original = 'tokenizer_original.pickle'
@@ -30,7 +33,7 @@ load_existing_weights = True  # Remember: This requires us to use the same token
 weights_file = 'model_weights.h5'  # File for storing model weights.
 
 # Model training.
-train_weights = False
+train_weights = True
 save_weights = train_weights
 epochs = 1
 batch_size = 32

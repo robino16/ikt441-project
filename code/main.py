@@ -20,15 +20,16 @@ def main():
     # Create model.
     model = model_func.create_model(total_words_original, total_words_translated, max_sequence_length, 512)
 
-    if config.train_weights:
-        # Train the model.
-        model, history = model_func.train_model(model, train_x, train_y, config.epochs)
+    for i in range(10):
+        if config.train_weights:
+            # Train the model.
+            model, history = model_func.train_model(model, train_x, train_y, config.epochs)
 
-        # Plot and save training history
-        model_func.plot_training(history, config.training_plot_path)
+            # Plot and save training history
+            # model_func.plot_training(history, config.training_plot_path)
 
-    # Test the model.
-    model_func.test_model(model, test_x, test_y, tokenizer_original, tokenizer_translated)
+        # Test the model.
+        model_func.test_model(model, test_x, test_y, tokenizer_original, tokenizer_translated)
 
     log.info("Finished after {} seconds.\n".format('%.0f' % (time.time() - start_time)))
 

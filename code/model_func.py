@@ -122,7 +122,7 @@ def convert_sequences_into_texts(sequences, tokenizer):
         # Fix punctuation issues.
         temp = ''.join(temp)
         temp = temp.replace(' ,', ',').replace(' .', '.').replace(' !', '!').replace(' ?', '?')
-        temp = temp[:1].upper() + temp[1:]  # Capitalize first letter.
+        # temp = temp[:1].upper() + temp[1:]  # Capitalize first letter.
         texts.append(temp)
 
     return texts
