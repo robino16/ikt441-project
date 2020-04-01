@@ -193,13 +193,104 @@ def get_max_length(sentences_in, tokenizer_in_original, tokenizer_in_translated)
     return max_length
 
 
-def encode_sequences(tokenizer_in, length_in, lines_in):
-    # Used to encode the sequences to integers.
-    sequences = tokenizer_in.texts_to_sequences(lines_in)
+def split_seq_into_segments(seq_in):
+    # Convert a long sequences into segments which can be inputted into our model.
+    max_len = len(seq_in)
+    length = config.max_sequence_length
+    segments = []
 
-    # Pad sequences with zeros.
-    sequences = pad_sequences(sequences, maxlen=length_in, padding='post')
-    return sequences
+    seq_b = seq_in.copy()  # Holds a copy of entire original sequence
+    seq_e = seq_in.copy()
+
+    # Appends right shifted version of beginning.
+    temp = []
+    for i in range(length - 1):
+        seq_b = right_shift_fill_zeros(seq_b)
+        temp.append(seq_b)
+    segments += temp[::-1]
+
+    for i in range(max_len - (length - 1)):
+        seg = seq_in[i: i + length]
+        segments.append(seg)
+
+    # Appends left shifted version of end.
+    for i in range(length - 1):
+        seq_e = left_shift_fill_zeros(seq_e)
+        segments.append(seq_b)
+    return segments
+
+
+def right_shift_fill_zeros(array_in):
+    # [54, 23, 23, 554] becomes -> [0, 54, 23, 23]
+    # For the first part of a sentence.
+    return [0] + array_in[:-1]
+
+
+def left_shift_fill_zeros(array_in):
+    # [54, 23, 23, 554] becomes -> [23, 23, 554, 0]
+    # For the last part of a sentence.
+    return array_in[1:] + [0]
+
+
+def get_training_and_testing_data(sentences_in, length_in, tokenizer_original, tokenizer_translated):
+    print('Debug: Augmenting all input sequences.')
+
+    # Augment all sequences.
+    augmented_sequences = []
+    for sentence in sentences_in:
+        original = tokenizer_original.texts_to_sequences([sentence.original])[0]
+        translated = tokenizer_translated.texts_to_sequences([sentence.translated])[0]
+        max_len = min(len(original), len(translated))
+
+        if max_len < length_in:
+            continue  # Skip short sequences.
+
+        orig_b = original.copy()  # Holds a copy of entire original sequence
+        orig_e = original.copy()
+        tran_b = translated.copy()  # Holds a copy of entire translated sequence
+        tran_e = translated.copy()
+        for i in range(length_in - 1):
+            # Beginning of sentence:
+            orig_b = right_shift_fill_zeros(orig_b)
+            tran_b = right_shift_fill_zeros(tran_b)
+            temp_b = orig_b[:length_in] + tran_b[:length_in]
+            augmented_sequences.append(temp_b)
+
+            # End of sentence:
+            orig_e = left_shift_fill_zeros(orig_e)
+            tran_e = left_shift_fill_zeros(tran_e)
+            temp_e = orig_e[-length_in:] + tran_e[-length_in:]
+            augmented_sequences.append(temp_e)
+
+        for i in range(max_len - (length_in - 1)):
+            orig = original[i: i + length_in]
+            tran = translated[i: i + length_in]
+            temp = orig + tran
+            augmented_sequences.append(temp)
+            # continue  # Skip augmentation.
+
+            # Extra augmentation by reversing.
+            # temp_reversed = orig[::-1] + tran[::-1]
+            # augmented_sequences.append(temp_reversed)
+
+    augmented_sequences = pad_sequences(augmented_sequences, maxlen=length_in * 2, padding='pre')
+
+    # Split to training and testing.
+    random.shuffle(augmented_sequences)
+    max_nr_of_sequences = config.max_nr_of_training_seqs
+    if max_nr_of_sequences > len(augmented_sequences):
+        augmented_sequences = augmented_sequences[:max_nr_of_sequences]
+    index = int(len(augmented_sequences) * config.training_factor)
+    train_x, train_y = augmented_sequences[:index, :length_in], augmented_sequences[:index, length_in:]
+    test_x, test_y = augmented_sequences[index:, :length_in], augmented_sequences[index:, length_in:]
+
+    # Log/print results.
+    log.info('{} sequences will be used for training.'.format(len(train_y)))
+    print('Info: {} training sequences.'.format(len(train_y)))
+    log.info('{} sequences will be used for testing.'.format(len(test_y)))
+    print('Info: {} testing sequences.'.format(len(test_y)))
+
+    return train_x, train_y, test_x, test_y
 
 
 def get_data():
@@ -212,31 +303,19 @@ def get_data():
 
     # Convert to sentence objects.
     sentences = get_sentence_objects(original_sentences, translated_sentences)
+    random.shuffle(sentences)
 
     # Load the tokenizer objects.
     tokenizer_original, tokenizer_translated = get_tokenizers(original_sentences, translated_sentences)
 
     # Get max sequence length
-    max_sequence_length = get_max_length(sentences, tokenizer_original, tokenizer_translated)
+    # max_sequence_length = get_max_length(sentences, tokenizer_original, tokenizer_translated)
+    max_sequence_length = config.max_sequence_length
 
-    # Split into training and testing data.
-    random.shuffle(sentences)
-    index = int(len(sentences) * config.training_factor)
-    training_sentences, testing_sentences = sentences[:index], sentences[index:]
-
-    # Prepare training data.
-    train_x, train_y = objects_to_lists(training_sentences)
-    train_x = encode_sequences(tokenizer_original, max_sequence_length, train_x)
-    train_y = encode_sequences(tokenizer_translated, max_sequence_length, train_y)
-    log.debug('{} sequences will be used for training.'.format(len(train_y)))
-    print('Info: {} training sequences.'.format(len(train_y)))
-
-    # Prepare testing data.
-    test_x, test_y = objects_to_lists(testing_sentences)
-    test_x = encode_sequences(tokenizer_original, max_sequence_length, test_x)
-    test_y = encode_sequences(tokenizer_translated, max_sequence_length, test_y)
-    log.debug('{} sequences will be used for testing.'.format(len(test_y)))
-    print('Info: {} testing sequences.'.format(len(test_y)))
+    train_x, train_y, test_x, test_y = get_training_and_testing_data(sentences,
+                                                                     max_sequence_length,
+                                                                     tokenizer_original,
+                                                                     tokenizer_translated)
 
     # Get max number of words (for input + output).
     # Note: This function may also return these values.
@@ -268,7 +347,7 @@ def main():
             log.error('Failed to generate new dataset.')
 
     # Get training and testing data
-    train_x, train_y, test_x, test_y, total_words_original, total_words_translated = get_data()
+    train_x, train_y, test_x, test_y, total_words_original, total_words_translated, _, _, _ = get_data()
 
 
 if __name__ == '__main__':
