@@ -233,15 +233,23 @@ def main():
     print(' --- {} --- '.format(app_name))
 
     # Operation codes. Pick one operation per run.
-    opcode = 2
+    print('Please type the number of the operation you would like to perform and then press enter:')
+    print('1. Use url file to produce new dataset.')
+    print('2. Create merged file containing both original and translated phrases.')
+    opcode = int(input())
 
     if opcode == 1:
+        print('Please remember: Translation must be done manually after this operation has finished.')
         if not produce_original_data():
             print('Error: Failed to produced original data.')
             return -1
     elif opcode == 2:
         merge_all_files()
+        print('Finished.')
         return 0
+    else:
+        print('Error: {} is not a valid input.'.format(opcode))
+        return -1
 
 
 if __name__ == '__main__':
