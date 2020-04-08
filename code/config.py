@@ -15,11 +15,27 @@ text_file_translated = 'data/nynorsk.txt'
 data_file = 'data/data.txt'  # Dataset in csv format.
 data_temp_file = 'data/temp.txt'  # Used when producing/validating new dataset.
 data_file_formatting = 'id,<p>norwegian_bokmaal</p>,<p>norwegian_nynorsk</p>'
-training_factor = 0.99
 initialize_random_number_generator = False  # For testing purposes.
-max_sequence_length = 3
+max_sequence_length = 4
 prediction_index = 2
 max_nr_of_training_seqs = 30000
+
+# Data generator
+url_file = 'data/urls.txt'
+training_factor = 0.9
+min_sentence_length = 15  # A sentence is only valid if it has more characters than this.
+aug_seq_len = max_sequence_length
+# todo: Ensure we never train on validation data!
+# Training data files
+data_file_train_full_orig = 'data/training/full-original.txt'  # Full sentences.
+data_file_train_full_tran = 'data/training/full-translated.txt'
+data_file_train_aug_orig = 'data/training/seg_aug-original.txt'  # Segmented with augmentation (left shifting).
+data_file_train_aug_tran = 'data/training/seg_aug-translated.txt'
+# Validation data files
+data_file_test_full_orig = 'data/validation/full-original.txt'
+data_file_test_full_tran = 'data/validation/full-translated.txt'
+data_file_test_aug_orig = 'data/validation/seg_aug-original.txt'
+data_file_test_aug_tran = 'data/validation/seg_aug-translated.txt'
 
 # Tokenizer.
 tokenizer_file_original = 'tokenizer_original.pickle'
