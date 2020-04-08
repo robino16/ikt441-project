@@ -6,6 +6,21 @@ import random
 log = config.log
 
 
+def get_filepath(training=True, full=True, merged=False, original=True):
+    # Set training=False to get validation filename.
+    # Set full=False to get segmented/augmented data.
+    # Set merged=False and original=False to get translated data.
+
+    path = 'data/'
+    path += 'training/' if training else 'validation/'
+    path += 'full-' if full else 'seg_aug-'
+    if merged:
+        path += 'merged.txt'
+    else:
+        path += 'original.txt' if original else 'translated.txt'
+    return path
+
+
 def remove_duplicates(l):
     return list(set(l))
 
@@ -43,8 +58,8 @@ def decode_html(html_in):
     return html_in.read().decode('utf-8')
 
 
-def remove_interval(body_in, from_in, to_in):
-    # Removes a section in a string.
+def remove_part_of_string(body_in, from_in, to_in):
+    # Removes a sub-section in a string.
     return re.sub('{}.*?{}'.format(from_in, to_in), '', body_in, flags=re.DOTALL)
 
 
@@ -61,13 +76,19 @@ def filter(body_in):
     return False
 
 
+def preserve_punctuation(text_in):
+    text_in = text_in.replace('. ', ' . ').replace(': ', ' : ').replace('? ', ' ? ').replace('! ', ' ! ')
+    text_in = text_in.replace(', ', ' , ').replace('  ', ' ')
+    return text_in
+
+
 def parse_html(html_in):
     # Return a list of all valid sentences in a html document.
     body_texts = re.findall(r'<p>.+?</p>', html_in)
     all_sentences = []
     for body in body_texts:
-        body = remove_interval(body, '<', '>')
-        body = remove_interval(body, '\(', '\)')
+        body = remove_part_of_string(body, '<', '>')
+        body = remove_part_of_string(body, '\(', '\)')
         body = body.replace('- ', '').replace(' ,', ',').replace(' .', '.').replace('  ', ' ')
         body = body.replace('«', '').replace('»', '').replace('– ', '')
         if filter(body):
@@ -75,6 +96,7 @@ def parse_html(html_in):
         sentences = body.replace('. ', '.$').replace('! ', '!$').replace('? ', '?$').replace(': ', ':$').split('$')
         for sentence in sentences:
             if len(sentence) > config.min_sentence_length:
+                sentence = preserve_punctuation(sentence)
                 all_sentences.append(sentence)
                 # print(len(all_sentences), sentence)
     return all_sentences
@@ -95,6 +117,7 @@ def augment_sentence(sentence_in):
         aug_seq = words[i: i + config.aug_seq_len]
         aug_seq = ' '.join(aug_seq)
         aug_seqs.append(aug_seq)
+    # todo: Note that it is possible to left/right-shift beginning/end of sentences here
     return aug_seqs
 
 
@@ -121,7 +144,7 @@ def export_train_or_test_data(sentences_in, training_data):
 def export_original_data(sentences_in):
     print('Debug: data_generator.py -> export_original_data()')
     print('Info: Remember to train the model from scratch after splitting to training and testing data.')
-    # todo: consider splitting urls into training and validation instead.
+    # todo: Consider splitting urls into training and validation instead.
     # Split into training and validation data
     random.shuffle(sentences_in)
     index = int(len(sentences_in) * config.training_factor)
@@ -135,7 +158,8 @@ def produce_original_data():
     urls = get_lines_in_file(config.url_file)
     urls = remove_duplicates(urls)
     random.shuffle(urls)
-    htmls = fetch_all_html_documents(urls)  # todo: use all instead.
+    # urls = urls[0:4]
+    htmls = fetch_all_html_documents(urls)
     if len(htmls) < 1:
         print('Error: No html document was loaded.')
         return False
@@ -149,23 +173,12 @@ def produce_original_data():
     return True
 
 
-def get_filepath(training=True, full=True, merged=False, original=True):
-    path = 'data/'
-    path += 'training/' if training else 'validation/'
-    path += 'full-' if full else 'seg_aug-'
-    if merged:
-        path += 'merged.txt'
-    else:
-        path += 'original.txt' if original else 'translated.txt'
-    return path
-
-
 def get_index_and_body(line_in):
     s = line_in.split('$')
     try:
         return int(s[0]), s[1]
     except:
-        print('Debug: Tried to split \"{}\" but ended up with \"{}\".'.format(line_in, s[0]))
+        # print('Debug: Tried to split \"{}\" but ended up with \"{}\".'.format(line_in, s[0]))
         return None, None
 
 
@@ -175,7 +188,7 @@ def merge_lines(orig, tran):
     if o_index is None or t_index is None:
         return None
     if o_index != t_index:
-        print('Warning: Failed to merge line {} (original) with line {} (translated).'.format(o_index, t_index))
+        # print('Warning: Failed to merge line {} (original) with line {} (translated).'.format(o_index, t_index))
         return None
     return '{}${}'.format(o_body, t_body)
 
@@ -195,7 +208,7 @@ def merge_full_or_aug(training, full):
         if s is not None:
             lines.append(s)
         else:
-            print('Error: Failed to merge line {} in {} with {}'.format(i, f_orig, f_tran))
+            print('Error: Failed to merge line {} in {} and {}'.format(i, f_orig, f_tran))
     if len(lines) < 1:
         print('Error: No lines where merged.')
         return False
@@ -216,16 +229,19 @@ def merge_all_files():
 
 
 def main():
-    app_name = 'IKT441 Project - Data Generator'
+    app_name = 'IKT441 Project - Dataset Generator'
     print(' --- {} --- '.format(app_name))
 
-    prod_orig_data = False  # Enable/disable here.
-    if prod_orig_data:
+    # Operation codes. Pick one operation per run.
+    opcode = 2
+
+    if opcode == 1:
         if not produce_original_data():
             print('Error: Failed to produced original data.')
             return -1
-    else:
+    elif opcode == 2:
         merge_all_files()
+        return 0
 
 
 if __name__ == '__main__':

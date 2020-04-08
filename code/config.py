@@ -16,7 +16,7 @@ data_file = 'data/data.txt'  # Dataset in csv format.
 data_temp_file = 'data/temp.txt'  # Used when producing/validating new dataset.
 data_file_formatting = 'id,<p>norwegian_bokmaal</p>,<p>norwegian_nynorsk</p>'
 initialize_random_number_generator = False  # For testing purposes.
-max_sequence_length = 4
+max_sequence_length = 6
 prediction_index = 2
 max_nr_of_training_seqs = 30000
 
@@ -24,29 +24,20 @@ max_nr_of_training_seqs = 30000
 url_file = 'data/urls.txt'
 training_factor = 0.9
 min_sentence_length = 15  # A sentence is only valid if it has more characters than this.
-aug_seq_len = max_sequence_length
+aug_seq_len = 4
 # todo: Ensure we never train on validation data!
-# Training data files
-data_file_train_full_orig = 'data/training/full-original.txt'  # Full sentences.
-data_file_train_full_tran = 'data/training/full-translated.txt'
-data_file_train_aug_orig = 'data/training/seg_aug-original.txt'  # Segmented with augmentation (left shifting).
-data_file_train_aug_tran = 'data/training/seg_aug-translated.txt'
-# Validation data files
-data_file_test_full_orig = 'data/validation/full-original.txt'
-data_file_test_full_tran = 'data/validation/full-translated.txt'
-data_file_test_aug_orig = 'data/validation/seg_aug-original.txt'
-data_file_test_aug_tran = 'data/validation/seg_aug-translated.txt'
-
-# Tokenizer.
-tokenizer_file_original = 'tokenizer_original.pickle'
-tokenizer_file_translated = 'tokenizer_translated.pickle'
-load_tokenizers = False  # Currently not supported as there is no word count check going on.
-tokenizer_filter ='"#$%&()*+-/:;<=>@[\\]^_`{|}~\t\n'
+# Data set filenames can be accessed from data_generator.get_filepath()
 
 # Model creation.
 config_file = 'config.txt'  # Unused.
 load_existing_weights = True  # Remember: This requires us to use the same tokenizer...
 weights_file = 'model_weights.h5'  # File for storing model weights.
+
+# Tokenizer.
+tokenizer_file_original = 'tokenizer_original.pickle'
+tokenizer_file_translated = 'tokenizer_translated.pickle'
+load_tokenizers = load_existing_weights
+tokenizer_filter ='"#$%&()*+-/:;<=>@[\\]^_`{|}~\t\n'
 
 # Model training.
 train_weights = True
