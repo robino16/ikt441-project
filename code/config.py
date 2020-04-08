@@ -17,15 +17,14 @@ data_temp_file = 'data/temp.txt'  # Used when producing/validating new dataset.
 data_file_formatting = 'id,<p>norwegian_bokmaal</p>,<p>norwegian_nynorsk</p>'
 initialize_random_number_generator = False  # For testing purposes.
 max_sequence_length = 6
-prediction_index = 2
-max_nr_of_training_seqs = 30000
+max_nr_of_training_seqs = 10000
+max_nr_of_testing_seqs = 200
 
 # Data generator
 url_file = 'data/urls.txt'
 training_factor = 0.9
 min_sentence_length = 15  # A sentence is only valid if it has more characters than this.
-aug_seq_len = 4
-# todo: Ensure we never train on validation data!
+aug_seq_len = 4  # All phrases have this length.
 # Data set filenames can be accessed from data_generator.get_filepath()
 
 # Model creation.

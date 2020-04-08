@@ -15,7 +15,7 @@ def main():
     log.info(model_func.get_conf())
 
     # Get data.
-    train_x, train_y, test_x, test_y, total_words_original, total_words_translated, max_sequence_length, tokenizer_original, tokenizer_translated = io_service.get_data()
+    train_x, train_y, test_x, test_y, total_words_original, total_words_translated, max_sequence_length, tokenizer_original, tokenizer_translated = io_service.get_all_data()
 
     # Create model.
     model = model_func.create_model(total_words_original, total_words_translated, max_sequence_length, 512)
