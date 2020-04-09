@@ -7,9 +7,9 @@ log = config.log
 
 
 def get_filepath(training=True, full=True, merged=False, original=True):
-    # Set training=False to get validation filename.
+    # todo: move to io_service.py
+    # Set training=False to get validation data. 
     # Set full=False to get segmented/augmented data.
-    # Set merged=False and original=False to get translated data.
 
     path = 'data/'
     path += 'training/' if training else 'validation/'
@@ -22,10 +22,12 @@ def get_filepath(training=True, full=True, merged=False, original=True):
 
 
 def remove_duplicates(l):
+    # Returns a list without any duplicates. 
     return list(set(l))
 
 
 def get_lines_in_file(filepath_in):
+    # todo: move to io_service.py
     # Returns a list of all urls stored in data/urls.txt.
     return open(filepath_in, 'r', encoding='utf-8').read().split('\n')
 
@@ -77,13 +79,14 @@ def filter(body_in):
 
 
 def preserve_punctuation(text_in):
-    text_in = text_in.replace('. ', ' . ').replace(': ', ' : ').replace('? ', ' ? ').replace('! ', ' ! ')
+    # Preserves the desired punctuation.
+    text_in = text_in.replace('. ', ' . ').replace('? ', ' ? ').replace('! ', ' ! ')
     text_in = text_in.replace(', ', ' , ').replace('  ', ' ')
     return text_in
 
 
 def parse_html(html_in):
-    # Return a list of all valid sentences in a html document.
+    # Return a list of all valid sentences in a single html document.
     body_texts = re.findall(r'<p>.+?</p>', html_in)
     all_sentences = []
     for body in body_texts:
@@ -103,6 +106,7 @@ def parse_html(html_in):
 
 
 def parse_all_html_documents(htmls_in):
+    # Return all body text/sentences from all html documents. 
     all_sentences = []
     for html in htmls_in:
         sentences = parse_html(html)
@@ -111,6 +115,7 @@ def parse_all_html_documents(htmls_in):
 
 
 def augment_sentence(sentence_in):
+    # Segments and augments a sentence. 
     words = sentence_in.split(' ')
     aug_seqs = []
     for i in range(len(words) - (config.aug_seq_len - 1)):
@@ -122,6 +127,7 @@ def augment_sentence(sentence_in):
 
 
 def export_single_file(filename_in, lines_in):
+    # Export lines to file. 
     file = open(filename_in, 'w', encoding='utf-8')
     for i in range(len(lines_in)):
         file.write('{}${}\n'.format(i, lines_in[i]))
@@ -129,6 +135,9 @@ def export_single_file(filename_in, lines_in):
 
 
 def export_train_or_test_data(sentences_in, training_data):
+    # Change name: 'export_orig_to_dir()'
+    # Exports two files: full sentences and segmented version. 
+    
     aug_seqs = []  # augmented sequences
     for sentence in sentences_in:
         aug_seqs += augment_sentence(sentence)
@@ -142,9 +151,10 @@ def export_train_or_test_data(sentences_in, training_data):
 
 
 def export_original_data(sentences_in):
+    # todo: Change name to 'export_orig_train_and_test_data()'
+    # Exports original training and original validation data.
     print('Debug: data_generator.py -> export_original_data()')
-    print('Info: Remember to train the model from scratch after splitting to training and testing data.')
-    # todo: Consider splitting urls into training and validation instead.
+    print('Remember to train the model from scratch after splitting to training and testing data!')
     # Split into training and validation data
     random.shuffle(sentences_in)
     index = int(len(sentences_in) * config.training_factor)
@@ -154,26 +164,37 @@ def export_original_data(sentences_in):
 
 
 def produce_original_data():
+    # A big function handling the entire production of a new dataset using the data/url.txt file. 
+    
     print('Debug: data_generator.py -> produce_original_data()')
+    
+    # Step 1: Get URLs.
     urls = get_lines_in_file(config.url_file)
     urls = remove_duplicates(urls)
     random.shuffle(urls)
-    # urls = urls[0:4]
+    # urls = urls[0:4]  # For debugging purposes we can use less of the urls. 
+    
+    # Step 2: Fetch all htmls.
     htmls = fetch_all_html_documents(urls)
     if len(htmls) < 1:
         print('Error: No html document was loaded.')
         return False
+    
+    # Step 3: Extract body text/sentences from all htmls.
     sentences = parse_all_html_documents(htmls)
     if len(sentences) < 1:
         print('Error: Obtained no sentences.')
         return False
     sentences = remove_duplicates(sentences)
     print('Debug: Obtained {} sentences from all html documents.'.format(len(sentences)))
+    
+    # Step 4: Export the data.
     export_original_data(sentences)
     return True
 
 
 def get_index_and_body(line_in):
+    # Returns the index and body text of a line in a data file. 
     s = line_in.split('$')
     try:
         return int(s[0]), s[1]
@@ -183,20 +204,21 @@ def get_index_and_body(line_in):
 
 
 def merge_lines(orig, tran):
+    # Merge two lines. 
     o_index, o_body = get_index_and_body(orig)
     t_index, t_body = get_index_and_body(tran)
     if o_index is None or t_index is None:
         return None
-    if o_index != t_index:
+    if o_index != t_index:  # Check that index in both files are identical. 
         # print('Warning: Failed to merge line {} (original) with line {} (translated).'.format(o_index, t_index))
         return None
     return '{}${}'.format(o_body, t_body)
 
 
 def merge_full_or_aug(training, full):
+    # Merge two files and export the result. 
     f_orig = get_filepath(training=training, full=full, original=True)
     f_tran = get_filepath(training=training, full=full, original=False)
-    f_merg = get_filepath(training=training, full=full, merged=True)
 
     orig = get_lines_in_file(f_orig)
     tran = get_lines_in_file(f_tran)
@@ -212,25 +234,32 @@ def merge_full_or_aug(training, full):
     if len(lines) < 1:
         print('Error: No lines where merged.')
         return False
+    
+    # Export new merged file. 
+    f_merg = get_filepath(training=training, full=full, merged=True)
     export_single_file(f_merg, lines)
     print('Debug: Successfully exported {}.'.format(f_merg))
     return True
 
 
 def merge_dir(training):
-    merge_full_or_aug(training, True)
-    merge_full_or_aug(training, False)
+    # Merge files in either data/training or data/validation directory.
+    merge_full_or_aug(training, True)  # Merge full sentences. 
+    merge_full_or_aug(training, False)  # Merge segmented/augmented data.
 
 
 def merge_all_files():
+    # Merge all data files (there are eight in total) resulting in four new merged files. 
     print('data_generator.py -> merge_all_files()')
-    merge_dir(True)
-    merge_dir(False)
+    merge_dir(True)  # Merge files in training directory.
+    merge_dir(False)  # Merge files in validation directory. 
 
 
 def main():
     app_name = 'IKT441 Project - Dataset Generator'
     print(' --- {} --- '.format(app_name))
+    
+    # todo: Move merging of data files to it`s own folder. 
 
     # Operation codes. Pick one operation per run.
     print('Please type the number of the operation you would like to perform and then press enter:')
