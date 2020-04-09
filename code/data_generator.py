@@ -3,6 +3,7 @@ import urllib.request
 import re
 import random
 import io_service
+import time
 
 log = config.log
 
@@ -22,16 +23,28 @@ def fetch_html(url_in):
         return None
 
 
+def show_progress(t_elapsed, current_step, total_steps):
+    if current_step < 1:
+        return False
+    percentage = 100 * (current_step/total_steps)
+    t_remaining = (t_elapsed / current_step) * (total_steps - current_step) if current_step > 0 else None
+    t_remaining = '{}'.format('%.0f' % t_remaining)
+    print('Progress: {}/{} ({}%), Time remaining: {}s.'.format(current_step, total_steps, '%.0f' % percentage, t_remaining))
+    return True
+
+
 def fetch_all_html_documents(urls_in):
     # Returns a list of html documents as strings.
     print('Debug: Fetching all html documents. Please wait...')
+    start_time = time.time()
     htmls = []
     for i in range(len(urls_in)):
-        print('{}/{}'.format(i + 1, len(urls_in)))
         html = fetch_html(urls_in[i])
         if html is not None:
             htmls.append(decode_html(html))
             html.close()  # Close immediately after decoding so the connection does not close on us.
+        elapsed_time = time.time() - start_time
+        show_progress(elapsed_time, i + 1, len(urls_in))
     return htmls
 
 
@@ -142,7 +155,7 @@ def produce_original_data():
     urls = io_service.get_lines_in_file(config.url_file)
     urls = remove_duplicates(urls)
     random.shuffle(urls)
-    # urls = urls[0:4]  # For debugging purposes we can use less of the urls. 
+    urls = urls[0:104]  # For debugging purposes we can use less of the urls.
     
     # Step 2: Fetch all htmls.
     htmls = fetch_all_html_documents(urls)
