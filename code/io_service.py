@@ -7,6 +7,31 @@ import random
 log = config.log
 
 
+def get_filepath(training=True, full=True, merged=False, original=True):
+    # Returns data file paths.
+    path = 'data/'
+    path += 'training/' if training else 'validation/'
+    path += 'full-' if full else 'seg_aug-'
+    if merged:
+        path += 'merged.txt'
+    else:
+        path += 'original.txt' if original else 'translated.txt'
+    return path
+
+
+def get_lines_in_file(filepath_in):
+    # Returns a list of all urls stored in data/urls.txt.
+    return open(filepath_in, 'r', encoding='utf-8').read().split('\n')
+
+
+def export_lines_to_file(filename_in, lines_in):
+    # Export lines to file.
+    file = open(filename_in, 'w', encoding='utf-8')
+    for i in range(len(lines_in)):
+        file.write('{}${}\n'.format(i, lines_in[i]))
+    file.close()
+
+
 def get_total_words(tokenizer_in):
     return len(tokenizer_in.word_index) + 1
 
@@ -33,7 +58,7 @@ def format_sentence(sentence_in):
 
 def load_merged_data(filepath_in):
     # Returns original sentences and translated sentences in the file.
-    lines = data_generator.get_lines_in_file(filepath_in)
+    lines = get_lines_in_file(filepath_in)
     random.shuffle(lines)
     orig, tran = [], []  # Original and translated sentences.
     for i in range(len(lines)):
@@ -47,8 +72,8 @@ def load_merged_data(filepath_in):
 
 
 def get_filenames(full=True):
-    f_train = data_generator.get_filepath(training=True, full=full, merged=True)
-    f_test = data_generator.get_filepath(training=False, full=full, merged=True)
+    f_train = get_filepath(training=True, full=full, merged=True)
+    f_test = get_filepath(training=False, full=full, merged=True)
     return f_train, f_test
 
 
@@ -67,9 +92,7 @@ def tokenize_and_pad_sentences(sentences_in, tokenizer_in):
 
 
 def get_data(tokenizer_original, tokenizer_translated, training=True, segmented=True):
-    # Loads training data by default.
-    # Load validation by setting training=True.
-    # Optionally use segmentation in validation by setting segmented=True.
+    # Returns input and output sequences.
     f_train, f_test = get_filenames(full=not segmented)
     f = f_train if training else f_test
     orig_phrases, tran_phrases = load_merged_data(f)
@@ -99,14 +122,14 @@ def main():
     print(' --- {} (New version) ---'.format(config.io_service_app_name))
     log.info(' --- Running application: {} --- '.format(config.io_service_app_name))
 
-    a, b, c, d, e, f, g, h, i = get_all_data()
+    train_x, train_y, test_x, test_y, word_count_ori, word_count_tra, max_seq_len, tok_ori, tok_tra = get_all_data()
 
     # Print results
-    print('Info: {} training sequences.'.format(len(b)))
-    print('Info: {} validation sequences.'.format(len(c)))
-    print('Info: Word count original: {}.'.format(e))
-    print('Info: Word count translated: {}.'.format(f))
-    print('Info: Max sequence length: {}.'.format(g))
+    print('Debug: {} training sequences.'.format(len(train_y)))
+    print('Debug: {} validation sequences.'.format(len(test_y)))
+    print('Debug: Word count original: {}.'.format(word_count_ori))
+    print('Debug: Word count translated: {}.'.format(word_count_tra))
+    print('Debug: Max sequence length: {}.'.format(max_seq_len))
 
 
 if __name__ == '__main__':
