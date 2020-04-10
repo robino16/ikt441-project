@@ -107,29 +107,39 @@ def parse_all_html_documents(htmls_in):
     return all_sentences
 
 
-def augment_sentence(sentence_in):
-    # Segments and augments a sentence. 
+def segment_sentence(sentence_in):
+    # Segments a sentence.
     words = sentence_in.split(' ')
     aug_seqs = []
     for i in range(len(words) - (config.aug_seq_len - 1)):
         aug_seq = words[i: i + config.aug_seq_len]
         aug_seq = ' '.join(aug_seq)
+        if i == 0:  # Start of sentence.
+            aug_seq += '$0'
+        elif i == len(words) - (config.aug_seq_len - 1) - 1:  # End of sentence.
+            aug_seq += '$2'
+        else:  # Middle of sentence.
+            aug_seq += '$1'
         aug_seqs.append(aug_seq)
-    # todo: Note that it is possible to left/right-shift beginning/end of sentences here
     return aug_seqs
 
 
 def export_orig_to_dir(sentences_in, training_data):
     # Exports two files: full sentences and segmented version. 
     
-    aug_seqs = []  # augmented sequences
+    aug_seqs = []  # augmented sentences
+    full_seqs = []  # original sentences
     for sentence in sentences_in:
-        aug_seqs += augment_sentence(sentence)
+        aug_seqs += segment_sentence(sentence)
+        full_seqs.append(sentence + '$3')
     # aug_seqs = remove_duplicates(aug_seqs)  # Disabling this will make the model better at common phrases.
+
+    random.shuffle(full_seqs)
+    random.shuffle(aug_seqs)
 
     full_file = io_service.get_filepath(training=training_data, full=True, original=True)
     aug_file = io_service.get_filepath(training=training_data, full=False, original=True)
-    io_service.export_lines_to_file(full_file, sentences_in)
+    io_service.export_lines_to_file(full_file, full_seqs)
     io_service.export_lines_to_file(aug_file, aug_seqs)
     return True
 

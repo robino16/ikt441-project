@@ -15,6 +15,7 @@ initialize_random_number_generator = False  # For testing purposes.
 max_sequence_length = 6
 max_nr_of_training_seqs = 10000
 max_nr_of_testing_seqs = 200
+augmentation = True
 
 # Data generator.
 # Note: Data set filenames can be accessed from data_generator.get_filepath()

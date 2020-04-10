@@ -60,15 +60,16 @@ def load_merged_data(filepath_in):
     # Returns original sentences and translated sentences in the file.
     lines = get_lines_in_file(filepath_in)
     random.shuffle(lines)
-    orig, tran = [], []  # Original and translated sentences.
+    orig, tran, section = [], [], []  # Original and translated sentences.
     for i in range(len(lines)):
         s = lines[i].split('$')
-        if len(s) != 3:
-            print('Warning: Could not parse line {} in file {}: {}.'.format(i, filepath_in, lines[i]))
+        if len(s) != 4:
+            # print('Warning: Could not parse line {} in file {}: \"{}\".'.format(i, filepath_in, lines[i]))
             continue
         orig.append(format_sentence(s[1]))
         tran.append(format_sentence(s[2]))
-    return orig, tran
+        section.append(int(s[3]))
+    return orig, tran, section
 
 
 def get_filenames(full=True):
@@ -80,14 +81,67 @@ def get_filenames(full=True):
 def get_both_train_and_test_sentences():
     # Used by tokenizer to tokenize all possible words in our entire dataset.
     f_train, f_test = get_filenames()
-    train_orig, train_tran = load_merged_data(f_train)
-    test_orig, test_tran = load_merged_data(f_test)
+    train_orig, train_tran, _ = load_merged_data(f_train)
+    test_orig, test_tran, _ = load_merged_data(f_test)
     return train_orig + test_orig, train_tran + test_tran
 
 
-def tokenize_and_pad_sentences(sentences_in, tokenizer_in):
+def split_full_seq_to_segments(seq_in, increment_by_one=True, aug=False):
+    if len(seq_in) <= config.aug_seq_len:
+        return pad_sequences([seq_in], maxlen=config.max_sequence_length, padding='post')
+    segments = []
+    sections = []
+    i = 0
+    while i < len(seq_in):
+        if i == 0:
+            sections.append(0)
+        elif i == len(seq_in) - (config.aug_seq_len - 1) - 1:
+            sections.append(2)
+        else:
+            sections.append(1)
+        seg = seq_in[i: i + config.aug_seq_len]
+        segments.append(seg)
+        i += 1 if increment_by_one else config.aug_seq_len
+    if aug:
+        segments = augmentation(segments, sections)
+    segments = pad_sequences(segments, maxlen=config.max_sequence_length, padding='post')
+    return segments
+
+
+def right_shift_pad_zeros(array_in):
+    return [0] + array_in[:-1]
+
+
+def left_shift_pad_zeros(array_in):
+    return array_in[1:] + [0]
+
+
+def augmentation(sentences_in, sections_in):
+    augmented_sequences = []
+    for i in range(min(len(sentences_in), len(sections_in))):
+        if sections_in[i] == 0:
+            temp = sentences_in[i].copy()
+            temp_list = []
+            for j in range(config.aug_seq_len - 1):
+                temp = right_shift_pad_zeros(temp)
+                temp_list.append(temp)
+            augmented_sequences += temp_list[::-1]
+        elif sections_in[i] == 2:
+            temp = sentences_in[i].copy()
+            for j in range(config.aug_seq_len - 1):
+                temp = left_shift_pad_zeros(temp)
+                augmented_sequences.append(temp)
+        else:
+            augmented_sequences.append(sentences_in[i])
+    return augmented_sequences
+
+
+def tokenize_and_pad_sentences(sentences_in, sections_in, tokenizer_in, segmented=True):
     sentences_in = tokenizer_in.texts_to_sequences(sentences_in)
-    sentences_in = pad_sequences(sentences_in, maxlen=config.max_sequence_length, padding='post')
+    if segmented:
+        if config.augmentation:
+            sentences_in = augmentation(sentences_in, sections_in)
+        sentences_in = pad_sequences(sentences_in, maxlen=config.max_sequence_length, padding='post')
     return sentences_in
 
 
@@ -95,10 +149,10 @@ def get_data(tokenizer_original, tokenizer_translated, training=True, segmented=
     # Returns input and output sequences.
     f_train, f_test = get_filenames(full=not segmented)
     f = f_train if training else f_test
-    orig_phrases, tran_phrases = load_merged_data(f)
+    orig_phrases, tran_phrases, sections = load_merged_data(f)
     index = config.max_nr_of_training_seqs if training else config.max_nr_of_testing_seqs
-    orig = tokenize_and_pad_sentences(orig_phrases[:index], tokenizer_original)
-    tran = tokenize_and_pad_sentences(tran_phrases[:index], tokenizer_translated)
+    orig = tokenize_and_pad_sentences(orig_phrases[:index], sections[:index], tokenizer_original, segmented=segmented)
+    tran = tokenize_and_pad_sentences(tran_phrases[:index], sections[:index], tokenizer_translated, segmented=segmented)
     return orig, tran
 
 
@@ -130,6 +184,10 @@ def main():
     print('Debug: Word count original: {}.'.format(word_count_ori))
     print('Debug: Word count translated: {}.'.format(word_count_tra))
     print('Debug: Max sequence length: {}.'.format(max_seq_len))
+
+    validation_data = get_data(tok_ori, tok_tra, training=False, segmented=False)
+    print('validation_data[0][0]={}'.format(validation_data[0][0]))
+    print('segmented=\n{}'.format(split_full_seq_to_segments(validation_data[0][0], increment_by_one=True, aug=False)))
 
 
 if __name__ == '__main__':

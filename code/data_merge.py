@@ -8,22 +8,22 @@ def get_index_and_body(line_in):
     # Returns the index and body text of a line in a data file.
     s = line_in.split('$')
     try:
-        return int(s[0]), s[1]
+        return int(s[0]), s[1], int(s[2])
     except:
         # print('Debug: Tried to split \"{}\" but ended up with \"{}\".'.format(line_in, s[0]))
-        return None, None
+        return None, None, None
 
 
 def merge_lines(orig, tran):
     # Merge two lines.
-    o_index, o_body = get_index_and_body(orig)
-    t_index, t_body = get_index_and_body(tran)
+    o_index, o_body, part = get_index_and_body(orig)
+    t_index, t_body, _ = get_index_and_body(tran)
     if o_index is None or t_index is None:
         return None
     if o_index != t_index:  # Check that index in both files are identical.
         # print('Warning: Failed to merge line {} (original) with line {} (translated).'.format(o_index, t_index))
         return None
-    return '{}${}'.format(o_body, t_body)
+    return '{}${}${}'.format(o_body, t_body, part)
 
 
 def merge_files(training, full):
