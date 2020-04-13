@@ -86,26 +86,40 @@ def get_both_train_and_test_sentences():
     return train_orig + test_orig, train_tran + test_tran
 
 
-def split_full_seq_to_segments(seq_in, increment_by_one=True, aug=False):
+def pad_zeros(seq_in, maxlen=config.aug_seq_len, padding='post'):
+    temp = seq_in
+    for i in range(maxlen - len(seq_in)):
+        if padding == 'pre':
+            temp = [0] + temp
+        elif padding == 'post':
+            temp = temp + [0]
+    return temp
+
+
+def split_seq_to_segments(seq_in, increment_by_one=True, aug=False):
     if len(seq_in) <= config.aug_seq_len:
         return pad_sequences([seq_in], maxlen=config.max_sequence_length, padding='post')
+    if not increment_by_one:
+        aug = False  # We cannot have augmentation here.
     segments = []
     sections = []
+    lim = len(seq_in) - (config.aug_seq_len - 1) if increment_by_one else len(seq_in)
     i = 0
-    while i < len(seq_in):
-        if i == 0:
+    while i < lim:
+        seg = seq_in[i: i + config.aug_seq_len]
+        segments.append(pad_zeros(seg))
+
+        i += 1 if increment_by_one else config.aug_seq_len
+        if i == 1:
             sections.append(0)
-        elif i == len(seq_in) - (config.aug_seq_len - 1) - 1:
+        elif i >= lim:
             sections.append(2)
         else:
             sections.append(1)
-        seg = seq_in[i: i + config.aug_seq_len]
-        segments.append(seg)
-        i += 1 if increment_by_one else config.aug_seq_len
     if aug:
         segments = augmentation(segments, sections)
     segments = pad_sequences(segments, maxlen=config.max_sequence_length, padding='post')
-    return segments
+    return segments  # note: We can optionally return segments[0]. Depends on how we use our model during testing.
 
 
 def right_shift_pad_zeros(array_in):
@@ -121,13 +135,14 @@ def augmentation(sentences_in, sections_in):
     for i in range(min(len(sentences_in), len(sections_in))):
         if sections_in[i] == 0:
             temp = sentences_in[i].copy()
-            temp_list = []
+            temp_list = [temp]
             for j in range(config.aug_seq_len - 1):
                 temp = right_shift_pad_zeros(temp)
                 temp_list.append(temp)
             augmented_sequences += temp_list[::-1]
         elif sections_in[i] == 2:
             temp = sentences_in[i].copy()
+            augmented_sequences.append(temp)
             for j in range(config.aug_seq_len - 1):
                 temp = left_shift_pad_zeros(temp)
                 augmented_sequences.append(temp)
@@ -187,7 +202,7 @@ def main():
 
     validation_data = get_data(tok_ori, tok_tra, training=False, segmented=False)
     print('validation_data[0][0]={}'.format(validation_data[0][0]))
-    print('segmented=\n{}'.format(split_full_seq_to_segments(validation_data[0][0], increment_by_one=True, aug=False)))
+    print('segmented=\n{}'.format(split_seq_to_segments(validation_data[0][0], increment_by_one=True, aug=True)))
 
 
 if __name__ == '__main__':
