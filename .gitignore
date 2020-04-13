@@ -140,10 +140,6 @@ dmypy.json
 # Output
 output/
 
-# Data
-*original.txt
-*translated.txt
-
 # Virtual environments
 venv/
 tensorflow_venv/

@@ -96,7 +96,7 @@ def pad_zeros(seq_in, maxlen=config.aug_seq_len, padding='post'):
     return temp
 
 
-def split_seq_to_segments(seq_in, increment_by_one=True, aug=False):
+def split_seq_to_segments(seq_in, increment_by_one=False, aug=False):
     if len(seq_in) <= config.aug_seq_len:
         return pad_sequences([seq_in], maxlen=config.max_sequence_length, padding='post')
     if not increment_by_one:
