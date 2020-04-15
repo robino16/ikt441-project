@@ -93,6 +93,8 @@ def pad_zeros(seq_in, maxlen=config.aug_seq_len, padding='post'):
             temp = [0] + temp
         elif padding == 'post':
             temp = temp + [0]
+    if maxlen - len(seq_in) < 0 and padding == 'none':
+        temp = temp[:maxlen]
     return temp
 
 
@@ -131,6 +133,7 @@ def left_shift_pad_zeros(array_in):
 
 
 def augmentation(sentences_in, sections_in):
+    # todo: we should instead augment more in the training data. We can replace spaces with %.
     augmented_sequences = []
     for i in range(min(len(sentences_in), len(sections_in))):
         if sections_in[i] == 0:
@@ -138,14 +141,14 @@ def augmentation(sentences_in, sections_in):
             temp_list = [temp]
             for j in range(config.aug_seq_len - 1):
                 temp = right_shift_pad_zeros(temp)
-                temp_list.append(temp)
+                temp_list.append(pad_zeros(temp, maxlen=config.aug_seq_len, padding='none'))
             augmented_sequences += temp_list[::-1]
         elif sections_in[i] == 2:
             temp = sentences_in[i].copy()
             augmented_sequences.append(temp)
             for j in range(config.aug_seq_len - 1):
                 temp = left_shift_pad_zeros(temp)
-                augmented_sequences.append(temp)
+                augmented_sequences.append(pad_zeros(temp, maxlen=config.aug_seq_len, padding='none'))
         else:
             augmented_sequences.append(sentences_in[i])
     return augmented_sequences
