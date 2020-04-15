@@ -124,12 +124,12 @@ def split_seq_to_segments(seq_in, increment_by_one=False, aug=False):
     return segments  # note: We can optionally return segments[0]. Depends on how we use our model during testing.
 
 
-def right_shift_pad_zeros(array_in):
-    return [0] + array_in[:-1]
+def right_shift_fill(array_in, fill=0):
+    return [fill] + array_in[:-1]
 
 
-def left_shift_pad_zeros(array_in):
-    return array_in[1:] + [0]
+def left_shift_fill(array_in, fill=0):
+    return array_in[1:] + [fill]
 
 
 def augmentation(sentences_in, sections_in):
@@ -140,21 +140,28 @@ def augmentation(sentences_in, sections_in):
             temp = sentences_in[i].copy()
             temp_list = [temp]
             for j in range(config.aug_seq_len - 1):
-                temp = right_shift_pad_zeros(temp)
+                temp = right_shift_fill(temp)
                 temp_list.append(pad_zeros(temp, maxlen=config.aug_seq_len, padding='none'))
             augmented_sequences += temp_list[::-1]
         elif sections_in[i] == 2:
             temp = sentences_in[i].copy()
             augmented_sequences.append(temp)
             for j in range(config.aug_seq_len - 1):
-                temp = left_shift_pad_zeros(temp)
+                temp = left_shift_fill(temp)
                 augmented_sequences.append(pad_zeros(temp, maxlen=config.aug_seq_len, padding='none'))
         else:
             augmented_sequences.append(sentences_in[i])
     return augmented_sequences
 
 
+def replace_empty_words(sentences_in, tokenizer_in):
+    token = tokenizer_in.texts_to_sequences(config.empty_word)
+
+
 def tokenize_and_pad_sentences(sentences_in, sections_in, tokenizer_in, segmented=True):
+    empty_token = tokenizer_in.texts_to_sequences([sentences_in[0]])[0]
+    print(sentences_in[0])
+    print("empty_token", empty_token)
     sentences_in = tokenizer_in.texts_to_sequences(sentences_in)
     if segmented:
         if config.augmentation:

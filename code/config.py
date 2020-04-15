@@ -23,6 +23,7 @@ url_file = 'data/urls.txt'
 min_sentence_length = 15  # A sentence is only valid if it has more characters than this.
 aug_seq_len = 4  # All phrases have this length.
 training_factor = 0.9
+empty_word = '#'
 
 # Model creation.
 config_file = 'config.txt'  # Unused.
@@ -30,7 +31,7 @@ load_existing_weights = True  # Remember: This requires us to use the same token
 weights_file = 'model_weights.h5'  # File for storing model weights.
 
 # Tokenizer.
-tokenizer_filter ='"#$%&()*+-/:;<=>@[\\]^_`{|}~\t\n'
+tokenizer_filter ='"$%&()*+-/:;<=>[\\]^_`{|}~\t\n'
 
 # Model training.
 train_weights = True
