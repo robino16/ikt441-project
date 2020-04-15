@@ -21,7 +21,8 @@ def replace_in_merged_files(symbol_a, symbol_b):
 
 
 def main():
-    replace_in_merged_files('#', config.empty_word)
+    previous_symbol = 'EMPTY'
+    replace_in_merged_files(previous_symbol, config.empty_word)
 
 
 if __name__ == '__main__':

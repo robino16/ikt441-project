@@ -72,7 +72,7 @@ def load_merged_data(filepath_in):
     return orig, tran, section
 
 
-def get_filenames(full=True):
+def get_filenames(full=False):
     f_train = get_filepath(training=True, full=full, merged=True)
     f_test = get_filepath(training=False, full=full, merged=True)
     return f_train, f_test
@@ -133,7 +133,6 @@ def left_shift_fill(array_in, fill=0):
 
 
 def augmentation(sentences_in, sections_in):
-    # todo: we should instead augment more in the training data. We can replace spaces with %.
     augmented_sequences = []
     for i in range(min(len(sentences_in), len(sections_in))):
         if sections_in[i] == 0:
@@ -154,18 +153,24 @@ def augmentation(sentences_in, sections_in):
     return augmented_sequences
 
 
-def replace_empty_words(sentences_in, tokenizer_in):
-    token = tokenizer_in.texts_to_sequences(config.empty_word)
+def replace_empty_words(sentences_in, empty_token):
+    sentences = []
+    for s in sentences_in:
+        temp = []
+        for w in s:
+            if w == empty_token:
+                temp.append(0)
+            else:
+                temp.append(w)
+        sentences.append(temp)
+    return sentences
 
 
 def tokenize_and_pad_sentences(sentences_in, sections_in, tokenizer_in, segmented=True):
-    empty_token = tokenizer_in.texts_to_sequences([sentences_in[0]])[0]
-    print(sentences_in[0])
-    print("empty_token", empty_token)
+    empty_token = tokenizer_in.texts_to_sequences([config.empty_word])[0][0]
     sentences_in = tokenizer_in.texts_to_sequences(sentences_in)
+    sentences_in = replace_empty_words(sentences_in, empty_token)
     if segmented:
-        if config.augmentation:
-            sentences_in = augmentation(sentences_in, sections_in)
         sentences_in = pad_sequences(sentences_in, maxlen=config.max_sequence_length, padding='post')
     return sentences_in
 
@@ -212,7 +217,7 @@ def main():
 
     validation_data = get_data(tok_ori, tok_tra, training=False, segmented=False)
     print('validation_data[0][0]={}'.format(validation_data[0][0]))
-    print('segmented=\n{}'.format(split_seq_to_segments(validation_data[0][0], increment_by_one=True, aug=True)))
+    print('segmented=\n{}'.format(split_seq_to_segments(validation_data[0][0], increment_by_one=False, aug=False)))
 
 
 if __name__ == '__main__':
