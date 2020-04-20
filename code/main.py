@@ -1,7 +1,6 @@
 import config
 import model_func
 import io_service
-import time
 
 log = config.log
 

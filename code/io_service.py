@@ -180,6 +180,7 @@ def get_data(tokenizer_original, tokenizer_translated, training=True, segmented=
     f_train, f_test = get_filenames(full=not segmented)
     f = f_train if training else f_test
     orig_phrases, tran_phrases, sections = load_merged_data(f)
+    # orig_phrases, tran_phrases, sections = ['Han må iverksette en'], ['Han må setja i verk ein'], [2]
     index = config.max_nr_of_training_seqs if training else config.max_nr_of_testing_seqs
     orig = tokenize_and_pad_sentences(orig_phrases[:index], sections[:index], tokenizer_original, segmented=segmented)
     tran = tokenize_and_pad_sentences(tran_phrases[:index], sections[:index], tokenizer_translated, segmented=segmented)
@@ -196,7 +197,10 @@ def get_all_data():
 
     # Training and validation data
     train_x, train_y = get_data(tok_ori, tok_tra)
-    test_x, test_y = get_data(tok_ori, tok_tra, training=False, segmented=True)
+    test_x, test_y = get_data(tok_ori, tok_tra, training=False, segmented=False)
+
+    test_x = [split_seq_to_segments(seq) for seq in test_x]
+    test_y = [split_seq_to_segments(seq) for seq in test_y]
 
     max_seq_len = config.max_sequence_length
     return train_x, train_y, test_x, test_y, word_count_ori, word_count_tra, max_seq_len, tok_ori, tok_tra
@@ -217,7 +221,7 @@ def main():
 
     validation_data = get_data(tok_ori, tok_tra, training=False, segmented=False)
     print('validation_data[0][0]={}'.format(validation_data[0][0]))
-    print('segmented=\n{}'.format(split_seq_to_segments(validation_data[0][0], increment_by_one=False, aug=False)))
+    print('segmented=\n{}'.format(split_seq_to_segments(validation_data[0][0], increment_by_one=True, aug=True)))
 
 
 if __name__ == '__main__':
