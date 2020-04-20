@@ -24,11 +24,18 @@ def get_lines_in_file(filepath_in):
     return open(filepath_in, 'r', encoding='utf-8').read().split('\n')
 
 
-def export_lines_to_file(filename_in, lines_in):
+def export_lines_to_file(filename_in, lines_in, merge=False):
     # Export lines to file.
     file = open(filename_in, 'w', encoding='utf-8')
     for i in range(len(lines_in)):
-        file.write('{}${}\n'.format(i, lines_in[i]))
+        if not merge:
+            # Include extra dot after $, so that the translator still works in some special cases.
+            # Example of a special case: When attempting to translating
+            # "Skottlands øverste helsedirektør catherine calderwood." to
+            # "Den øvste helsedirektøren i skottland catherine calderwood."
+            file.write('{}$.{}\n'.format(i, lines_in[i]))
+        else:
+            file.write('{}${}\n'.format(i, lines_in[i]))
     file.close()
 
 
