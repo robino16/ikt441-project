@@ -178,7 +178,7 @@ def produce_original_data():
     urls = io_service.get_lines_in_file(config.url_file)
     urls = remove_duplicates(urls)
     random.shuffle(urls)
-    urls = urls[0:100]  # For debugging purposes we can use less of the urls.
+    # urls = urls[0:100]  # For debugging purposes we can use less of the urls.
     
     # Step 2: Fetch all htmls.
     htmls = fetch_all_html_documents(urls)

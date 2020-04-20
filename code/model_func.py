@@ -72,9 +72,9 @@ def test_model(model, test_x, test_y, tokenizer_original, tokenizer_translated):
     preds = [model.predict_classes(instance) for instance in test_x]
 
     # Convert integer sequences to texts.
-    original_bokmaal_sentences = [convert_sequences_into_texts(instance, tokenizer_original) for instance in test_x]
-    original_nynorsk_sentences = [convert_sequences_into_texts(instance, tokenizer_translated) for instance in test_y]
-    preds_text = [convert_sequences_into_texts(instance, tokenizer_translated) for instance in preds]
+    original_bokmaal_sentences = [convert_sequences_into_text(instance, tokenizer_original) for instance in test_x]
+    original_nynorsk_sentences = [convert_sequences_into_text(instance, tokenizer_translated) for instance in test_y]
+    preds_text = [convert_sequences_into_text(instance, tokenizer_translated) for instance in preds]
 
     # Open file for printing predicted translations to.
     file = open(config.output_file, 'w', encoding='utf-8')
@@ -100,13 +100,11 @@ def get_conf():
     return conf
 
 
-def convert_sequences_into_texts(sequences, tokenizer):
-    # Function for converting integer sequences into texts.
-    texts = []
+def convert_sequences_into_text(sequences, tokenizer):
+    # Function for converting integer sequences into a text.
+    text = ''
 
     for s in sequences:
-        temp = []
-
         for i in range(len(s)):
             t = get_word(s[i], tokenizer)
 
@@ -114,18 +112,15 @@ def convert_sequences_into_texts(sequences, tokenizer):
                 if (t == get_word(s[i - 1], tokenizer)) or (t is None):
                     pass
                 else:
-                    temp.append(t + ' ')
+                    text += t + ' '
             else:
                 if t is not None and t != ' ':
-                    temp.append(t + ' ')
+                    text += t + ' '
 
-        # Fix punctuation issues.
-        temp = ''.join(temp)
-        texts.append(temp)
+    # Capitalize the first word of the sentence, fix punctuation issues and remove trailing whitespace
+    text = text.capitalize().replace(' ,', ',').replace(' .', '.').replace(' !', '!').replace(' ?', '?').rstrip()
 
-    texts = ''.join(texts).capitalize().replace(' ,', ',').replace(' .', '.').replace(' !', '!').replace(' ?', '?').strip()
-
-    return texts
+    return text
 
 
 def get_word(n, tokenizer):
