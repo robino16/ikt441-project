@@ -134,9 +134,6 @@ dmypy.json
 # Pickle objects
 *.pickle
 
-# Models
-*.h5
-
 # Output
 output/
 
