@@ -3,10 +3,10 @@ import matplotlib
 matplotlib.use("Agg")
 
 import config
-from keras.models import Sequential
+from keras.models import Sequential, load_model
 from keras.layers import Embedding, LSTM, Dense, RepeatVector
 from keras import optimizers
-from keras.callbacks import EarlyStopping
+from keras.callbacks import ModelCheckpoint
 import matplotlib.pyplot as plt
 
 log = config.log
@@ -29,14 +29,14 @@ def create_model(in_vocab, out_vocab, time_steps, units):
     rms = optimizers.RMSprop(lr=0.001)
     model.compile(optimizer=rms, loss='sparse_categorical_crossentropy')
 
-    # Load weights.
-    if config.load_existing_weights:
+    # Load model.
+    if config.load_existing_model:
         try:
-            model.load_weights(config.weights_file)
-            log.info('Successfully loaded model weights from file: \"{}\"'.format(config.weights_file))
+            model = load_model(config.model_load_file)
+            log.info('Successfully loaded model from file: \"{}\"'.format(config.model_load_file))
         except:
-            print('Error: Failed to load existing weights.')
-            log.warning('Failed to load existing weights from file: \"{}\"'.format(config.weights_file))
+            print('Error: Failed to load existing model.')
+            log.warning('Failed to load existing model from file: \"{}\"'.format(config.model_load_file))
             pass
 
     return model
@@ -46,20 +46,11 @@ def train_model(model, train_x, train_y, epochs):
     # Train the model.
     log.debug('Training model for {} epochs...'.format(epochs))
 
-    early_stop = EarlyStopping(monitor='loss', min_delta=0, patience=5, verbose=0, mode='auto')
+    checkpoint = ModelCheckpoint(config.model_save_file, monitor='val_loss', verbose=1)
 
     history = model.fit(train_x, train_y.reshape(train_y.shape[0], train_y.shape[1], 1), epochs=epochs,
                         batch_size=config.batch_size, validation_split=config.validation_split, verbose=1,
-                        callbacks=[early_stop])
-
-    if config.save_weights:
-        try:
-            model.save_weights(config.weights_file)
-            log.debug('Saved model weights to file: \"{}\".'.format(config.weights_file))
-            print('Saved model weights to file: \"{}\".'.format(config.weights_file))
-        except:
-            print('Error: Failed to save weights after training.')
-            log.error('Failed to save weights after training.')
+                        callbacks=[checkpoint])
 
     return model, history
 
@@ -135,10 +126,10 @@ def plot_training(history, plot_path):
     # Construct a plot that plots and saves the training history.
     log.info('Plotting and saving training history...')
 
-    plt.plot(history.history['loss'], label='Training loss')
-    plt.plot(history.history['val_loss'], label='Validation loss')
+    plt.plot(history.history['loss'], label='training')
+    plt.plot(history.history['val_loss'], label='validation')
     plt.legend(loc='upper right')
-    plt.title("Training Loss")
+    plt.title("Loss")
     plt.xlabel("Epoch #")
     plt.ylabel("Loss")
     plt.savefig(plot_path)
