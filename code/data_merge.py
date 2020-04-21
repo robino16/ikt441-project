@@ -5,6 +5,9 @@ log = config.log
 
 
 def get_index_and_body(line_in):
+    # Remove extra dot which is needed for the correct translation of some special cases when using the translator.
+    line_in = line_in.replace('$.', '$', 1)
+
     # Returns the index and body text of a line in a data file.
     s = line_in.split('$')
     try:
@@ -48,7 +51,7 @@ def merge_files(training, full):
 
     # Export new merged file.
     f_merg = io_service.get_filepath(training=training, full=full, merged=True)
-    io_service.export_lines_to_file(f_merg, lines)
+    io_service.export_lines_to_file(f_merg, lines, merge=True)
     print('Debug: Successfully exported {}.'.format(f_merg))
     return True
 

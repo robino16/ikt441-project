@@ -73,8 +73,8 @@ def filter_words(body_in):
 
 def preserve_punctuation(text_in):
     # Preserves the desired punctuation.
-    text_in = text_in.replace('. ', ' . ').replace('? ', ' ? ').replace('! ', ' ! ')
-    text_in = text_in.replace(', ', ' , ').replace('  ', ' ')
+    text_in = text_in.replace('.', ' .').replace('?', ' ?').replace('!', ' !')
+    text_in = text_in.replace(',', ' ,').replace(' ', ' ').lower()
     return text_in
 
 
@@ -107,21 +107,34 @@ def parse_all_html_documents(htmls_in):
     return all_sentences
 
 
-def segment_sentence(sentence_in):
+def augment_segment(segment_in, section_in):
+    temp_a, temp_b = segment_in.copy(), segment_in.copy()
+    temp_list = [temp_a]
+    for i in range(len(segment_in) - 1):
+        temp_a = io_service.right_shift_fill(temp_a, fill=config.empty_word)
+        temp_b = io_service.left_shift_fill(temp_b, fill=config.empty_word)
+        temp_list.append(temp_a)
+        temp_list.append(temp_b)
+    return temp_list
+
+
+def split_sentence(sentence_in):
     # Segments a sentence.
     words = sentence_in.split(' ')
-    aug_seqs = []
+    segments = []
     for i in range(len(words) - (config.aug_seq_len - 1)):
-        aug_seq = words[i: i + config.aug_seq_len]
-        aug_seq = ' '.join(aug_seq)
-        if i == 0:  # Start of sentence.
-            aug_seq += '$0'
-        elif i == len(words) - (config.aug_seq_len - 1) - 1:  # End of sentence.
-            aug_seq += '$2'
-        else:  # Middle of sentence.
-            aug_seq += '$1'
-        aug_seqs.append(aug_seq)
-    return aug_seqs
+        seg = words[i: i + config.aug_seq_len]
+        aug_segs = augment_segment(seg, i)
+        for s in aug_segs:
+            t = ' '.join(s)
+            if i == 0:  # Start of sentence.
+                t += '$0'
+            elif i == len(words) - (config.aug_seq_len - 1) - 1:  # End of sentence.
+                t += '$2'
+            else:  # Middle of sentence.
+                t += '$1'
+            segments.append(t)
+    return segments
 
 
 def export_orig_to_dir(sentences_in, training_data):
@@ -130,7 +143,7 @@ def export_orig_to_dir(sentences_in, training_data):
     aug_seqs = []  # augmented sentences
     full_seqs = []  # original sentences
     for sentence in sentences_in:
-        aug_seqs += segment_sentence(sentence)
+        aug_seqs += split_sentence(sentence)
         full_seqs.append(sentence + '$3')
     # aug_seqs = remove_duplicates(aug_seqs)  # Disabling this will make the model better at common phrases.
 
@@ -165,7 +178,7 @@ def produce_original_data():
     urls = io_service.get_lines_in_file(config.url_file)
     urls = remove_duplicates(urls)
     random.shuffle(urls)
-    urls = urls[0:104]  # For debugging purposes we can use less of the urls.
+    # urls = urls[0:100]  # For debugging purposes we can use less of the urls.
     
     # Step 2: Fetch all htmls.
     htmls = fetch_all_html_documents(urls)

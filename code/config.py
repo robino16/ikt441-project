@@ -13,7 +13,7 @@ main_app_name = 'IKT441 Project - Norwegian Bokmål to Norwegian Nynorsk Transla
 io_service_app_name = 'I/O Service for IKT441 Project'
 initialize_random_number_generator = False  # For testing purposes.
 max_sequence_length = 6
-max_nr_of_training_seqs = 10000
+max_nr_of_training_seqs = 1000000
 max_nr_of_testing_seqs = 200
 augmentation = True
 
@@ -23,10 +23,11 @@ url_file = 'data/urls.txt'
 min_sentence_length = 15  # A sentence is only valid if it has more characters than this.
 aug_seq_len = 4  # All phrases have this length.
 training_factor = 0.9
+empty_word = '£'
 
 # Model creation.
 config_file = 'config.txt'  # Unused.
-load_existing_weights = True  # Remember: This requires us to use the same tokenizer...
+load_existing_weights = False  # Remember: This requires us to use the same tokenizer...
 weights_file = 'model_weights.h5'  # File for storing model weights.
 
 # Tokenizer.
