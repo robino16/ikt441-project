@@ -152,8 +152,9 @@ def export_orig_to_dir(sentences_in, training_data):
 
     full_file = io_service.get_filepath(training=training_data, full=True, original=True)
     aug_file = io_service.get_filepath(training=training_data, full=False, original=True)
+    lim = min(len(aug_seqs), 70000)
     io_service.export_lines_to_file(full_file, full_seqs)
-    io_service.export_lines_to_file(aug_file, aug_seqs)
+    io_service.export_lines_to_file(aug_file, aug_seqs[:lim])
     return True
 
 
@@ -177,6 +178,7 @@ def produce_original_data():
     # Step 1: Get URLs.
     urls = io_service.get_lines_in_file(config.url_file)
     urls = remove_duplicates(urls)
+    print('{} URLs'.format(len(urls)))
     random.shuffle(urls)
     # urls = urls[0:100]  # For debugging purposes we can use less of the urls.
     

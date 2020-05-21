@@ -12,22 +12,25 @@ import matplotlib.pyplot as plt
 log = config.log
 
 
-def create_model(in_vocab, out_vocab, time_steps, units):
+def create_model(in_vocab, out_vocab, units):
     # Build the model.
     log.debug('Building model...')
 
-    model = Sequential()
-    model.add(Embedding(in_vocab, units, input_length=time_steps, mask_zero=True))
-    model.add(LSTM(units))
-    model.add(RepeatVector(time_steps))
-    model.add(LSTM(units, return_sequences=True))
-    model.add(Dense(out_vocab, activation='softmax'))
+    model = None
 
-    # Compile model.
-    log.debug('Compiling model...')
+    if not config.load_existing_model:
+        model = Sequential()
+        model.add(Embedding(in_vocab, units, input_length=config.input_sequence_length, mask_zero=True))
+        model.add(LSTM(units))
+        model.add(RepeatVector(config.output_sequence_length))
+        model.add(LSTM(units, return_sequences=True))
+        model.add(Dense(out_vocab, activation='softmax'))
 
-    rms = optimizers.RMSprop(lr=0.001)
-    model.compile(optimizer=rms, loss='sparse_categorical_crossentropy')
+        # Compile model.
+        log.debug('Compiling model...')
+
+        rms = optimizers.RMSprop(lr=0.001)
+        model.compile(optimizer=rms, loss='sparse_categorical_crossentropy')
 
     # Load model.
     if config.load_existing_model:
@@ -45,31 +48,40 @@ def create_model(in_vocab, out_vocab, time_steps, units):
 def train_model(model, train_x, train_y, epochs):
     # Train the model.
     log.debug('Training model for {} epochs...'.format(epochs))
+    f = 'output/models/finished_model.hdf5'
 
-    checkpoint = ModelCheckpoint(config.model_save_file, monitor='val_loss', verbose=1)
-
-    history = model.fit(train_x, train_y.reshape(train_y.shape[0], train_y.shape[1], 1), epochs=epochs,
-                        batch_size=config.batch_size, validation_split=config.validation_split, verbose=1,
-                        callbacks=[checkpoint])
+    if not config.use_full_sentences:
+        checkpoint = ModelCheckpoint(config.model_save_file, monitor='val_loss', verbose=1)
+        history = model.fit(train_x, train_y.reshape(train_y.shape[0], train_y.shape[1], 1), epochs=epochs,
+                            batch_size=config.batch_size, validation_split=config.validation_split, verbose=1,
+                            callbacks=[checkpoint])
+    else:
+        history = model.fit(train_x, train_y.reshape(train_y.shape[0], train_y.shape[1], 1), epochs=epochs,
+                            batch_size=config.batch_size, validation_split=config.validation_split, verbose=1)
+        f = 'output/models_full/finished_model.hdf5'
+    model.save(f)
 
     return model, history
 
 
-def test_model(model, test_x, test_y, tokenizer_original, tokenizer_translated):
+def test_model(model, test_x, test_y, tok_ori, tok_tra, filename=config.output_file, full=False):
     # Test the model.
     log.info('Testing model...')
 
     # Get predicted translations from trained model.
-    preds = [model.predict_classes(instance) for instance in test_x]
+    if full:
+        preds = model.predict_classes(test_x.reshape((test_x.shape[0], test_x.shape[1])))
+    else:
+        preds = [model.predict_classes(instance) for instance in test_x]
 
     # Convert integer sequences to texts.
-    original_bokmaal_sentences = [convert_sequences_into_text(instance, tokenizer_original) for instance in test_x]
-    original_nynorsk_sentences = [convert_sequences_into_text(instance, tokenizer_translated) for instance in test_y]
-    preds_text = [convert_sequences_into_text(instance, tokenizer_translated) for instance in preds]
+    original_bokmaal_sentences = convert_text(test_x, tok_ori, full=full)
+    original_nynorsk_sentences = convert_text(test_y, tok_tra, full=full)
+    preds_text = convert_text(preds, tok_tra, full=full)
 
     # Open file for printing predicted translations to.
-    file = open(config.output_file, 'w', encoding='utf-8')
-    file.write(get_conf())
+    file = open(filename, 'w', encoding='utf-8')
+    file.write(config.get_conf())
 
     # Write original bokmaal, nynorsk and predicted translated sentences to file.
     for i in range(len(preds_text)):
@@ -78,17 +90,37 @@ def test_model(model, test_x, test_y, tokenizer_original, tokenizer_translated):
         file.write('\nGenerated nynorsk:\n{}\n'.format(preds_text[i]))
 
     file.close()
-    log.info('Generated nynorsk sentences was successfully saved to file: \"{}\".'.format(config.output_file))
-    print('Generated nynorsk sentences was successfully saved to file: \"{}\".'.format(config.output_file))
+    log.info('Generated nynorsk sentences was successfully saved to file: \"{}\".'.format(filename))
+    print('Generated nynorsk sentences was successfully saved to file: \"{}\".'.format(filename))
 
 
-def get_conf():
-    conf = 'Configuration:\n' \
-           'Training epochs: {} epochs.\n' \
-           'Training factor: {}.\n'.format(config.epochs,
-                                           config.training_factor)
+def convert_text(seqs, tokenizer, full):
+    if full:
+        return convert_full(seqs, tokenizer)
+    return [convert_sequences_into_text(instance, tokenizer) for instance in seqs]
 
-    return conf
+
+def convert_full(seqs, tokenizer):
+    # Function for converting integer sequences into a text.
+    preds_text = []
+    for i in seqs:
+        temp = []
+        for j in range(len(i)):
+            t = get_word(i[j], tokenizer)
+            if j > 0:
+                if (t == get_word(i[j - 1], tokenizer)) or (t is None):
+                    temp.append('$')
+                else:
+                    temp.append(t)
+            else:
+                if t is None:
+                    temp.append('$')
+                else:
+                    temp.append(t)
+        text = ' '.join(temp)
+        text = text.capitalize().replace(' ,', ',').replace(' .', '.').replace(' !', '!').replace(' ?', '?').rstrip()
+        preds_text.append(text)
+    return preds_text
 
 
 def convert_sequences_into_text(sequences, tokenizer):
@@ -101,12 +133,14 @@ def convert_sequences_into_text(sequences, tokenizer):
 
             if i > 0:
                 if (t == get_word(s[i - 1], tokenizer)) or (t is None):
-                    pass
+                    text += '$ '
                 else:
                     text += t + ' '
             else:
                 if t is not None and t != ' ':
                     text += t + ' '
+                else:
+                    text += '$ '
 
     # Capitalize the first word of the sentence, fix punctuation issues and remove trailing whitespace
     text = text.capitalize().replace(' ,', ',').replace(' .', '.').replace(' !', '!').replace(' ?', '?').rstrip()
