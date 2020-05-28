@@ -10,6 +10,7 @@ log = config.log
 def get_filepath(training=True, full=True, merged=False, original=True):
     # Returns data file paths.
     path = 'data/'
+    path += 'full/' if config.use_full_sentences else ''
     path += 'training/' if training else 'validation/'
     path += 'full-' if full else 'seg_aug-'
     if merged:
@@ -27,6 +28,7 @@ def get_lines_in_file(filepath_in):
 def export_lines_to_file(filename_in, lines_in, merge=False):
     # Export lines to file.
     file = open(filename_in, 'w', encoding='utf-8')
+    print('Exporting {} lines to file {}.'.format(len(lines_in), filename_in))
     for i in range(len(lines_in)):
         if not merge:
             # Include extra dot after $, so that the translator still works in some special cases.
@@ -73,9 +75,14 @@ def load_merged_data(filepath_in):
         if len(s) != 4:
             # print('Warning: Could not parse line {} in file {}: \"{}\".'.format(i, filepath_in, lines[i]))
             continue
-        orig.append(format_sentence(s[1]))
-        tran.append(format_sentence(s[2]))
-        section.append(int(s[3]))
+        o = format_sentence(s[1]).split(',')
+        t = format_sentence(s[2]).split(',')
+        if len(o) != len(t):
+            continue
+        for j in range(len(o)):
+            orig.append(o[j])
+            tran.append(t[j])
+            section.append(int(s[3]))
     return orig, tran, section
 
 
@@ -107,7 +114,7 @@ def pad_zeros(seq_in, maxlen=config.aug_seq_len, padding='post'):
 
 def split_seq_to_segments(seq_in, increment_by_one=False, aug=False):
     if len(seq_in) <= config.aug_seq_len:
-        return pad_sequences([seq_in], maxlen=config.max_sequence_length, padding='post')
+        return pad_sequences([seq_in], maxlen=config.input_sequence_length, padding='post')
     if not increment_by_one:
         aug = False  # We cannot have augmentation here.
     segments = []
@@ -127,7 +134,7 @@ def split_seq_to_segments(seq_in, increment_by_one=False, aug=False):
             sections.append(1)
     if aug:
         segments = augmentation(segments, sections)
-    segments = pad_sequences(segments, maxlen=config.max_sequence_length, padding='post')
+    segments = pad_sequences(segments, maxlen=config.input_sequence_length, padding='post')
     return segments  # note: We can optionally return segments[0]. Depends on how we use our model during testing.
 
 
@@ -173,27 +180,48 @@ def replace_empty_words(sentences_in, empty_token):
     return sentences
 
 
-def tokenize_and_pad_sentences(sentences_in, sections_in, tokenizer_in, segmented=True):
+def tokenize_and_pad_sentences(sentences_in, tokenizer_in, segmented=True, orig=True, full=False):
     empty_token = tokenizer_in.texts_to_sequences([config.empty_word])[0][0]
     sentences_in = tokenizer_in.texts_to_sequences(sentences_in)
     sentences_in = replace_empty_words(sentences_in, empty_token)
-    if segmented:
-        sentences_in = pad_sequences(sentences_in, maxlen=config.max_sequence_length, padding='post')
+    if segmented or full:
+        max_len = config.input_sequence_length if orig else config.output_sequence_length
+        max_len = config.full_sequence_length if full else max_len
+        sentences_in = pad_sequences(sentences_in, maxlen=max_len, padding='post')
     return sentences_in
 
 
-def get_data(tokenizer_original, tokenizer_translated, training=True, segmented=True):
-    # Returns input and output sequences.
-    f_train, f_test = get_filenames(full=not segmented)
-    f = f_train if training else f_test
-    orig_phrases, tran_phrases, sections = load_merged_data(f)
-    index = config.max_nr_of_training_seqs if training else config.max_nr_of_testing_seqs
-    orig = tokenize_and_pad_sentences(orig_phrases[:index], sections[:index], tokenizer_original, segmented=segmented)
-    tran = tokenize_and_pad_sentences(tran_phrases[:index], sections[:index], tokenizer_translated, segmented=segmented)
+def get_all_test_data(tok_ori, tok_tra, full=False):
+    print('io_service.py (New version) -> get_all_test_data()')
+    train_x, train_y = get_test_data(tok_ori, tok_tra, 'data/training/training_test.txt', full=full)
+    test_x, test_y = get_test_data(tok_ori, tok_tra, 'data/validation/validation_test.txt', full=full)
+    return train_x, train_y, test_x, test_y
+
+
+def get_test_data(tok_ori, tok_tra, filename, full=False):
+    orig_phrases, tran_phrases, _ = load_merged_data(filename)
+    orig = tokenize_and_pad_sentences(orig_phrases, tok_ori, segmented=False, orig=True, full=full)
+    tran = tokenize_and_pad_sentences(tran_phrases, tok_tra, segmented=False, orig=False, full=full)
+
+    if not full:
+        orig = [split_seq_to_segments(seq) for seq in orig]
+        tran = [split_seq_to_segments(seq) for seq in tran]
     return orig, tran
 
 
-def get_all_data():
+def get_data(tokenizer_original, tokenizer_translated, training=True, segmented=True, full=False):
+    # Returns input and output sequences.
+    f_train, f_test = get_filenames(full=False)
+    f = f_train if training else f_test
+    orig_phrases, tran_phrases, _ = load_merged_data(f)
+    print('Load merged data from file: ', f)
+    index = config.max_nr_of_training_seqs if training else config.max_nr_of_testing_seqs
+    orig = tokenize_and_pad_sentences(orig_phrases[:index], tokenizer_original, segmented=segmented, orig=True, full=full)
+    tran = tokenize_and_pad_sentences(tran_phrases[:index], tokenizer_translated, segmented=segmented, orig=False, full=full)
+    return orig, tran
+
+
+def get_all_data(full=False):
     print('io_service.py (New version) -> get_all_data()')
 
     # Tokenizer
@@ -202,17 +230,14 @@ def get_all_data():
     word_count_tra = get_total_words(tok_tra)
 
     # Training and validation data
-    train_x, train_y = get_data(tok_ori, tok_tra)
-    test_x, test_y = get_data(tok_ori, tok_tra, training=False, segmented=False)
+    train_x, train_y = get_data(tok_ori, tok_tra, training=True, segmented=not full, full=full)
+    test_x, test_y = get_data(tok_ori, tok_tra, training=False, segmented=False, full=full)
 
-    # Split tokenized validation sentences into segments of for example four by four indexes,
-    # which can be translated by the trained model.
-    # Example: [1,2,3,4,5,6,7,8,9,10] -> [1,2,3,4,0,0], [5,6,7,8,0,0], [9,10,0,0,0,0]
-    test_x = [split_seq_to_segments(seq) for seq in test_x]
-    test_y = [split_seq_to_segments(seq) for seq in test_y]
+    if not full:
+        test_x = [split_seq_to_segments(seq) for seq in test_x]
+        test_y = [split_seq_to_segments(seq) for seq in test_y]
 
-    max_seq_len = config.max_sequence_length
-    return train_x, train_y, test_x, test_y, word_count_ori, word_count_tra, max_seq_len, tok_ori, tok_tra
+    return train_x, train_y, test_x, test_y, word_count_ori, word_count_tra, None, tok_ori, tok_tra
 
 
 def main():
